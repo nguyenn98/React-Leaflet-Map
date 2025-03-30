@@ -1,0 +1,18 @@
+/* Thanh cuộn nhỏ gọn */ 
+.location-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.location-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+.location-list::-webkit-scrollbar-thumb {
+    background: #eeeded;
+    border-radius: 6px;
+}
+
+.location-list::-webkit-scrollbar-thumb:hover {
+    background: #d4d0d0;
+}
