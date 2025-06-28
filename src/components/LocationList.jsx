@@ -7,11 +7,11 @@ const LocationList = ({ geoData, onLocationClick }) => {
     return (
         <div className="location-list"
             style={{
-                width: "250px", height: "100%", overflowY: "auto",
-                background: "#fff", padding: "10px",
-                borderRadius: "3px", border: "none"
+                width: "249px", height: "100%", overflowY: "auto",
+                background: "#fff", padding: "10px", marginLeft: '-30px',
+                borderTopLeftRadius: "5px", borderTopRightRadius: "5px", border: "none"
             }}>
-            <h3>Danh sách địa điểm</h3>
+            <h3 style={{ marginLeft: '4px' }}>Danh sách Đại Học</h3>
             <ul style={{ listStyle: "none", padding: 0 }}>
                 {
                     geoData?.features?.map((feature, index) => {
@@ -31,8 +31,8 @@ const LocationList = ({ geoData, onLocationClick }) => {
                             <li key={index}
                                 onClick={() => onLocationClick(coords)}
                                 style={{
-                                    cursor: "pointer", padding: "8px", margin: "5px 0",
-                                    background: "#f4f4f4", borderRadius: "5px"
+                                    cursor: "pointer", padding: "9px", margin: "6px 2px",
+                                    background: "#f4f4f4", borderRadius: "5px", fontSize: '15px'
                                 }}
                             >
                                 {feature.properties.name || "Địa điểm không rõ"}

@@ -1,12 +1,19 @@
 import { useEffect, useState } from "react";
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup, useMap, LayersControl } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, Marker, Popup, useMap, LayersControl, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import ReactDOMServer from "react-dom/server";
 
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
+// import { FaUniversity } from "react-icons/fa";
+import { LiaUniversitySolid } from "react-icons/lia";
 
 import LocationList from "./LocationList";
+import LocationPopup from "./LocationPopup"; // Đảm bảo đường dẫn đúng
+import axios from "axios";
+
+import '../styles/MapOpacity.css'
 
 const { BaseLayer } = LayersControl;
 
@@ -24,6 +31,18 @@ const MapController = ({ position }) => {
 
     return null;
 };
+
+// Icon các trường đại học
+const universityIcon = new L.DivIcon({
+    html: ReactDOMServer.renderToString(
+        <LiaUniversitySolid style={{ color: "black", fontSize: "24px" }} />
+    ),
+    className: "", // bỏ class mặc định
+    iconSize: [24, 24],
+    iconAnchor: [12, 24],
+    popupAnchor: [0, -24],
+});
+
 
 // Icon mặc định của vị trí tìm kiếm
 const defaultIcon = L.icon({
@@ -74,7 +93,35 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
     const [showLayer, setShowLayer] = useState(true);    // Trạng thái hiển thị layer
     const [opacity, setOpacity] = useState(1);           // Mặc định là 1 (không mờ)
     const [currentPosition, setCurrentPosition] = useState(position);  // Dùng state để cập nhật vị trí
+    const [popupInfo, setPopupInfo] = useState(null);
 
+    const handleMapClick = async (latlng) => {
+        try {
+            const [lat, lng] = latlng;
+            const res = await axios.get('https://nominatim.openstreetmap.org/reverse.php', {
+                params: {
+                    lat,
+                    lon: lng,
+                    format: 'jsonv2',
+                    zoom: 18,
+                    addressdetails: 1,
+                },
+            });
+
+            const address = res.data.display_name || "Không rõ địa chỉ";
+
+            setPopupInfo({
+                position: [lat, lng],
+                lat,
+                lng,
+                name: res.data.name || "Vị trí chưa xác định",
+                address,
+            });
+            setCurrentPosition([lat, lng]);
+        } catch (err) {
+            console.error("Lỗi Nominatim:", err);
+        }
+    };
 
     useEffect(() => {
         if (highlight) {
@@ -101,10 +148,27 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
         setHighlight(true);
         setTimeout(() => setHighlight(false), 2000);
     }
+    const MapClickHandler = ({ onClick }) => {
+        useMapEvents({
+            click: (e) => {
+                const { lat, lng } = e.latlng;
+                onClick([lat, lng]);
+            },
+        });
+        return null;
+    };
 
     return (
         <div style={{ position: "relative" }}>
             <MapContainer center={position} zoom={14} style={{ height: "100vh", width: "100%" }}>
+                <MapClickHandler onClick={handleMapClick} />
+                {popupInfo && (
+                    <LocationPopup
+                        info={popupInfo}
+                        onClose={() => setPopupInfo(null)}
+                    />
+
+                )}
                 <MapController position={currentPosition} />
                 {/* Thêm LayersControl */}
                 <LayersControl position="topright">
@@ -148,7 +212,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                         const bounds = L.geoJSON(feature).getBounds();
                         const center = bounds.getCenter();
                         return (
-                            <Marker key={index} position={center} icon={defaultIcon}>
+                            <Marker key={index} position={center} icon={universityIcon}>
                                 <Popup>{feature.properties.name || "Trường học"}</Popup>
                             </Marker>
                         );
@@ -156,6 +220,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                     return null;
                 })}
             </MapContainer>
+
 
             {/* Nút bật/tắt layer */}
             <button
@@ -180,32 +245,29 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
             {/* Thanh trượt điều chỉnh độ mờ của bản đồ nền */}
             <div style={{
                 position: "absolute",
-                bottom: 60,
-                right: 10,
+                top: 120,
+                right: 11,
                 zIndex: 1000,
-                background: "rgb(247, 242, 242)",
-                padding: "12px",
-                borderRadius: "10px",
-                border: "1px solid gray",
-                width: "220px",
-                height: "40px",
-                boxShadow: "0 2px 10px rgba(0,0,0,0.2)"
-
+                background: "#fff",
+                padding: "8px 10px",
+                borderRadius: "7px",
+                width: "26px",
+                height: "140px",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "space-between"
             }}>
-                <label style={{
-                    fontSize: "14px",
-                    fontWeight: "bold",
-                    color: "#333",
-                }}>
-                    Độ mờ của bản đồ: {Math.round((1 - opacity) * 100)}%</label> <br />
                 <input
                     type="range"
+                    orient="vertical"
                     min="0"
                     max="1"
                     step="0.1"
                     value={opacity}
-                    onChange={(e) => setOpacity(parseFloat(e.target.value))}  //Đảo ngược giá trị khi thay đổi
-                    style={{ width: "100%", height: "5px" }}
+                    onChange={(e) => setOpacity(parseFloat(e.target.value))}
+                    className="opacity-slider"
                 />
             </div>
 

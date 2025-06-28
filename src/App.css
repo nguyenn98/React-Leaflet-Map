@@ -32,7 +32,14 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+div .leaflet-control-zoom.leaflet-bar.leaflet-control {
+  position: absolute;
+  top: 540px;
+  left: 1305px;
 }

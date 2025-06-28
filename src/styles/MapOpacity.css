@@ -1,0 +1,31 @@
+.opacity-slider {
+  writing-mode: bt-lr; /* Firefox */
+  -webkit-appearance: slider-vertical; /* Chrome, Safari */
+  width: 5px;
+  height: 130px;
+  background: linear-gradient(to bottom, #ffffff, #1e90ff); /* gradient trắng-xanh */
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 6px;
+}
+
+.opacity-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #007bff;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.opacity-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: #007bff;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}

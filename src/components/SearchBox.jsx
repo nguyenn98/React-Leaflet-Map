@@ -38,7 +38,7 @@ const SearchBox = ({ onSearch }) => {
     };
 
     return (
-        <div style={{ position: "absolute", top: 10, left: 60,
+        <div style={{ position: "absolute", top: 10, left: 30,
          zIndex: 1000, background: "white", padding: 10, height: "35px",
          borderRadius: 5, width: "250px", alignItems: "center", 
          boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>
