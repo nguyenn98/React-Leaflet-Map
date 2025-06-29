@@ -6,7 +6,7 @@ import MapShow from "../components/MapShow";
 const MapView = () => {
   const [geoData, setGeoData] = useState(null);
   const [position, setPosition] = useState([21.028511, 105.804817]); // Hà Nội
-  const [highlight, setHighlight] = useState(false); 
+  const [highlight, setHighlight] = useState(false);
 
   useEffect(() => {
     const fetchGeoJSON = async () => {
@@ -30,7 +30,12 @@ const MapView = () => {
     <div>
       {/* <SearchBox onSearch={setPosition} /> */}
       <SearchBox onSearch={(pos) => { setPosition(pos); setHighlight(true); }} />
-      <MapShow position={position} geoData={geoData} highlight={highlight} setHighlight={setHighlight}/>
+      <MapShow
+        position={position}
+        geoData={geoData}
+        highlight={highlight}
+        setHighlight={setHighlight}
+      />
     </div>
   );
 };

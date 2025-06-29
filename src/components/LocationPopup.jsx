@@ -9,7 +9,7 @@ const LocationPopup = ({ info, onClose }) => {
 
     const handleShare = () => {
         const { lat, lng } = info;
-        const zoom = 18;
+        const zoom = 17;
         const url = `http://localhost:3000/?vitri=${lat},${lng}&zoom=${zoom}`;
         navigator.clipboard.writeText(url);
         map.flyTo([lat, lng], zoom);

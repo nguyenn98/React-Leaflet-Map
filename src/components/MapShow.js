@@ -1,16 +1,17 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 import { MapContainer, TileLayer, GeoJSON, Marker, Popup, useMap, LayersControl, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import ReactDOMServer from "react-dom/server";
+import { useSearchParams } from "react-router-dom";
 
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
-// import { FaUniversity } from "react-icons/fa";
 import { LiaUniversitySolid } from "react-icons/lia";
 
 import LocationList from "./LocationList";
-import LocationPopup from "./LocationPopup"; // Đảm bảo đường dẫn đúng
+import LocationPopup from "./LocationPopup";
+import { getLogoFromWikidata } from "../utils/wikidata";
 import axios from "axios";
 
 import '../styles/MapOpacity.css'
@@ -18,16 +19,24 @@ import '../styles/MapOpacity.css'
 const { BaseLayer } = LayersControl;
 
 // Điều khiển zoom tới vị trí mới
-const MapController = ({ position }) => {
+const MapController = ({ position, initialZoom }) => {
     const map = useMap();
 
     useEffect(() => {
-        if (!position) {
-            return
-        }
-        map.flyTo(position, 16, { animate: true });
+        if (!position) return;
+        const currentZoom = map.getZoom();
+        const currentCenter = map.getCenter();
+        const positionLatLng = L.latLng(position);
 
-    }, [position, map]);
+        // Nếu đang ở đúng vị trí rồi thì không cần làm gì
+        if (currentCenter.equals(positionLatLng)) return;
+
+        if (currentZoom === initialZoom) {
+            map.panTo(positionLatLng);
+        } else {
+            map.flyTo(positionLatLng, initialZoom, { animate: true });
+        }
+    }, [position, initialZoom]);
 
     return null;
 };
@@ -42,7 +51,6 @@ const universityIcon = new L.DivIcon({
     iconAnchor: [12, 24],
     popupAnchor: [0, -24],
 });
-
 
 // Icon mặc định của vị trí tìm kiếm
 const defaultIcon = L.icon({
@@ -94,6 +102,11 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
     const [opacity, setOpacity] = useState(1);           // Mặc định là 1 (không mờ)
     const [currentPosition, setCurrentPosition] = useState(position);  // Dùng state để cập nhật vị trí
     const [popupInfo, setPopupInfo] = useState(null);
+    const [logoMap, setLogoMap] = useState({});
+    const [isPopupFromMapClick, setIsPopupFromMapClick] = useState(false);
+    const mapRef = useRef(null);
+    const [searchParams, setSearchParams] = useSearchParams();
+    const initialZoom = parseInt(searchParams.get("zoom")) || 14;
 
     const handleMapClick = async (latlng) => {
         try {
@@ -110,6 +123,18 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
 
             const address = res.data.display_name || "Không rõ địa chỉ";
 
+            // Lấy zoom hiện tại từ map
+            const map = mapRef.current;
+            const zoom = mapRef.current ? mapRef.current.getZoom() : initialZoom;
+
+            // Cập nhật URL
+            const newParams = new URLSearchParams();
+            newParams.set("vitri", `${lat},${lng}`);
+            newParams.set("zoom", zoom);
+            setSearchParams(newParams);
+
+
+            // Cập nhật popup và marker
             setPopupInfo({
                 position: [lat, lng],
                 lat,
@@ -118,6 +143,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                 address,
             });
             setCurrentPosition([lat, lng]);
+            setIsPopupFromMapClick(true);
         } catch (err) {
             console.error("Lỗi Nominatim:", err);
         }
@@ -130,7 +156,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
             setTimeout(() => {
                 setMarkerIcon(defaultIcon);
                 setHighlight(false);
-            }, 7000);
+            }, 8000);
         }
     }, [highlight, setHighlight]);
 
@@ -142,34 +168,187 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
         }
     }, [position]);
 
+    // useEffect để đọc vitri từ URL khi mở trang
+    useEffect(() => {
+        const vitri = searchParams.get("vitri");
+        const zoom = parseInt(searchParams.get("zoom")) || 17;
+
+        if (vitri) {
+            const [lat, lng] = vitri.split(",").map(Number);
+            if (!isNaN(lat) && !isNaN(lng)) {
+                const fetchAddress = async () => {
+                    try {
+                        const res = await axios.get('https://nominatim.openstreetmap.org/reverse.php', {
+                            params: {
+                                lat,
+                                lon: lng,
+                                format: 'jsonv2',
+                                zoom: 18,
+                                addressdetails: 1,
+                            },
+                        });
+
+                        const address = res.data.display_name || "Không rõ địa chỉ";
+
+                        setPopupInfo({
+                            position: [lat, lng],
+                            lat,
+                            lng,
+                            name: res.data.name || "Vị trí được chia sẻ",
+                            address,
+                        });
+
+                        setCurrentPosition([lat, lng]);
+                        setIsPopupFromMapClick(true);
+
+                        // if (mapRef.current) {
+                        //     mapRef.current.setView([lat, lng], zoom, { animate: true });
+                        // }
+                        setCurrentPosition([lat, lng]); // MapController sẽ xử lý pan/fly
+
+                    } catch (err) {
+                        console.error("Lỗi khi lấy địa chỉ từ URL:", err);
+                    }
+                };
+
+                fetchAddress();
+            }
+        }
+    }, []);
+
+    // Thêm logo các trường đại học từng trường hiển thị trên map
+    // useEffect(() => {
+    //     if (!geoData) return;
+
+    //     const fetchLogos = async () => {
+    //         const newLogoMap = {};
+    //         for (const feature of geoData.features) {
+    //             const wikidata = feature.properties.wikidata;
+    //             console.log("wikidata:", wikidata);
+    //             if (wikidata && !logoMap[wikidata]) {
+    //                 const logoUrl = await getLogoFromWikidata(wikidata);
+    //                 console.log(`→ Logo for ${wikidata}: ${logoUrl}`);
+    //                 if (logoUrl) {
+    //                     newLogoMap[wikidata] = logoUrl;
+    //                 }
+    //             }
+    //         }
+    //         setLogoMap((prev) => ({ ...prev, ...newLogoMap }));
+    //     };
+    //     fetchLogos();
+    // }, [geoData]);
+
     // Hàm xử lý click vào danh sách
-    const handleLocationClick = (location) => {
+    const handleLocationClick = (location, feature) => {
+        setPopupInfo(feature); // để popup hiển thị thông tin đúng
+        setIsPopupFromMapClick(false);
         setCurrentPosition(location);
         setHighlight(true);
+
+        // if (mapRef.current) {
+        //     mapRef.current.flyTo(location, mapRef.current.getZoom(), { animate: true });
+        // }
+
         setTimeout(() => setHighlight(false), 2000);
-    }
+    };
+
     const MapClickHandler = ({ onClick }) => {
         useMapEvents({
             click: (e) => {
                 const { lat, lng } = e.latlng;
                 onClick([lat, lng]);
+                // Tắt icon xanh khi click map
+                setHighlight(false);
+                setMarkerIcon(defaultIcon);
             },
         });
         return null;
     };
 
+    // Xử lý zoom trên thanh link
+    const ZoomSyncHandler = () => {
+        const map = useMap();
+
+        useEffect(() => {
+            const handleZoomEnd = () => {
+                const newZoom = map.getZoom();
+                searchParams.set("zoom", newZoom);
+                setSearchParams(searchParams);
+            };
+
+            map.on("zoomend", handleZoomEnd);
+            return () => {
+                map.off("zoomend", handleZoomEnd);
+            };
+        }, [map, searchParams, setSearchParams]);
+
+        return null;
+    };
+
+    const markers = useMemo(() => {
+        if (!geoData) return [];
+
+        return geoData.features
+            .map((feature, index) => {
+                if (
+                    feature.geometry.type !== "Polygon" &&
+                    feature.geometry.type !== "MultiPolygon"
+                ) return null;
+
+                const bounds = L.geoJSON(feature).getBounds();
+                const center = bounds.getCenter();
+                const wikidata = feature.properties.wikidata;
+                const logoUrl = wikidata ? logoMap[wikidata] : null;
+
+                const icon = logoUrl
+                    ? L.icon({
+                        iconUrl: logoUrl,
+                        iconSize: [40, 40],
+                        iconAnchor: [20, 40],
+                        popupAnchor: [0, -40],
+                    })
+                    : universityIcon;
+
+                return (
+                    <Marker key={index} position={center} icon={icon}>
+                        <Popup>{feature.properties.name || "Trường học"}</Popup>
+                    </Marker>
+                );
+            })
+            .filter(Boolean); // Xoá các phần tử null
+    }, [geoData, logoMap]);
+
+    // để fetch logo nếu chưa có
+    const handleSelectFeature = async (feature) => {
+        const wikidata = feature?.properties?.wikidata;
+        if (!wikidata || logoMap[wikidata]) return;
+
+        const logo = await getLogoFromWikidata(wikidata);
+        if (logo) {
+            setLogoMap((prev) => ({ ...prev, [wikidata]: logo }));
+        }
+    };
+
     return (
         <div style={{ position: "relative" }}>
-            <MapContainer center={position} zoom={14} style={{ height: "100vh", width: "100%" }}>
+            <MapContainer
+                center={position}
+                zoom={initialZoom}
+                style={{ height: "100vh", width: "100%" }}
+                whenCreated={(mapInstance) => (mapRef.current = mapInstance)}
+            >
                 <MapClickHandler onClick={handleMapClick} />
-                {popupInfo && (
+                <ZoomSyncHandler />
+                {popupInfo && isPopupFromMapClick && (
                     <LocationPopup
                         info={popupInfo}
-                        onClose={() => setPopupInfo(null)}
+                        onClose={() => {
+                            setPopupInfo(null);
+                            setIsPopupFromMapClick(false);
+                        }}
                     />
-
                 )}
-                <MapController position={currentPosition} />
+                {currentPosition && <MapController position={currentPosition} initialZoom={initialZoom} />}
                 {/* Thêm LayersControl */}
                 <LayersControl position="topright">
                     {/* Bản đồ nền mặc định */}
@@ -192,7 +371,24 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                     {/* Hiển thị lớp dữ liệu GeoJSON các trường đại học tại Hà Nội*/}
                     {
                         geoData && showLayer && (
-                            <GeoJSON data={geoData} onEachFeature={onEachFeature} style={geoJSONStyle} />
+                            <GeoJSON
+                                data={geoData}
+                                onEachFeature={(feature, layer) => {
+                                    onEachFeature(feature, layer);
+
+                                    // Thêm sự kiện click vào vùng Polygon
+                                    layer.on('click', () => {
+                                        setPopupInfo(null);             // Ẩn popup nếu đang hiển thị
+                                        setIsPopupFromMapClick(false);  // Đánh dấu không phải popup từ map click
+                                        setCurrentPosition(null);       // Ẩn Marker đỏ
+
+                                        // Gọi tải logo khi người dùng click
+                                        handleSelectFeature(feature);
+                                    });
+                                }}
+                                style={geoJSONStyle}
+                            />
+
                         )
                     }
                 </LayersControl>
@@ -207,18 +403,9 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                 }
 
                 {/* Hiển thị Marker cho các Polygon và MultiPolygon */}
-                {geoData && showLayer && geoData.features.map((feature, index) => {
-                    if (feature.geometry.type === "Polygon" || feature.geometry.type === "MultiPolygon") {
-                        const bounds = L.geoJSON(feature).getBounds();
-                        const center = bounds.getCenter();
-                        return (
-                            <Marker key={index} position={center} icon={universityIcon}>
-                                <Popup>{feature.properties.name || "Trường học"}</Popup>
-                            </Marker>
-                        );
-                    }
-                    return null;
-                })}
+                {
+                    showLayer && markers
+                }
             </MapContainer>
 
 
@@ -275,7 +462,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
             <div style={{
                 display: "flex", position: "absolute",
                 left: 59, top: 68, zIndex: 1000,
-                height: "500px", border: "1px solid #DDDDDD"
+                height: "500px", border: "none"
             }}>
                 <LocationList geoData={geoData} onLocationClick={handleLocationClick} />
 
