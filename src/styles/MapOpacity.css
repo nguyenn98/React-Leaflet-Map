@@ -29,3 +29,8 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+.highlight-marker {
+    transition: transform 0.3s ease, color 0.3s ease;
+    transform: scale(1.3);
+}

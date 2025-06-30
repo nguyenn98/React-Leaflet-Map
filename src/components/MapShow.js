@@ -8,6 +8,7 @@ import { useSearchParams } from "react-router-dom";
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
 import { LiaUniversitySolid } from "react-icons/lia";
+import { FaLocationDot } from "react-icons/fa6";
 
 import LocationList from "./LocationList";
 import LocationPopup from "./LocationPopup";
@@ -52,20 +53,6 @@ const universityIcon = new L.DivIcon({
     popupAnchor: [0, -24],
 });
 
-// Icon mặc định của vị trí tìm kiếm
-const defaultIcon = L.icon({
-    iconUrl: 'https://cdn-icons-png.flaticon.com/128/684/684908.png',
-    iconSize: [24, 24],
-    iconAnchor: [16, 32],
-    popupAnchor: [0, -32]
-});
-// Icon phóng to + đổi màu xanh (success)
-const highlightIcon = L.icon({
-    iconUrl: "https://cdn-icons-png.flaticon.com/128/17784/17784432.png", // Icon xanh 
-    iconSize: [40, 40], // Phóng to hơn
-    iconAnchor: [20, 40],
-    popupAnchor: [0, -40]
-})
 
 // Hàm xử lý sự kiện click vào khu vực
 const onEachFeature = (feature, layer) => {
@@ -86,7 +73,6 @@ const onEachFeature = (feature, layer) => {
     }
 };
 
-
 // Hàm style cho khu vực trên bản đồ
 const geoJSONStyle = {
     color: "#d9534f",  // Màu viền đỏ
@@ -97,7 +83,6 @@ const geoJSONStyle = {
 };
 
 const MapShow = ({ position, geoData, highlight, setHighlight }) => {
-    const [markerIcon, setMarkerIcon] = useState(defaultIcon);
     const [showLayer, setShowLayer] = useState(true);    // Trạng thái hiển thị layer
     const [opacity, setOpacity] = useState(1);           // Mặc định là 1 (không mờ)
     const [currentPosition, setCurrentPosition] = useState(position);  // Dùng state để cập nhật vị trí
@@ -106,7 +91,8 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
     const [isPopupFromMapClick, setIsPopupFromMapClick] = useState(false);
     const mapRef = useRef(null);
     const [searchParams, setSearchParams] = useSearchParams();
-    const initialZoom = parseInt(searchParams.get("zoom")) || 14;
+    const initialZoom = parseInt(searchParams.get("zoom")) || 17;
+    const [isHighlighting, setIsHighlighting] = useState(false);
 
     const handleMapClick = async (latlng) => {
         try {
@@ -133,7 +119,6 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
             newParams.set("zoom", zoom);
             setSearchParams(newParams);
 
-
             // Cập nhật popup và marker
             setPopupInfo({
                 position: [lat, lng],
@@ -151,10 +136,9 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
 
     useEffect(() => {
         if (highlight) {
-            setMarkerIcon(highlightIcon);
-
+            setIsHighlighting(true);
             setTimeout(() => {
-                setMarkerIcon(defaultIcon);
+                setIsHighlighting(false);
                 setHighlight(false);
             }, 8000);
         }
@@ -200,10 +184,6 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
 
                         setCurrentPosition([lat, lng]);
                         setIsPopupFromMapClick(true);
-
-                        // if (mapRef.current) {
-                        //     mapRef.current.setView([lat, lng], zoom, { animate: true });
-                        // }
                         setCurrentPosition([lat, lng]); // MapController sẽ xử lý pan/fly
 
                     } catch (err) {
@@ -216,27 +196,15 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
         }
     }, []);
 
-    // Thêm logo các trường đại học từng trường hiển thị trên map
-    // useEffect(() => {
-    //     if (!geoData) return;
+    // Thêm đoạn này để ẩn popup trắng khi tìm kiếm
+    useEffect(() => {
+        if (position && isPopupFromMapClick) {
+            setPopupInfo(null); // Ẩn popup trắng nếu là từ tìm kiếm
+            setIsPopupFromMapClick(false);
+        }
+        setCurrentPosition(position); // Vẫn cập nhật vị trí
+    }, [position]);
 
-    //     const fetchLogos = async () => {
-    //         const newLogoMap = {};
-    //         for (const feature of geoData.features) {
-    //             const wikidata = feature.properties.wikidata;
-    //             console.log("wikidata:", wikidata);
-    //             if (wikidata && !logoMap[wikidata]) {
-    //                 const logoUrl = await getLogoFromWikidata(wikidata);
-    //                 console.log(`→ Logo for ${wikidata}: ${logoUrl}`);
-    //                 if (logoUrl) {
-    //                     newLogoMap[wikidata] = logoUrl;
-    //                 }
-    //             }
-    //         }
-    //         setLogoMap((prev) => ({ ...prev, ...newLogoMap }));
-    //     };
-    //     fetchLogos();
-    // }, [geoData]);
 
     // Hàm xử lý click vào danh sách
     const handleLocationClick = (location, feature) => {
@@ -244,10 +212,6 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
         setIsPopupFromMapClick(false);
         setCurrentPosition(location);
         setHighlight(true);
-
-        // if (mapRef.current) {
-        //     mapRef.current.flyTo(location, mapRef.current.getZoom(), { animate: true });
-        // }
 
         setTimeout(() => setHighlight(false), 2000);
     };
@@ -259,7 +223,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                 onClick([lat, lng]);
                 // Tắt icon xanh khi click map
                 setHighlight(false);
-                setMarkerIcon(defaultIcon);
+                setIsHighlighting(false);
             },
         });
         return null;
@@ -329,6 +293,24 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
         }
     };
 
+    // hàm tạo icon theo trạng thái
+    const createDynamicIcon = () => {
+        const iconHtml = ReactDOMServer.renderToString(
+            <FaLocationDot
+                className={isHighlighting ? "highlight-marker" : ""}
+                style={{ color: isHighlighting ? "#00FFCC" : "red", fontSize: isHighlighting ? "40px" : "24px" }}
+            />
+        );
+
+        return new L.DivIcon({
+            html: iconHtml,
+            className: "",
+            iconSize: isHighlighting ? [40, 40] : [24, 24],
+            iconAnchor: isHighlighting ? [20, 40] : [12, 24],
+            popupAnchor: isHighlighting ? [0, -40] : [0, -24]
+        });
+    };
+
     return (
         <div style={{ position: "relative" }}>
             <MapContainer
@@ -396,7 +378,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                 {/* Hiển thị marker tại vị trí tìm kiếm */}
                 {
                     currentPosition && (
-                        <Marker position={currentPosition} icon={markerIcon}>
+                        <Marker position={currentPosition} icon={createDynamicIcon()}>
                             <Popup>Vị trí tìm kiếm</Popup>
                         </Marker>
                     )
@@ -407,7 +389,6 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                     showLayer && markers
                 }
             </MapContainer>
-
 
             {/* Nút bật/tắt layer */}
             <button

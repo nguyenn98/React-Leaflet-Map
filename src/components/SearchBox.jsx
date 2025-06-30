@@ -38,18 +38,25 @@ const SearchBox = ({ onSearch }) => {
     };
 
     return (
-        <div style={{ position: "absolute", top: 10, left: 30,
-         zIndex: 1000, background: "white", padding: 10, height: "35px",
-         borderRadius: 5, width: "250px", alignItems: "center", 
-         boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>
+        <div style={{
+            position: "absolute", top: 10, left: 30,
+            zIndex: 1000, background: "white", padding: 10, height: "35px",
+            borderRadius: 5, width: "250px", alignItems: "center",
+            boxShadow: "0 2px 10px rgba(0,0,0,0.1)"
+        }}>
             <input
                 type='text'
                 placeholder='Nhập địa điểm hoặc tọa độ cần tìm'
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                style={{ 
-                    padding: 5, 
-                    marginRight: 5, 
+                onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                        handleSearch(); // Gọi hàm tìm kiếm khi nhấn Enter
+                    }
+                }}
+                style={{
+                    padding: 5,
+                    marginRight: 5,
                     width: "195px",
                     border: "none",
                     outline: "none",
@@ -59,15 +66,16 @@ const SearchBox = ({ onSearch }) => {
                     borderRadius: "5px",
                 }}
             />
+
             <button onClick={handleSearch}
-                    style={{
-                        border: "none",
-                        padding: "12px",
-                        borderRadius: "50%",
-                        cursor: "pointer",
-                        alignItems: "center",
-                        justifyContent: "center"
-                    }}
+                style={{
+                    border: "none",
+                    padding: "12px",
+                    borderRadius: "50%",
+                    cursor: "pointer",
+                    alignItems: "center",
+                    justifyContent: "center"
+                }}
             ><BsSearch /></button>
         </div>
     )
