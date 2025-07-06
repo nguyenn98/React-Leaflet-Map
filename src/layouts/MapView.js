@@ -11,7 +11,7 @@ const MapView = () => {
   useEffect(() => {
     const fetchGeoJSON = async () => {
       try {
-        const response = await fetch(process.env.PUBLIC_URL + "/data/export.geojson");
+        const response = await fetch(process.env.PUBLIC_URL + "/data/universities.geojson");
 
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

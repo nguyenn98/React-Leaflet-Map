@@ -1,0 +1,1370 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8020409,
+          21.0110482
+        ]
+      },
+      "properties": {
+        "name": "Photocopy",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7975424,
+          20.9868867
+        ]
+      },
+      "properties": {
+        "name": "Công ty in ấn phú quý, d10-2 cụm làng nghề tập trung triều khúc,",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.819913,
+          21.0354239
+        ]
+      },
+      "properties": {
+        "name": "Photo copy",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8206375,
+          21.0352176
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8026037,
+          21.0290757
+        ]
+      },
+      "properties": {
+        "name": "In Lan Hương",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8058354,
+          21.0231413
+        ]
+      },
+      "properties": {
+        "name": "Photo Quang Lịch",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.819913,
+          21.0354239
+        ]
+      },
+      "properties": {
+        "name": "Photo copy",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8206375,
+          21.0352176
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8026037,
+          21.0290757
+        ]
+      },
+      "properties": {
+        "name": "In Lan Hương",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8058354,
+          21.0231413
+        ]
+      },
+      "properties": {
+        "name": "Photo Quang Lịch",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8105604,
+          21.0476886
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8105604,
+          21.0476886
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842032,
+          21.0465122
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842037,
+          21.0466927
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7843197,
+          21.0475219
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881889,
+          21.044299
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7854681,
+          21.0459016
+        ]
+      },
+      "properties": {
+        "name": "In ấn Vân Chủ",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901106,
+          21.0436478
+        ]
+      },
+      "properties": {
+        "name": "Thành Đạt Photocopy",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845544,
+          21.0404832
+        ]
+      },
+      "properties": {
+        "name": "Ngọc Vinh Photocopy",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8105604,
+          21.0476886
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842032,
+          21.0465122
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842037,
+          21.0466927
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7843197,
+          21.0475219
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881889,
+          21.044299
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7854681,
+          21.0459016
+        ]
+      },
+      "properties": {
+        "name": "In ấn Vân Chủ",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901106,
+          21.0436478
+        ]
+      },
+      "properties": {
+        "name": "Thành Đạt Photocopy",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845544,
+          21.0404832
+        ]
+      },
+      "properties": {
+        "name": "Ngọc Vinh Photocopy",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7341378,
+          21.0537349
+        ]
+      },
+      "properties": {
+        "name": "Tiệm Photocopy Đức Hạnh",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7346802,
+          21.0531972
+        ]
+      },
+      "properties": {
+        "name": "Tiệm Photocoppy",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7975424,
+          20.9868867
+        ]
+      },
+      "properties": {
+        "name": "Công ty in ấn phú quý, d10-2 cụm làng nghề tập trung triều khúc,",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8026037,
+          21.0290757
+        ]
+      },
+      "properties": {
+        "name": "In Lan Hương",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842032,
+          21.0465122
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842037,
+          21.0466927
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7843197,
+          21.0475219
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881889,
+          21.044299
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7854681,
+          21.0459016
+        ]
+      },
+      "properties": {
+        "name": "In ấn Vân Chủ",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901106,
+          21.0436478
+        ]
+      },
+      "properties": {
+        "name": "Thành Đạt Photocopy",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781495,
+          21.0443756
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7836726,
+          21.0403353
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845544,
+          21.0404832
+        ]
+      },
+      "properties": {
+        "name": "Ngọc Vinh Photocopy",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821102,
+          21.0382538
+        ]
+      },
+      "properties": {
+        "name": "Photo Gia Hay",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842032,
+          21.0465122
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842037,
+          21.0466927
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7843197,
+          21.0475219
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881889,
+          21.044299
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7854681,
+          21.0459016
+        ]
+      },
+      "properties": {
+        "name": "In ấn Vân Chủ",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901106,
+          21.0436478
+        ]
+      },
+      "properties": {
+        "name": "Thành Đạt Photocopy",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781495,
+          21.0443756
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7836726,
+          21.0403353
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845544,
+          21.0404832
+        ]
+      },
+      "properties": {
+        "name": "Ngọc Vinh Photocopy",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821102,
+          21.0382538
+        ]
+      },
+      "properties": {
+        "name": "Photo Gia Hay",
+        "source_university": "Đại học Kinh tế",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842032,
+          21.0465122
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842037,
+          21.0466927
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7843197,
+          21.0475219
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881889,
+          21.044299
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7854681,
+          21.0459016
+        ]
+      },
+      "properties": {
+        "name": "In ấn Vân Chủ",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901106,
+          21.0436478
+        ]
+      },
+      "properties": {
+        "name": "Thành Đạt Photocopy",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781495,
+          21.0443756
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7836726,
+          21.0403353
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845544,
+          21.0404832
+        ]
+      },
+      "properties": {
+        "name": "Ngọc Vinh Photocopy",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821102,
+          21.0382538
+        ]
+      },
+      "properties": {
+        "name": "Photo Gia Hay",
+        "source_university": "Đại học Luật",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842032,
+          21.0465122
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842037,
+          21.0466927
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7843197,
+          21.0475219
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881889,
+          21.044299
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7854681,
+          21.0459016
+        ]
+      },
+      "properties": {
+        "name": "In ấn Vân Chủ",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901106,
+          21.0436478
+        ]
+      },
+      "properties": {
+        "name": "Thành Đạt Photocopy",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781495,
+          21.0443756
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7836726,
+          21.0403353
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845544,
+          21.0404832
+        ]
+      },
+      "properties": {
+        "name": "Ngọc Vinh Photocopy",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821102,
+          21.0382538
+        ]
+      },
+      "properties": {
+        "name": "Photo Gia Hay",
+        "source_university": "Đại học Công nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842032,
+          21.0465122
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842037,
+          21.0466927
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7843197,
+          21.0475219
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881889,
+          21.044299
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7854681,
+          21.0459016
+        ]
+      },
+      "properties": {
+        "name": "In ấn Vân Chủ",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901106,
+          21.0436478
+        ]
+      },
+      "properties": {
+        "name": "Thành Đạt Photocopy",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781495,
+          21.0443756
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7836726,
+          21.0403353
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845544,
+          21.0404832
+        ]
+      },
+      "properties": {
+        "name": "Ngọc Vinh Photocopy",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821102,
+          21.0382538
+        ]
+      },
+      "properties": {
+        "name": "Photo Gia Hay",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842032,
+          21.0465122
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842037,
+          21.0466927
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7843197,
+          21.0475219
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881889,
+          21.044299
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7854681,
+          21.0459016
+        ]
+      },
+      "properties": {
+        "name": "In ấn Vân Chủ",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901106,
+          21.0436478
+        ]
+      },
+      "properties": {
+        "name": "Thành Đạt Photocopy",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781495,
+          21.0443756
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7836726,
+          21.0403353
+        ]
+      },
+      "properties": {
+        "name": "Dịch vụ",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845544,
+          21.0404832
+        ]
+      },
+      "properties": {
+        "name": "Ngọc Vinh Photocopy",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821102,
+          21.0382538
+        ]
+      },
+      "properties": {
+        "name": "Photo Gia Hay",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "services"
+      }
+    }
+  ]
+}

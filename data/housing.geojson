@@ -1,0 +1,5420 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8147173,
+          20.9896807
+        ]
+      },
+      "properties": {
+        "name": "The Nest Homestay",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8468208,
+          21.0210019
+        ]
+      },
+      "properties": {
+        "name": "Hanowood Homestay",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm,",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng, gần ĐHQGHN",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8399677,
+          20.9714435
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Quân Đội Binh Đoàn 12",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7913801,
+          20.9859121
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Bệnh viện Bạch Mai (Phùng Khoang)",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8383046,
+          21.0125883
+        ]
+      },
+      "properties": {
+        "name": "Chez Tram Homestay",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8575022,
+          21.0268165
+        ]
+      },
+      "properties": {
+        "name": "Rainbow Homestay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.843954,
+          21.0313498
+        ]
+      },
+      "properties": {
+        "name": "QUTANG HANOI DREAM HOMESTAY",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482727,
+          21.0294343
+        ]
+      },
+      "properties": {
+        "name": "Smile Homestay & Hostel",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8475027,
+          21.0354203
+        ]
+      },
+      "properties": {
+        "name": "Viet Family Homestay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8614943,
+          21.0221197
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 15C Trần Khánh Dư",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556616,
+          21.0321451
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 23B Hàng Tre",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8147173,
+          20.9896807
+        ]
+      },
+      "properties": {
+        "name": "The Nest Homestay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8468208,
+          21.0210019
+        ]
+      },
+      "properties": {
+        "name": "Hanowood Homestay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454209,
+          21.0357192
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 12A Lý Nam Đế",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng,",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8449436,
+          21.0334578
+        ]
+      },
+      "properties": {
+        "name": "Quang Homestay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7913801,
+          20.9859121
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Bệnh viện Bạch Mai (Phùng Khoang)",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8383046,
+          21.0125883
+        ]
+      },
+      "properties": {
+        "name": "Chez Tram Homestay",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8575022,
+          21.0268165
+        ]
+      },
+      "properties": {
+        "name": "Rainbow Homestay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.843954,
+          21.0313498
+        ]
+      },
+      "properties": {
+        "name": "QUTANG HANOI DREAM HOMESTAY",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482727,
+          21.0294343
+        ]
+      },
+      "properties": {
+        "name": "Smile Homestay & Hostel",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8475027,
+          21.0354203
+        ]
+      },
+      "properties": {
+        "name": "Viet Family Homestay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8614943,
+          21.0221197
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 15C Trần Khánh Dư",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556616,
+          21.0321451
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 23B Hàng Tre",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8147173,
+          20.9896807
+        ]
+      },
+      "properties": {
+        "name": "The Nest Homestay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8468208,
+          21.0210019
+        ]
+      },
+      "properties": {
+        "name": "Hanowood Homestay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454209,
+          21.0357192
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 12A Lý Nam Đế",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm,",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng,",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8449436,
+          21.0334578
+        ]
+      },
+      "properties": {
+        "name": "Quang Homestay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8383046,
+          21.0125883
+        ]
+      },
+      "properties": {
+        "name": "Chez Tram Homestay",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Đại Học Nguyễn Trãi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.843954,
+          21.0313498
+        ]
+      },
+      "properties": {
+        "name": "QUTANG HANOI DREAM HOMESTAY",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482727,
+          21.0294343
+        ]
+      },
+      "properties": {
+        "name": "Smile Homestay & Hostel",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8475027,
+          21.0354203
+        ]
+      },
+      "properties": {
+        "name": "Viet Family Homestay",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7756309,
+          21.0835455
+        ]
+      },
+      "properties": {
+        "name": "Gần khu tập thể, trước ngã tư Thụy Phương khoảng 150m",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722737,
+          21.0806239
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Nam Anh",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776102,
+          21.0836733
+        ]
+      },
+      "properties": {
+        "name": "Đối diện khu tập thể, qua ngã tư Thụy Phương khoảng 200m",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454209,
+          21.0357192
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 12A Lý Nam Đế",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm,",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng,",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8449436,
+          21.0334578
+        ]
+      },
+      "properties": {
+        "name": "Quang Homestay",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7865837,
+          21.0821776
+        ]
+      },
+      "properties": {
+        "name": "Nhà N7, khu tập thể Học viện kỹ thuật quân sự 212 Tân Xuân,",
+        "source_university": "Học viện kỹ thuật quân sự",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7869141,
+          21.0829176
+        ]
+      },
+      "properties": {
+        "name": "Nhà N10, khu tập thể Học viện kỹ thuật quân sự 212 Tân Xuân,",
+        "source_university": "Học viện kỹ thuật quân sự",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Học viện kỹ thuật quân sự",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Học viện kỹ thuật quân sự",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Học viện kỹ thuật quân sự",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.843954,
+          21.0313498
+        ]
+      },
+      "properties": {
+        "name": "QUTANG HANOI DREAM HOMESTAY",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482727,
+          21.0294343
+        ]
+      },
+      "properties": {
+        "name": "Smile Homestay & Hostel",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8475027,
+          21.0354203
+        ]
+      },
+      "properties": {
+        "name": "Viet Family Homestay",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7756309,
+          21.0835455
+        ]
+      },
+      "properties": {
+        "name": "Gần khu tập thể, trước ngã tư Thụy Phương khoảng 150m",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722487,
+          21.0810981
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương – số 68",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722737,
+          21.0806239
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Nam Anh",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776102,
+          21.0836733
+        ]
+      },
+      "properties": {
+        "name": "Đối diện khu tập thể, qua ngã tư Thụy Phương khoảng 200m",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454209,
+          21.0357192
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 12A Lý Nam Đế",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8449436,
+          21.0334578
+        ]
+      },
+      "properties": {
+        "name": "Quang Homestay",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Học viện Dân tộc",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Học viện Dân tộc",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng",
+        "source_university": "Học viện Dân tộc",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Học viện Dân tộc",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Học viện Dân tộc",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7221683,
+          21.0380266
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể nhà máy A34",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Trường Đại học Công nghệ Đông Á",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7949389,
+          20.9685224
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ bác Hoà – khu Phùng Khoang",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8147173,
+          20.9896807
+        ]
+      },
+      "properties": {
+        "name": "The Nest Homestay",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng,",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8399677,
+          20.9714435
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Quân Đội Binh Đoàn 12",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7913801,
+          20.9859121
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Bệnh viện Bạch Mai (Phùng Khoang)",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8383046,
+          21.0125883
+        ]
+      },
+      "properties": {
+        "name": "Chez Tram Homestay",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7949389,
+          20.9685224
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ bác Hoà – khu Phùng Khoang",
+        "source_university": "Trường Đại học CMC",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Trường Đại học CMC",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8147173,
+          20.9896807
+        ]
+      },
+      "properties": {
+        "name": "The Nest Homestay",
+        "source_university": "Trường Đại học CMC",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7913801,
+          20.9859121
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Bệnh viện Bạch Mai (Phùng Khoang)",
+        "source_university": "Trường Đại học CMC",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7913801,
+          20.9859121
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Bệnh viện Bạch Mai (Phùng Khoang)",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7756309,
+          21.0835455
+        ]
+      },
+      "properties": {
+        "name": "Gần khu tập thể, trước ngã tư Thụy Phương khoảng 150m",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722737,
+          21.0806239
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Nam Anh",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776102,
+          21.0836733
+        ]
+      },
+      "properties": {
+        "name": "Đối diện khu tập thể, qua ngã tư Thụy Phương khoảng 200m",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Đại học Kinh tế – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7756309,
+          21.0835455
+        ]
+      },
+      "properties": {
+        "name": "Gần khu tập thể, trước ngã tư Thụy Phương khoảng 150m",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722487,
+          21.0810981
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương – số 68",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776102,
+          21.0836733
+        ]
+      },
+      "properties": {
+        "name": "Đối diện khu tập thể, qua ngã tư Thụy Phương khoảng 200m",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Đại học Luật",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7756309,
+          21.0835455
+        ]
+      },
+      "properties": {
+        "name": "Gần khu tập thể, trước ngã tư Thụy Phương khoảng 150m",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722737,
+          21.0806239
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Nam Anh",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776102,
+          21.0836733
+        ]
+      },
+      "properties": {
+        "name": "Đối diện khu tập thể, qua ngã tư Thụy Phương khoảng 200m",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Đại học Công nghệ",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7756309,
+          21.0835455
+        ]
+      },
+      "properties": {
+        "name": "Gần khu tập thể, trước ngã tư Thụy Phương khoảng 150m",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722487,
+          21.0810981
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương – số 68",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722737,
+          21.0806239
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Nam Anh",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776102,
+          21.0836733
+        ]
+      },
+      "properties": {
+        "name": "Đối diện khu tập thể, qua ngã tư Thụy Phương khoảng 200m",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng,",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Trường Đại học Y Dược-ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722487,
+          21.0810981
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương – số 68",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722737,
+          21.0806239
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Nam Anh",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7221683,
+          21.0380266
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể nhà máy A34",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7756309,
+          21.0835455
+        ]
+      },
+      "properties": {
+        "name": "Gần khu tập thể, trước ngã tư Thụy Phương khoảng 150m",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7741765,
+          21.0773057
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ T01-29 gần đường Tân Xuân – Thụy Phương",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7725839,
+          21.0765259
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Tân Xuân – Thụy Phương (T01-20)",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7743502,
+          21.0773152
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ gần đường Ngô Minh Dương (T01-28)",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7733783,
+          21.0770022
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-18)",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740262,
+          21.07725
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương (T01-30)",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722487,
+          21.0810981
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ khu Thụy Phương – số 68",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722737,
+          21.0806239
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Nam Anh",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8067764,
+          21.0221454
+        ]
+      },
+      "properties": {
+        "name": "KTX tư nhân, khu vực Trung Văn – Mỹ Đình",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776102,
+          21.0836733
+        ]
+      },
+      "properties": {
+        "name": "Đối diện khu tập thể, qua ngã tư Thụy Phương khoảng 200m",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7850217,
+          21.0436539
+        ]
+      },
+      "properties": {
+        "name": "Smart Homestay",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7943733,
+          21.031735
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ giữa số 8 và số 10 ngõ 37 dịch vọng",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991975,
+          21.0362031
+        ]
+      },
+      "properties": {
+        "name": "Blue Home Homestay",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Trường Đại học Công nghệ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7949389,
+          20.9685224
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ bác Hoà – khu Phùng Khoang",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8147173,
+          20.9896807
+        ]
+      },
+      "properties": {
+        "name": "The Nest Homestay",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7913801,
+          20.9859121
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Bệnh viện Bạch Mai (Phùng Khoang)",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8012974,
+          21.0190151
+        ]
+      },
+      "properties": {
+        "name": "Amazing stay- homestay, city view, near center Hanoi, NK Cau Giay",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Đại học Thương Mại",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7221683,
+          21.0380266
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể nhà máy A34",
+        "source_university": "Đại học Thương Mại",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465,
+          21.0270
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Ngõ 8 Lê Quang Đạo",
+        "source_university": "Đại học Thương Mại",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Đại học Sân Khấu Điện Ảnh",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Học Viện Báo chí và Tuyên truyền",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Học Viện Báo chí và Tuyên truyền",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Học Viện Báo chí và Tuyên truyền",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7949389,
+          20.9685224
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ bác Hoà – khu Phùng Khoang",
+        "source_university": "Đại học Thăng Long",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8399677,
+          20.9714435
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Quân Đội Binh Đoàn 12",
+        "source_university": "Đại học Thăng Long",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7949389,
+          20.9685224
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ bác Hoà – khu Phùng Khoang",
+        "source_university": "Đại học Y Hà Nội (cơ sở 2)",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Học viện Ngoại giao",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Học viện Ngoại giao",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Học viện Ngoại giao",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8057862,
+          21.0342202
+        ]
+      },
+      "properties": {
+        "name": "Libré Homestay Đào Tấn",
+        "source_university": "Đại học Văn hóa Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Đại Học Ngoại ngữ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7840536,
+          21.0330947
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini",
+        "source_university": "Đại Học Ngoại ngữ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "Đại Học Ngoại ngữ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465,
+          21.0270
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Ngõ 8 Lê Quang Đạo",
+        "source_university": "Đại Học Ngoại ngữ – ĐHQGHN",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Đại Học Sư phạm Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465,
+          21.0270
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Ngõ 8 Lê Quang Đạo",
+        "source_university": "Đại Học Sư phạm Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Đại học Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Đại Học Kiến trúc Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Đại Học Y Dược Cổ truyền Việt Nam",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8614943,
+          21.0221197
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 15C Trần Khánh Dư",
+        "source_university": "Đại Học Kinh tế Quốc dân",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814807,
+          21.0259919
+        ]
+      },
+      "properties": {
+        "name": "Khu Tập Thể Bưu Điện VT40",
+        "source_university": "Đại học Kinh tế Quốc Dân",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480,
+          20.9950
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ/ngõ 36 Giáp Bát",
+        "source_university": "Đại học Kinh tế Quốc Dân",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480,
+          20.9950
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ ngõ 36 Tạ Quang Bửu",
+        "source_university": "Đại học Kinh tế Quốc Dân",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8614943,
+          21.0221197
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 15C Trần Khánh Dư",
+        "source_university": "Đại Học Bách khoa Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480,
+          20.9950
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ ngõ 36 Tạ Quang Bửu",
+        "source_university": "Đại Học Bách khoa Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480,
+          20.9950
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ/ngõ 36 Giáp Bát",
+        "source_university": "Đại Học Bách khoa Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8490,
+          21.0030
+        ]
+      },
+      "properties": {
+        "name": "Phòng khép kín 231 Trần Khát Chân",
+        "source_university": "Đại Học Bách khoa Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8614943,
+          21.0221197
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 15C Trần Khánh Dư",
+        "source_university": "Đại Học Mở Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556616,
+          21.0321451
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 23B Hàng Tre",
+        "source_university": "Đại Học Mở Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454209,
+          21.0357192
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 12A Lý Nam Đế",
+        "source_university": "Đại Học Mở Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8614943,
+          21.0221197
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 15C Trần Khánh Dư",
+        "source_university": "Đại Học Dược Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556616,
+          21.0321451
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 23B Hàng Tre",
+        "source_university": "Đại Học Dược Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454209,
+          21.0357192
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 12A Lý Nam Đế",
+        "source_university": "Đại Học Dược Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556616,
+          21.0321451
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 23B Hàng Tre",
+        "source_university": "Đại học Mỹ thuật Công nghiệp",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454209,
+          21.0357192
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 12A Lý Nam Đế",
+        "source_university": "Đại học Mỹ thuật Công nghiệp",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556616,
+          21.0321451
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 23B Hàng Tre",
+        "source_university": "Học viện Âm nhạc Quốc gia Việt Nam",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454209,
+          21.0357192
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể 12A Lý Nam Đế",
+        "source_university": "Học viện Âm nhạc Quốc gia Việt Nam",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7672118,
+          21.0373293
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể H312 Ngõ 1 đường nguyễn cơ thạch phường mỹ đình 2 quận nam từ liêm",
+        "source_university": "ĐH Sư phạm Thể dục Thể thao Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": "Đại học Tài nguyên và Môi trường",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7221683,
+          21.0380266
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể nhà máy A34",
+        "source_university": "Đại học Tài nguyên và Môi trường",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7830801,
+          21.0473428
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Intimex",
+        "source_university": " Đại học Điện Lực",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8049862,
+          21.0375353
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể Trung ương Đoàn",
+        "source_university": "Học Viện Hành Chính Quốc gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7910,
+          21.0670
+        ]
+      },
+      "properties": {
+        "name": "Ngõ 110 Nguyễn Hoàng Tôn",
+        "source_university": "Học viện Hành chính Quốc gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7912,
+          21.0731
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ 77/47/2 Xuân La",
+        "source_university": "Học viện Hành chính Quốc gia",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7221683,
+          21.0380266
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể nhà máy A34",
+        "source_university": "Đại Học Công Nghiệp Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7910,
+          21.0685
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ ngõ 205/196 Xuân Đỉnh",
+        "source_university": "Đại học Công nghiệp Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7910,
+          21.0675
+        ]
+      },
+      "properties": {
+        "name": "Ngõ 136/15 Cầu Diễn (số nhà 09A)",
+        "source_university": "Đại học Công nghiệp Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7945,
+          21.0170
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Ngõ 4 Đỗ Đức Dục",
+        "source_university": "Đại học Công nghiệp Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7221683,
+          21.0380266
+        ]
+      },
+      "properties": {
+        "name": "Khu tập thể nhà máy A34",
+        "source_university": "Học viện Tài Chính",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465,
+          21.0270
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Ngõ 8 Lê Quang Đạo",
+        "source_university": "Học viện Tài chính",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7722737,
+          21.0806239
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Nam Anh",
+        "source_university": "Đại học Mỏ - Địa chất",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7910,
+          21.0670
+        ]
+      },
+      "properties": {
+        "name": "Ngõ 191 Phạm Văn Đồng",
+        "source_university": "Đại học Mỏ - Địa chất",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480,
+          20.9950
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ/ngõ 36 Giáp Bát",
+        "source_university": "Đại học Xây Dựng",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480,
+          20.9950
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ ngõ 36 Tạ Quang Bửu",
+        "source_university": "Đại học Xây Dựng",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8490,
+          21.0030
+        ]
+      },
+      "properties": {
+        "name": "Phòng khép kín 231 Trần Khát Chân",
+        "source_university": "Đại học Xây Dựng",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465,
+          21.0270
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ Ngõ 8 Lê Quang Đạo",
+        "source_university": "Đại học FPT Mỹ Đình",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7912,
+          21.0731
+        ]
+      },
+      "properties": {
+        "name": "Nhà trọ 77/47/2 Xuân La",
+        "source_university": "Học viện Nội Vụ Hà Nội",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8218,
+          21.0015
+        ]
+      },
+      "properties": {
+        "name": "Ngõ 157 Chùa Láng",
+        "source_university": "Đại học Ngoại thương",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8148,
+          21.0131
+        ]
+      },
+      "properties": {
+        "name": "43 Nguyễn Chí Thanh",
+        "source_university": "Đại học Ngoại thương",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8192,
+          21.0038
+        ]
+      },
+      "properties": {
+        "name": "Phòng trọ tầng 2, ngõ 252/90/11 Tây Sơn",
+        "source_university": "Đại học Thủy lợi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8175,
+          21.0012
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini / phòng trọ tại 252 Tây Sơn",
+        "source_university": "Đại học Thủy lợi",
+        "category": "housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8175,
+          21.0012
+        ]
+      },
+      "properties": {
+        "name": "Chung cư mini / phòng trọ tại 252 Tây Sơn",
+        "source_university": "Đại học Công Đoàn",
+        "category": "housing"
+      }
+    }
+  ]
+}
