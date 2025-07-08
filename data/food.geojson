@@ -81,21 +81,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7991392,
-          20.9911632
-        ]
-      },
-      "properties": {
-        "name": "vân châu ( p102 e7 thanh xuân bắc)",
-        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8049509,
           21.0066604
         ]
@@ -147,21 +132,6 @@
       },
       "properties": {
         "name": "Quán ăn",
-        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8045073,
-          21.0111486
-        ]
-      },
-      "properties": {
-        "name": "Bánh Đa Cua Hải Phòng",
         "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
         "category": "food"
       }
@@ -291,21 +261,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.801052,
-          21.011719
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng Món Huế",
-        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.805443,
           21.0077019
         ]
@@ -366,12 +321,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7936444,
-          21.007247
+          105.8072684,
+          20.994641
         ]
       },
       "properties": {
-        "name": "KFC",
+        "name": "Trà sữa Mixue",
+        "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
         "source_university": "Khoa Quốc Tế Đại Học Quốc Gia",
         "category": "food"
       }
@@ -576,51 +546,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8223488,
-          21.0270627
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng & Cà Phê EMM's",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8202898,
-          21.0351911
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8109017,
-          21.0185183
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8147175,
           21.0352482
         ]
@@ -711,57 +636,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8222117,
-          21.0258742
-        ]
-      },
-      "properties": {
-        "name": "Domino's",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8217777,
-          21.0256292
-        ]
-      },
-      "properties": {
-        "name": "Sushi Bar",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8042728,
           21.0234453
         ]
       },
       "properties": {
         "name": "Nhà hàng an viên",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8209471,
-          21.0242775
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng Cơm Niêu Kombo",
         "source_university": "RMIT International University Hanoi Campus",
         "category": "food"
       }
@@ -801,12 +681,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8206671,
-          21.0239911
+          105.8042012,
+          21.023452
         ]
       },
       "properties": {
-        "name": "Nhà Hàng Bít Tết Ngon",
+        "name": "Trà sữa Royal Tea",
         "source_university": "RMIT International University Hanoi Campus",
         "category": "food"
       }
@@ -822,6 +702,51 @@
       },
       "properties": {
         "name": "Nhà hàng Phương Nam",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8075363,
+          21.0232846
+        ]
+      },
+      "properties": {
+        "name": "Trà sữa Cha Go Tea",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8077753,
+          21.0232359
+        ]
+      },
+      "properties": {
+        "name": "Trà sữa Tea Station",
+        "source_university": "RMIT International University Hanoi Campus",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8070266,
+          21.0233672
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
         "source_university": "RMIT International University Hanoi Campus",
         "category": "food"
       }
@@ -867,21 +792,6 @@
       },
       "properties": {
         "name": "Cửa Hàng Bánh Tươi Fresh Garden",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8222498,
-          21.0271124
-        ]
-      },
-      "properties": {
-        "name": "Gà Mạnh Hoạch",
         "source_university": "RMIT International University Hanoi Campus",
         "category": "food"
       }
@@ -1056,21 +966,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8170605,
-          21.0198815
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng Hàng Bánh Poeme",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8172329,
           21.0301162
         ]
@@ -1137,81 +1032,6 @@
       },
       "properties": {
         "name": "Bánh Cuốn Gia An",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8221384,
-          21.0258135
-        ]
-      },
-      "properties": {
-        "name": "Gà rán",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8220995,
-          21.0257766
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng Lemon House",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8220479,
-          21.0257391
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng Lẩu Hơi Cosmos",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8197796,
-          21.0226243
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng Bia Lan Chín",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8228346,
-          21.0300581
-        ]
-      },
-      "properties": {
-        "name": "Búng & Miến Ngân Mộc",
         "source_university": "RMIT International University Hanoi Campus",
         "category": "food"
       }
@@ -1347,21 +1167,6 @@
       },
       "properties": {
         "name": "Shichifuku Hanoi",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8120339,
-          21.0185317
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng Nhất Linh - Gà Tươi Mạnh Hoạch",
         "source_university": "RMIT International University Hanoi Campus",
         "category": "food"
       }
@@ -1716,36 +1521,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.801918,
-          21.0232121
-        ]
-      },
-      "properties": {
-        "name": "PHỞ BÒ - CƠM RANG - BÚN BÒ HUẾ",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8226197,
-          21.0281525
-        ]
-      },
-      "properties": {
-        "name": "Phở Tuấn C8 Giảng Võ",
-        "source_university": "RMIT International University Hanoi Campus",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8105812,
           21.0296837
         ]
@@ -1926,21 +1701,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8074289,
-          21.0292029
-        ]
-      },
-      "properties": {
-        "name": "Kitaguni",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8202898,
           21.0351911
         ]
@@ -2031,21 +1791,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8270189,
-          21.0345048
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8164024,
           21.0409443
         ]
@@ -2112,21 +1857,6 @@
       },
       "properties": {
         "name": "Quán Bia Hơi Cường Hói",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8114972,
-          21.0262998
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng A2 Ngọc Khánh",
         "source_university": "Đại Học Nguyễn Trãi",
         "category": "food"
       }
@@ -2331,21 +2061,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8214833,
-          21.0274431
-        ]
-      },
-      "properties": {
-        "name": "Nhà hàng Kim Long",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8198351,
           21.0304779
         ]
@@ -2511,21 +2226,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8180999,
-          21.02593
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8123813,
           21.0292976
         ]
@@ -2631,36 +2331,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8265043,
-          21.0348474
-        ]
-      },
-      "properties": {
-        "name": "Nem Nướng Xuân Dần",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8212835,
-          21.0267617
-        ]
-      },
-      "properties": {
-        "name": "Bún Chả Que Tre",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8084678,
           21.0293053
         ]
@@ -2697,21 +2367,6 @@
       },
       "properties": {
         "name": "Quán ăn",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8101527,
-          21.0272224
-        ]
-      },
-      "properties": {
-        "name": "Chops",
         "source_university": "Đại Học Nguyễn Trãi",
         "category": "food"
       }
@@ -2886,36 +2541,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8272194,
-          21.0342468
-        ]
-      },
-      "properties": {
-        "name": "Lẩu nấm thiên nhiên",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8226197,
-          21.0281525
-        ]
-      },
-      "properties": {
-        "name": "Phở Tuấn C8 Giảng Võ",
-        "source_university": "Đại Học Nguyễn Trãi",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8105812,
           21.0296837
         ]
@@ -2991,42 +2616,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8009683,
-          21.0378262
-        ]
-      },
-      "properties": {
-        "name": "Lotteria",
-        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8000055,
           21.0386723
         ]
       },
       "properties": {
         "name": "Nhà hàng Vua Tôm Hùm",
-        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8010942,
-          21.0375096
-        ]
-      },
-      "properties": {
-        "name": "KFC",
         "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
         "category": "food"
       }
@@ -3072,6 +2667,21 @@
       },
       "properties": {
         "name": "Quán ăn",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7979057,
+          21.0468147
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
         "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
         "category": "food"
       }
@@ -3177,6 +2787,21 @@
       },
       "properties": {
         "name": "Cháo sườn sụn",
+        "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8035611,
+          21.0459733
+        ]
+      },
+      "properties": {
+        "name": "Quán nhậu Tuấn Râu",
         "source_university": "Trường Đại học Khoa học và Công nghệ Hà Nội",
         "category": "food"
       }
@@ -3321,42 +2946,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8009683,
-          21.0378262
-        ]
-      },
-      "properties": {
-        "name": "Lotteria",
-        "source_university": "Học Viện Khoa Học Và Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.8000055,
           21.0386723
         ]
       },
       "properties": {
         "name": "Nhà hàng Vua Tôm Hùm",
-        "source_university": "Học Viện Khoa Học Và Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8010942,
-          21.0375096
-        ]
-      },
-      "properties": {
-        "name": "KFC",
         "source_university": "Học Viện Khoa Học Và Công Nghệ",
         "category": "food"
       }
@@ -3402,6 +2997,21 @@
       },
       "properties": {
         "name": "Quán ăn",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7979057,
+          21.0468147
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
         "source_university": "Học Viện Khoa Học Và Công Nghệ",
         "category": "food"
       }
@@ -3507,6 +3117,21 @@
       },
       "properties": {
         "name": "Cháo sườn sụn",
+        "source_university": "Học Viện Khoa Học Và Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8035611,
+          21.0459733
+        ]
+      },
+      "properties": {
+        "name": "Quán nhậu Tuấn Râu",
         "source_university": "Học Viện Khoa Học Và Công Nghệ",
         "category": "food"
       }
@@ -3666,6 +3291,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.8072684,
+          20.994641
+        ]
+      },
+      "properties": {
+        "name": "Trà sữa Mixue",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801946,
+          21.0002225
+        ]
+      },
+      "properties": {
+        "name": "Làng sinh viên Hacinco",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7970406,
           20.986858
         ]
@@ -3688,6 +3343,21 @@
       "properties": {
         "name": "Phố đi bộ Carnaby 214",
         "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.763673,
+          20.975428
+        ]
+      },
+      "properties": {
+        "name": "Lẩu Hồng Hải",
+        "source_university": "Trường Đại học CMC",
         "category": "food"
       }
     },
@@ -3777,6 +3447,21 @@
       },
       "properties": {
         "name": "Nhà Hàng Kombo",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7793725,
+          21.0367787
+        ]
+      },
+      "properties": {
+        "name": "Trà Sữa BoBaBop",
         "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
         "category": "food"
       }
@@ -4011,36 +3696,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7820199,
-          21.04168
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7829932,
-          21.0416416
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7855911,
           21.0389042
         ]
@@ -4251,36 +3906,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7863373,
-          21.0418895
-        ]
-      },
-      "properties": {
-        "name": "G46",
-        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7876895,
-          21.0422537
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7830982,
           21.0408034
         ]
@@ -4371,6 +3996,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7841914,
+          21.0409515
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị bình dân Nam Phong",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7844762,
+          21.0404856
+        ]
+      },
+      "properties": {
+        "name": "Olo Tea&Coffee",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7842605,
           21.0405087
         ]
@@ -4422,6 +4077,21 @@
       },
       "properties": {
         "name": "Rubic 8",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7822158,
+          21.0379131
+        ]
+      },
+      "properties": {
+        "name": "Summer Tea & Cafe",
         "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
         "category": "food"
       }
@@ -4497,6 +4167,21 @@
       },
       "properties": {
         "name": "Trường Sa Quán",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7823351,
+          21.0368678
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
         "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
         "category": "food"
       }
@@ -4716,6 +4401,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7863346,
+          21.0373768
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
+        "source_university": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7862738,
           21.036987
         ]
@@ -4776,36 +4476,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7935508,
-          21.0354805
-        ]
-      },
-      "properties": {
-        "name": "Bánh Mì Tươi Fresh Garden",
-        "source_university": "Đại học Kinh tế",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7941995,
-          21.0367552
-        ]
-      },
-      "properties": {
-        "name": "Nhà Hàng Bò Đội Nón",
-        "source_university": "Đại học Kinh tế",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7884632,
           21.033189
         ]
@@ -4851,6 +4521,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7775627,
+          21.0369024
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7906467,
           21.0385851
         ]
@@ -4872,6 +4557,21 @@
       },
       "properties": {
         "name": "Nhà Hàng Lẩu Bà Téo",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7793725,
+          21.0367787
+        ]
+      },
+      "properties": {
+        "name": "Trà Sữa BoBaBop",
         "source_university": "Đại học Kinh tế",
         "category": "food"
       }
@@ -5016,21 +4716,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7936004,
-          21.0418207
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Đại học Kinh tế",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7839673,
           21.031325
         ]
@@ -5052,6 +4737,36 @@
       },
       "properties": {
         "name": "Quán ăn",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7820636,
+          21.041678
+        ]
+      },
+      "properties": {
+        "name": "Tea & Coffee fixx",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.782519,
+          21.04166
+        ]
+      },
+      "properties": {
+        "name": "Lotita Tea & Cofee",
         "source_university": "Đại học Kinh tế",
         "category": "food"
       }
@@ -5258,66 +4973,6 @@
         "coordinates": [
           105.7864574,
           21.0467617
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Đại học Kinh tế",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7843668,
-          21.0484994
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Đại học Kinh tế",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7842981,
-          21.0480921
-        ]
-      },
-      "properties": {
-        "name": "Miele Pane",
-        "source_university": "Đại học Kinh tế",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.784293,
-          21.0479495
-        ]
-      },
-      "properties": {
-        "name": "Cơm tấm sườn nướng",
-        "source_university": "Đại học Kinh tế",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7823256,
-          21.0487099
         ]
       },
       "properties": {
@@ -5616,6 +5271,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.784927,
+          21.0439536
+        ]
+      },
+      "properties": {
+        "name": "BeMine Teahouse",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7861262,
           21.0433502
         ]
@@ -5802,6 +5472,21 @@
       },
       "properties": {
         "name": "Nhà hàng Dũng Quyên",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7819071,
+          21.0419601
+        ]
+      },
+      "properties": {
+        "name": "Tea&More",
         "source_university": "Đại học Kinh tế",
         "category": "food"
       }
@@ -6021,6 +5706,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7819984,
+          21.0409025
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị Sinh viên",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7819253,
           21.0403903
         ]
@@ -6057,6 +5757,51 @@
       },
       "properties": {
         "name": "Quán cơm Đại Long",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821215,
+          21.0408966
+        ]
+      },
+      "properties": {
+        "name": "Văn phòng Hỗ trợ Sinh viên quốc tế",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7841914,
+          21.0409515
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị bình dân Nam Phong",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7844762,
+          21.0404856
+        ]
+      },
+      "properties": {
+        "name": "Olo Tea&Coffee",
         "source_university": "Đại học Kinh tế",
         "category": "food"
       }
@@ -6117,6 +5862,21 @@
       },
       "properties": {
         "name": "Rubic 8",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7822158,
+          21.0379131
+        ]
+      },
+      "properties": {
+        "name": "Summer Tea & Cafe",
         "source_university": "Đại học Kinh tế",
         "category": "food"
       }
@@ -6201,6 +5961,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7823351,
+          21.0368678
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.78253,
           21.0368634
         ]
@@ -6267,21 +6042,6 @@
       },
       "properties": {
         "name": "Fresh Garden",
-        "source_university": "Đại học Kinh tế",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7930668,
-          21.042005
-        ]
-      },
-      "properties": {
-        "name": "Phương Nguyên Quán",
         "source_university": "Đại học Kinh tế",
         "category": "food"
       }
@@ -6411,6 +6171,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7863346,
+          21.0373768
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
+        "source_university": "Đại học Kinh tế",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7862738,
           21.036987
         ]
@@ -6471,21 +6246,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7935508,
-          21.0354805
-        ]
-      },
-      "properties": {
-        "name": "Bánh Mì Tươi Fresh Garden",
-        "source_university": "Đại học Luật",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7884632,
           21.033189
         ]
@@ -6531,6 +6291,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7775627,
+          21.0369024
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7906467,
           21.0385851
         ]
@@ -6552,6 +6327,21 @@
       },
       "properties": {
         "name": "Nhà Hàng Lẩu Bà Téo",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7793725,
+          21.0367787
+        ]
+      },
+      "properties": {
+        "name": "Trà Sữa BoBaBop",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -6711,12 +6501,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.772312,
-          21.0334631
+          105.7820199,
+          21.04168
         ]
       },
       "properties": {
-        "name": "Phở Thái Tử",
+        "name": "Quán ăn",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -6726,12 +6516,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7820199,
-          21.04168
+          105.7820636,
+          21.041678
         ]
       },
       "properties": {
-        "name": "Quán ăn",
+        "name": "Tea & Coffee fixx",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.782519,
+          21.04166
+        ]
+      },
+      "properties": {
+        "name": "Lotita Tea & Cofee",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -6951,51 +6756,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7843668,
-          21.0484994
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Đại học Luật",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7842981,
-          21.0480921
-        ]
-      },
-      "properties": {
-        "name": "Miele Pane",
-        "source_university": "Đại học Luật",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.784293,
-          21.0479495
-        ]
-      },
-      "properties": {
-        "name": "Cơm tấm sườn nướng",
-        "source_university": "Đại học Luật",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7842861,
           21.0465128
         ]
@@ -7107,21 +6867,6 @@
       },
       "properties": {
         "name": "Minh Anh Bia - Bún chả",
-        "source_university": "Đại học Luật",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7842919,
-          21.0477247
-        ]
-      },
-      "properties": {
-        "name": "Chảnh Nướng",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -7272,6 +7017,21 @@
       },
       "properties": {
         "name": "Nhà hàng Phúc Lâm",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.784927,
+          21.0439536
+        ]
+      },
+      "properties": {
+        "name": "BeMine Teahouse",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -7467,6 +7227,21 @@
       },
       "properties": {
         "name": "Nhà hàng Dũng Quyên",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7819071,
+          21.0419601
+        ]
+      },
+      "properties": {
+        "name": "Tea&More",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -7686,6 +7461,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7819984,
+          21.0409025
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị Sinh viên",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7819253,
           21.0403903
         ]
@@ -7722,6 +7512,51 @@
       },
       "properties": {
         "name": "Quán cơm Đại Long",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821215,
+          21.0408966
+        ]
+      },
+      "properties": {
+        "name": "Văn phòng Hỗ trợ Sinh viên quốc tế",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7841914,
+          21.0409515
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị bình dân Nam Phong",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7844762,
+          21.0404856
+        ]
+      },
+      "properties": {
+        "name": "Olo Tea&Coffee",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -7782,6 +7617,21 @@
       },
       "properties": {
         "name": "Rubic 8",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7822158,
+          21.0379131
+        ]
+      },
+      "properties": {
+        "name": "Summer Tea & Cafe",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -7866,6 +7716,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7823351,
+          21.0368678
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.78253,
           21.0368634
         ]
@@ -7941,21 +7806,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7930668,
-          21.042005
-        ]
-      },
-      "properties": {
-        "name": "Phương Nguyên Quán",
-        "source_university": "Đại học Luật",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.786802,
           21.0414696
         ]
@@ -8016,21 +7866,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7914563,
-          21.0326122
-        ]
-      },
-      "properties": {
-        "name": "Nhậu tự do",
-        "source_university": "Đại học Luật",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7823807,
           21.035716
         ]
@@ -8067,6 +7902,21 @@
       },
       "properties": {
         "name": "Som ตำ Thai",
+        "source_university": "Đại học Luật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7863346,
+          21.0373768
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
         "source_university": "Đại học Luật",
         "category": "food"
       }
@@ -8136,21 +7986,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7935508,
-          21.0354805
-        ]
-      },
-      "properties": {
-        "name": "Bánh Mì Tươi Fresh Garden",
-        "source_university": "Đại học Công nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7884632,
           21.033189
         ]
@@ -8196,6 +8031,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7775627,
+          21.0369024
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7906467,
           21.0385851
         ]
@@ -8217,6 +8067,21 @@
       },
       "properties": {
         "name": "Nhà Hàng Lẩu Bà Téo",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7793725,
+          21.0367787
+        ]
+      },
+      "properties": {
+        "name": "Trà Sữa BoBaBop",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -8376,12 +8241,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.772312,
-          21.0334631
+          105.7820199,
+          21.04168
         ]
       },
       "properties": {
-        "name": "Phở Thái Tử",
+        "name": "Quán ăn",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -8391,12 +8256,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7820199,
-          21.04168
+          105.7820636,
+          21.041678
         ]
       },
       "properties": {
-        "name": "Quán ăn",
+        "name": "Tea & Coffee fixx",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.782519,
+          21.04166
+        ]
+      },
+      "properties": {
+        "name": "Lotita Tea & Cofee",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -8616,57 +8496,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7843668,
-          21.0484994
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Đại học Công nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7842981,
-          21.0480921
-        ]
-      },
-      "properties": {
-        "name": "Miele Pane",
-        "source_university": "Đại học Công nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.784293,
           21.0479495
         ]
       },
       "properties": {
         "name": "Cơm tấm sườn nướng",
-        "source_university": "Đại học Công nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7823256,
-          21.0487099
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -8802,21 +8637,6 @@
       },
       "properties": {
         "name": "Chảnh Nướng",
-        "source_university": "Đại học Công nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7818405,
-          21.0489924
-        ]
-      },
-      "properties": {
-        "name": "Cơm gà 123",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -8967,6 +8787,21 @@
       },
       "properties": {
         "name": "Nhà hàng Phúc Lâm",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.784927,
+          21.0439536
+        ]
+      },
+      "properties": {
+        "name": "BeMine Teahouse",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -9162,6 +8997,21 @@
       },
       "properties": {
         "name": "Nhà hàng Dũng Quyên",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7819071,
+          21.0419601
+        ]
+      },
+      "properties": {
+        "name": "Tea&More",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -9381,6 +9231,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7819984,
+          21.0409025
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị Sinh viên",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7819253,
           21.0403903
         ]
@@ -9417,6 +9282,51 @@
       },
       "properties": {
         "name": "Quán cơm Đại Long",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821215,
+          21.0408966
+        ]
+      },
+      "properties": {
+        "name": "Văn phòng Hỗ trợ Sinh viên quốc tế",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7841914,
+          21.0409515
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị bình dân Nam Phong",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7844762,
+          21.0404856
+        ]
+      },
+      "properties": {
+        "name": "Olo Tea&Coffee",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -9477,6 +9387,21 @@
       },
       "properties": {
         "name": "Rubic 8",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7822158,
+          21.0379131
+        ]
+      },
+      "properties": {
+        "name": "Summer Tea & Cafe",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -9561,6 +9486,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7823351,
+          21.0368678
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.78253,
           21.0368634
         ]
@@ -9636,21 +9576,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7930668,
-          21.042005
-        ]
-      },
-      "properties": {
-        "name": "Phương Nguyên Quán",
-        "source_university": "Đại học Công nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.786802,
           21.0414696
         ]
@@ -9711,21 +9636,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7914563,
-          21.0326122
-        ]
-      },
-      "properties": {
-        "name": "Nhậu tự do",
-        "source_university": "Đại học Công nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7823807,
           21.035716
         ]
@@ -9762,6 +9672,21 @@
       },
       "properties": {
         "name": "Som ตำ Thai",
+        "source_university": "Đại học Công nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7863346,
+          21.0373768
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
         "source_university": "Đại học Công nghệ",
         "category": "food"
       }
@@ -9846,21 +9771,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7850989,
-          21.0503921
-        ]
-      },
-      "properties": {
-        "name": "Bò Tơ Quán Mộc",
-        "source_university": "Trường Đại học Y Dược",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.772734,
           21.0395544
         ]
@@ -9882,6 +9792,21 @@
       },
       "properties": {
         "name": "Quán ăn",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7775627,
+          21.0369024
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -9921,12 +9846,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7917348,
-          21.038469
+          105.7793725,
+          21.0367787
         ]
       },
       "properties": {
-        "name": "Quán Ăn Huế Nam Giao",
+        "name": "Trà Sữa BoBaBop",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -9936,12 +9861,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7779818,
-          21.0497468
+          105.7917348,
+          21.038469
         ]
       },
       "properties": {
-        "name": "Quán ăn",
+        "name": "Quán Ăn Huế Nam Giao",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -9966,42 +9891,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7870396,
-          21.0308504
-        ]
-      },
-      "properties": {
-        "name": "Nhà hàng Gà Cựa",
-        "source_university": "Trường Đại học Y Dược",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7879368,
           21.0331281
         ]
       },
       "properties": {
         "name": "Nhà hàng Habit BBQ",
-        "source_university": "Trường Đại học Y Dược",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7862349,
-          21.0309756
-        ]
-      },
-      "properties": {
-        "name": "Cơm Tấm Tường Hân",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -10062,6 +9957,36 @@
       },
       "properties": {
         "name": "Quán ăn",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7820636,
+          21.041678
+        ]
+      },
+      "properties": {
+        "name": "Tea & Coffee fixx",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.782519,
+          21.04166
+        ]
+      },
+      "properties": {
+        "name": "Lotita Tea & Cofee",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -10268,21 +10193,6 @@
         "coordinates": [
           105.7864574,
           21.0467617
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Trường Đại học Y Dược",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7859402,
-          21.0498081
         ]
       },
       "properties": {
@@ -10671,6 +10581,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.784927,
+          21.0439536
+        ]
+      },
+      "properties": {
+        "name": "BeMine Teahouse",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7861262,
           21.0433502
         ]
@@ -10857,6 +10782,21 @@
       },
       "properties": {
         "name": "Nhà hàng Dũng Quyên",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7819071,
+          21.0419601
+        ]
+      },
+      "properties": {
+        "name": "Tea&More",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -11076,6 +11016,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7819984,
+          21.0409025
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị Sinh viên",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7819253,
           21.0403903
         ]
@@ -11112,6 +11067,51 @@
       },
       "properties": {
         "name": "Quán cơm Đại Long",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821215,
+          21.0408966
+        ]
+      },
+      "properties": {
+        "name": "Văn phòng Hỗ trợ Sinh viên quốc tế",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7841914,
+          21.0409515
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị bình dân Nam Phong",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7844762,
+          21.0404856
+        ]
+      },
+      "properties": {
+        "name": "Olo Tea&Coffee",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -11172,6 +11172,21 @@
       },
       "properties": {
         "name": "Rubic 8",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7822158,
+          21.0379131
+        ]
+      },
+      "properties": {
+        "name": "Summer Tea & Cafe",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -11256,6 +11271,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7823351,
+          21.0368678
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.78253,
           21.0368634
         ]
@@ -11322,21 +11352,6 @@
       },
       "properties": {
         "name": "Fresh Garden",
-        "source_university": "Trường Đại học Y Dược",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7930668,
-          21.042005
-        ]
-      },
-      "properties": {
-        "name": "Phương Nguyên Quán",
         "source_university": "Trường Đại học Y Dược",
         "category": "food"
       }
@@ -11451,6 +11466,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7863346,
+          21.0373768
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
+        "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7862738,
           21.036987
         ]
@@ -11503,6 +11533,36 @@
       "properties": {
         "name": "Nét Huế",
         "source_university": "Trường Đại học Y Dược",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7711834,
+          21.0362085
+        ]
+      },
+      "properties": {
+        "name": "Vì Sinh Viên",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7723062,
+          21.0298442
+        ]
+      },
+      "properties": {
+        "name": "Sinh viên Công giáo Phú Mỹ",
+        "source_university": "Trường Đại học Việt Nhật (VJU)",
         "category": "food"
       }
     },
@@ -11586,36 +11646,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7672383,
-          21.023419
-        ]
-      },
-      "properties": {
-        "name": "Nhà hàng Hoa An Viên",
-        "source_university": "Trường Đại học Việt Nhật (VJU)",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7935508,
-          21.0354805
-        ]
-      },
-      "properties": {
-        "name": "Bánh Mì Tươi Fresh Garden",
-        "source_university": "Tòa E3 - Đại học Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7884632,
           21.033189
         ]
@@ -11661,6 +11691,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7775627,
+          21.0369024
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7906467,
           21.0385851
         ]
@@ -11682,6 +11727,21 @@
       },
       "properties": {
         "name": "Nhà Hàng Lẩu Bà Téo",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7793725,
+          21.0367787
+        ]
+      },
+      "properties": {
+        "name": "Trà Sữa BoBaBop",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }
@@ -11826,21 +11886,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7936004,
-          21.0418207
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Tòa E3 - Đại học Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7839673,
           21.031325
         ]
@@ -11862,6 +11907,36 @@
       },
       "properties": {
         "name": "Quán ăn",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7820636,
+          21.041678
+        ]
+      },
+      "properties": {
+        "name": "Tea & Coffee fixx",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.782519,
+          21.04166
+        ]
+      },
+      "properties": {
+        "name": "Lotita Tea & Cofee",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }
@@ -12081,57 +12156,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7843668,
-          21.0484994
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
-        "source_university": "Tòa E3 - Đại học Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7842981,
-          21.0480921
-        ]
-      },
-      "properties": {
-        "name": "Miele Pane",
-        "source_university": "Tòa E3 - Đại học Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.784293,
           21.0479495
         ]
       },
       "properties": {
         "name": "Cơm tấm sườn nướng",
-        "source_university": "Tòa E3 - Đại học Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7823256,
-          21.0487099
-        ]
-      },
-      "properties": {
-        "name": "Quán ăn",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }
@@ -12267,21 +12297,6 @@
       },
       "properties": {
         "name": "Chảnh Nướng",
-        "source_university": "Tòa E3 - Đại học Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.7818405,
-          21.0489924
-        ]
-      },
-      "properties": {
-        "name": "Cơm gà 123",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }
@@ -12432,6 +12447,21 @@
       },
       "properties": {
         "name": "Nhà hàng Phúc Lâm",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.784927,
+          21.0439536
+        ]
+      },
+      "properties": {
+        "name": "BeMine Teahouse",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }
@@ -12627,6 +12657,21 @@
       },
       "properties": {
         "name": "Nhà hàng Dũng Quyên",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7819071,
+          21.0419601
+        ]
+      },
+      "properties": {
+        "name": "Tea&More",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }
@@ -12846,6 +12891,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7819984,
+          21.0409025
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị Sinh viên",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.7819253,
           21.0403903
         ]
@@ -12882,6 +12942,51 @@
       },
       "properties": {
         "name": "Quán cơm Đại Long",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821215,
+          21.0408966
+        ]
+      },
+      "properties": {
+        "name": "Văn phòng Hỗ trợ Sinh viên quốc tế",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7841914,
+          21.0409515
+        ]
+      },
+      "properties": {
+        "name": "Siêu thị bình dân Nam Phong",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7844762,
+          21.0404856
+        ]
+      },
+      "properties": {
+        "name": "Olo Tea&Coffee",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }
@@ -12942,6 +13047,21 @@
       },
       "properties": {
         "name": "Rubic 8",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7822158,
+          21.0379131
+        ]
+      },
+      "properties": {
+        "name": "Summer Tea & Cafe",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }
@@ -13026,6 +13146,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.7823351,
+          21.0368678
+        ]
+      },
+      "properties": {
+        "name": "Royaltea",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.78253,
           21.0368634
         ]
@@ -13101,21 +13236,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7930668,
-          21.042005
-        ]
-      },
-      "properties": {
-        "name": "Phương Nguyên Quán",
-        "source_university": "Tòa E3 - Đại học Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.786802,
           21.0414696
         ]
@@ -13176,21 +13296,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7914563,
-          21.0326122
-        ]
-      },
-      "properties": {
-        "name": "Nhậu tự do",
-        "source_university": "Tòa E3 - Đại học Công Nghệ",
-        "category": "food"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           105.7823807,
           21.035716
         ]
@@ -13227,6 +13332,21 @@
       },
       "properties": {
         "name": "Som ตำ Thai",
+        "source_university": "Tòa E3 - Đại học Công Nghệ",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7863346,
+          21.0373768
+        ]
+      },
+      "properties": {
+        "name": "Ding Tea",
         "source_university": "Tòa E3 - Đại học Công Nghệ",
         "category": "food"
       }

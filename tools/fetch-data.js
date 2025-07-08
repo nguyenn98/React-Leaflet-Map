@@ -3,7 +3,7 @@ const path = require("path");
 const axios = require("axios");
 
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
-const RADIUS_FOOD = 1200; // bán kính 1.2km
+const RADIUS_FOOD = 1100; // bán kính 1.1km
 const RADIUS_SERVICES = 2000; // bán kính 2km
 const RADIUS_HOUSING = 5500; // bán kính 5.5km
 
@@ -16,7 +16,7 @@ const buildOverpassQuery = (lat, lon, category) => {
                 node["amenity"="restaurant"](around:${RADIUS_FOOD},${lat},${lon});
                 node["cuisine"="street_food"](around:${RADIUS_FOOD},${lat},${lon});
                 node["amenity"="fast_food"](around:${RADIUS_FOOD},${lat},${lon});
-                node["name"~"quán ăn|bún|phở|mì|cơm|cháo|hủ tiếu", i](around:${RADIUS_FOOD},${lat},${lon});
+                node["name"~"quán ăn|bún|phở|mì|cơm|cháo|hủ tiếu|trà sữa|tea|bình dân|sinh viên|rẻ tiền|xiên bẩn|vỉa hè|lẩu|nướng|nhậu", i](around:${RADIUS_FOOD},${lat},${lon});
                 );
                 out body;
                 `;
@@ -33,25 +33,15 @@ const buildOverpassQuery = (lat, lon, category) => {
                 out body;
                 `;
 
-        // case "housing":
-        //     return `
-        //         [out:json][timeout:25];
-        //         (
-        //         node["building"~"apartments|dormitory|terrace|semidetached"](around:${RADIUS_HOUSING},${lat},${lon});
-        //         node["name"~"nhà trọ|phòng trọ|phòng thuê|cho thuê|ktx|kí túc xá|ký túc xá|homestay|khu tập thể|chung cư mini|ở ghép|phòng ghép|phòng trọ chung chủ|phòng trọ riêng lẻ|căn hộ dịch vụ", i]
-        //             (around:${RADIUS_HOUSING},${lat},${lon})
-        //         );
-        //         out center;
-        //     `;
         case "housing":
-    return `
-        [out:json][timeout:25];
-        (
-        node["building"~"apartments|dormitory|terrace|semidetached"](around:${RADIUS_HOUSING},${lat},${lon});
-        node["name"~"nhà trọ|phòng trọ|làng sinh viên|homestay|khu tập thể|chung cư mini|phòng ghép|ở ghép|phòng trọ chung chủ|phòng trọ riêng lẻ|phòng thuê", i](around:${RADIUS_HOUSING},${lat},${lon});
-        );
-        out body;
-        `;
+            return `
+                [out:json][timeout:25];
+                (
+                node["building"~"apartments|dormitory|terrace|semidetached"](around:${RADIUS_HOUSING},${lat},${lon});
+                node["name"~"nhà trọ|phòng trọ|làng sinh viên|homestay|khu tập thể|chung cư mini|phòng ghép|ở ghép|phòng trọ chung chủ|phòng trọ riêng lẻ|phòng thuê", i](around:${RADIUS_HOUSING},${lat},${lon});
+                );
+                out body;
+                `;
 
 
         default:
@@ -110,8 +100,8 @@ const fetchNearbyData = async () => {
         };
 
         await fetchCategory("food", food, "Quán ăn");
-        await fetchCategory("services", services, "Dịch vụ");
-        await fetchCategory("housing", housing, "Nhà trọ");
+        // await fetchCategory("services", services, "Dịch vụ");
+        // await fetchCategory("housing", housing, "Nhà trọ");
 
         await new Promise((res) => setTimeout(res, 1200)); // chống spam API
     }
@@ -122,13 +112,13 @@ const fetchNearbyData = async () => {
         type: "FeatureCollection", features: food
     }, { spaces: 2 });
 
-    await fs.writeJson(path.join(__dirname, "../data/services.geojson"), {
-        type: "FeatureCollection", features: services
-    }, { spaces: 2 });
+    // await fs.writeJson(path.join(__dirname, "../data/services.geojson"), {
+    //     type: "FeatureCollection", features: services
+    // }, { spaces: 2 });
 
-    await fs.writeJson(path.join(__dirname, "../data/housing.geojson"), {
-        type: "FeatureCollection", features: housing
-    }, { spaces: 2 });
+    // await fs.writeJson(path.join(__dirname, "../data/housing.geojson"), {
+    //     type: "FeatureCollection", features: housing
+    // }, { spaces: 2 });
 
     console.log("✅ Hoàn tất. Đã tạo 3 file .geojson trong thư mục /data/");
 };
