@@ -9920,6 +9920,1286 @@
         "type": "bookstore",
         "category": "student_services"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.843220,
+          21.004110
+        ]
+      },
+      "properties": {
+        "name": "Ocean Edu Bách Khoa",
+        "source_university": "Đại học Bách khoa Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.800540,
+          21.037260
+        ]
+      },
+      "properties": {
+        "name": "Language Link Ngoại thương",
+        "source_university": "Trường Đại học Ngoại thương",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.784820,
+          21.032920
+        ]
+      },
+      "properties": {
+        "name": "RES English Nguyễn Chí Thanh",
+        "source_university": "Trường Đại học Luật Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.773610,
+          21.038240
+        ]
+      },
+      "properties": {
+        "name": "ILA Cầu Giấy",
+        "source_university": "Trường Đại học Sư phạm Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.799570,
+          20.980150
+        ]
+      },
+      "properties": {
+        "name": "Apax Leaders Thanh Xuân",
+        "source_university": "Trường Đại học Kiến trúc Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776780,
+          21.036370
+        ]
+      },
+      "properties": {
+        "name": "Apollo English Phạm Tuấn Tài",
+        "source_university": "Trường Đại học Quốc gia Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.851710,
+          21.000720
+        ]
+      },
+      "properties": {
+        "name": "VUS Minh Khai",
+        "source_university": "Trường Đại học Kinh tế Quốc dân",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.849820,
+          21.002330
+        ]
+      },
+      "properties": {
+        "name": "KTDC IELTS Center",
+        "source_university": "Trường Đại học Xây dựng Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.850920,
+          21.003410
+        ]
+      },
+      "properties": {
+        "name": "British Council - Bách Khoa",
+        "source_university": "Đại học Bách khoa Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.769370,
+          21.038510
+        ]
+      },
+      "properties": {
+        "name": "GLN English Center",
+        "source_university": "Trường Đại học Giao thông Vận tải",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.762420,
+          21.029840
+        ]
+      },
+      "properties": {
+        "name": "EQuest English Center",
+        "source_university": "Học viện Báo chí và Tuyên truyền",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.775870,
+          21.022880
+        ]
+      },
+      "properties": {
+        "name": "LangGo - IELTS Nguyễn Phong Sắc",
+        "source_university": "Trường Đại học Thương mại",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.782630,
+          21.028670
+        ]
+      },
+      "properties": {
+        "name": "YOLA Cầu Giấy",
+        "source_university": "Trường Đại học Sư phạm Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781260,
+          21.032420
+        ]
+      },
+      "properties": {
+        "name": "AMES English Chùa Láng",
+        "source_university": "Trường Đại học Ngoại giao",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801210,
+          21.035620
+        ]
+      },
+      "properties": {
+        "name": "RES English - Vincom Nguyễn Chí Thanh",
+        "source_university": "Trường Đại học Luật Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.782040,
+          21.039920
+        ]
+      },
+      "properties": {
+        "name": "Ocean Edu Phạm Văn Đồng",
+        "source_university": "Học viện Kỹ thuật Quân sự",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.843900,
+          21.008110
+        ]
+      },
+      "properties": {
+        "name": "English Town Đại La",
+        "source_university": "Trường Đại học Kinh tế Quốc dân",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.790200,
+          21.011340
+        ]
+      },
+      "properties": {
+        "name": "The IELTS Workshop Nguyễn Trãi",
+        "source_university": "Trường Đại học Khoa học Tự nhiên",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.754320,
+          21.039870
+        ]
+      },
+      "properties": {
+        "name": "Apax Leaders Hồ Tùng Mậu",
+        "source_university": "Trường Đại học Công nghiệp Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.780820,
+          21.005810
+        ]
+      },
+      "properties": {
+        "name": "Jaxtina English Center Royal City",
+        "source_university": "Trường Đại học Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.847560,
+          20.997430
+        ]
+      },
+      "properties": {
+        "name": "ILA English Giải Phóng",
+        "source_university": "Trường Đại học Bách khoa Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.854170,
+          21.002130
+        ]
+      },
+      "properties": {
+        "name": "VUS Đại học Kinh tế Quốc dân",
+        "source_university": "Trường Đại học Kinh tế Quốc dân",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.850940,
+          21.007500
+        ]
+      },
+      "properties": {
+        "name": "RES English Lê Thanh Nghị",
+        "source_university": "Trường Đại học Y Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.836140,
+          21.045210
+        ]
+      },
+      "properties": {
+        "name": "GLN English Center Liễu Giai",
+        "source_university": "Học viện Ngoại giao",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.790210,
+          21.018870
+        ]
+      },
+      "properties": {
+        "name": "British Council Trung Hòa",
+        "source_university": "Trường Đại học Luật Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.789560,
+          21.021340
+        ]
+      },
+      "properties": {
+        "name": "Langmaster English Center",
+        "source_university": "Trường Đại học Thăng Long",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.800310,
+          21.039410
+        ]
+      },
+      "properties": {
+        "name": "Pasal English Nguyễn Chí Thanh",
+        "source_university": "Trường Đại học Giao thông Vận tải",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.849670,
+          21.043690
+        ]
+      },
+      "properties": {
+        "name": "Apollo English Kim Mã",
+        "source_university": "Trường Đại học Mỹ thuật Việt Nam",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.796430,
+          21.032180
+        ]
+      },
+      "properties": {
+        "name": "IMAP English Cầu Giấy",
+        "source_university": "Trường Đại học Sư phạm Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781690,
+          20.980610
+        ]
+      },
+      "properties": {
+        "name": "LangGo Nguyễn Xiển",
+        "source_university": "Trường Đại học Đại Nam",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.838870,
+          21.036280
+        ]
+      },
+      "properties": {
+        "name": "Oxford English UK Vietnam",
+        "source_university": "Trường Đại học Ngoại thương",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.825900,
+          21.036600
+        ]
+      },
+      "properties": {
+        "name": "Jaxtina English Center",
+        "source_university": "Trường Đại học Văn hóa Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.794390,
+          21.033350
+        ]
+      },
+      "properties": {
+        "name": "Ms Hoa TOEIC",
+        "source_university": "Trường Đại học Sư phạm Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.767380,
+          21.041400
+        ]
+      },
+      "properties": {
+        "name": "EQuest Academy",
+        "source_university": "Trường Đại học Thủ đô Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.844210,
+          20.988820
+        ]
+      },
+      "properties": {
+        "name": "Ocean Edu Giải Phóng",
+        "source_university": "Trường Đại học Xây dựng Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.842050,
+          20.995750
+        ]
+      },
+      "properties": {
+        "name": "Langmaster English Đại học KTQD",
+        "source_university": "Trường Đại học Kinh tế Quốc dân",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.828740,
+          20.998180
+        ]
+      },
+      "properties": {
+        "name": "Tổ chức giáo dục quốc tế Clever Academy",
+        "source_university": "Học viện Ngân hàng",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.833310,
+          20.999980
+        ]
+      },
+      "properties": {
+        "name": "The IELTS Workshop",
+        "source_university": "Trường Đại học Công đoàn",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.842670,
+          21.005230
+        ]
+      },
+      "properties": {
+        "name": "GLN English Center Trần Đại Nghĩa",
+        "source_university": "Trường Đại học Dược Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.841560,
+          21.028180
+        ]
+      },
+      "properties": {
+        "name": "Ocean Edu Nguyễn Văn Cừ",
+        "source_university": "Trường Đại học Mỹ thuật Công nghiệp",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776410,
+          21.035370
+        ]
+      },
+      "properties": {
+        "name": "Ocean Edu Cầu Giấy",
+        "source_university": "Học viện Kỹ thuật Mật mã",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.832510,
+          21.022300
+        ]
+      },
+      "properties": {
+        "name": "LangGo English Center",
+        "source_university": "Học viện Báo chí và Tuyên truyền",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.748320,
+          21.034050
+        ]
+      },
+      "properties": {
+        "name": "Apollo English Mỹ Đình",
+        "source_university": "Trường Đại học Thương mại",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.744820,
+          21.036270
+        ]
+      },
+      "properties": {
+        "name": "The IELTS Workshop Mỹ Đình",
+        "source_university": "Trường Đại học Sân khấu - Điện ảnh Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.772610,
+          21.027360
+        ]
+      },
+      "properties": {
+        "name": "ILA English Center",
+        "source_university": "Học viện Tài chính",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.784250,
+          21.038480
+        ]
+      },
+      "properties": {
+        "name": "GLN IELTS Xuân Thủy",
+        "source_university": "Trường Đại học Quốc gia Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.785810,
+          21.036780
+        ]
+      },
+      "properties": {
+        "name": "British Council Văn Miếu",
+        "source_university": "Trường Đại học Sư phạm Hà Nội 2",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.775680,
+          21.003470
+        ]
+      },
+      "properties": {
+        "name": "Langmaster English Academy",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.836740,
+          21.028700
+        ]
+      },
+      "properties": {
+        "name": "Jaxtina English Center - Lê Thanh Nghị",
+        "source_university": "Trường Đại học Mở Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.755970,
+          21.008940
+        ]
+      },
+      "properties": {
+        "name": "Apollo English Nguyễn Xiển",
+        "source_university": "Trường Đại học Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.850000,
+          21.004100
+        ]
+      },
+      "properties": {
+        "name": "RES English - Đại Cồ Việt",
+        "source_university": "Đại học Kinh tế Quốc dân",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.841520,
+          20.995580
+        ]
+      },
+      "properties": {
+        "name": "The IELTS Workshop - Kim Đồng",
+        "source_university": "Trường Đại học Y Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801050,
+          21.041790
+        ]
+      },
+      "properties": {
+        "name": "Aten English Center - Cầu Giấy",
+        "source_university": "Trường Đại học Sư phạm Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.791230,
+          21.034820
+        ]
+      },
+      "properties": {
+        "name": "ILA Mỹ Đình",
+        "source_university": "Trường Đại học Ngoại ngữ",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.765430,
+          21.022320
+        ]
+      },
+      "properties": {
+        "name": "LangGo Cầu Giấy",
+        "source_university": "Trường Đại học Công nghệ Giao thông vận tải",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.829120,
+          21.008470
+        ]
+      },
+      "properties": {
+        "name": "IELTS Fighter - Trương Định",
+        "source_university": "Trường Đại học Thăng Long",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.778660,
+          21.000190
+        ]
+      },
+      "properties": {
+        "name": "Langmaster English - Nguyễn Trãi",
+        "source_university": "Trường Đại học Khoa học Tự nhiên",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.747380,
+          21.045010
+        ]
+      },
+      "properties": {
+        "name": "ILA Trung Văn",
+        "source_university": "Trường Đại học Kiểm sát Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.839780,
+          21.023300
+        ]
+      },
+      "properties": {
+        "name": "British Council - Hai Bà Trưng",
+        "source_university": "Trường Đại học Dược Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.775570,
+          21.034070
+        ]
+      },
+      "properties": {
+        "name": "Apollo English - Nguyễn Chánh",
+        "source_university": "Trường Đại học Luật Hà Nội",
+        "type": "english_center",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.846320,
+          21.003350
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Tân Việt - Bách Khoa",
+        "source_university": "Đại học Bách khoa Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.845630,
+          21.004810
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Trí Tuệ",
+        "source_university": "Đại học Kinh tế Quốc dân",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.790300,
+          21.032500
+        ]
+      },
+      "properties": {
+        "name": "FAHASA Nguyễn Trãi",
+        "source_university": "Đại học Khoa học Xã hội và Nhân văn",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.800870,
+          21.033020
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Trí Đức - Xuân Thủy",
+        "source_university": "Trường Đại học Sư phạm Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.807210,
+          21.035420
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Đại học Ngoại ngữ",
+        "source_university": "Trường Đại học Ngoại ngữ",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.778910,
+          21.029880
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Alpha Books",
+        "source_university": "Đại học Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.787940,
+          21.005720
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Đại học Thủy lợi",
+        "source_university": "Trường Đại học Thủy lợi",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.773500,
+          21.033600
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Nhã Nam - Trung Hòa",
+        "source_university": "Trường Đại học Luật Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.834170,
+          20.988250
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Đại học Kiến trúc",
+        "source_university": "Trường Đại học Kiến trúc Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.849640,
+          21.014180
+        ]
+      },
+      "properties": {
+        "name": "Nhà sách Đinh Lễ",
+        "source_university": "Trường Đại học Dược Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.844891,
+          21.004123
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Bách Khoa",
+        "source_university": "Đại học Bách khoa Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.843142,
+          21.003132
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Kinh tế Quốc dân",
+        "source_university": "Đại học Kinh tế Quốc dân",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.798221,
+          21.037100
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Xuân Thủy",
+        "source_university": "Trường Đại học Ngoại ngữ",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.788000,
+          21.003500
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Tây Sơn",
+        "source_university": "Đại học Công đoàn",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.838002,
+          21.027193
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Lò Đúc",
+        "source_university": "Trường Đại học Dược Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.790152,
+          21.029412
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Nghĩa Tân",
+        "source_university": "Học viện Báo chí và Tuyên truyền",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.766002,
+          21.034192
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Hồ Tùng Mậu",
+        "source_university": "Trường Đại học Thương mại",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.832210,
+          21.036880
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Khâm Thiên",
+        "source_university": "Học viện Âm nhạc Quốc gia Việt Nam",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.847500,
+          21.025510
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Đại học Văn hóa",
+        "source_university": "Trường Đại học Văn hoá Hà Nội",
+        "type": "bookstore",
+        "category": "student_services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801670,
+          21.024311
+        ]
+      },
+      "properties": {
+        "name": "Hiệu sách cũ Cầu Giấy",
+        "source_university": "Trường Đại học Giao thông Vận tải",
+        "type": "bookstore",
+        "category": "student_services"
+      }
     }
   ]
 }
