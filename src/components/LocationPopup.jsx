@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { useMap } from "react-leaflet";
 import { MdOutlineShare, MdClose } from 'react-icons/md';
 import ReactDOM from "react-dom";
@@ -5,6 +6,8 @@ import "../styles/LocationPopup.css";
 
 const LocationPopup = ({ info, onClose }) => {
     const map = useMap();
+    const [showToast, setShowToast] = useState(false);
+
     if (!info) return null;
 
     const handleShare = () => {
@@ -13,6 +16,10 @@ const LocationPopup = ({ info, onClose }) => {
         const url = `http://localhost:3000/?vitri=${lat},${lng}&zoom=${zoom}`;
         navigator.clipboard.writeText(url);
         map.flyTo([lat, lng], zoom);
+
+        // Hiện thông báo đã sao chép
+        setShowToast(true);
+        setTimeout(() => setShowToast(false), 2500);
     };
 
     const getDetailAddress = (name, address) => {
@@ -32,7 +39,7 @@ const LocationPopup = ({ info, onClose }) => {
                     style={{ width: '84px', height: '105px', marginRight: '9px' }}
                 />
                 <div className="popupText">
-                    <div style={{ height: '99px', width: '185px'}}>
+                    <div style={{ height: '99px', width: '185px' }}>
                         <div className="title">{info.name || "Vị trí không rõ"}</div>
                         <div className="address">{getDetailAddress(info.name || "", info.address || "")}</div>
                         <hr style={{ marginTop: '2.5px' }} className="line" />
@@ -52,8 +59,17 @@ const LocationPopup = ({ info, onClose }) => {
             </div>
         </div>
     );
-
-    return ReactDOM.createPortal(popup, document.body);
+    return ReactDOM.createPortal(
+        <>
+            {popup}
+            {showToast && (
+                <div className="popup-toast">
+                    Đã sao chép liên kết!
+                </div>
+            )}
+        </>,
+        document.body
+    );
 };
 
 export default LocationPopup;

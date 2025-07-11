@@ -5,7 +5,7 @@
     z-index: 1002;
     background: #fff;
     border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     padding: 10px 12px;
     width: 337px;
     display: flex;
@@ -58,11 +58,11 @@
 }
 
 .actions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-left: 8px;
 }
 
 .share {
@@ -70,23 +70,51 @@
 }
 
 .actions button {
-  width: 35px;
-  height: 35px;
-  border: none;
-  background: #f9f9f9;          /* màu nền nhạt hơn */
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: #f9f9f9;
+    /* màu nền nhạt hơn */
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .actions button:hover {
-  background: #e8e8e8;          /* nhạt hơn khi hover */
-  transform: scale(1.1);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    background: #e8e8e8;
+    /* nhạt hơn khi hover */
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
+.popup-toast {
+    position: fixed;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e6ffed;
+    color: #2f855a;
+    padding: 10px 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    font-size: 14px;
+    z-index: 9999;
+    animation: fadeSlideDown 0.4s ease;
+}
 
+@keyframes fadeSlideDown {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
