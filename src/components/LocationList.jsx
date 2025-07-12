@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import '../styles/LocationList.css';
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -6,8 +6,30 @@ import "leaflet/dist/leaflet.css";
 const LocationList = ({ geoData, onLocationClick }) => {
     const contentRef = useRef(null);
     const [isExpanded, setIsExpanded] = useState(false);
+    const [selectedIndex, setSelectedIndex] = useState(null);
 
     const toggleExpand = () => setIsExpanded(prev => !prev);
+
+    // Reset khi danh sách bị thu gọn
+    useEffect(() => {
+        if (!isExpanded) {
+            setSelectedIndex(null);
+        }
+    }, [isExpanded]);
+
+    // Reset khi click ra ngoài danh sách
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (contentRef.current && !contentRef.current.contains(event.target)) {
+                setSelectedIndex(null);
+            }
+        };
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
 
     return (
         <div
@@ -82,19 +104,34 @@ const LocationList = ({ geoData, onLocationClick }) => {
                         }
 
                         return (
-                            <li key={index}
-                                onClick={() => onLocationClick(coords, feature )}
+                            <li
+                                key={index}
+                                onClick={() => {
+                                    onLocationClick(coords, feature);
+                                    setSelectedIndex(index);
+                                }}
                                 style={{
                                     cursor: "pointer",
                                     padding: "9px",
                                     margin: "6.2px 2px",
-                                    background: "#f4f4f4",
+                                    background:
+                                        selectedIndex === index
+                                            ? "#d0ebff"
+                                            : "var(--bg, #f4f4f4)",
+                                    color: selectedIndex === index ? "#666" : "#222",
                                     borderRadius: "5px",
                                     fontSize: '15px',
+                                    fontWeight: selectedIndex === index ? "bold" : "normal",
+                                    border: selectedIndex === index ? "1px solid #228be6" : "none",
+                                    transition: "background-color 0.2s ease",
                                 }}
+                                onMouseEnter={e => e.currentTarget.style.setProperty('--bg', '#e6f4ff')}
+                                onMouseLeave={e => e.currentTarget.style.setProperty('--bg', '#f4f4f4')}
+
                             >
                                 {feature.properties.name || "Địa điểm không rõ"}
                             </li>
+
                         );
                     })}
                 </ul>

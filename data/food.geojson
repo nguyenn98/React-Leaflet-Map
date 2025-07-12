@@ -3351,6 +3351,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          105.797465,
+          20.991372
+        ]
+      },
+      "properties": {
+        "name": "Cơm bụi Hòa Lạc",
+        "source_university": "Trường Đại học Giáo dục - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           105.763673,
           20.975428
         ]
@@ -13423,6 +13438,1191 @@
       "properties": {
         "name": "Pizza place",
         "source_university": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.774901,
+          20.980182
+        ]
+      },
+      "properties": {
+        "name": "Mì cay Seoul",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở Ngọc Trục",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.766126,
+          20.985102
+        ]
+      },
+      "properties": {
+        "name": "Bún cá rô đồng",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông - cơ sở đào tạo Ngọc Trục",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.784317,
+          21.037482
+        ]
+      },
+      "properties": {
+        "name": "Bún đậu Sinh viên",
+        "source_university": "Trường Đại học Ngoại ngữ - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.801239,
+          21.042831
+        ]
+      },
+      "properties": {
+        "name": "Cơm sinh viên Dương Quảng Hàm",
+        "source_university": "Trường Đại học Thủ đô Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.768772,
+          21.038215
+        ]
+      },
+      "properties": {
+        "name": "Bún chả Sinh viên",
+        "source_university": "Đại học Thương mại",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.768042,
+          21.036176
+        ]
+      },
+      "properties": {
+        "name": "Bún thang Cầu Diễn",
+        "source_university": "Đại học Thương mại",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.768428,
+          21.052882
+        ]
+      },
+      "properties": {
+        "name": "Bún chả Cô Béo",
+        "source_university": "Học viện Tài chính",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781268,
+          21.046139
+        ]
+      },
+      "properties": {
+        "name": "Bún bò Huế 37",
+        "source_university": "Học viện Báo chí và Tuyên truyền",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781542,
+          21.045170
+        ]
+      },
+      "properties": {
+        "name": "Cơm bình dân Hạnh Ốc",
+        "source_university": "Học viện Ngân hàng",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.784276,
+          21.036948
+        ]
+      },
+      "properties": {
+        "name": "Bánh mì Hội An",
+        "source_university": "Trường Đại học Ngoại thương",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.787511,
+          21.024760
+        ]
+      },
+      "properties": {
+        "name": "Cơm chay Thiện Tâm",
+        "source_university": "Đại học Sư phạm Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.786297,
+          21.030523
+        ]
+      },
+      "properties": {
+        "name": "Phở Bát Đàn",
+        "source_university": "Đại học Quốc gia Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.798311,
+          21.029857
+        ]
+      },
+      "properties": {
+        "name": "Bún đậu Nghĩa Tân",
+        "source_university": "Trường Đại học Luật - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78297,
+          21.03001
+        ]
+      },
+      "properties": {
+        "name": "Bún chả Sinh viên",
+        "source_university": "Trường Đại học Luật - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.791300,
+          21.034203
+        ]
+      },
+      "properties": {
+        "name": "Cơm tấm Sài Gòn",
+        "source_university": "Trường Đại học Y Dược - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78462,
+          21.02752
+        ]
+      },
+      "properties": {
+        "name": "Cơm chay Thiện Tâm",
+        "source_university": "Trường Đại học Y Dược - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.798941,
+          20.990921
+        ]
+      },
+      "properties": {
+        "name": "Quán ốc cô Lý",
+        "source_university": "Đại học Công nghệ Đông Á",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.775831,
+          20.994761
+        ]
+      },
+      "properties": {
+        "name": "Lẩu bò Cương",
+        "source_university": "Trường Đại học Kiểm sát Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77122,
+          20.98251
+        ]
+      },
+      "properties": {
+        "name": "Lẩu ếch sinh viên 39k",
+        "source_university": "Trường Đại học Kiểm sát Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.810919,
+          21.037440
+        ]
+      },
+      "properties": {
+        "name": "Bánh cuốn Phủ Lý",
+        "source_university": "Đại học Kinh doanh và Công nghệ Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.797209,
+          21.002890
+        ]
+      },
+      "properties": {
+        "name": "Phở gà ta",
+        "source_university": "Đại học Hà Nội (Hanoi University)",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.747598,
+          21.010679
+        ]
+      },
+      "properties": {
+        "name": "Lẩu ếch Lê Trọng Tấn",
+        "source_university": "Đại học Kiến trúc Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.775479,
+          21.036211
+        ]
+      },
+      "properties": {
+        "name": "Cơm bình dân Ngõ 100",
+        "source_university": "Đại học Giao thông Vận tải",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.799820,
+          20.990300
+        ]
+      },
+      "properties": {
+        "name": "Mì vằn thắn Trung Quốc",
+        "source_university": "Học viện Chính sách và Phát triển",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.776440,
+          21.030308
+        ]
+      },
+      "properties": {
+        "name": "Cơm mẹ nấu",
+        "source_university": "Trường Đại học Sư phạm Nghệ thuật Trung ương",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.799011,
+          21.037890
+        ]
+      },
+      "properties": {
+        "name": "Quán ốc Tứ Hải",
+        "source_university": "Trường Đại học Kinh tế - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78343,
+          21.02792
+        ]
+      },
+      "properties": {
+        "name": "Phở Hà Nội Xưa",
+        "source_university": "Trường Đại học Kinh tế - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.790901,
+          20.991432
+        ]
+      },
+      "properties": {
+        "name": "Bún chả lò sưởi",
+        "source_university": "Trường Đại học Văn hóa Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84152,
+          20.99855
+        ]
+      },
+      "properties": {
+        "name": "Bánh mì Pew Pew",
+        "source_university": "Trường Đại học Bách Khoa Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84097,
+          20.99786
+        ]
+      },
+      "properties": {
+        "name": "Cơm niêu sinh viên",
+        "source_university": "Trường Đại học Bách Khoa Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83988,
+          20.99752
+        ]
+      },
+      "properties": {
+        "name": "Lẩu cá kèo 135",
+        "source_university": "Trường Đại học Xây dựng Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83842,
+          20.99998
+        ]
+      },
+      "properties": {
+        "name": "Quán Mỳ Cay Sasin",
+        "source_university": "Đại học Kinh tế Quốc dân",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84742,
+          20.99455
+        ]
+      },
+      "properties": {
+        "name": "Bún chả Sinh Viên",
+        "source_university": "Học viện Ngân hàng",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.79822,
+          21.00277
+        ]
+      },
+      "properties": {
+        "name": "Gà rán KFC",
+        "source_university": "Đại học Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80382,
+          21.00332
+        ]
+      },
+      "properties": {
+        "name": "Lẩu nướng Hàn Quốc",
+        "source_university": "Học viện Y Dược học cổ truyền Việt Nam",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.79222,
+          20.99992
+        ]
+      },
+      "properties": {
+        "name": "Bún chả Hương Liên",
+        "source_university": "Đại học Kiểm sát Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78271,
+          21.03826
+        ]
+      },
+      "properties": {
+        "name": "Lẩu cá hồi",
+        "source_university": "Đại học Công nghệ - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78121,
+          21.03788
+        ]
+      },
+      "properties": {
+        "name": "Cơm rang dưa bò",
+        "source_university": "Đại học Khoa học Xã hội và Nhân văn - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78512,
+          21.03771
+        ]
+      },
+      "properties": {
+        "name": "Bún đậu mắm tôm Cô Tuyết",
+        "source_university": "Đại học Ngoại ngữ - ĐHQGHN",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.79417,
+          21.03002
+        ]
+      },
+      "properties": {
+        "name": "Quán bún bò Nam Bộ",
+        "source_university": "Đại học Giao thông Vận tải",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.76899,
+          20.98494
+        ]
+      },
+      "properties": {
+        "name": "Phở bò số 1",
+        "source_university": "Học viện Công nghệ Bưu chính Viễn thông - Ngọc Trục",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.74372,
+          21.01712
+        ]
+      },
+      "properties": {
+        "name": "Cơm gà xối mỡ",
+        "source_university": "Trường Đại học Lao động - Xã hội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.76329,
+          21.02862
+        ]
+      },
+      "properties": {
+        "name": "Nem nướng Nha Trang",
+        "source_university": "Đại học Mỹ thuật Công nghiệp",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.79652,
+          21.03745
+        ]
+      },
+      "properties": {
+        "name": "Lẩu Thái Tomyum",
+        "source_university": "Trường Đại học Việt Nhật",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78355,
+          21.02692
+        ]
+      },
+      "properties": {
+        "name": "Mì Quảng Huế",
+        "source_university": "Đại học Quốc tế RMIT",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78831,
+          20.98071
+        ]
+      },
+      "properties": {
+        "name": "Bún chả Obama",
+        "source_university": "Trường Đại học Kiến trúc Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.79601,
+          20.98744
+        ]
+      },
+      "properties": {
+        "name": "Lẩu ếch sinh viên",
+        "source_university": "Học viện Bưu chính Viễn thông",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81354,
+          21.00329
+        ]
+      },
+      "properties": {
+        "name": "Cơm tấm Cali",
+        "source_university": "Đại học Thủy Lợi",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81222,
+          21.00189
+        ]
+      },
+      "properties": {
+        "name": "Bánh mì chảo Hạnh Phúc",
+        "source_university": "Trường Đại học Công Đoàn",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.76992,
+          21.07745
+        ]
+      },
+      "properties": {
+        "name": "Phở bò Gia Truyền",
+        "source_university": "Trường Đại học Mỏ - Địa chất",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77933,
+          20.99875
+        ]
+      },
+      "properties": {
+        "name": "Cơm văn phòng Bình Dân",
+        "source_university": "Trường Đại học Sư phạm Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77722,
+          20.99852
+        ]
+      },
+      "properties": {
+        "name": "Bánh cuốn nóng",
+        "source_university": "Trường Đại học Sư phạm Nghệ thuật TW",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77313,
+          21.00121
+        ]
+      },
+      "properties": {
+        "name": "Mì cay Hàn Quốc",
+        "source_university": "Trường Đại học Văn hóa Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77521,
+          21.00055
+        ]
+      },
+      "properties": {
+        "name": "Quán nướng Zô Zô",
+        "source_university": "Trường Đại học Mở Hà Nội (cơ sở Dương Quảng Hàm)",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.79252,
+          21.00071
+        ]
+      },
+      "properties": {
+        "name": "Bún Thang Cổ truyền",
+        "source_university": "Trường Đại học Thương mại",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78711,
+          20.99675
+        ]
+      },
+      "properties": {
+        "name": "Cơm niêu gia đình",
+        "source_university": "Đại học Quốc tế Bắc Hà",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81471,
+          20.99313
+        ]
+      },
+      "properties": {
+        "name": "Bún ngan Nhàn",
+        "source_university": "Học viện Thanh thiếu niên Việt Nam",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.76531,
+          21.01191
+        ]
+      },
+      "properties": {
+        "name": "Lẩu bò nhúng dấm",
+        "source_university": "Trường Đại học Nguyễn Trãi",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80041,
+          21.03511
+        ]
+      },
+      "properties": {
+        "name": "Xôi gà cay Tứ Xuyên",
+        "source_university": "Trường Đại học Đông Đô",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78119,
+          21.04892
+        ]
+      },
+      "properties": {
+        "name": "Cháo lòng Nguyễn Chí Thanh",
+        "source_university": "Học viện Hành chính Quốc gia",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.78492,
+          20.99791
+        ]
+      },
+      "properties": {
+        "name": "Bún bò Nam Bộ Út Hằng",
+        "source_university": "Trường Đại học Sân khấu Điện ảnh Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82321,
+          21.04101
+        ]
+      },
+      "properties": {
+        "name": "Bánh canh cua đồng",
+        "source_university": "Trường Đại học Thành Đô",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.79812,
+          20.98952
+        ]
+      },
+      "properties": {
+        "name": "Chè bưởi Cô Ba",
+        "source_university": "Trường Đại học Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83712,
+          21.01422
+        ]
+      },
+      "properties": {
+        "name": "Phở Gà Quê",
+        "source_university": "Học viện Âm nhạc Quốc gia Việt Nam",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84732,
+          21.02214
+        ]
+      },
+      "properties": {
+        "name": "Bún Riêu Cua Cô Hồng",
+        "source_university": "Trường Đại học Mỹ thuật Việt Nam",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77601,
+          21.03845
+        ]
+      },
+      "properties": {
+        "name": "Bánh mì chảo sinh viên",
+        "source_university": "Trường Đại học Y tế công cộng",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.68211,
+          20.93884
+        ]
+      },
+      "properties": {
+        "name": "Cơm bình dân Hương Quê",
+        "source_university": "Trường Đại học Lâm nghiệp",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.82452,
+          21.00777
+        ]
+      },
+      "properties": {
+        "name": "Bún đậu mắm tôm Sinh Viên",
+        "source_university": "Trường Đại học Sư phạm TDTT Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77814,
+          21.05694
+        ]
+      },
+      "properties": {
+        "name": "Phở Thìn Lò Đúc",
+        "source_university": "Trường Đại học Tài nguyên và Môi trường Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.75589,
+          20.99679
+        ]
+      },
+      "properties": {
+        "name": "Mỳ cay 7 cấp độ",
+        "source_university": "Đại học Đại Nam",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80094,
+          21.00915
+        ]
+      },
+      "properties": {
+        "name": "Cơm gà Hải Nam",
+        "source_university": "Học viện Thanh thiếu niên Việt Nam",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.74327,
+          21.02214
+        ]
+      },
+      "properties": {
+        "name": "Bún cá rô đồng",
+        "source_university": "Trường Đại học Phòng cháy chữa cháy",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77712,
+          21.04217
+        ]
+      },
+      "properties": {
+        "name": "Bánh xèo miền Trung",
+        "source_university": "Đại học Quốc tế RMIT – Cơ sở Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.77984,
+          21.04511
+        ]
+      },
+      "properties": {
+        "name": "Cháo sườn sụn",
+        "source_university": "Đại học Nguyễn Trãi",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81491,
+          20.98677
+        ]
+      },
+      "properties": {
+        "name": "Bún cá cay Hải Phòng",
+        "source_university": "Đại học Công nghệ Đông Á",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.81947,
+          21.00223
+        ]
+      },
+      "properties": {
+        "name": "Phở xào bò Nam Định",
+        "source_university": "Đại học Kinh doanh và Công nghệ Hà Nội",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80491,
+          21.00714
+        ]
+      },
+      "properties": {
+        "name": "Bún bung dọc mùng",
+        "source_university": "Trường Đại học Công nghệ và Quản lý Hữu Nghị",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80712,
+          21.00873
+        ]
+      },
+      "properties": {
+        "name": "Cơm trưa đồng giá",
+        "source_university": "Trường Đại học Kinh tế Kỹ thuật Công nghiệp",
+        "category": "food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.80488,
+          21.01051
+        ]
+      },
+      "properties": {
+        "name": "Cháo vịt Tứ Xuyên",
+        "source_university": "Trường Đại học Công nghiệp Dệt may Hà Nội",
         "category": "food"
       }
     }

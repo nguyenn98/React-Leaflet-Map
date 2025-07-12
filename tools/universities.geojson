@@ -1724,22 +1724,26 @@
       "type": "Feature",
       "properties": {
         "@id": "relation/16862747",
-        "addr:city": "Hà Nội",
-        "addr:district": "Cầu Giấy",
-        "addr:province": "Hà Nội",
+        "addr:housenumber": "101",
+        "addr:street": "Nguyễn Chí Thanh",
         "addr:subdistrict": "Mai Dịch",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
         "amenity": "university",
-        "email": "skda@fpt.vn",
-        "fax": "+84 24 3834 8732",
         "name": "Trường Đại học Sân khấu - Điện ảnh Hà Nội",
         "name:en": "Hanoi Academy of Theatre and Cinema",
+        "name:vi": "Trường Đại học Sân khấu - Điện ảnh Hà Nội",
+        "name:fr": "Académie de Théâtre et de Cinéma de Hanoï",
+        "website": "https://skda.edu.vn/",
+        "email": "skda@fpt.vn",
+        "phone": "+84 24 3764 3397",
+        "fax": "+84 24 3834 8732",
         "operator": "Bộ Văn hóa, Thể thao và Du lịch",
         "operator:type": "public/government",
-        "phone": "+84 24 3764 3397",
-        "type": "multipolygon",
-        "website": "https://skda.edu.vn/",
         "wikidata": "Q10829124",
-        "wikipedia": "vi:Trường Đại học Sân khấu – Điện ảnh Hà Nội"
+        "wikipedia": "vi:Trường Đại học Sân khấu – Điện ảnh Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1869,7 +1873,7 @@
         "amenity": "university",
         "internet_access": "yes",
         "internet_access:fee": "customers",
-        "name": "Trường Đại học Ngoại ngữ",
+        "name": "Trường Đại học Ngoại ngữ - ĐHQGHN",
         "name:en": "University of Languages and International Studies",
         "name:es": "Universidad de Idiomas y Estudios Internacionales",
         "name:fr": "Université des Langues et des Études Internationales",
@@ -3410,18 +3414,27 @@
       "type": "Feature",
       "properties": {
         "@id": "relation/17666773",
-        "addr:city": "Hà Nội",
-        "addr:district": "Đống Đa",
         "addr:housenumber": "418",
         "addr:street": "Đường La Thành",
+        "addr:subdistrict": "Ô Chợ Dừa",
+        "addr:district": "Đống Đa",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
         "amenity": "university",
         "name": "Trường Đại học Văn hoá Hà Nội",
+        "name:vi": "Trường Đại học Văn hoá Hà Nội",
         "name:en": "Hanoi University of Culture",
+        "name:fr": "Université de la Culture de Hanoï",
         "name:ja": "ハノイ文化大学",
-        "type": "multipolygon",
         "website": "https://www.huc.edu.vn/",
+        "email": "vanphong@huc.edu.vn",
+        "phone": "+84 24 3851 3974",
+        "fax": "+84 24 3851 3974",
+        "operator": "Bộ Văn hóa, Thể thao và Du lịch",
+        "operator:type": "public/government",
         "wikidata": "Q10829164",
-        "wikipedia": "vi:Trường Đại học Văn hóa Hà Nội"
+        "wikipedia": "vi:Trường Đại học Văn hóa Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3708,11 +3721,24 @@
         "@id": "relation/17749064",
         "addr:housenumber": "18",
         "addr:street": "Ngõ 55 Trần Phú",
+        "addr:subdistrict": "Điện Biên",
+        "addr:district": "Ba Đình",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
         "amenity": "university",
         "name": "Trường Đại học Sư phạm Nghệ thuật Trung ương",
-        "type": "multipolygon",
+        "name:vi": "Trường Đại học Sư phạm Nghệ thuật Trung ương",
+        "name:en": "National University of Art Education",
+        "name:fr": "Université nationale de pédagogie artistique",
+        "website": "https://www.spnttw.edu.vn/",
+        "email": "spnttw@spnttw.edu.vn",
+        "phone": "+84 24 3823 6551",
+        "fax": "+84 24 3733 4261",
+        "operator": "Bộ Giáo dục và Đào tạo",
+        "operator:type": "public/government",
         "wikidata": "Q10829133",
-        "wikipedia": "vi:Trường Đại học Sư phạm Nghệ thuật Trung ương"
+        "wikipedia": "vi:Trường Đại học Sư phạm Nghệ thuật Trung ương",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4186,19 +4212,28 @@
       "type": "Feature",
       "properties": {
         "@id": "way/217338578",
-        "addr:city": "Hà Nội",
-        "addr:country": "VN",
-        "addr:district": "Hai Bà Trưng",
         "addr:housenumber": "55",
-        "addr:province": "Hà Nội",
         "addr:street": "Đường Giải Phóng",
         "addr:subdistrict": "Đồng Tâm",
+        "addr:district": "Hai Bà Trưng",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Trường Đại học Xây dựng Hà Nội",
+        "name:vi": "Trường Đại học Xây dựng Hà Nội",
         "name:en": "Hanoi University of Civil Engineering",
+        "name:fr": "Université de Génie civil de Hanoï",
         "name:id": "Universitas Teknik Sipil",
+        "website": "https://huce.edu.vn/",
+        "email": "dhxd@huce.edu.vn",
+        "phone": "+84 24 3869 3999",
+        "fax": "+84 24 3869 1680",
+        "operator": "Bộ Giáo dục và Đào tạo",
+        "operator:type": "public/government",
         "wikidata": "Q6134439",
-        "wikipedia": "vi:Trường Đại học Xây dựng Hà Nội"
+        "wikipedia": "vi:Trường Đại học Xây dựng Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -4624,17 +4659,28 @@
       "type": "Feature",
       "properties": {
         "@id": "way/308164874",
-        "addr:city": "Hà Nội",
-        "addr:country": "VN",
         "addr:housenumber": "54",
         "addr:street": "Phố Triều Khúc",
+        "addr:subdistrict": "Thanh Xuân Nam",
+        "addr:district": "Thanh Xuân",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Trường Đại học Công nghệ Giao thông vận tải",
+        "name:vi": "Trường Đại học Công nghệ Giao thông vận tải",
+        "name:en": "University of Transport Technology",
+        "name:fr": "Université des technologies du transport",
+        "website": "https://utt.edu.vn/",
+        "email": "utt@utt.edu.vn",
+        "phone": "+84 24 3854 4263",
+        "fax": "+84 24 3854 4550",
         "operator": "Bộ Giao thông vận tải",
-        "operator:type": "public",
+        "operator:type": "public/government",
         "wikidata": "Q20025751",
         "wikimedia_commons": "Category:University of Transport Technology",
-        "wikipedia": "vi:Trường Đại học Công nghệ Giao thông Vận tải"
+        "wikipedia": "vi:Trường Đại học Công nghệ Giao thông Vận tải",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -4825,26 +4871,35 @@
       "type": "Feature",
       "properties": {
         "@id": "way/398276334",
-        "addr:city": "Hà Nội",
-        "addr:country": "VN",
-        "addr:district": "Bắc Từ Liêm",
         "addr:housenumber": "41A",
-        "addr:province": "Hà Nội",
         "addr:street": "Phú Diễn",
-        "alt_name:en": "HUNRE",
+        "addr:subdistrict": "Phú Diễn",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "landuse": "institutional",
         "name": "Trường Đại học Tài nguyên và Môi trường Hà Nội",
-        "name:de": "Hanoi Universität für natürliche Ressourcen und Umwelt",
+        "name:vi": "Trường Đại học Tài nguyên và Môi trường Hà Nội",
         "name:en": "Hanoi University of Natural Resources and Environment",
         "name:fr": "Université des ressources naturelles et de l'environnement de Hanoï",
+        "name:de": "Hanoi Universität für natürliche Ressourcen und Umwelt",
         "name:ja": "ハノイ自然資源環境大学",
         "name:jv": "Hanoi Universitas of Sumber Daya lan Alam",
         "name:lo": "ມະຫາວິທະຍາໄລຊັບພະຍາກອນ ທຳ ມະຊາດແລະສິ່ງແວດລ້ອມມະຫາວິທະຍາໄລຮ່າໂນ້ຍ",
         "name:zh": "河內自然資源與環境大學",
+        "alt_name:en": "HUNRE",
         "start_date": "2010",
+        "website": "https://hunre.edu.vn/",
+        "email": "dh.tnmt@hunre.edu.vn",
+        "phone": "+84 24 3837 4549",
+        "fax": "+84 24 3837 4548",
+        "operator": "Bộ Tài nguyên và Môi trường",
+        "operator:type": "public/government",
         "wikidata": "Q18461615",
-        "wikipedia": "vi:Đại học Tài nguyên và Môi trường Hà Nội"
+        "wikipedia": "vi:Đại học Tài nguyên và Môi trường Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -5033,20 +5088,28 @@
       "type": "Feature",
       "properties": {
         "@id": "way/550031669",
-        "addr:district": "Hoài Đức",
-        "addr:province": "Hà Nội",
+        "addr:housenumber": "141",
+        "addr:street": "Đường Lê Văn Lương kéo dài",
         "addr:subdistrict": "Kim Chung",
+        "addr:district": "Hoài Đức",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "email": "hvkhqs.edu.vn@gmail.com",
         "landuse": "military",
         "name": "Học viện Khoa học Quân sự",
+        "name:vi": "Học viện Khoa học Quân sự",
         "name:en": "Military Science Academy",
+        "name:fr": "Académie des sciences militaires",
+        "website": "https://hvkhqs.edu.vn/",
+        "email": "hvkhqs.edu.vn@gmail.com",
+        "phone": "+84 24 3565 9449",
+        "fax": "+84 24 3565 9512",
         "operator": "Bộ Quốc phòng",
         "operator:type": "military",
-        "phone": "+84 435659449",
-        "website": "https://hvkhqs.edu.vn/",
         "wikidata": "Q10771888",
-        "wikipedia": "vi:Học viện Khoa học Quân sự"
+        "wikipedia": "vi:Học viện Khoa học Quân sự",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -5486,20 +5549,28 @@
       "type": "Feature",
       "properties": {
         "@id": "way/570586967",
-        "addr:city": "Hà Nội",
-        "addr:district": "Cầu Giấy",
-        "addr:province": "Hà Nội",
+        "addr:housenumber": "60",
         "addr:street": "Phố Trần Vỹ",
         "addr:subdistrict": "Mai Dịch",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Học viện Tư pháp Việt Nam",
+        "name:vi": "Học viện Tư pháp Việt Nam",
         "name:en": "Vietnam Judicial Academy",
+        "name:fr": "Académie judiciaire du Vietnam",
+        "website": "https://www.hocvientuphap.edu.vn/",
+        "email": "hocvientuphap@moj.gov.vn",
+        "phone": "+84 24 3764 3404",
+        "fax": "+84 24 3764 2070",
         "operator": "Bộ Tư pháp",
         "operator:type": "public/government",
-        "source": "grab_hanoi_2018_t4",
-        "website": "https://www.hocvientuphap.edu.vn/",
         "wikidata": "Q10771905",
-        "wikipedia": "vi:Học viện Tư pháp Việt Nam"
+        "wikipedia": "vi:Học viện Tư pháp Việt Nam",
+        "type": "multipolygon",
+        "source": "grab_hanoi_2018_t4"
       },
       "geometry": {
         "type": "Polygon",
@@ -5546,19 +5617,27 @@
       "type": "Feature",
       "properties": {
         "@id": "way/570587154",
-        "addr:city": "Hà Nội",
-        "addr:district": "Cầu Giấy",
-        "addr:province": "Hà Nội",
+        "addr:housenumber": "155",
+        "addr:street": "Phố Trần Vỹ",
         "addr:subdistrict": "Mai Dịch",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "email": "hvmvn@bvhttdl.gov.vn",
-        "fax": "+84 24 3764 3546",
         "name": "Học viện Múa Việt Nam",
+        "name:vi": "Học viện Múa Việt Nam",
         "name:en": "Vietnam Academy of Dance",
-        "phone": "+84 24 3764 3546",
+        "name:fr": "Académie vietnamienne de danse",
         "website": "https://www.vnad.edu.vn/",
+        "email": "hvmvn@bvhttdl.gov.vn",
+        "phone": "+84 24 3764 3546",
+        "fax": "+84 24 3764 3546",
+        "operator": "Bộ Văn hóa, Thể thao và Du lịch",
+        "operator:type": "public/government",
         "wikidata": "Q65172277",
-        "wikipedia": "vi:Học viện Múa Việt Nam"
+        "wikipedia": "vi:Học viện Múa Việt Nam",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -5643,11 +5722,25 @@
         "@id": "way/621979168",
         "addr:housenumber": "125",
         "addr:street": "Đường Trần Phú",
+        "addr:subdistrict": "Văn Quán",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Học viện An ninh Nhân dân",
+        "name:vi": "Học viện An ninh Nhân dân",
         "name:en": "People's Security Academy",
+        "name:fr": "Académie de sécurité publique du peuple",
+        "website": "https://ppa.edu.vn/",
+        "email": "banbientap@ppa.edu.vn",
+        "phone": "+84 24 3854 3037",
+        "fax": "+84 24 3854 3196",
+        "operator": "Bộ Công an",
+        "operator:type": "military/police",
         "wikidata": "Q25417473",
-        "wikipedia": "vi:Học viện An ninh nhân dân"
+        "wikipedia": "vi:Học viện An ninh nhân dân",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -5770,10 +5863,27 @@
       "type": "Feature",
       "properties": {
         "@id": "way/642181078",
+        "addr:housenumber": "Km15",
+        "addr:street": "Quốc lộ 32",
+        "addr:subdistrict": "Kim Chung",
+        "addr:district": "Hoài Đức",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "name": "Đại Học Thành Đô",
-        "phone": "0433861791",
-        "website": "https://thanhdo.edu.vn/"
+        "name": "Đại học Thành Đô",
+        "name:vi": "Đại học Thành Đô",
+        "name:en": "Thanh Do University",
+        "name:fr": "Université Thanh Do",
+        "website": "https://thanhdo.edu.vn/",
+        "email": "contact@thanhdo.edu.vn",
+        "phone": "+84 24 3386 1791",
+        "fax": "+84 24 3386 1792",
+        "operator": "Tư thục",
+        "operator:type": "private",
+        "wikidata": "Q111894422",
+        "wikipedia": "vi:Trường Đại học Thành Đô",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -5831,63 +5941,31 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/649534650",
-        "amenity": "university",
-        "name": "Trường Cao đẳng Kinh tế, Kỹ thuật và Thủy sản (khu 2)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              105.9364347,
-              21.09543
-            ],
-            [
-              105.9369671,
-              21.0942238
-            ],
-            [
-              105.9372005,
-              21.0934042
-            ],
-            [
-              105.9380981,
-              21.0938109
-            ],
-            [
-              105.9382224,
-              21.0938672
-            ],
-            [
-              105.9410468,
-              21.0938872
-            ],
-            [
-              105.9410334,
-              21.0954737
-            ],
-            [
-              105.9364347,
-              21.09543
-            ]
-          ]
-        ]
-      },
-      "id": "way/649534650"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/699218280",
+        "addr:housenumber": "1",
+        "addr:street": "Đường Trần Phú",
+        "addr:subdistrict": "Văn Quán",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Học viện Cảnh sát Nhân dân",
+        "name:vi": "Học viện Cảnh sát Nhân dân",
         "name:en": "Academy of People's Police",
+        "name:fr": "Académie de la Police du Peuple",
         "name:id": "Akademi Polisi Rakyat",
         "name:ko": "인민 경찰 학교",
         "name:zh": "人民警察学院",
+        "website": "https://hvcsnd.edu.vn/",
+        "email": "hvcsnd@hvcsnd.edu.vn",
+        "phone": "+84 24 3854 2763",
+        "fax": "+84 24 3854 2231",
+        "operator": "Bộ Công an",
+        "operator:type": "military/police",
         "wikidata": "Q10771884",
-        "wikipedia": "vi:Học viện Cảnh sát nhân dân"
+        "wikipedia": "vi:Học viện Cảnh sát nhân dân",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -6044,9 +6122,25 @@
         "@id": "way/699218281",
         "addr:housenumber": "1A",
         "addr:street": "Đường Đức Thắng",
+        "addr:subdistrict": "Đức Thắng",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Trường Đại học Y tế Công cộng",
-        "name:en": "Hanoi University of Public Health"
+        "name:vi": "Trường Đại học Y tế Công cộng",
+        "name:en": "Hanoi University of Public Health",
+        "name:fr": "Université de Santé publique de Hanoï",
+        "website": "https://huph.edu.vn/",
+        "email": "daotao@huph.edu.vn",
+        "phone": "+84 24 6266 2347",
+        "fax": "+84 24 6266 2175",
+        "operator": "Bộ Y tế",
+        "operator:type": "public/government",
+        "wikidata": "Q10772062",
+        "wikipedia": "vi:Trường Đại học Y tế Công cộng",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -6155,11 +6249,26 @@
         "@id": "way/699218317",
         "addr:housenumber": "58",
         "addr:street": "Đường Lê Văn Hiến",
+        "addr:subdistrict": "Đức Thắng",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Học viện Tài chính",
+        "name:vi": "Học viện Tài chính",
         "name:en": "Academy of Finance - AOF",
+        "name:fr": "Académie des finances",
         "name:zh": "财政学院",
-        "operator": "Bộ Giáo dục và Đào tạo"
+        "website": "https://hvtc.edu.vn/",
+        "email": "hvtc@hvtc.edu.vn",
+        "phone": "+84 24 3838 9408",
+        "fax": "+84 24 3838 9022",
+        "operator": "Bộ Tài chính",
+        "operator:type": "public/government",
+        "wikidata": "Q10769000",
+        "wikipedia": "vi:Học viện Tài chính",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -6244,11 +6353,26 @@
         "@id": "way/699218338",
         "addr:housenumber": "38",
         "addr:street": "Đường Đức Thắng",
+        "addr:subdistrict": "Đức Thắng",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Trường Đại học Tài nguyên và Môi trường Hà Nội (cơ sở phụ)",
-        "name:en": "University of Natural Resources and Environment",
+        "name:vi": "Trường Đại học Tài nguyên và Môi trường Hà Nội (cơ sở phụ)",
+        "name:en": "University of Natural Resources and Environment (Secondary Campus)",
+        "name:fr": "Université des ressources naturelles et de l'environnement (campus secondaire)",
         "name:zh": "自然资源与环境大学",
-        "phone": "0438385149"
+        "website": "https://hunre.edu.vn/",
+        "email": "dh.tnmt@hunre.edu.vn",
+        "phone": "+84 24 3838 5149",
+        "fax": "+84 24 3837 4548",
+        "operator": "Bộ Tài nguyên và Môi trường",
+        "operator:type": "public/government",
+        "wikidata": "Q18461615",
+        "wikipedia": "vi:Đại học Tài nguyên và Môi trường Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -6527,14 +6651,28 @@
       "type": "Feature",
       "properties": {
         "@id": "way/704159204",
-        "addr:city": "Ha Noi",
-        "addr:district": "Hoan Kiem",
         "addr:housenumber": "19",
         "addr:street": "Phố Lê Thánh Tông",
+        "addr:subdistrict": "Phan Chu Trinh",
+        "addr:district": "Hoàn Kiếm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "name": "Trường Đại học Khoa học Tự nhiên",
+        "name": "Trường Đại học Khoa học Tự nhiên - Khoa Hóa",
+        "name:vi": "Trường Đại học Khoa học Tự nhiên - Khoa Hóa",
         "name:en": "VNU University of Science",
-        "name:zh": "自然科学大学化学科"
+        "name:fr": "Université des sciences naturelles - VNU",
+        "name:zh": "自然科学大学化学科",
+        "website": "https://hus.vnu.edu.vn/",
+        "email": "hus@vnu.edu.vn",
+        "phone": "+84 24 3826 4647",
+        "fax": "+84 24 3826 1519",
+        "operator": "Đại học Quốc gia Hà Nội",
+        "operator:type": "public/government",
+        "wikidata": "Q10834070",
+        "wikipedia": "vi:Trường Đại học Khoa học Tự nhiên - Khoa Hóa, Đại học Quốc gia Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -6605,22 +6743,29 @@
       "type": "Feature",
       "properties": {
         "@id": "way/777888670",
-        "addr:city": "Hà Nội",
-        "addr:district": "Gia Lâm",
+        "addr:housenumber": "Vinhomes Ocean Park",
         "addr:place": "Khu đô thị Vinhomes Ocean Park",
-        "addr:province": "Hà Nội",
+        "addr:street": "Đường Hải Âu 1",
         "addr:subdistrict": "Đa Tốn",
+        "addr:district": "Gia Lâm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
+        "name": "Trường Đại học VinUni",
+        "name:vi": "Trường Đại học VinUni",
+        "name:en": "VinUniversity",
+        "name:fr": "Université Vin",
+        "website": "https://vinuni.edu.vn/",
         "contact:facebook": "https://www.facebook.com/vinuniversity/",
         "email": "info@vinuni.edu.vn",
-        "name": "Trường Đại học VinUni",
-        "name:en": "VinUniversity",
+        "phone": "+84 1800 8189",
+        "fax": "",
         "operator": "VinGroup",
         "operator:type": "private",
-        "phone": "+84 18008189",
-        "website": "https://vinuni.edu.vn/",
         "wikidata": "Q86012411",
-        "wikipedia": "en:VinUniversity"
+        "wikipedia": "en:VinUniversity",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -6755,20 +6900,31 @@
       "type": "Feature",
       "properties": {
         "@id": "way/792420834",
-        "addr:city": "Hà Nội",
-        "addr:district": "Chương Mỹ",
-        "addr:province": "Hà Nội",
+        "addr:housenumber": "Số 1",
         "addr:street": "Đường Hoa",
         "addr:subdistrict": "Phụng Châu",
+        "addr:district": "Chương Mỹ",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
+        "name": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội",
+        "name:vi": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội",
+        "name:en": "Hanoi University of Sports Education",
+        "name:fr": "Université de l'éducation physique de Hanoï",
         "description": "Là một trường Đại học Công lập của Việt Nam",
+        "website": "https://dhsptdtthanoi.edu.vn/",
+        "email": "dhsp.tdtt@gmail.com",
+        "phone": "+84 24 3371 0273",
+        "fax": "+84 24 3371 0273",
         "internet_access": "yes",
         "internet_access:fee": "no",
-        "name": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội",
-        "website": "https://dhsptdtthanoi.edu.vn/",
         "wheelchair": "yes",
+        "operator": "Bộ Giáo dục và Đào tạo",
+        "operator:type": "public/government",
         "wikidata": "Q10829134",
-        "wikipedia": "vi:Trường Đại học Sư phạm Thể dục Thể thao Hà Nội"
+        "wikipedia": "vi:Trường Đại học Sư phạm Thể dục Thể thao Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -6923,14 +7079,28 @@
       "type": "Feature",
       "properties": {
         "@id": "way/800878327",
+        "addr:housenumber": "Khu CNC Hòa Lạc",
+        "addr:street": "Km29 Đại lộ Thăng Long",
+        "addr:subdistrict": "Thạch Hòa",
+        "addr:district": "Thạch Thất",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "check_date": "2025-01-06",
         "name": "Trường Đại học FPT",
+        "name:vi": "Trường Đại học FPT",
         "name:en": "FPT University",
+        "name:fr": "Université FPT",
+        "check_date": "2025-01-06",
         "opening_hours": "Mo-Su 07:00-22:00",
         "website": "https://daihoc.fpt.edu.vn/",
+        "email": "caodangfpt@fe.edu.vn",
+        "phone": "+84 24 7300 1866",
+        "operator": "FPT Education",
+        "operator:type": "private",
         "wikidata": "Q610220",
-        "wikipedia": "en:FPT University"
+        "wikipedia": "en:FPT University",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -7303,17 +7473,27 @@
       "type": "Feature",
       "properties": {
         "@id": "way/828691769",
-        "addr:city": "Hà Nội",
-        "addr:district": "Bắc Từ Liêm",
         "addr:housenumber": "298",
         "addr:street": "Đường Cầu Diễn",
         "addr:subdistrict": "Minh Khai",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Trường Đại học Công nghiệp Hà Nội",
+        "name:vi": "Trường Đại học Công nghiệp Hà Nội",
+        "name:en": "Hanoi University of Industry",
+        "name:fr": "Université d'industrie de Hanoï",
+        "website": "https://www.haui.edu.vn/",
+        "email": "dhcnhn@haui.edu.vn",
+        "phone": "+84 24 3765 5121",
+        "fax": "+84 24 3764 9363",
         "operator": "Bộ Công Thương",
         "operator:type": "public/government",
         "wikidata": "Q16892082",
-        "wikipedia": "vi:Trường Đại học Công nghiệp Hà Nội"
+        "wikipedia": "vi:Trường Đại học Công nghiệp Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -7509,15 +7689,27 @@
       "type": "Feature",
       "properties": {
         "@id": "way/829266414",
-        "addr:city": "Hà Nội",
-        "addr:district": "Thanh Xuân",
         "addr:housenumber": "Km 9",
         "addr:street": "Đường Nguyễn Trãi",
+        "addr:subdistrict": "Trung Văn",
+        "addr:district": "Thanh Xuân",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Trường Đại học Hà Nội",
+        "name:vi": "Trường Đại học Hà Nội",
         "name:en": "Hanoi University",
+        "name:fr": "Université de Hanoï",
+        "website": "https://www.hanu.vn/",
+        "email": "contact@hanu.edu.vn",
+        "phone": "+84 24 3854 4338",
+        "fax": "+84 24 3854 4550",
+        "operator": "Bộ Giáo dục và Đào tạo",
+        "operator:type": "public/government",
         "wikidata": "Q10829049",
-        "wikipedia": "vi:Trường Đại học Hà Nội"
+        "wikipedia": "vi:Trường Đại học Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -7610,13 +7802,25 @@
         "@id": "way/838172055",
         "addr:housenumber": "160",
         "addr:street": "Đường Phùng Hưng",
+        "addr:subdistrict": "Phúc La",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Học viện Quân y",
+        "name:vi": "Học viện Quân y",
         "name:en": "Le Huu Trac Medical and Pharmaceutical University",
+        "name:fr": "Académie de médecine militaire",
+        "website": "https://hocvienquany.vn/",
+        "email": "hocvienquany@hocvienquany.vn",
+        "phone": "+84 24 3386 4044",
+        "fax": "+84 24 3382 6745",
         "operator": "Bộ Quốc phòng",
         "operator:type": "military",
         "wikidata": "Q10771896",
-        "wikipedia": "vi:Học viện Quân y (Việt Nam)"
+        "wikipedia": "vi:Học viện Quân y (Việt Nam)",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -7830,10 +8034,27 @@
       "type": "Feature",
       "properties": {
         "@id": "way/860064003",
+        "addr:housenumber": "101",
+        "addr:street": "Nguyễn Hiền",
+        "addr:subdistrict": "Bách Khoa",
+        "addr:district": "Hai Bà Trưng",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Trường Đại học Mở Hà Nội",
+        "name:vi": "Trường Đại học Mở Hà Nội",
+        "name:en": "Hanoi Open University",
+        "name:fr": "Université Ouverte de Hanoï",
+        "website": "https://www.hou.edu.vn/",
+        "email": "hou@hou.edu.vn",
+        "phone": "+84 24 3868 1619",
+        "fax": "+84 24 3868 4083",
+        "operator": "Bộ Giáo dục và Đào tạo",
+        "operator:type": "public/government",
         "wikidata": "Q86012409",
-        "wikipedia": "vi:Trường Đại học Mở Hà Nội"
+        "wikipedia": "vi:Trường Đại học Mở Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -8069,12 +8290,28 @@
       "properties": {
         "@id": "way/870427259",
         "alt_name": "Trường Sĩ quan Lục quân 1",
+        "addr:street": "Quốc lộ 21",
+        "addr:subdistrict": "Cổ Đông",
+        "addr:district": "Sơn Tây",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
+        "name": "Trường Đại học Trần Quốc Tuấn",
+        "name:vi": "Trường Đại học Trần Quốc Tuấn",
+        "name:en": "Tran Quoc Tuan University",
+        "name:fr": "Université Tran Quoc Tuan",
         "barrier": "fence",
         "landuse": "military",
         "military": "academy",
-        "name": "Trường Đại học Trần Quốc Tuấn",
-        "name:en": "Tran Quoc Tuan University"
+        "operator": "Bộ Quốc phòng",
+        "operator:type": "military",
+        "website": "https://www.lucquan1.edu.vn/",
+        "email": "lq1@lucquan1.edu.vn",
+        "phone": "+84 24 3388 6692",
+        "wikidata": "Q10772107",
+        "wikipedia": "vi:Trường Sĩ quan Lục quân 1",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -8709,13 +8946,27 @@
         "@id": "way/875488223",
         "addr:housenumber": "8",
         "addr:street": "Phố Bùi Xuân Phái",
+        "addr:subdistrict": "Mễ Trì",
+        "addr:district": "Nam Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
+        "name": "Trường Đại học Hòa Bình",
+        "name:vi": "Trường Đại học Hòa Bình",
+        "name:en": "Hoa Binh University",
+        "name:fr": "Université Hoa Binh",
+        "website": "https://hbu.edu.vn/",
         "contact:facebook": "https://www.facebook.com/daihochoabinh28022",
+        "email": "contact@hbu.edu.vn",
+        "phone": "+84 24 3557 6023",
         "internet_access": "yes",
         "internet_access:fee": "no",
-        "name": "Trường Đại học Hòa Bình",
+        "operator": "Tư thục",
+        "operator:type": "private",
         "wikidata": "Q10829052",
-        "wikipedia": "vi:Trường Đại học Hòa Bình"
+        "wikipedia": "vi:Trường Đại học Hòa Bình",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -8775,7 +9026,7 @@
         "amenity": "university",
         "contact:facebook": "https://www.facebook.com/HVHCQGNAPA",
         "fax": "+84 243 8358943",
-        "name": "Học viện Hành chính Quốc gia",
+        "name": "Học viện Hành chính Quốc gia (trụ sở chính)",
         "name:en": "National Academy of Public Administration",
         "phone": "+84 243 8343223",
         "website": "https://www1.napa.vn/",
@@ -8848,12 +9099,26 @@
       "type": "Feature",
       "properties": {
         "@id": "way/876528925",
-        "addr:city": "Hà Nội",
         "addr:housenumber": "250",
-        "addr:province": "Hà Nội",
         "addr:street": "Phố Vũ Hữu",
+        "addr:subdistrict": "Nhân Chính",
+        "addr:district": "Thanh Xuân",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "name": "Học viện Chính trị khu vực I"
+        "name": "Học viện Chính trị khu vực I",
+        "name:vi": "Học viện Chính trị khu vực I",
+        "name:en": "Regional Political Academy I",
+        "name:fr": "Académie régionale de politique I",
+        "website": "https://hcma1.vn/",
+        "email": "hocvienchinhtri1@hcma1.vn",
+        "phone": "+84 24 3556 3513",
+        "operator": "Học viện Chính trị Quốc gia Hồ Chí Minh",
+        "operator:type": "public/government",
+        "wikidata": "Q118984524",
+        "wikipedia": "vi:Học viện Chính trị khu vực I",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -8926,9 +9191,26 @@
         "@id": "way/883183192",
         "addr:housenumber": "48",
         "addr:street": "Phố Tăng Bạt Hổ",
+        "addr:subdistrict": "Phạm Đình Hổ",
+        "addr:district": "Hai Bà Trưng",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "name": "Trường Đại học Y Hà Nội",
-        "note": "Cơ sở làm việc và giảng đường của bộ môn Giải phẫu, Y vật lý và khoa Y học cổ truyền"
+        "name": "Trường Đại học Y Hà Nội (cơ sở phụ)",
+        "name:vi": "Trường Đại học Y Hà Nội (cơ sở phụ)",
+        "name:en": "Hanoi Medical University",
+        "name:fr": "Université de Médecine de Hanoï",
+        "website": "https://hmu.edu.vn/",
+        "email": "hmu@hmu.edu.vn",
+        "phone": "+84 24 3852 3798",
+        "fax": "+84 24 3852 5144",
+        "operator": "Bộ Y tế",
+        "operator:type": "public/government",
+        "wikidata": "Q3914111",
+        "wikipedia": "vi:Trường Đại học Y Hà Nội",
+        "note": "Cơ sở làm việc và giảng đường của bộ môn Giải phẫu, Y vật lý và khoa Y học cổ truyền",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -8971,17 +9253,28 @@
       "type": "Feature",
       "properties": {
         "@id": "way/892554716",
-        "addr:city": "Hà Nội",
-        "addr:district": "Thanh Xuân",
         "addr:housenumber": "477",
-        "addr:province": "Hà Nội",
         "addr:street": "Đường Nguyễn Trãi",
+        "addr:subdistrict": "Thanh Xuân Nam",
+        "addr:district": "Thanh Xuân",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "building": "university",
         "building:levels": "11",
         "name": "Học viện Khoa học Xã hội",
+        "name:vi": "Học viện Khoa học Xã hội",
+        "name:en": "Academy of Social Sciences",
+        "name:fr": "Académie des sciences sociales",
+        "website": "https://gass.edu.vn/",
+        "email": "info@gass.edu.vn",
+        "phone": "+84 24 3557 4961",
+        "operator": "Viện Hàn lâm Khoa học Xã hội Việt Nam",
+        "operator:type": "public/government",
         "wikidata": "Q10771889",
-        "wikipedia": "vi:Học viện Khoa học Xã hội"
+        "wikipedia": "vi:Học viện Khoa học Xã hội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -9040,18 +9333,26 @@
       "type": "Feature",
       "properties": {
         "@id": "way/895143473",
-        "addr:city": "Hà Nội",
-        "addr:district": "Gia Lâm",
         "addr:street": "Phố Ngô Xuân Quảng",
+        "addr:housenumber": "Trâu Quỳ",
         "addr:subdistrict": "Thị trấn Trâu Quỳ",
+        "addr:district": "Gia Lâm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Học viện Nông nghiệp Việt Nam",
+        "name:vi": "Học viện Nông nghiệp Việt Nam",
         "name:en": "Vietnam National University of Agriculture",
+        "name:fr": "Université nationale d'agriculture du Vietnam",
+        "website": "https://www.vnua.edu.vn/",
+        "email": "contact@vnua.edu.vn",
+        "phone": "+84 24 6261 7529",
         "operator": "Bộ Nông nghiệp và Phát triển nông thôn",
         "operator:type": "public/government",
-        "website": "https://www.vnua.edu.vn/",
         "wikidata": "Q5649335",
-        "wikipedia": "vi:Học viện Nông nghiệp Việt Nam"
+        "wikipedia": "vi:Học viện Nông nghiệp Việt Nam",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -9636,10 +9937,24 @@
       "type": "Feature",
       "properties": {
         "@id": "way/923220611",
+        "addr:street": "Đại lộ Thăng Long",
+        "addr:subdistrict": "Thạch Hòa",
+        "addr:district": "Thạch Thất",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "check_date": "2025-01-06",
         "name": "Đại học Quốc gia Hà Nội tại Hòa Lạc",
-        "name:en": "Vietnam National University – Hoa Lac Campus"
+        "name:vi": "Đại học Quốc gia Hà Nội tại Hòa Lạc",
+        "name:en": "Vietnam National University – Hoa Lac Campus",
+        "name:fr": "Université nationale du Vietnam – Campus de Hoa Lac",
+        "website": "https://www.vnu.edu.vn/",
+        "operator": "Đại học Quốc gia Hà Nội",
+        "operator:type": "public/government",
+        "wikidata": "Q111347501",
+        "wikipedia": "vi:Đại học Quốc gia Hà Nội tại Hòa Lạc",
+        "check_date": "2025-01-06",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -9806,17 +10121,27 @@
       "type": "Feature",
       "properties": {
         "@id": "way/925941337",
-        "addr:district": "Chương Mỹ",
-        "addr:province": "Hà Nội",
+        "addr:housenumber": "Số 1",
         "addr:street": "Quốc lộ 21",
         "addr:subdistrict": "Xuân Mai",
+        "addr:district": "Chương Mỹ",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "internet_access": "yes",
         "name": "Trường Đại học Lâm nghiệp",
+        "name:vi": "Trường Đại học Lâm nghiệp",
         "name:en": "Vietnam National University of Forestry",
+        "name:fr": "Université nationale des sciences forestières du Vietnam",
+        "internet_access": "yes",
         "website": "https://vnuf.edu.vn",
+        "email": "daotao@vnuf.edu.vn",
+        "phone": "+84 24 3384 0993",
+        "operator": "Bộ Nông nghiệp và Phát triển nông thôn",
+        "operator:type": "public/government",
         "wikidata": "Q10829090",
-        "wikipedia": "vi:Trường Đại học Lâm nghiệp"
+        "wikipedia": "vi:Trường Đại học Lâm nghiệp",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -9923,13 +10248,26 @@
       "type": "Feature",
       "properties": {
         "@id": "way/939272956",
+        "addr:housenumber": "Số 45",
+        "addr:street": "Quốc lộ 21",
+        "addr:subdistrict": "Phù Cát",
+        "addr:district": "Quốc Oai",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "email": "banbtxb@gmail.com",
         "name": "Trường Đại học Chính trị",
+        "name:vi": "Trường Đại học Chính trị",
         "name:en": "Political University",
+        "name:zh": "政治大学",
+        "email": "banbtxb@gmail.com",
+        "phone": "+84 24 3399 7125",
+        "website": "http://daihocchinhtri.edu.vn",
         "operator": "Bộ Quốc phòng",
         "operator:type": "military",
-        "website": "http://daihocchinhtri.edu.vn"
+        "wikidata": "Q113040373",
+        "wikipedia": "vi:Trường Đại học Chính trị",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -10034,8 +10372,21 @@
         "@id": "way/940668400",
         "addr:housenumber": "6",
         "addr:street": "Phố Vĩnh Phúc",
+        "addr:subdistrict": "Vĩnh Phúc",
+        "addr:district": "Ba Đình",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "name": "Trường Đại học Thủ đô Hà Nội (cơ sở 3)"
+        "name": "Trường Đại học Thủ đô Hà Nội (cơ sở 3)",
+        "name:vi": "Trường Đại học Thủ đô Hà Nội (cơ sở 3)",
+        "name:en": "Hanoi Metropolitan University (Campus 3)",
+        "operator": "Ủy ban Nhân dân Thành phố Hà Nội",
+        "operator:type": "public/government",
+        "website": "https://hnmu.edu.vn/",
+        "wikidata": "Q10829070",
+        "wikipedia": "vi:Trường Đại học Thủ đô Hà Nội",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -10074,8 +10425,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/942415474",
+        "addr:housenumber": "101",
+        "addr:street": "Nguyễn Chí Thanh",
+        "addr:subdistrict": "Láng Hạ",
+        "addr:district": "Đống Đa",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "name": "Học viện Chính trị"
+        "name": "Học viện Chính trị",
+        "name:vi": "Học viện Chính trị",
+        "name:en": "Political Academy",
+        "operator": "Bộ Quốc phòng",
+        "operator:type": "military",
+        "website": "https://hocvienchinhtriqsvn.edu.vn/",
+        "email": "hocvienchinhtriqsvn@gmail.com",
+        "phone": "+84 24 3773 3545",
+        "wikidata": "Q113040374",
+        "wikipedia": "vi:Học viện Chính trị (Việt Nam)",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -10257,13 +10625,22 @@
         "addr:city": "Hà Nội",
         "addr:district": "Sơn Tây",
         "addr:subdistrict": "Sơn Lộc",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "landuse": "military",
         "name": "Học viện Biên phòng",
+        "name:vi": "Học viện Biên phòng",
+        "name:en": "Border Defense Academy",
         "operator": "Bộ tư lệnh Bộ đội Biên phòng",
         "operator:type": "military",
+        "website": "https://hvbp.edu.vn/",
+        "email": "hocvienbienphong@bqp.gov.vn",
+        "phone": "+84 24 3362 6785",
         "wikidata": "Q10771875",
-        "wikipedia": "vi:Học viện Biên phòng (Việt Nam)"
+        "wikipedia": "vi:Học viện Biên phòng (Việt Nam)",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/3/3c/H%E1%BB%8Dc_vi%E1%BB%87n_Bi%C3%AAn_ph%C3%B2ng.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -10505,8 +10882,21 @@
         "amenity": "university",
         "landuse": "military",
         "name": "Trường Sĩ quan Pháo binh",
+        "name:en": "Artillery Officer College",
         "operator": "Binh chủng Pháo binh",
-        "operator:type": "military"
+        "operator:type": "military",
+        "addr:subdistrict": "Thụy An",
+        "addr:district": "Ba Vì",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "http://tsqpb.edu.vn/",
+        "email": "truongphphao@viettel.vn",
+        "phone": "+84 24 3388 7696",
+        "wikidata": "Q113040387",
+        "wikipedia": "vi:Trường Sĩ quan Pháo binh",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/b/b4/Si_quan_Phao_binh_logo.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -10821,12 +11211,24 @@
       "type": "Feature",
       "properties": {
         "@id": "way/961816766",
-        "addr:city": "Hà Nội",
-        "addr:district": "Thường Tín",
+        "addr:housenumber": "Số 2",
+        "addr:street": "Phố Nguyễn Trãi",
         "addr:subdistrict": "Thường Tín",
+        "addr:district": "Thường Tín",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
         "name": "Trường Đại học Thủ đô Hà Nội (cơ sở 4)",
-        "old_name": "Trường Cao đẳng Sư phạm Hà Tây"
+        "name:en": "Hanoi Metropolitan University (Campus 4)",
+        "old_name": "Trường Cao đẳng Sư phạm Hà Tây",
+        "operator": "Ủy ban Nhân dân Thành phố Hà Nội",
+        "operator:type": "public/government",
+        "website": "https://hnmu.edu.vn/",
+        "wikidata": "Q10829070",
+        "wikipedia": "vi:Trường Đại học Thủ đô Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/d/d4/Logo_Trường_Đại_học_Thủ_đô_Hà_Nội.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11023,8 +11425,23 @@
         "@id": "way/963557968",
         "addr:housenumber": "36",
         "addr:street": "Đường Xuân La",
+        "addr:subdistrict": "Xuân La",
+        "addr:district": "Tây Hồ",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
         "amenity": "university",
-        "name": "Học viện Hành chính Quốc gia"
+        "name": "Học viện Hành chính Quốc gia (cơ sở 1)",
+        "name:en": "National Academy of Public Administration",
+        "operator": "Bộ Nội vụ",
+        "operator:type": "public/government",
+        "website": "https://www1.napa.vn/",
+        "email": "napa@napa.vn",
+        "phone": "+84 24 3756 4554",
+        "wikidata": "Q10772008",
+        "wikipedia": "vi:Học viện Hành chính Quốc gia",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/2/28/Logo_Học_viện_Hành_chính_Quốc_gia.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11081,8 +11498,23 @@
         "@id": "way/963557982",
         "amenity": "university",
         "name": "Trường Đại học Kinh tế Kỹ thuật Công nghiệp",
+        "name:en": "University of Economics - Technical Industries",
+        "operator": "Bộ Công Thương",
+        "operator:type": "public/government",
+        "addr:housenumber": "456",
+        "addr:street": "Minh Khai",
+        "addr:subdistrict": "Vĩnh Tuy",
+        "addr:district": "Hai Bà Trưng",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://uneti.edu.vn/",
+        "email": "dhktkthn@moit.edu.vn",
+        "phone": "+84 24 3862 3537",
         "wikidata": "Q10829072",
-        "wikipedia": "vi:Trường Đại học Kinh tế – Kỹ thuật Công nghiệp"
+        "wikipedia": "vi:Trường Đại học Kinh tế – Kỹ thuật Công nghiệp",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/e/e6/Logo_UNETI.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11216,14 +11648,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/973433275",
-        "addr:city": "Hà Nội",
-        "addr:district": "Hà Đông",
-        "addr:street": "Phố Nguyễn Trác",
-        "addr:subdistrict": "Yên Nghĩa",
         "amenity": "university",
         "name": "Trường Đại học Phenikaa",
         "name:en": "Phenikaa University",
-        "website": "https://phenikaa-uni.edu.vn/"
+        "operator": "Tập đoàn Phenikaa",
+        "operator:type": "private",
+        "addr:housenumber": "Yên Nghĩa",
+        "addr:street": "Phố Nguyễn Trác",
+        "addr:subdistrict": "Yên Nghĩa",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://phenikaa-uni.edu.vn/",
+        "email": "contact@phenikaa-uni.edu.vn",
+        "phone": "+84 24 6262 7798",
+        "wikidata": "Q96479437",
+        "wikipedia": "vi:Trường Đại học Phenikaa",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/d/d5/Logo_Dai_hoc_Phenikaa.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11310,17 +11753,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/975270311",
-        "addr:district": "Sóc Sơn",
-        "addr:province": "Hà Nội",
-        "addr:subdistrict": "Mai Đình",
         "amenity": "university",
-        "email": "banbientap@hnmu.edu.vn",
         "name": "Trường Đại học Thủ đô Hà Nội (cơ sở 2)",
-        "name:en": "Hanoi Metropolitan University",
+        "name:en": "Hanoi Metropolitan University (Campus 2)",
+        "operator": "Ủy ban Nhân dân Thành phố Hà Nội",
+        "operator:type": "public/government",
+        "addr:housenumber": "Đang cập nhật",
+        "addr:street": "Đường Quốc lộ 2",
+        "addr:subdistrict": "Mai Đình",
+        "addr:district": "Sóc Sơn",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "email": "banbientap@hnmu.edu.vn",
         "phone": "+84 24 3833 0708",
         "website": "https://hnmu.edu.vn/",
         "wikidata": "Q97164619",
-        "wikipedia": "vi:Trường Đại học Thủ đô Hà Nội"
+        "wikipedia": "vi:Trường Đại học Thủ đô Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/d/d4/Logo_Trường_Đại_học_Thủ_đô_Hà_Nội.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11367,17 +11818,26 @@
       "type": "Feature",
       "properties": {
         "@id": "way/975343334",
-        "addr:district": "Sóc Sơn",
-        "addr:province": "Hà Nội",
-        "addr:subdistrict": "Phù Linh",
         "amenity": "university",
-        "email": "trisu@hvpgvn.edu.vn",
         "name": "Học viện Phật giáo Việt Nam tại Hà Nội",
         "name:en": "Vietnam Buddhist Academy in Hanoi",
         "operator": "Giáo hội Phật giáo Việt Nam",
         "operator:type": "religious",
         "religion": "buddhist",
-        "website": "http://hvpgvn.edu.vn/"
+        "addr:housenumber": "Số 1",
+        "addr:street": "Đường Phù Linh",
+        "addr:subdistrict": "Phù Linh",
+        "addr:district": "Sóc Sơn",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "email": "trisu@hvpgvn.edu.vn",
+        "website": "http://hvpgvn.edu.vn/",
+        "phone": "+84 24 3592 1616",
+        "wikidata": "Q10829112",
+        "wikipedia": "vi:Học viện Phật giáo Việt Nam tại Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/e/e8/Logo_Học_viện_Phật_giáo_Việt_Nam_tại_Hà_Nội.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11500,15 +11960,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/992400327",
-        "addr:city": "Hà Nội",
-        "addr:district": "Sơn Tây",
+        "amenity": "university",
+        "name": "Trường Đại học Công nghiệp Việt - Hung",
+        "name:en": "Vietnam - Hungary Industrial University",
+        "operator": "Bộ Công Thương",
+        "operator:type": "public/government",
         "addr:housenumber": "16",
         "addr:street": "Đường Hữu Nghị",
         "addr:subdistrict": "Xuân Khanh",
-        "amenity": "university",
-        "name": "Trường Đại học Công nghiệp Việt - Hung",
+        "addr:district": "Sơn Tây",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://vui.edu.vn/",
+        "email": "vui@vui.edu.vn",
+        "phone": "+84 24 3368 1812",
         "wikidata": "Q16480995",
-        "wikipedia": "vi:Trường Đại học Công nghiệp Việt – Hung"
+        "wikipedia": "vi:Trường Đại học Công nghiệp Việt – Hung",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/e/e1/Logo_VIET-HUNG_University.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11564,7 +12034,24 @@
       "properties": {
         "@id": "way/1016747264",
         "amenity": "university",
-        "name": "Học viện Chính sách và Phát triển"
+        "name": "Học viện Chính sách và Phát triển",
+        "name:en": "Academy of Policy and Development",
+        "operator": "Bộ Kế hoạch và Đầu tư",
+        "operator:type": "public/government",
+        "addr:housenumber": "141",
+        "addr:street": "Xuân Phương",
+        "addr:subdistrict": "Phương Canh",
+        "addr:district": "Nam Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://apd.edu.vn/",
+        "email": "hocvien@apd.edu.vn",
+        "phone": "+84 24 6686 1346",
+        "wikidata": "Q10829138",
+        "wikipedia": "vi:Học viện Chính sách và Phát triển",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/f/f0/Logo_Học_viện_Chính_sách_và_Phát_triển.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11943,7 +12430,24 @@
       "properties": {
         "@id": "way/1057877968",
         "amenity": "university",
-        "name": "Trường Đại học Công nghiệp Dệt may Hà Nội"
+        "name": "Trường Đại học Công nghiệp Dệt may Hà Nội",
+        "name:en": "Hanoi University of Textile Industry",
+        "operator": "Bộ Công Thương",
+        "operator:type": "public/government",
+        "addr:housenumber": "478",
+        "addr:street": "Đường Nguyễn Trãi",
+        "addr:subdistrict": "Thanh Xuân Trung",
+        "addr:district": "Thanh Xuân",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://hict.edu.vn/",
+        "email": "hict@hict.edu.vn",
+        "phone": "+84 24 3854 4552",
+        "wikidata": "Q10829108",
+        "wikipedia": "vi:Trường Đại học Công nghiệp Dệt may Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/3/3c/Logo_Trường_Đại_học_Công_nghiệp_Dệt_may_Hà_Nội.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12002,10 +12506,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1058072005",
+        "amenity": "university",
+        "name": "Trường Đại học Đại Nam (cơ sở 2)",
+        "name:en": "Dai Nam University (Campus 2)",
+        "operator": "Tư thục",
+        "operator:type": "private",
         "addr:housenumber": "56",
         "addr:street": "Đường Vũ Trọng Phụng",
-        "amenity": "university",
-        "name": "Trường Đại học Đại Nam (cơ sở 2)"
+        "addr:subdistrict": "Thanh Xuân Trung",
+        "addr:district": "Thanh Xuân",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://dainam.edu.vn/",
+        "email": "contact@dainam.edu.vn",
+        "phone": "+84 24 3557 9999",
+        "wikidata": "Q10829125",
+        "wikipedia": "vi:Trường Đại học Đại Nam",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/f/f9/Logo_Đại_học_Đại_Nam.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12040,10 +12559,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1058111003",
+        "amenity": "university",
+        "name": "Trường Đại học Kiểm sát Hà Nội",
+        "name:en": "Hanoi Procuratorate University",
+        "operator": "Viện Kiểm sát Nhân dân Tối cao",
+        "operator:type": "public/government",
         "addr:housenumber": "59",
         "addr:street": "Ngõ 230 Ỷ La",
-        "amenity": "university",
-        "name": "Trường Đại học Kiểm sát Hà Nội"
+        "addr:subdistrict": "Dương Nội",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://tks.edu.vn/",
+        "email": "tks@tks.edu.vn",
+        "phone": "+84 24 3359 0827",
+        "wikidata": "Q10771900",
+        "wikipedia": "vi:Trường Đại học Kiểm sát Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/8/83/Logo_Trường_Đại_học_Kiểm_sát_Hà_Nội.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12111,7 +12645,24 @@
       "properties": {
         "@id": "way/1077029466",
         "amenity": "university",
-        "name": "Học viện Toà án"
+        "name": "Học viện Tòa án",
+        "name:en": "Judicial Academy of Vietnam",
+        "operator": "Tòa án Nhân dân Tối cao",
+        "operator:type": "public/government",
+        "addr:housenumber": "431",
+        "addr:street": "Đường Quốc lộ 6",
+        "addr:subdistrict": "Phú Lãm",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://hocvientoaan.edu.vn/",
+        "email": "hocvientoaan@toaan.gov.vn",
+        "phone": "+84 24 3354 9889",
+        "wikidata": "Q10829135",
+        "wikipedia": "vi:Học viện Tòa án",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/f/f1/Logo_Học_viện_Tòa_án.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12160,8 +12711,23 @@
         "@id": "way/1077029480",
         "amenity": "university",
         "name": "Học viện Quản lý Giáo dục",
+        "name:en": "National Academy of Education Management",
+        "operator": "Bộ Giáo dục và Đào tạo",
+        "operator:type": "public/government",
+        "addr:housenumber": "31",
+        "addr:street": "Phố Phan Đình Giót",
+        "addr:subdistrict": "Phương Liệt",
+        "addr:district": "Thanh Xuân",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://naem.edu.vn/",
+        "email": "naem@moet.edu.vn",
+        "phone": "+84 24 3864 0631",
         "wikidata": "Q10771899",
-        "wikipedia": "vi:Học viện Quản lý giáo dục"
+        "wikipedia": "vi:Học viện Quản lý giáo dục",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/3/3e/Logo_Học_viện_Quản_lý_Giáo_dục.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12232,10 +12798,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1077033612",
+        "amenity": "university",
+        "name": "Học viện Y Dược học cổ truyền Việt Nam",
+        "name:en": "Vietnam Academy of Traditional Medicine",
+        "operator": "Bộ Y tế",
+        "operator:type": "public/government",
         "addr:housenumber": "2",
         "addr:street": "Đường Trần Phú",
-        "amenity": "university",
-        "name": "Học viện Y Dược học cổ truyền Việt Nam"
+        "addr:subdistrict": "Văn Quán",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://vientraditionalmedicine.edu.vn/",
+        "email": "vutm@vutm.edu.vn",
+        "phone": "+84 24 3355 8498",
+        "wikidata": "Q10829121",
+        "wikipedia": "vi:Học viện Y Dược học cổ truyền Việt Nam",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/b/b0/Logo_Học_viện_Y_Dược_học_cổ_truyền_Việt_Nam.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12278,12 +12859,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1077033616",
-        "addr:city": "Hà Nội",
-        "addr:district": "Cầu Giấy",
+        "amenity": "university",
+        "name": "Trường Đại học Phương Đông (cơ sở 1)",
+        "name:en": "Phuong Dong University",
+        "operator": "Tư thục",
+        "operator:type": "private",
+        "addr:housenumber": "171",
         "addr:street": "Phố Trung Kính",
         "addr:subdistrict": "Yên Hòa",
-        "amenity": "university",
-        "name": "Trường Đại học Phương Đông"
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "phone": "+84 24 3784 2994",
+        "email": "pdu@phuongdong.edu.vn",
+        "website": "https://phuongdong.edu.vn/",
+        "wikidata": "Q10829077",
+        "wikipedia": "vi:Trường Đại học Phương Đông",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/2/26/Logo_Trường_Đại_học_Phương_Đông.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12331,7 +12925,24 @@
       "properties": {
         "@id": "way/1077637429",
         "amenity": "university",
-        "name": "Trường Đại học Công nghệ và Quản lý Hữu Nghị"
+        "name": "Trường Đại học Công nghệ và Quản lý Hữu Nghị",
+        "name:en": "University of Technology and Management of Huu Nghi",
+        "operator": "Tư thục",
+        "operator:type": "private",
+        "addr:housenumber": "431",
+        "addr:street": "Đường Tam Trinh",
+        "addr:subdistrict": "Yên Sở",
+        "addr:district": "Hoàng Mai",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "phone": "+84 24 3640 3453",
+        "email": "contact@utm.edu.vn",
+        "website": "https://utm.edu.vn/",
+        "wikidata": "Q10771906",
+        "wikipedia": "vi:Trường Đại học Công nghệ và Quản lý Hữu Nghị",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/4/4e/Logo_Trường_Đại_học_Công_nghệ_và_Quản_lý_Hữu_Nghị.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12370,9 +12981,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1077637432",
-        "addr:street": "Ngõ 218 Lĩnh Nam",
         "amenity": "university",
-        "name": "Trường Đại học Kinh tế - Kỹ thuật Công nghiệp"
+        "name": "Trường Đại học Kinh tế - Kỹ thuật Công nghiệp",
+        "name:en": "University of Economics - Technology for Industries",
+        "addr:housenumber": "Ngõ 218",
+        "addr:street": "Lĩnh Nam",
+        "addr:subdistrict": "Vĩnh Hưng",
+        "addr:district": "Hoàng Mai",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Bộ Công Thương",
+        "operator:type": "public/government",
+        "website": "https://uneti.edu.vn/",
+        "phone": "+84 24 3862 3213",
+        "email": "uneti@uneti.edu.vn",
+        "wikidata": "Q10829072",
+        "wikipedia": "vi:Trường Đại học Kinh tế – Kỹ thuật Công nghiệp",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/b/bd/Logo_UNETI.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12428,7 +13055,23 @@
       "properties": {
         "@id": "way/1077637439",
         "amenity": "university",
-        "name": "Trường Đại học Công nghiệp Hà Nội (cơ sở 2)"
+        "name": "Trường Đại học Công nghiệp Hà Nội (cơ sở 2)",
+        "name:en": "Hanoi University of Industry (Campus 2)",
+        "addr:street": "Đường Tây Tựu",
+        "addr:subdistrict": "Tây Tựu",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Bộ Công Thương",
+        "operator:type": "public/government",
+        "website": "https://www.haui.edu.vn/",
+        "phone": "+84 24 3765 5121",
+        "email": "dhcnhn@haui.edu.vn",
+        "wikidata": "Q16892082",
+        "wikipedia": "vi:Trường Đại học Công nghiệp Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/3/3b/Logo_Trường_Đại_học_Công_nghiệp_Hà_Nội.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12520,7 +13163,21 @@
       "properties": {
         "@id": "way/1077637443",
         "amenity": "university",
-        "name": "Trường Đại học Công nghiệp Việt-Hung (cơ sở Thạch Thất)"
+        "name": "Trường Đại học Công nghiệp Việt-Hung (cơ sở Thạch Thất)",
+        "name:en": "Vietnam – Hungary Industrial University (Thach That Campus)",
+        "addr:district": "Thạch Thất",
+        "addr:subdistrict": "Thạch Hòa",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Bộ Công Thương",
+        "operator:type": "public/government",
+        "website": "https://viethung.edu.vn/",
+        "phone": "+84 24 3386 2074",
+        "email": "contact@viethung.edu.vn",
+        "wikidata": "Q16480995",
+        "wikipedia": "vi:Trường Đại học Công nghiệp Việt – Hung",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/e/ee/Logo_Trường_Đại_học_Công_nghiệp_Việt_-_Hung.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12564,7 +13221,22 @@
       "properties": {
         "@id": "way/1077637447",
         "amenity": "university",
-        "name": "Trường Đại học Điện lực (cơ sở 2)"
+        "name": "Trường Đại học Điện lực (cơ sở 2)",
+        "name:en": "Electric Power University (Campus 2)",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:subdistrict": "Phú Diễn",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Bộ Công Thương",
+        "operator:type": "public/government",
+        "website": "https://epu.edu.vn/",
+        "phone": "+84 24 2218 2902",
+        "email": "contact@epu.edu.vn",
+        "wikidata": "Q10742785",
+        "wikipedia": "vi:Trường Đại học Điện lực",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/2/22/Logo_Electric_Power_University.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12687,16 +13359,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1078177954",
-        "addr:city": "Hà Nội",
-        "addr:district": "Quận Cầu Giấy",
-        "addr:housenumber": "98",
-        "addr:province": "Hà Nội",
-        "addr:street": "Phố Dương Quảng Hàm",
-        "addr:subdistrict": "Phường Quan Hoa",
         "amenity": "university",
         "name": "Trường Đại học Thủ đô Hà Nội",
+        "name:en": "Hanoi Metropolitan University",
+        "addr:housenumber": "98",
+        "addr:street": "Phố Dương Quảng Hàm",
+        "addr:subdistrict": "Phường Quan Hoa",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Ủy ban nhân dân thành phố Hà Nội",
+        "operator:type": "public/government",
+        "website": "https://hnmu.edu.vn/",
+        "phone": "+84 24 3833 0708",
+        "email": "banbientap@hnmu.edu.vn",
         "wikidata": "Q97164619",
-        "wikipedia": "vi:Trường Đại học Thủ đô Hà Nội"
+        "wikipedia": "vi:Trường Đại học Thủ đô Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/e/e4/Logo_Trường_Đại_học_Thủ_đô_Hà_Nội.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12802,7 +13483,7 @@
         "addr:street": "Ngõ Chùa Hưng Ký",
         "addr:subdistrict": "Minh Khai",
         "amenity": "university",
-        "name": "Trường Đại học Phương Đông",
+        "name": "Trường Đại học Phương Đông (cơ sở 2)",
         "name:en": "Phuong Dong University",
         "website": "https://phuongdong.edu.vn/",
         "wikidata": "Q10829112",
@@ -12882,7 +13563,24 @@
       "properties": {
         "@id": "way/1162059699",
         "amenity": "university",
-        "name": "Trường Cao đẳng Truyền hình"
+        "name": "Trường Cao đẳng Truyền hình",
+        "name:en": "College of Television",
+        "addr:housenumber": "36",
+        "addr:street": "Đường Trần Phú",
+        "addr:subdistrict": "Phường Mộ Lao",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Đài Truyền hình Việt Nam (VTV)",
+        "operator:type": "public/government",
+        "website": "https://ctv.vtv.vn/",
+        "phone": "+84 24 3854 7556",
+        "email": "ctv@vtv.vn",
+        "wikidata": "Q10772391",
+        "wikipedia": "vi:Trường Cao đẳng Truyền hình",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/7/7e/Logo_Trường_Cao_đẳng_Truyền_hình_Việt_Nam.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -12957,12 +13655,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1165329234",
-        "addr:housenumber": "243",
-        "addr:street": "Đường Khuất Duy Tiến",
         "amenity": "university",
         "name": "Trường Đại học Phòng cháy chữa cháy",
+        "name:en": "University of Fire Prevention and Fighting",
+        "addr:housenumber": "243",
+        "addr:street": "Đường Khuất Duy Tiến",
+        "addr:subdistrict": "Nhân Chính",
+        "addr:district": "Thanh Xuân",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Bộ Công an",
+        "operator:type": "military",
+        "website": "https://daihocpccc.edu.vn/",
+        "email": "pccc@daihocpccc.edu.vn",
+        "phone": "+84 24 3557 2476",
         "wikidata": "Q20026261",
-        "wikipedia": "vi:Trường Đại học Phòng cháy chữa cháy (Việt Nam)"
+        "wikipedia": "vi:Trường Đại học Phòng cháy chữa cháy (Việt Nam)",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/4/44/Logo_Trường_Đại_học_PCCC.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13070,7 +13781,24 @@
       "properties": {
         "@id": "way/1172381259",
         "amenity": "university",
-        "name": "Học viện Kỹ thuật Mật mã"
+        "name": "Học viện Kỹ thuật Mật mã",
+        "name:en": "Academy of Cryptography Techniques",
+        "addr:housenumber": "141",
+        "addr:street": "Đường Chiến Thắng",
+        "addr:subdistrict": "Tân Triều",
+        "addr:district": "Thanh Trì",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Bộ Quốc phòng",
+        "operator:type": "military",
+        "website": "https://actvn.edu.vn/",
+        "email": "info@actvn.edu.vn",
+        "phone": "+84 24 3854 4473",
+        "wikidata": "Q10772047",
+        "wikipedia": "vi:Học viện Kỹ thuật Mật mã",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/f/f5/Logo_Học_viện_Kỹ_thuật_Mật_mã.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13133,19 +13861,22 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1175934342",
+        "amenity": "university",
+        "name": "Học viện Hậu cần",
+        "name:en": "Military Academy of Logistics",
         "addr:city": "Hà Nội",
         "addr:district": "Long Biên",
         "addr:province": "Hà Nội",
         "addr:subdistrict": "Ngọc Thụy",
-        "amenity": "university",
+        "addr:country": "VN",
         "landuse": "military",
-        "name": "Học viện Hậu cần",
-        "name:en": "Military Academy of Logistics",
         "operator": "Bộ Quốc phòng",
         "operator:type": "military",
         "website": "http://hocvienhaucan.edu.vn/",
         "wikidata": "Q10771887",
-        "wikipedia": "vi:Học viện Hậu cần (Việt Nam)"
+        "wikipedia": "vi:Học viện Hậu cần (Việt Nam)",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/9/93/Logo_Học_viện_Hậu_cần.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13232,9 +13963,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1181961551",
-        "addr:housenumber": "29A",
         "amenity": "university",
-        "name": "Trường Đại học Kinh doanh và Công nghệ Hà Nội"
+        "name": "Trường Đại học Kinh doanh và Công nghệ Hà Nội",
+        "name:en": "Hanoi University of Business and Technology",
+        "addr:housenumber": "29A",
+        "addr:street": "Đường Vĩnh Tuy",
+        "addr:subdistrict": "Vĩnh Tuy",
+        "addr:district": "Hai Bà Trưng",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Tư thục",
+        "operator:type": "private",
+        "website": "https://hubt.edu.vn/",
+        "email": "contact@hubt.edu.vn",
+        "phone": "+84 24 3861 2179",
+        "wikidata": "Q10829170",
+        "wikipedia": "vi:Trường Đại học Kinh doanh và Công nghệ Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/f/f9/Logo_HUBT.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13309,9 +14056,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1181961560",
-        "addr:street": "Đường Hữu Nghị",
         "amenity": "university",
-        "name": "Trường Đại học Lao động - Xã hội (cơ sở Sơn Tây)"
+        "name": "Trường Đại học Lao động - Xã hội (cơ sở Sơn Tây)",
+        "name:en": "University of Labour and Social Affairs (Son Tay campus)",
+        "addr:housenumber": "Lô 6",
+        "addr:street": "Đường Hữu Nghị",
+        "addr:subdistrict": "Xuân Khanh",
+        "addr:district": "Sơn Tây",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Bộ Lao động - Thương binh và Xã hội",
+        "operator:type": "public/government",
+        "website": "https://ulsa.edu.vn/",
+        "email": "dhldxh@ulsa.edu.vn",
+        "phone": "+84 24 3858 4886",
+        "wikidata": "Q10771907",
+        "wikipedia": "vi:Trường Đại học Lao động – Xã hội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/3/37/Logo_DH_Lao_dong_Xa_hoi.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13458,10 +14221,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1181964362",
+        "amenity": "university",
+        "name": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "name:en": "Hanoi University of Finance and Banking",
         "addr:housenumber": "136",
         "addr:street": "Đường Phạm Văn Đồng",
-        "amenity": "university",
-        "name": "Trường Đại học Tài chính - Ngân hàng Hà Nội"
+        "addr:subdistrict": "Xuân Đỉnh",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "phone": "+84 24 3764 3874",
+        "email": "contact@fbu.edu.vn",
+        "website": "https://fbu.edu.vn/",
+        "operator": "Tư thục",
+        "operator:type": "private",
+        "wikidata": "Q10772111",
+        "wikipedia": "vi:Trường Đại học Tài chính – Ngân hàng Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/b/b6/Logo_FBU.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13496,10 +14274,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1190565117",
+        "amenity": "university",
+        "name": "Học viện Hành chính Quốc gia (cơ sở 2)",
+        "name:en": "National Academy of Public Administration",
         "addr:housenumber": "371",
         "addr:street": "Đường Nguyễn Hoàng Tôn",
-        "amenity": "university",
-        "name": "Học viện Hành chính Quốc gia"
+        "addr:subdistrict": "Xuân La",
+        "addr:district": "Tây Hồ",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "phone": "+84 24 3756 4496",
+        "email": "hvhanhchinh@moha.gov.vn",
+        "website": "https://www1.napa.vn/",
+        "operator": "Bộ Nội vụ",
+        "operator:type": "public/government",
+        "wikidata": "Q10771891",
+        "wikipedia": "vi:Học viện Hành chính Quốc gia",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/6/66/Logo_HVHCQG.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13542,10 +14335,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1198891357",
+        "amenity": "university",
+        "name": "Học viện Tài chính",
+        "name:en": "Academy of Finance - AOF",
         "addr:housenumber": "69",
         "addr:street": "Đường Đức Thắng",
-        "amenity": "university",
-        "name": "Học viện Tài chính"
+        "addr:subdistrict": "Đức Thắng",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "phone": "+84 24 3838 5149",
+        "email": "hocvientaichinh@aof.edu.vn",
+        "website": "https://www.hvtc.edu.vn/",
+        "operator": "Bộ Tài chính",
+        "operator:type": "public/government",
+        "wikidata": "Q10829137",
+        "wikipedia": "vi:Học viện Tài chính",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/1/14/Logo_Hoc_vien_Tai_chinh.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13658,9 +14466,24 @@
         "@id": "way/1248223562",
         "amenity": "university",
         "area": "yes",
-        "name": "Trường Quản trị Và Kinh Doanh",
-        "name:en": "Hanoi School of Business",
-        "website": "https://hsb.edu.vn"
+        "name": "Trường Quản trị và Kinh doanh",
+        "name:en": "Hanoi School of Business and Management",
+        "addr:housenumber": "144",
+        "addr:street": "Đường Xuân Thủy",
+        "addr:subdistrict": "Dịch Vọng Hậu",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://hsb.edu.vn/",
+        "email": "hsb@vnu.edu.vn",
+        "phone": "+84 24 3754 7506",
+        "operator": "Đại học Quốc gia Hà Nội",
+        "operator:type": "public/government",
+        "wikidata": "Q10829150",
+        "wikipedia": "vi:Trường Quản trị và Kinh doanh, Đại học Quốc gia Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/3/3b/Logo_HSB_VNU.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13764,7 +14587,24 @@
       "properties": {
         "@id": "way/1292765533",
         "amenity": "university",
-        "name": "Học viện Ngân hàng - Cơ sở đào tạo Sơn Tây"
+        "name": "Học viện Ngân hàng - Cơ sở đào tạo Sơn Tây",
+        "name:en": "Banking Academy - Son Tay Campus",
+        "addr:housenumber": "95",
+        "addr:street": "Phố Quang Trung",
+        "addr:subdistrict": "Nguyễn Trãi",
+        "addr:district": "Sơn Tây",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Ngân hàng Nhà nước Việt Nam",
+        "operator:type": "public/government",
+        "website": "https://hocviennganhang.edu.vn/",
+        "email": "son-tay@hocviennganhang.edu.vn",
+        "phone": "+84 24 3383 6682",
+        "wikidata": "Q10829143",
+        "wikipedia": "vi:Học viện Ngân hàng",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/e/e5/Logo_Học_viện_Ngân_hàng.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13808,7 +14648,21 @@
       "properties": {
         "@id": "way/1294976834",
         "amenity": "university",
-        "name": "Trường Đại học Mỏ - Địa chất (khu B)"
+        "name": "Trường Đại học Mỏ - Địa chất (khu B)",
+        "name:en": "Hanoi University of Mining and Geology (Campus B)",
+        "addr:city": "Hà Nội",
+        "addr:district": "Bắc Từ Liêm",
+        "addr:subdistrict": "Đức Thắng",
+        "addr:street": "Đường Trần Cung",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Bộ Giáo dục và Đào tạo",
+        "operator:type": "public/government",
+        "website": "https://humg.edu.vn/",
+        "wikidata": "Q10829146",
+        "wikipedia": "vi:Trường Đại học Mỏ - Địa chất",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/1/17/Logo_HUMG.png",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -13934,161 +14788,31 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1322067049",
-        "addr:housenumber": "322E",
-        "addr:street": "Phố Lê Trọng Tấn",
-        "amenity": "university",
-        "landuse": "military",
-        "name": "Học viện Khoa học Quân sự",
-        "name:en": "Millitary Science Academy",
-        "name:vi": "Học viện Khoa học Quân sự",
-        "website": "https://hvkhqs.edu.vn"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              105.8330037,
-              20.9863629
-            ],
-            [
-              105.8336236,
-              20.9866005
-            ],
-            [
-              105.8343068,
-              20.9868663
-            ],
-            [
-              105.8345441,
-              20.9869757
-            ],
-            [
-              105.8346981,
-              20.9870936
-            ],
-            [
-              105.8343469,
-              20.9876517
-            ],
-            [
-              105.8342298,
-              20.9876718
-            ],
-            [
-              105.834085,
-              20.9878415
-            ],
-            [
-              105.8341404,
-              20.9879307
-            ],
-            [
-              105.8341281,
-              20.9879911
-            ],
-            [
-              105.8337029,
-              20.9885463
-            ],
-            [
-              105.833669,
-              20.988529
-            ],
-            [
-              105.8335797,
-              20.9886441
-            ],
-            [
-              105.8336259,
-              20.98867
-            ],
-            [
-              105.8335458,
-              20.9887908
-            ],
-            [
-              105.8336013,
-              20.9888225
-            ],
-            [
-              105.833441,
-              20.9893115
-            ],
-            [
-              105.833287,
-              20.9891734
-            ],
-            [
-              105.8331884,
-              20.9892856
-            ],
-            [
-              105.833114,
-              20.9892402
-            ],
-            [
-              105.8323565,
-              20.9887679
-            ],
-            [
-              105.8327201,
-              20.9882644
-            ],
-            [
-              105.8317626,
-              20.9876088
-            ],
-            [
-              105.8330037,
-              20.9863629
-            ]
-          ]
-        ]
-      },
-      "id": "way/1322067049"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/570590702",
         "amenity": "university",
-        "name": "Khoa Ngôn ngữ và Văn hóa Pháp",
+        "name": "Khoa Ngôn ngữ và Văn hóa Pháp, Đại học Ngoại ngữ - ĐHQGHN",
         "name:en": "Faculty of French Language and Culture",
         "name:fr": "Département de Français",
         "operator": "Trường Đại học Ngoại ngữ",
+        "operator:en": "University of Languages and International Studies",
+        "operator:fr": "Université des Langues et des Études Internationales",
+        "operator:ja": "ハノイ国家大学外国語大学",
+        "operator:zh-Hans": "河内外国语大学",
         "operator:type": "university",
+        "addr:city": "Hà Nội",
+        "addr:district": "Cầu Giấy",
+        "addr:province": "Hà Nội",
+        "addr:street": "Đường Phạm Văn Đồng",
+        "addr:subdistrict": "Dịch Vọng Hậu",
+        "alt_name": "ULIS",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
         "website": "https://dfr.ulis.vnu.edu.vn/",
-        "@relations": [
-          {
-            "role": "outer",
-            "rel": 17161287,
-            "reltags": {
-              "addr:city": "Hà Nội",
-              "addr:district": "Cầu Giấy",
-              "addr:province": "Hà Nội",
-              "addr:street": "Đường Phạm Văn Đồng",
-              "addr:subdistrict": "Dịch Vọng Hậu",
-              "alt_name": "ULIS",
-              "amenity": "university",
-              "internet_access": "yes",
-              "internet_access:fee": "customers",
-              "name": "Trường Đại học Ngoại ngữ",
-              "name:en": "University of Languages and International Studies",
-              "name:es": "Universidad de Idiomas y Estudios Internacionales",
-              "name:fr": "Université des Langues et des Études Internationales",
-              "name:ja": "ハノイ国家大学外国語大学",
-              "name:zh-Hans": "河内外国语大学",
-              "operator": "Đại học Quốc gia Hà Nội",
-              "operator:type": "university",
-              "type": "multipolygon",
-              "website": "https://ulis.vnu.edu.vn/",
-              "wikidata": "Q7895616",
-              "wikipedia": "vi:Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội"
-            }
-          }
-        ]
+        "parent_website": "https://ulis.vnu.edu.vn/",
+        "wikidata": "Q7895616",
+        "wikipedia": "vi:Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/7/7e/ULIS_Logo_2021.svg",
+        "type": "multipolygon"
       },
       "geometry": {
         "type": "Polygon",
@@ -14220,7 +14944,17 @@
       "properties": {
         "@id": "node/444655908",
         "amenity": "university",
-        "name": "Khoa Quốc Tế Đại Học Quốc Gia"
+        "name": "Khoa Quốc tế – Đại học Quốc gia Hà Nội",
+        "name:en": "VNU - International School",
+        "operator": "Đại học Quốc gia Hà Nội",
+        "operator:type": "university",
+        "addr:city": "Hà Nội",
+        "addr:district": "Cầu Giấy",
+        "addr:street": "Đường Lê Thánh Tông",
+        "website": "https://www.is.vnu.edu.vn/",
+        "wikidata": "Q10829154",
+        "wikipedia": "vi:Khoa Quốc tế, Đại học Quốc gia Hà Nội",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/f/f5/Logo_Khoa_Quoc_te_-_DHQGHN.png"
       },
       "geometry": {
         "type": "Point",
@@ -14236,7 +14970,24 @@
       "properties": {
         "@id": "node/2093083282",
         "amenity": "university",
-        "name": "RMIT International University Hanoi Campus"
+        "name": "Đại học Quốc tế RMIT – Cơ sở Hà Nội",
+        "name:en": "RMIT University Hanoi Campus",
+        "operator": "RMIT University Vietnam",
+        "operator:type": "private",
+        "addr:housenumber": "521",
+        "addr:street": "Đường Kim Mã",
+        "addr:subdistrict": "Ngọc Khánh",
+        "addr:district": "Ba Đình",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://www.rmit.edu.vn/vi/vietnam",
+        "email": "enquiries@rmit.edu.vn",
+        "phone": "+84 24 3726 1460",
+        "wikidata": "Q7333200",
+        "wikipedia": "vi:Đại học RMIT Việt Nam",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/58/RMIT_University_Logo.svg",
+        "category": "university",
+        "source": "official_website"
       },
       "geometry": {
         "type": "Point",
@@ -14252,14 +15003,33 @@
       "properties": {
         "@id": "node/6557784984",
         "amenity": "university",
-        "name": "Đại Học Nguyễn Trãi"
+        "name": "Đại học Nguyễn Trãi",
+        "name:en": "Nguyen Trai University",
+        "addr:housenumber": "28A",
+        "addr:street": "Lê Trọng Tấn",
+        "addr:subdistrict": "Dương Nội",
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "phone": "+84 24 6253 5588",
+        "email": "info@daihocnguyentrai.edu.vn",
+        "website": "https://daihocnguyentrai.edu.vn/",
+        "operator": "Tư thục",
+        "operator:type": "private",
+        "category": "university",
+        "wikidata": "Q111527003",
+        "wikipedia": "vi:Trường Đại học Nguyễn Trãi",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Logo_Nguyen_Trai_University.png",
+        "source": "official_website"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          105.8159056,
-          21.0361826
-        ]
+        "coordinates": 
+          [
+            105.81581711769105,
+            21.036351555686387
+          ]
+        
       },
       "id": "node/6557784984"
     },
@@ -14317,7 +15087,24 @@
       "properties": {
         "@id": "node/9875849047",
         "amenity": "university",
-        "name": "Học viện Dân tộc"
+        "name": "Học viện Dân tộc",
+        "name:en": "Academy of Ethnic Minorities",
+        "addr:housenumber": "39",
+        "addr:street": "Nguyễn Thị Định",
+        "addr:subdistrict": "Trung Hòa",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "operator": "Ủy ban Dân tộc",
+        "operator:type": "public/government",
+        "website": "https://hvdt.edu.vn/",
+        "email": "hocviendantoc@cema.gov.vn",
+        "phone": "+84 24 6281 6313",
+        "wikidata": "Q10771903",
+        "wikipedia": "vi:Học viện Dân tộc",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/b/b6/H%E1%BB%8Dc_vi%E1%BB%87n_D%C3%A2n_t%E1%BB%99c_logo.png",
+        "category": "university",
+        "source": "official_website"
       },
       "geometry": {
         "type": "Point",
@@ -14356,7 +15143,11 @@
       "properties": {
         "@id": "node/10893013859",
         "amenity": "university",
-        "name": "Trường Đại học Giáo dục - ĐHQGHN"
+        "name": "Trường Đại học Giáo dục - ĐHQGHN",
+        "name:en": "VNU University of Education",
+        "operator": "Đại học Quốc gia Hà Nội",
+        "operator:type": "public/government",
+        "website": "https://education.vnu.edu.vn/"
       },
       "geometry": {
         "type": "Point",
@@ -14371,16 +15162,22 @@
       "type": "Feature",
       "properties": {
         "@id": "node/10973962359",
+        "amenity": "university",
+        "name": "Trường Đại học CMC",
+        "name:en": "CMC University",
         "addr:housenumber": "84C",
         "addr:street": "Phố Nguyễn Thanh Bình",
-        "amenity": "university",
-        "name": "Trường Đại học CMC"
+        "addr:district": "Hà Đông",
+        "addr:city": "Hà Nội",
+        "operator": "Tập đoàn CMC",
+        "operator:type": "private",
+        "website": "https://cmcu.edu.vn/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7662902,
-          20.9801871
+          105.7658,
+          20.9635
         ]
       },
       "id": "node/10973962359"
@@ -14389,19 +15186,39 @@
       "type": "Feature",
       "properties": {
         "@id": "node/10976263692",
-        "addr:city": "Hà Nội",
-        "addr:country": "VN",
-        "addr:street": "31 P. Dịch Vọng Hậu, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
         "amenity": "university",
         "building": "yes",
         "name": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "addr:street": "31 P. Dịch Vọng Hậu, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
         "telecom": "024 3793 1340"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          105.7869939,
-          21.0319516
+          [
+            [
+              105.7819,
+              21.0361
+            ],
+            [
+              105.7821,
+              21.0361
+            ],
+            [
+              105.7821,
+              21.0363
+            ],
+            [
+              105.7819,
+              21.0363
+            ],
+            [
+              105.7819,
+              21.0361
+            ]
+          ]
         ]
       },
       "id": "node/10976263692"
@@ -14411,18 +15228,43 @@
       "properties": {
         "@id": "node/11609443059",
         "amenity": "university",
-        "name": "Đại học Kinh tế",
+        "name": "Trường Đại học Kinh tế - ĐHQGHN",
         "name:en": "University of Economics and Business",
         "operator": "Trường Đại học Quốc gia Hà Nội",
         "website": "https://ueb.edu.vn/",
         "wikidata": "Q5146680",
-        "wikipedia": "vi:Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội"
+        "wikipedia": "vi:Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội",
+        "addr:housenumber": "144",
+        "addr:street": "Đường Xuân Thủy",
+        "addr:subdistrict": "Dịch Vọng Hậu",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          105.7828716,
-          21.0379689
+          [
+            [
+              105.7827716,
+              21.0378689
+            ],
+            [
+              105.7829716,
+              21.0378689
+            ],
+            [
+              105.7829716,
+              21.0380689
+            ],
+            [
+              105.7827716,
+              21.0380689
+            ],
+            [
+              105.7827716,
+              21.0378689
+            ]
+          ]
         ]
       },
       "id": "node/11609443059"
@@ -14432,18 +15274,43 @@
       "properties": {
         "@id": "node/11609443060",
         "amenity": "university",
-        "name": "Đại học Luật",
+        "name": "Đại học Luật - ĐHQGHN",
         "name:en": "University of Law",
         "operator": "Trường Đại học Quốc gia Hà Nội",
         "website": "https://law.vnu.edu.vn/",
         "wikidata": "Q114132145",
-        "wikipedia": "vi:Trường Đại học Luật, Đại học Quốc gia Hà Nội"
+        "wikipedia": "vi:Trường Đại học Luật, Đại học Quốc gia Hà Nội",
+        "addr:housenumber": "144",
+        "addr:street": "Đường Xuân Thủy",
+        "addr:subdistrict": "Dịch Vọng Hậu",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          105.7824482,
-          21.0378978
+          [
+            [
+              105.7824182,
+              21.0380978
+            ],
+            [
+              105.7826782,
+              21.0380978
+            ],
+            [
+              105.7826782,
+              21.0376978
+            ],
+            [
+              105.7824182,
+              21.0376978
+            ],
+            [
+              105.7824182,
+              21.0380978
+            ]
+          ]
         ]
       },
       "id": "node/11609443060"
@@ -14453,18 +15320,43 @@
       "properties": {
         "@id": "node/11609443061",
         "amenity": "university",
-        "name": "Đại học Công nghệ",
+        "name": "Đại học Công nghệ - ĐHQGHN",
         "name:en": "University of Engineering and Technology",
         "operator": "Trường Đại học Quốc gia Hà Nội",
         "website": "https://uet.vnu.edu.vn/",
         "wikidata": "Q10829028",
-        "wikipedia": "vi:Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội"
+        "wikipedia": "vi:Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội",
+        "addr:housenumber": "144",
+        "addr:street": "Đường Xuân Thủy",
+        "addr:subdistrict": "Dịch Vọng Hậu",
+        "addr:district": "Cầu Giấy",
+        "addr:city": "Hà Nội"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          105.7824572,
-          21.0382738
+          [
+            [
+              105.7823572,
+              21.0383738
+            ],
+            [
+              105.7825572,
+              21.0383738
+            ],
+            [
+              105.7825572,
+              21.0381738
+            ],
+            [
+              105.7823572,
+              21.0381738
+            ],
+            [
+              105.7823572,
+              21.0383738
+            ]
+          ]
         ]
       },
       "id": "node/11609443061"
@@ -14481,7 +15373,7 @@
         "amenity": "university",
         "internet_access": "yes",
         "internet_access:fee": "no",
-        "name": "Trường Đại học Y Dược",
+        "name": "Trường Đại học Y Dược - ĐHQGHN",
         "operator": "Đại học Quốc gia Hà Nội",
         "operator:type": "university",
         "website": "https://ump.vnu.edu.vn/",
@@ -14489,10 +15381,30 @@
         "wikipedia": "vi:Trường Đại học Y Dược, Đại học Quốc gia Hà Nội"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          105.7816961,
-          21.040311
+          [
+            [
+              105.78215,
+              21.03805
+            ],
+            [
+              105.78235,
+              21.03805
+            ],
+            [
+              105.78235,
+              21.03785
+            ],
+            [
+              105.78215,
+              21.03785
+            ],
+            [
+              105.78215,
+              21.03805
+            ]
+          ]
         ]
       },
       "id": "node/11609590538"
@@ -14502,13 +15414,42 @@
       "properties": {
         "@id": "node/11943714035",
         "amenity": "university",
-        "name": "Trường Đại học Việt Nhật (VJU)"
+        "name": "Trường Đại học Việt Nhật (VJU)",
+        "name:en": "Vietnam Japan University",
+        "addr:street": "P. Lưu Hữu Phước",
+        "addr:subdistrict": "Cầu Diễn",
+        "addr:district": "Nam Từ Liêm",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://vju.vnu.edu.vn/",
+        "phone": "+84 966 954 736",
+        "email": "admission@vju.ac.vn"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          105.7624123,
-          21.0328695
+          [
+            [
+              105.7623123,
+              21.0329695
+            ],
+            [
+              105.7625123,
+              21.0329695
+            ],
+            [
+              105.7625123,
+              21.0327695
+            ],
+            [
+              105.7623123,
+              21.0327695
+            ],
+            [
+              105.7623123,
+              21.0329695
+            ]
+          ]
         ]
       },
       "id": "node/11943714035"
@@ -14523,10 +15464,30 @@
         "name": "Tòa E3 - Đại học Công Nghệ"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          105.7826979,
-          21.0382596
+          [
+            [
+              105.782660,
+              21.038310
+            ],
+            [
+              105.782735,
+              21.038310
+            ],
+            [
+              105.782735,
+              21.038210
+            ],
+            [
+              105.782660,
+              21.038210
+            ],
+            [
+              105.782660,
+              21.038310
+            ]
+          ]
         ]
       },
       "id": "node/12573506643"
@@ -14535,15 +15496,43 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12614924429",
-        "addr:street": "Đường Đại Mỗ",
+        "addr:street": "Ngõ 33 Đ. Đại Mỗ",
+        "addr:subdistrict": "Đại Mễ",
+        "addr:district": "Nam Từ Liêm",
+        "addr:city": "Hà Nội",
         "amenity": "university",
-        "name": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục"
+        "name": "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục",
+        "website": "https://ptit.edu.vn/"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          105.7676634,
-          20.984846
+          [
+            [
+              105.76772511005402,
+              20.98477161741757
+            ],
+            [
+              105.76755344867708,
+              20.98510719501282
+            ],
+            [
+              105.76743006706239,
+              20.985052100235468
+            ],
+            [
+              105.76740324497223,
+              20.984951927860955
+            ],
+            [
+              105.76754808425903,
+              20.984701496630795
+            ],
+            [
+              105.76772511005402,
+              20.98477161741757
+            ]
+          ]
         ]
       },
       "id": "node/12614924429"

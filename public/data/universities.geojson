@@ -1873,7 +1873,7 @@
         "amenity": "university",
         "internet_access": "yes",
         "internet_access:fee": "customers",
-        "name": "Trường Đại học Ngoại ngữ",
+        "name": "Trường Đại học Ngoại ngữ - ĐHQGHN",
         "name:en": "University of Languages and International Studies",
         "name:es": "Universidad de Idiomas y Estudios Internacionales",
         "name:fr": "Université des Langues et des Études Internationales",
@@ -5941,71 +5941,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/649534650",
-        "addr:housenumber": "128",
-        "addr:street": "Đường Hồ Tùng Mậu",
-        "addr:subdistrict": "Mai Dịch",
-        "addr:district": "Cầu Giấy",
-        "addr:city": "Hà Nội",
-        "addr:province": "Hà Nội",
-        "addr:country": "VN",
-        "amenity": "university",
-        "name": "Trường Cao đẳng Kinh tế, Kỹ thuật và Thủy sản (khu 2)",
-        "name:vi": "Trường Cao đẳng Kinh tế, Kỹ thuật và Thủy sản (khu 2)",
-        "name:en": "College of Economics, Technology and Fisheries (Campus 2)",
-        "website": "https://ktktts.edu.vn/",
-        "email": "ktktts@moet.edu.vn",
-        "phone": "+84 24 3764 1326",
-        "operator": "Bộ Nông nghiệp và Phát triển Nông thôn",
-        "operator:type": "public/government",
-        "wikidata": "Q121847318",
-        "wikipedia": "vi:Trường Cao đẳng Kinh tế, Kỹ thuật và Thủy sản",
-        "type": "multipolygon"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              105.9364347,
-              21.09543
-            ],
-            [
-              105.9369671,
-              21.0942238
-            ],
-            [
-              105.9372005,
-              21.0934042
-            ],
-            [
-              105.9380981,
-              21.0938109
-            ],
-            [
-              105.9382224,
-              21.0938672
-            ],
-            [
-              105.9410468,
-              21.0938872
-            ],
-            [
-              105.9410334,
-              21.0954737
-            ],
-            [
-              105.9364347,
-              21.09543
-            ]
-          ]
-        ]
-      },
-      "id": "way/649534650"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/699218280",
         "addr:housenumber": "1",
         "addr:street": "Đường Trần Phú",
@@ -6724,8 +6659,8 @@
         "addr:province": "Hà Nội",
         "addr:country": "VN",
         "amenity": "university",
-        "name": "Trường Đại học Khoa học Tự nhiên",
-        "name:vi": "Trường Đại học Khoa học Tự nhiên",
+        "name": "Trường Đại học Khoa học Tự nhiên - Khoa Hóa",
+        "name:vi": "Trường Đại học Khoa học Tự nhiên - Khoa Hóa",
         "name:en": "VNU University of Science",
         "name:fr": "Université des sciences naturelles - VNU",
         "name:zh": "自然科学大学化学科",
@@ -6736,7 +6671,7 @@
         "operator": "Đại học Quốc gia Hà Nội",
         "operator:type": "public/government",
         "wikidata": "Q10834070",
-        "wikipedia": "vi:Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội",
+        "wikipedia": "vi:Trường Đại học Khoa học Tự nhiên - Khoa Hóa, Đại học Quốc gia Hà Nội",
         "type": "multipolygon"
       },
       "geometry": {
@@ -9091,7 +9026,7 @@
         "amenity": "university",
         "contact:facebook": "https://www.facebook.com/HVHCQGNAPA",
         "fax": "+84 243 8358943",
-        "name": "Học viện Hành chính Quốc gia",
+        "name": "Học viện Hành chính Quốc gia (trụ sở chính)",
         "name:en": "National Academy of Public Administration",
         "phone": "+84 243 8343223",
         "website": "https://www1.napa.vn/",
@@ -9262,8 +9197,8 @@
         "addr:province": "Hà Nội",
         "addr:country": "VN",
         "amenity": "university",
-        "name": "Trường Đại học Y Hà Nội",
-        "name:vi": "Trường Đại học Y Hà Nội",
+        "name": "Trường Đại học Y Hà Nội (cơ sở phụ)",
+        "name:vi": "Trường Đại học Y Hà Nội (cơ sở phụ)",
         "name:en": "Hanoi Medical University",
         "name:fr": "Université de Médecine de Hanoï",
         "website": "https://hmu.edu.vn/",
@@ -11496,7 +11431,7 @@
         "addr:province": "Hà Nội",
         "addr:country": "VN",
         "amenity": "university",
-        "name": "Học viện Hành chính Quốc gia",
+        "name": "Học viện Hành chính Quốc gia (cơ sở 1)",
         "name:en": "National Academy of Public Administration",
         "operator": "Bộ Nội vụ",
         "operator:type": "public/government",
@@ -12570,59 +12505,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1058072005",
-        "amenity": "university",
-        "name": "Trường Đại học Đại Nam (cơ sở 2)",
-        "name:en": "Dai Nam University (Campus 2)",
-        "operator": "Tư thục",
-        "operator:type": "private",
-        "addr:housenumber": "56",
-        "addr:street": "Đường Vũ Trọng Phụng",
-        "addr:subdistrict": "Thanh Xuân Trung",
-        "addr:district": "Thanh Xuân",
-        "addr:city": "Hà Nội",
-        "addr:province": "Hà Nội",
-        "addr:country": "VN",
-        "website": "https://dainam.edu.vn/",
-        "email": "contact@dainam.edu.vn",
-        "phone": "+84 24 3557 9999",
-        "wikidata": "Q10829125",
-        "wikipedia": "vi:Trường Đại học Đại Nam",
-        "logo": "https://upload.wikimedia.org/wikipedia/vi/f/f9/Logo_Đại_học_Đại_Nam.png",
-        "type": "multipolygon"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              105.8091561,
-              20.9996935
-            ],
-            [
-              105.8084776,
-              20.9992899
-            ],
-            [
-              105.8086299,
-              20.9990978
-            ],
-            [
-              105.8092629,
-              20.999511
-            ],
-            [
-              105.8091561,
-              20.9996935
-            ]
-          ]
-        ]
-      },
-      "id": "way/1058072005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/1058111003",
         "amenity": "university",
         "name": "Trường Đại học Kiểm sát Hà Nội",
@@ -12925,7 +12807,7 @@
       "properties": {
         "@id": "way/1077033616",
         "amenity": "university",
-        "name": "Trường Đại học Phương Đông",
+        "name": "Trường Đại học Phương Đông (cơ sở 1)",
         "name:en": "Phuong Dong University",
         "operator": "Tư thục",
         "operator:type": "private",
@@ -13548,7 +13430,7 @@
         "addr:street": "Ngõ Chùa Hưng Ký",
         "addr:subdistrict": "Minh Khai",
         "amenity": "university",
-        "name": "Trường Đại học Phương Đông",
+        "name": "Trường Đại học Phương Đông (cơ sở 2)",
         "name:en": "Phuong Dong University",
         "website": "https://phuongdong.edu.vn/",
         "wikidata": "Q10829112",
@@ -14340,7 +14222,7 @@
       "properties": {
         "@id": "way/1190565117",
         "amenity": "university",
-        "name": "Học viện Hành chính Quốc gia",
+        "name": "Học viện Hành chính Quốc gia (cơ sở 2)",
         "name:en": "National Academy of Public Administration",
         "addr:housenumber": "371",
         "addr:street": "Đường Nguyễn Hoàng Tôn",
@@ -15089,12 +14971,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": 
-          [
-            105.81581711769105,
-            21.036351555686387
-          ]
-        
+        "coordinates": [
+          105.81581711769105,
+          21.036351555686387
+        ]
       },
       "id": "node/6557784984"
     },
