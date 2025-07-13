@@ -15,6 +15,7 @@ import LocationPopup from "./LocationPopup";
 import { getLogoFromWikidata } from "../utils/wikidata";
 import axios from "axios";
 
+import { logoUniversity } from "../data/logoUniversity";
 import '../styles/MapOpacity.css'
 
 const { BaseLayer } = LayersControl;
@@ -262,16 +263,30 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                 const bounds = L.geoJSON(feature).getBounds();
                 const center = bounds.getCenter();
                 const wikidata = feature.properties.wikidata;
-                const logoUrl = wikidata ? logoMap[wikidata] : null;
+                // const logoUrl = wikidata ? logoMap[wikidata] : null;
+                const name = feature.properties.name;
+                const logoEntry = logoUniversity.find(u => u.name === name);
+                const logoUrl = logoEntry ? logoEntry.logo : null;
 
+
+                // const icon = logoUrl
+                //     ? L.icon({
+                //         iconUrl: logoUrl,
+                //         iconSize: [40, 40],
+                //         iconAnchor: [20, 40],
+                //         popupAnchor: [0, -40],
+                //     })
+                //     : universityIcon;
                 const icon = logoUrl
-                    ? L.icon({
-                        iconUrl: logoUrl,
+                    ? new L.DivIcon({
+                        html: `<img src="${logoUrl}" class="university-marker-appear" style="width: 40px; height: 40px;" />`,
+                        className: "",
                         iconSize: [40, 40],
-                        iconAnchor: [20, 40],
-                        popupAnchor: [0, -40],
+                        iconAnchor: [20, 50],        // tăng số này để icon đi lên
+                        popupAnchor: [0, -50],
                     })
                     : universityIcon;
+
 
                 return (
                     <Marker key={index} position={center} icon={icon}>

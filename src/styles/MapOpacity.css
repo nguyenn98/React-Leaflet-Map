@@ -34,3 +34,17 @@
     transition: transform 0.3s ease, color 0.3s ease;
     transform: scale(1.3);
 }
+
+/* Animation: icon mờ và bay lên */
+.university-marker-appear {
+    animation: fadeUp 0.8s ease forwards;
+    opacity: 0; /* ban đầu ẩn */
+    transform: translateY(10px); /* ban đầu hơi thấp xuống */
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
