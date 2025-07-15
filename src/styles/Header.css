@@ -1,0 +1,37 @@
+.custom-header {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    border-bottom: 2px solid #007BFF; /* viền xanh giống bút */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-right: 2px solid #007BFF; /* đường kẻ giống bút xanh */
+}
+
+.header-box:last-child {
+    border-right: none; /* không cần viền cuối */
+}
+
+.logo-box {
+    padding: 0 20px;
+}
+
+.header-logo {
+    height: 40px;
+    object-fit: contain;
+}
+
+.empty-box {
+    /* chỉ để chừa trống hiện tại, có thể thay bằng nội dung sau này */
+}

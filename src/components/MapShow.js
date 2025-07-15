@@ -250,54 +250,123 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
         return null;
     };
 
+    // const markers = useMemo(() => {
+    //     if (!geoData) return [];
+
+    //     return geoData.features
+    //         .map((feature, index) => {
+    //             if (
+    //                 feature.geometry.type !== "Polygon" &&
+    //                 feature.geometry.type !== "MultiPolygon"
+    //             ) return null;
+
+    //             const bounds = L.geoJSON(feature).getBounds();
+    //             const center = bounds.getCenter();
+    //             const wikidata = feature.properties.wikidata;
+    //             const name = feature.properties.name;
+    //             const normalize = (str) => {
+    //                 return str
+    //                     ?.normalize("NFKC")
+    //                     .replace(/[\u2010-\u2015\u2212\uFE58\uFE63\uFF0D]/g, "-")
+    //                     .replace(/\s+/g, " ")
+    //                     .trim()
+    //                     .toLowerCase();
+    //             };
+    //             const logoEntry = logoUniversity.find(u => normalize(u.name) === normalize(name));
+    //             if (!logoEntry) {
+    //                 console.warn("Không khớp logo:", normalize(name));
+    //             } else {
+    //                 console.log("Logo khớp:", normalize(name), logoEntry.logo);
+    //             }
+
+    //             const logoUrl = logoEntry ? `${process.env.PUBLIC_URL}${logoEntry.logo}` : null;
+
+    //             const icon = logoUrl
+    //                 ? new L.DivIcon({
+    //                     html: `<img src="${logoUrl}" class="university-marker-appear" style="width: 40px; height: 40px;" />`,
+    //                     className: "",
+    //                     iconSize: [40, 40],
+    //                     iconAnchor: [20, 50],        // tăng số này để icon đi lên
+    //                     popupAnchor: [0, -50],
+    //                 })
+    //                 : universityIcon;
+
+
+    //             return (
+    //                 <Marker key={index} position={center} icon={icon}>
+    //                     <Popup>{feature.properties.name || "Trường học"}</Popup>
+    //                 </Marker>
+    //             );
+    //         })
+    //         .filter(Boolean); // Xoá các phần tử null
+    // }, [geoData, logoMap]);
+
+    // để fetch logo nếu chưa có
     const markers = useMemo(() => {
         if (!geoData) return [];
 
         return geoData.features
             .map((feature, index) => {
-                if (
-                    feature.geometry.type !== "Polygon" &&
-                    feature.geometry.type !== "MultiPolygon"
-                ) return null;
+                const geometry = feature.geometry;
+                let center = null;
 
-                const bounds = L.geoJSON(feature).getBounds();
-                const center = bounds.getCenter();
-                const wikidata = feature.properties.wikidata;
-                // const logoUrl = wikidata ? logoMap[wikidata] : null;
+                if (geometry.type === "Point") {
+                    const [lng, lat] = geometry.coordinates;
+                    center = [lat, lng];
+                } else if (
+                    geometry.type === "Polygon" ||
+                    geometry.type === "MultiPolygon"
+                ) {
+                    const bounds = L.geoJSON(feature).getBounds();
+                    center = bounds.getCenter();
+                } else {
+                    return null; // Không hỗ trợ loại khác
+                }
+
                 const name = feature.properties.name;
-                const logoEntry = logoUniversity.find(u => u.name === name);
-                const logoUrl = logoEntry ? logoEntry.logo : null;
+                const normalize = (str) => {
+                    return str
+                        ?.normalize("NFKC")
+                        .replace(/[\u2010-\u2015\u2212\uFE58\uFE63\uFF0D]/g, "-")
+                        .replace(/\s+/g, " ")
+                        .trim()
+                        .toLowerCase();
+                };
 
+                const logoEntry = logoUniversity.find(
+                    (u) => normalize(u.name) === normalize(name)
+                );
 
-                // const icon = logoUrl
-                //     ? L.icon({
-                //         iconUrl: logoUrl,
-                //         iconSize: [40, 40],
-                //         iconAnchor: [20, 40],
-                //         popupAnchor: [0, -40],
-                //     })
-                //     : universityIcon;
+                if (!logoEntry) {
+                    console.warn("Không khớp logo:", normalize(name));
+                } else {
+                    console.log("Logo khớp:", normalize(name), logoEntry.logo);
+                }
+
+                const logoUrl = logoEntry
+                    ? `${process.env.PUBLIC_URL}${logoEntry.logo}`
+                    : null;
+
                 const icon = logoUrl
                     ? new L.DivIcon({
                         html: `<img src="${logoUrl}" class="university-marker-appear" style="width: 40px; height: 40px;" />`,
                         className: "",
                         iconSize: [40, 40],
-                        iconAnchor: [20, 50],        // tăng số này để icon đi lên
+                        iconAnchor: [20, 50],
                         popupAnchor: [0, -50],
                     })
                     : universityIcon;
 
-
                 return (
                     <Marker key={index} position={center} icon={icon}>
-                        <Popup>{feature.properties.name || "Trường học"}</Popup>
+                        <Popup>{name || "Trường học"}</Popup>
                     </Marker>
                 );
             })
-            .filter(Boolean); // Xoá các phần tử null
+            .filter(Boolean); // Bỏ null
     }, [geoData, logoMap]);
 
-    // để fetch logo nếu chưa có
+
     const handleSelectFeature = async (feature) => {
         const wikidata = feature?.properties?.wikidata;
         if (!wikidata || logoMap[wikidata]) return;

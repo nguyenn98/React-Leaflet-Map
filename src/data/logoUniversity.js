@@ -9,7 +9,7 @@ export const logoUniversity = [
         id: 2,
         name: "Đại học Kinh tế Quốc dân",
         code: "NEU",
-        logo: "/images/dai_hoc_kinh_te_quoc_dan.jpg"
+        logo: "/images/dai_hoc_kinh_te_quoc_dan.png"
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ export const logoUniversity = [
         id: 6,
         name: "Trường Đại học Sư phạm Hà Nội",
         code: "HNUE",
-        logo: "/images/truong_dai_hoc_su_pham_ha_noi.png"
+        logo: "/images/truong_dai_hoc_su_pham_ha_noi.jpg"
     },
     {
         id: 7,
@@ -45,7 +45,7 @@ export const logoUniversity = [
         id: 8,
         name: "Trường Đại học Văn hoá Hà Nội",
         code: "HUC",
-        logo: "/images/DH_Van_hoa_Ha_Noi.jpg"
+        logo: "/images/DH_Van_hoa_Ha_Noi.png"
     },
     {
         id: 9,
@@ -57,7 +57,7 @@ export const logoUniversity = [
         id: 10,
         name: "Trường Đại học Sư phạm Nghệ thuật Trung ương",
         code: "SPNTTW",
-        logo: "/images/dai_hoc_su_pham_nghe_thuat_trung_uong.jpg"
+        logo: "/images/dai_hoc_su_pham_nghe_thuat_trung_uong.png"
     },
     {
         id: 11,
@@ -129,7 +129,7 @@ export const logoUniversity = [
         id: 22,
         name: "Trường Đại học Thương mại",
         code: "TMU",
-        logo: "/images/dai_hoc_thuong_mai.jpg"
+        logo: "/images/dai_hoc_thuong_mai.png"
     },
     {
         id: 23,
@@ -153,7 +153,7 @@ export const logoUniversity = [
         id: 26,
         name: "Học viện An ninh Nhân dân",
         code: "ANND",
-        logo: "/images/hoc_vien_ANND.jpg"
+        logo: "/images/hoc_vien_ANND.png"
     },
     {
         id: 27,
@@ -183,7 +183,7 @@ export const logoUniversity = [
         id: 31,
         name: "Trường Đại học Tài nguyên và Môi trường Hà Nội (cơ sở phụ)",
         code: "HUNRE-CS2",
-        logo: "/images/dai_hoc_tai_nguyen_va_moi_truong(co_so_phu).jpg"
+        logo: "/images/dai_hoc_tai_nguyen_va_moi_truong(co_so_phu).png"
     },
     {
         id: 32,
@@ -261,7 +261,7 @@ export const logoUniversity = [
         id: 44,
         name: "Trường Đại học Mỹ thuật Việt Nam",
         code: "VNUFA",
-        logo: "/images/dai_hoc_my_thuat_viet_nam.jpg"
+        logo: "/images/dai_hoc_my_thuat_viet_nam.png"
     },
     {
         id: 45,
@@ -291,7 +291,7 @@ export const logoUniversity = [
         id: 49,
         name: "Trường Đại học Luật Hà Nội",
         code: "HLU",
-        logo: "/images/dai_hoc_luat_ha_noi.jpg"
+        logo: "/images/dai_hoc_luat_ha_noi.png"
     },
     {
         id: 50,
@@ -333,7 +333,7 @@ export const logoUniversity = [
         id: 56,
         name: "Trường Đại học Văn hóa Nghệ thuật Quân đội",
         code: "MCA",
-        logo: "/images/dai_hoc_van_hoa_nghe_thuat_quan_doi.jpg"
+        logo: "/images/dai_hoc_van_hoa_nghe_thuat_quan_doi.png"
     },
     {
         id: 57,
@@ -345,25 +345,25 @@ export const logoUniversity = [
         id: 58,
         name: "Học viện Báo chí và Tuyên truyền",
         code: "AJC",
-        logo: "/images/hoc_vien_bao_chi_va_tuyen_truyen.jpg"
+        logo: "/images/hoc_vien_bao_chi_va_tuyen_truyen.png"
     },
     {
         id: 59,
         name: "Đại học Quốc gia Hà Nội tại Hòa Lạc",
         code: "VNU-HL",
-        logo: "/images/ĐHQGHA_hoa_lac.png"
+        logo: "/images/ĐHQGHN_hoa_lac.png"
     },
     {
         id: 60,
         name: "Trường Đại học Lâm nghiệp",
         code: "VNUF",
-        logo: "/images/dai_hoc_lam_nghiep.jpg"
+        logo: "/images/dai_hoc_lam_nghiep.png"
     },
     {
         id: 61,
         name: "Trường Đại học Chính trị",
         code: "PAU",
-        logo: "/images/dai_hoc_chinh_tri.jpg"
+        logo: "/images/dai_hoc_chinh_tri.png"
     },
     {
         id: 62,
@@ -381,7 +381,7 @@ export const logoUniversity = [
         id: 64,
         name: "Học viện Biên phòng",
         code: "BPA",
-        logo: "/images/hoc_vien_bien_phong.jpg"
+        logo: "/images/hoc_vien_bien_phong.png"
     },
     {
         id: 65,
@@ -453,7 +453,7 @@ export const logoUniversity = [
         id: 76,
         name: "Đại học Quốc gia Hà Nội",
         code: "VNU",
-        logo: "/images/ĐHQGHA.png"
+        logo: "/images/ĐHQGHN.png"
     },
     {
         id: 77,
@@ -489,7 +489,7 @@ export const logoUniversity = [
         id: 82,
         name: "Trường Đại học Phương Đông (cơ sở 1)",
         code: "PTU1",
-        logo: "/images/dai_hoc_phuong_dong_cs1.jpg"
+        logo: "/images/dai_hoc_phuong_dong_cs1.png"
     },
     {
         id: 83,
@@ -531,7 +531,7 @@ export const logoUniversity = [
         id: 89,
         name: "Trường Đại học Phương Đông (cơ sở 2)",
         code: "PTU2",
-        logo: "/images/dai_hoc_phuong_dong_cs2.jpg"
+        logo: "/images/dai_hoc_phuong_dong_cs2.png"
     },
     {
         id: 90,
@@ -561,7 +561,7 @@ export const logoUniversity = [
         id: 94,
         name: "Trường Đại học Kinh doanh và Công nghệ Hà Nội",
         code: "HUBT",
-        logo: "/images/dai_hoc_kinh_doanh_va_cong_nghe_hn.jpg"
+        logo: "/images/dai_hoc_kinh_doanh_va_cong_nghe_hn.png"
     },
     {
         id: 95,
@@ -613,9 +613,9 @@ export const logoUniversity = [
     },
     {
         id: 103,
-        name: "Khoa Quốc tế – Đại học Quốc gia Hà Nội",
+        name: "Khoa Quốc tế - Đại học Quốc gia Hà Nội",
         code: "VNU-IS",
-        logo: "/images/khoa_quoc_te_DHQGHN.png"
+        logo: "/images/khoa_quoc_te.png"
     },
     {
         id: 104,
@@ -633,7 +633,7 @@ export const logoUniversity = [
         id: 106,
         name: "Trường Đại học Khoa học và Công nghệ Hà Nội",
         code: "USTH",
-        logo: "/images/dtruong_dai_hoc_khoa_hoc_va_cong_nghe_ha_noi.png"
+        logo: "/images/truong_dai_hoc_khoa_hoc_va_cong_nghe_ha_noi.png"
     },
     {
         id: 107,

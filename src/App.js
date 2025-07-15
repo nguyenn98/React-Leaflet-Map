@@ -1,8 +1,14 @@
 import './App.css';
 import MapView from './layouts/MapView';
+import Header from './layouts/Header';
 
 function App() {
-  return <MapView />;
+  return (
+    <>
+      {/* <Header /> */}
+      <MapView />
+    </>
+  )
 
 }
 

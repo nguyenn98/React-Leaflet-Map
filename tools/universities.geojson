@@ -3953,7 +3953,7 @@
         "amenity": "university",
         "internet_access": "yes",
         "landuse": "military",
-        "name": "Học viện Kĩ thuật Quân sự",
+        "name": "Học viện Kỹ thuật Quân sự",
         "name:en": "Military Technical Academy",
         "operator": "Bộ Quốc phòng",
         "operator:type": "military",
@@ -12505,59 +12505,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1058072005",
-        "amenity": "university",
-        "name": "Trường Đại học Đại Nam (cơ sở 2)",
-        "name:en": "Dai Nam University (Campus 2)",
-        "operator": "Tư thục",
-        "operator:type": "private",
-        "addr:housenumber": "56",
-        "addr:street": "Đường Vũ Trọng Phụng",
-        "addr:subdistrict": "Thanh Xuân Trung",
-        "addr:district": "Thanh Xuân",
-        "addr:city": "Hà Nội",
-        "addr:province": "Hà Nội",
-        "addr:country": "VN",
-        "website": "https://dainam.edu.vn/",
-        "email": "contact@dainam.edu.vn",
-        "phone": "+84 24 3557 9999",
-        "wikidata": "Q10829125",
-        "wikipedia": "vi:Trường Đại học Đại Nam",
-        "logo": "https://upload.wikimedia.org/wikipedia/vi/f/f9/Logo_Đại_học_Đại_Nam.png",
-        "type": "multipolygon"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              105.8091561,
-              20.9996935
-            ],
-            [
-              105.8084776,
-              20.9992899
-            ],
-            [
-              105.8086299,
-              20.9990978
-            ],
-            [
-              105.8092629,
-              20.999511
-            ],
-            [
-              105.8091561,
-              20.9996935
-            ]
-          ]
-        ]
-      },
-      "id": "way/1058072005"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/1058111003",
         "amenity": "university",
         "name": "Trường Đại học Kiểm sát Hà Nội",
@@ -14944,7 +14891,7 @@
       "properties": {
         "@id": "node/444655908",
         "amenity": "university",
-        "name": "Khoa Quốc tế – Đại học Quốc gia Hà Nội",
+        "name": "Khoa Quốc tế - Đại học Quốc gia Hà Nội",
         "name:en": "VNU - International School",
         "operator": "Đại học Quốc gia Hà Nội",
         "operator:type": "university",
@@ -15024,12 +14971,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": 
-          [
-            105.81581711769105,
-            21.036351555686387
-          ]
-        
+        "coordinates": [
+          105.81581711769105,
+          21.036351555686387
+        ]
       },
       "id": "node/6557784984"
     },
