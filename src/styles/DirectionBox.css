@@ -83,3 +83,31 @@
 .search-button:hover {
     background: #eaeaea;
 }
+
+.transport-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.transport-btn {
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    color: #777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.transport-btn.active {
+    color: #1e88e5;
+    font-weight: bold;
+}
+
+.transport-btn svg {
+    font-size: 20px;
+    margin-bottom: 4px;
+}

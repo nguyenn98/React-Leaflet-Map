@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef, useMemo } from "react";
+import { useEffect, useState, useRef, useMemo, useCallback } from "react";
 import { MapContainer, TileLayer, GeoJSON, Marker, Popup, useMap, LayersControl, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -98,9 +98,10 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
     const initialZoom = parseInt(searchParams.get("zoom")) || 17;
     const [isHighlighting, setIsHighlighting] = useState(false);
 
-    // const [showDirection, setShowDirection] = useState(false);
+    const [routeInfo, setRouteInfo] = useState(null);
     const [routeFrom, setRouteFrom] = useState(null);
     const [routeTo, setRouteTo] = useState(null);
+    const [transportMode, setTransportMode] = useState("car"); // 👉 khai báo thêm dòng này
 
     const handleMapClick = async (latlng) => {
         try {
@@ -140,6 +141,20 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
         } catch (err) {
             console.error("Lỗi Nominatim:", err);
         }
+    };
+
+    // Memoize onRouteInfo để tránh render lại không cần thiết
+    const onRouteInfo = useCallback((info) => {
+        setRouteInfo(info);
+    }, []);
+
+    // Hàm xử lý khi đóng DirectionBox
+    const handleCloseDirectionBox = () => {
+        setShowDirection(false);
+        setRouteInfo(null); // Reset thông tin lộ trình
+        setRouteFrom(null); // Reset điểm xuất phát
+        setRouteTo(null);   // Reset điểm đích
+        setTransportMode("car"); // Reset phương thức di chuyển
     };
 
     useEffect(() => {
@@ -431,7 +446,12 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
 
                 {/* Thêm điều kiện vẽ route */}
                 {routeFrom && routeTo && (
-                    <RoutingMachine from={routeFrom} to={routeTo} />
+                    <RoutingMachine
+                        from={routeFrom}
+                        to={routeTo}
+                        mode={transportMode}
+                        onRouteInfo={onRouteInfo}
+                    />
                 )}
 
             </MapContainer>
@@ -528,17 +548,19 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                     boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
                 }}>
                     <DirectionBox
-                        onClose={() => setShowDirection(false)}
-                        onRouteSelected={(from, to) => {
+                        onClose={handleCloseDirectionBox}
+                        onRouteSelected={(from, to, mode) => {
                             setRouteFrom(from);
                             setRouteTo(to);
+                            setTransportMode(mode);
                         }}
+                        routeInfo={routeInfo}
+                        transportMode={transportMode}
+                        onTransportModeChange={(mode) => setTransportMode(mode)}
                     />
+
                 </div>
             )}
-
-
-
         </div>
     );
 };
