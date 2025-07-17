@@ -9,9 +9,12 @@ import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
 import { LiaUniversitySolid } from "react-icons/lia";
 import { FaLocationDot } from "react-icons/fa6";
+import { TbRoadSign } from "react-icons/tb";
 
 import LocationList from "./LocationList";
 import LocationPopup from "./LocationPopup";
+import RoutingMachine from "./RoutingMachine";
+import DirectionBox from "./DirectionBox";
 import { getLogoFromWikidata } from "../utils/wikidata";
 import axios from "axios";
 
@@ -83,7 +86,7 @@ const geoJSONStyle = {
     fillColor: "#f0ad4e" // Màu cam nhẹ để nổi bật trường học
 };
 
-const MapShow = ({ position, geoData, highlight, setHighlight }) => {
+const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, setShowDirection }) => {
     const [showLayer, setShowLayer] = useState(true);    // Trạng thái hiển thị layer
     const [opacity, setOpacity] = useState(1);           // Mặc định là 1 (không mờ)
     const [currentPosition, setCurrentPosition] = useState(position);  // Dùng state để cập nhật vị trí
@@ -94,6 +97,10 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
     const [searchParams, setSearchParams] = useSearchParams();
     const initialZoom = parseInt(searchParams.get("zoom")) || 17;
     const [isHighlighting, setIsHighlighting] = useState(false);
+
+    // const [showDirection, setShowDirection] = useState(false);
+    const [routeFrom, setRouteFrom] = useState(null);
+    const [routeTo, setRouteTo] = useState(null);
 
     const handleMapClick = async (latlng) => {
         try {
@@ -249,57 +256,6 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
 
         return null;
     };
-
-    // const markers = useMemo(() => {
-    //     if (!geoData) return [];
-
-    //     return geoData.features
-    //         .map((feature, index) => {
-    //             if (
-    //                 feature.geometry.type !== "Polygon" &&
-    //                 feature.geometry.type !== "MultiPolygon"
-    //             ) return null;
-
-    //             const bounds = L.geoJSON(feature).getBounds();
-    //             const center = bounds.getCenter();
-    //             const wikidata = feature.properties.wikidata;
-    //             const name = feature.properties.name;
-    //             const normalize = (str) => {
-    //                 return str
-    //                     ?.normalize("NFKC")
-    //                     .replace(/[\u2010-\u2015\u2212\uFE58\uFE63\uFF0D]/g, "-")
-    //                     .replace(/\s+/g, " ")
-    //                     .trim()
-    //                     .toLowerCase();
-    //             };
-    //             const logoEntry = logoUniversity.find(u => normalize(u.name) === normalize(name));
-    //             if (!logoEntry) {
-    //                 console.warn("Không khớp logo:", normalize(name));
-    //             } else {
-    //                 console.log("Logo khớp:", normalize(name), logoEntry.logo);
-    //             }
-
-    //             const logoUrl = logoEntry ? `${process.env.PUBLIC_URL}${logoEntry.logo}` : null;
-
-    //             const icon = logoUrl
-    //                 ? new L.DivIcon({
-    //                     html: `<img src="${logoUrl}" class="university-marker-appear" style="width: 40px; height: 40px;" />`,
-    //                     className: "",
-    //                     iconSize: [40, 40],
-    //                     iconAnchor: [20, 50],        // tăng số này để icon đi lên
-    //                     popupAnchor: [0, -50],
-    //                 })
-    //                 : universityIcon;
-
-
-    //             return (
-    //                 <Marker key={index} position={center} icon={icon}>
-    //                     <Popup>{feature.properties.name || "Trường học"}</Popup>
-    //                 </Marker>
-    //             );
-    //         })
-    //         .filter(Boolean); // Xoá các phần tử null
-    // }, [geoData, logoMap]);
 
     // để fetch logo nếu chưa có
     const markers = useMemo(() => {
@@ -472,6 +428,12 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
                 {
                     showLayer && markers
                 }
+
+                {/* Thêm điều kiện vẽ route */}
+                {routeFrom && routeTo && (
+                    <RoutingMachine from={routeFrom} to={routeTo} />
+                )}
+
             </MapContainer>
 
             {/* Nút bật/tắt layer */}
@@ -524,14 +486,59 @@ const MapShow = ({ position, geoData, highlight, setHighlight }) => {
             </div>
 
             {/* Danh sách địa điểm */}
-            <div style={{
-                display: "flex", position: "absolute",
-                left: 59, top: 68, zIndex: 1000,
-                height: "500px", border: "none"
-            }}>
-                <LocationList geoData={geoData} onLocationClick={handleLocationClick} />
+            {!showDirection &&
+                <div style={{
+                    display: "flex", position: "absolute",
+                    left: 59, top: 68, zIndex: 1000,
+                    height: "500px", border: "none"
+                }}>
+                    <LocationList geoData={geoData} onLocationClick={handleLocationClick} />
+                </div>
+            }
+            <button
+                onClick={() => setShowDirection(true)}
+                style={{
+                    position: "absolute",
+                    bottom: 307,
+                    right: 10,
+                    zIndex: 1000,
+                    width: "48px",
+                    height: "48px",
+                    background: "#fff",
+                    border: "1px solid #ccc",
+                    borderRadius: "8px",
+                    boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
+                    cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                }}
+            >
+                <TbRoadSign size={28} color='#666' />
+            </button>
 
-            </div>
+            {showDirection && (
+                <div style={{
+                    position: "absolute",
+                    top: 15,
+                    left: 40,
+                    zIndex: 1001,
+                    background: "#fff",
+                    borderRadius: "8px",
+                    boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
+                }}>
+                    <DirectionBox
+                        onClose={() => setShowDirection(false)}
+                        onRouteSelected={(from, to) => {
+                            setRouteFrom(from);
+                            setRouteTo(to);
+                        }}
+                    />
+                </div>
+            )}
+
+
+
         </div>
     );
 };

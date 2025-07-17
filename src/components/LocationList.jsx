@@ -3,7 +3,7 @@ import '../styles/LocationList.css';
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-const LocationList = ({ geoData, onLocationClick }) => {
+const LocationList = ({ geoData, onLocationClick, showDirection }) => {
     const contentRef = useRef(null);
     const [isExpanded, setIsExpanded] = useState(false);
     const [selectedIndex, setSelectedIndex] = useState(null);
@@ -30,6 +30,7 @@ const LocationList = ({ geoData, onLocationClick }) => {
             document.removeEventListener("mousedown", handleClickOutside);
         };
     }, []);
+    if (showDirection) return null;
 
     return (
         <div

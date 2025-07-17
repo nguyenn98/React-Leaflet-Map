@@ -1,0 +1,85 @@
+.direction-box {
+    position: relative;
+    padding: 16px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: -10px;
+}
+
+/* Nút đóng lên hẳn góc phải */
+.close-button {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Hàng nhập địa điểm */
+.direction-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Input */
+.direction-box input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.direction-box input:focus {
+    border-color: #888;
+}
+
+/* Nút hoán đổi ↕ */
+.swap-button {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.swap-button:hover {
+    background: #eaeaea;
+}
+
+/* Nút tìm kiếm 🔍 */
+.search-button {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 6px 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.search-button:hover {
+    background: #eaeaea;
+}

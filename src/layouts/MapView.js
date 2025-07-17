@@ -8,6 +8,8 @@ const MapView = () => {
   const [position, setPosition] = useState([21.028511, 105.804817]); // Hà Nội
   const [highlight, setHighlight] = useState(false);
 
+  const [showDirection, setShowDirection] = useState(false);
+
   useEffect(() => {
     const fetchGeoJSON = async () => {
       try {
@@ -29,13 +31,19 @@ const MapView = () => {
   return (
     <div>
       {/* <SearchBox onSearch={setPosition} /> */}
-      <SearchBox onSearch={(pos) => { setPosition(pos); setHighlight(true); }} />
+      {
+        !showDirection &&
+        <SearchBox onSearch={(pos) => { setPosition(pos); setHighlight(true); }} />
+      }
       <MapShow
         position={position}
         geoData={geoData}
         highlight={highlight}
         setHighlight={setHighlight}
+        showDirection={showDirection}
+        setShowDirection={setShowDirection}
       />
+
     </div>
   );
 };

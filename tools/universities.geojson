@@ -12430,14 +12430,12 @@
       "properties": {
         "@id": "way/1057877968",
         "amenity": "university",
-        "name": "Trường Đại học Công nghiệp Dệt may Hà Nội",
+        "name": "Trường Đại học Công nghiệp Dệt May Hà Nội",
         "name:en": "Hanoi University of Textile Industry",
         "operator": "Bộ Công Thương",
         "operator:type": "public/government",
-        "addr:housenumber": "478",
-        "addr:street": "Đường Nguyễn Trãi",
-        "addr:subdistrict": "Thanh Xuân Trung",
-        "addr:district": "Thanh Xuân",
+        "addr:subdistrict": "Lệ Chi",
+        "addr:district": "Gia Lâm",
         "addr:city": "Hà Nội",
         "addr:province": "Hà Nội",
         "addr:country": "VN",
@@ -14169,7 +14167,7 @@
       "properties": {
         "@id": "way/1181964362",
         "amenity": "university",
-        "name": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "name": "Trường Đại học Tài chính - Ngân hàng Hà Nội (Cơ sở 2)",
         "name:en": "Hanoi University of Finance and Banking",
         "addr:housenumber": "136",
         "addr:street": "Đường Phạm Văn Đồng",
@@ -15121,8 +15119,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.7658,
-          20.9635
+          105.766357,
+          20.980174
         ]
       },
       "id": "node/10973962359"
@@ -15133,7 +15131,7 @@
         "@id": "node/10976263692",
         "amenity": "university",
         "building": "yes",
-        "name": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        "name": "Trường Đại học Tài chính - Ngân hàng Hà Nội (Cơ sở 3)",
         "addr:street": "31 P. Dịch Vọng Hậu, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
         "addr:city": "Hà Nội",
         "addr:country": "VN",
@@ -15481,6 +15479,89 @@
         ]
       },
       "id": "node/12614924429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "manual:fbu_melinh",
+        "amenity": "university",
+        "name": "Trường Đại học Tài chính - Ngân hàng Hà Nội (Trụ sở chính)",
+        "name:en": "Hanoi University of Finance and Banking (Main Campus)",
+        "addr:subdistrict": "Tiền Phong",
+        "addr:district": "Mê Linh",
+        "addr:city": "Hà Nội",
+        "addr:province": "Hà Nội",
+        "addr:country": "VN",
+        "website": "https://fbu.edu.vn/",
+        "phone": "+84 24 3764 3874",
+        "email": "contact@fbu.edu.vn",
+        "operator": "Tư thục",
+        "operator:type": "private",
+        "type": "multipolygon",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/b/b6/Logo_FBU.png",
+        "wikidata": "Q10772111",
+        "wikipedia": "vi:Trường Đại học Tài chính – Ngân hàng Hà Nội"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.755693,
+              21.164133
+            ],
+            [
+              105.758740,
+              21.164233
+            ],
+            [
+              105.758804,
+              21.163042
+            ],
+            [
+              105.758375,
+              21.162962
+            ],
+            [
+              105.758353,
+              21.161811
+            ],
+            [
+              105.758611,
+              21.160911
+            ],
+            [
+              105.756798,
+              21.160081
+            ],
+            [
+              105.756669,
+              21.160511
+            ],
+            [
+              105.756304,
+              21.160881
+            ],
+            [
+              105.755821,
+              21.160751
+            ],
+            [
+              105.755768,
+              21.160801
+            ],
+            [
+              105.755703,
+              21.161101
+            ],
+            [
+              105.755693,
+              21.164133
+            ]
+          ]
+        ]
+      },
+      "id": "manual:fbu_melinh"
     }
   ]
 }
