@@ -351,7 +351,7 @@ export const logoUniversity = [
         id: 59,
         name: "Đại học Quốc gia Hà Nội tại Hòa Lạc",
         code: "VNU-HL",
-        logo: "/images/ĐHQGHN_hoa_lac.png"
+        logo: "/images/dhqghn_hoa_lac.png"
     },
     {
         id: 60,
@@ -369,7 +369,7 @@ export const logoUniversity = [
         id: 62,
         name: "Trường Đại học Thủ đô Hà Nội (cơ sở 3)",
         code: "HNUE3",
-        logo: "/images/Trường_Đại_học_Thủ_đô_Hà_Nội_cs3.png"
+        logo: "/images/truong_dai_hoc_thu_do_hn_cs3.png"
     },
     {
         id: 63,
@@ -393,7 +393,7 @@ export const logoUniversity = [
         id: 66,
         name: "Trường Đại học Thủ đô Hà Nội (cơ sở 4)",
         code: "HNUE4",
-        logo: "/images/Trường_Đại_học_Thủ_đô_Hà_Nội_cs4.png"
+        logo: "/images/truong_dai_hoc_thu_do_hn_cs4.png"
     },
     {
         id: 67,
@@ -429,7 +429,7 @@ export const logoUniversity = [
         id: 72,
         name: "Trường Đại học Thủ đô Hà Nội (cơ sở 2)",
         code: "HNUE2",
-        logo: "/images/Trường_Đại_học_Thủ_đô_Hà_Nội_cs2.png"
+        logo: "/images/truong_dai_hoc_thu_do_hn_cs2.png"
     },
     {
         id: 73,
@@ -501,7 +501,7 @@ export const logoUniversity = [
         id: 84,
         name: "Trường Đại học Kinh tế - Kỹ thuật Công nghiệp",
         code: "UNETI",
-        logo: "/images/truong_dai_hoc_kinh_te_ky_thuat_cong_nghiep.jpg"
+        logo: "/images/truong_dai_hoc_kinh_te_ky_thuat_cong_nghiep.png"
     },
     {
         id: 85,
@@ -525,7 +525,7 @@ export const logoUniversity = [
         id: 88,
         name: "Trường Đại học Thủ đô Hà Nội",
         code: "HNUE",
-        logo: "/images/Trường_Đại_học_Thủ_đô_Hà_Nội.png"
+        logo: "/images/truong_dai_hoc_thu_do_hn.png"
     },
     {
         id: 89,

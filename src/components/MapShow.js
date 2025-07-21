@@ -338,15 +338,15 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
     }, [geoData, logoMap]);
 
 
-    const handleSelectFeature = async (feature) => {
-        const wikidata = feature?.properties?.wikidata;
-        if (!wikidata || logoMap[wikidata]) return;
+    // const handleSelectFeature = async (feature) => {
+    //     const wikidata = feature?.properties?.wikidata;
+    //     if (!wikidata || logoMap[wikidata]) return;
 
-        const logo = await getLogoFromWikidata(wikidata);
-        if (logo) {
-            setLogoMap((prev) => ({ ...prev, [wikidata]: logo }));
-        }
-    };
+    //     const logo = await getLogoFromWikidata(wikidata);
+    //     if (logo) {
+    //         setLogoMap((prev) => ({ ...prev, [wikidata]: logo }));
+    //     }
+    // };
 
     // hàm tạo icon theo trạng thái
     const createDynamicIcon = () => {
@@ -420,7 +420,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                                         setCurrentPosition(null);       // Ẩn Marker đỏ
 
                                         // Gọi tải logo khi người dùng click
-                                        handleSelectFeature(feature);
+                                        // handleSelectFeature(feature);
                                     });
                                 }}
                                 style={geoJSONStyle}
@@ -553,6 +553,8 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                             setRouteFrom(from);
                             setRouteTo(to);
                             setTransportMode(mode);
+                            setPopupInfo(null); // Reset popup khi tìm kiếm
+                            setIsPopupFromMapClick(false); // Tắt popup từ map click
                         }}
                         routeInfo={routeInfo}
                         transportMode={transportMode}
