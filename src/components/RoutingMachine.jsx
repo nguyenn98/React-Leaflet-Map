@@ -57,33 +57,12 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
       waypoints: [L.latLng(from[0], from[1]), L.latLng(to[0], to[1])],
       routeWhileDragging: false,
       createMarker: () => null,
-      // router: L.Routing.osrmv1({
-      //   // serviceUrl: "https://router.project-osrm.org/route/v1",
-      //   serviceUrl: "/route/v1",
-      //   profile: selectedProfile,
-      //   useHints: false,
-      // }),
       router: L.Routing.osrmv1({
         serviceUrl: "http://localhost:5000/route/v1", // Thay "/route/v1" bằng URL đầy đủ
         profile: selectedProfile,
         useHints: false,
       }),
     }).addTo(map);
-
-    // control.on("routesfound", function (e) {
-    //   const route = e.routes[0];
-    //   const steps = route.instructions || [];
-
-    //   onRouteInfo({
-    //     distance: route.summary.totalDistance,
-    //     time: route.summary.totalTime,
-    //     steps: steps.map((s) => ({
-    //       text: s.text,
-    //       distance: s.distance,
-    //       time: s.time,
-    //     })),
-    //   });
-    // });
 
     control.on("routesfound", function (e) {
       const route = e.routes[0];

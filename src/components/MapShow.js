@@ -15,6 +15,7 @@ import LocationList from "./LocationList";
 import LocationPopup from "./LocationPopup";
 import RoutingMachine from "./RoutingMachine";
 import DirectionBox from "./DirectionBox";
+import DirectionWrapper from "./DirectionWrapper"
 import { getLogoFromWikidata } from "../utils/wikidata";
 import axios from "axios";
 
@@ -337,17 +338,6 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
             .filter(Boolean); // Bỏ null
     }, [geoData, logoMap]);
 
-
-    // const handleSelectFeature = async (feature) => {
-    //     const wikidata = feature?.properties?.wikidata;
-    //     if (!wikidata || logoMap[wikidata]) return;
-
-    //     const logo = await getLogoFromWikidata(wikidata);
-    //     if (logo) {
-    //         setLogoMap((prev) => ({ ...prev, [wikidata]: logo }));
-    //     }
-    // };
-
     // hàm tạo icon theo trạng thái
     const createDynamicIcon = () => {
         const iconHtml = ReactDOMServer.renderToString(
@@ -445,15 +435,42 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                 }
 
                 {/* Thêm điều kiện vẽ route */}
-                {routeFrom && routeTo && (
+                {/* {routeFrom && routeTo && (
                     <RoutingMachine
                         from={routeFrom}
                         to={routeTo}
                         mode={transportMode}
                         onRouteInfo={onRouteInfo}
                     />
-                )}
+                )} */}
 
+                {showDirection && (
+                    <div style={{
+                        position: "absolute",
+                        top: 15,
+                        left: 40,
+                        zIndex: 1001,
+                        background: "#fff",
+                        borderRadius: "8px",
+                        boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
+                    }}>
+                        <DirectionWrapper
+                            onClose={handleCloseDirectionBox}
+                            onRouteSelected={(from, to, mode) => {
+                                setRouteFrom(from);
+                                setRouteTo(to);
+                                setTransportMode(mode);
+                                setPopupInfo(null);
+                                setIsPopupFromMapClick(false);
+                            }}
+                            routeInfo={routeInfo}
+                            onRouteInfo={setRouteInfo}
+                            transportMode={transportMode}
+                            from={routeFrom}
+                            to={routeTo}
+                        />
+                    </div>
+                )}
             </MapContainer>
 
             {/* Nút bật/tắt layer */}
@@ -537,7 +554,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                 <TbRoadSign size={28} color='#666' />
             </button>
 
-            {showDirection && (
+            {/* {showDirection && (
                 <div style={{
                     position: "absolute",
                     top: 15,
@@ -560,9 +577,8 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                         transportMode={transportMode}
                         onTransportModeChange={(mode) => setTransportMode(mode)}
                     />
-
                 </div>
-            )}
+            )} */}
         </div>
     );
 };

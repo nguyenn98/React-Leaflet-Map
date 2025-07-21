@@ -99,7 +99,7 @@ export const logoUniversity = [
         id: 17,
         name: "Trường Đại học Khoa học Tự nhiên",
         code: "HUS",
-        logo: "/images/Trường_Đại_học_Khoa_học_Tự_nhiên_ĐHQGHN.png"
+        logo: "/images/dai_hoc_khoa_hoc_tu_nhien_DHQGHN.png"
     },
     {
         id: 18,
@@ -279,7 +279,7 @@ export const logoUniversity = [
         id: 47,
         name: "Học viện Âm nhạc Quốc gia Việt Nam",
         code: "VNAM",
-        logo: "/images/Học_viện_Âm_nhạc_Quốc_gia_Việt_Nam.png"
+        logo: "/images/hoc_vien_am_nhac_quoc_gia_vn.png"
     },
     {
         id: 48,
@@ -453,7 +453,7 @@ export const logoUniversity = [
         id: 76,
         name: "Đại học Quốc gia Hà Nội",
         code: "VNU",
-        logo: "/images/ĐHQGHN.png"
+        logo: "/images/dhqghn.png"
     },
     {
         id: 77,
@@ -495,7 +495,7 @@ export const logoUniversity = [
         id: 83,
         name: "Trường Đại học Công nghệ và Quản lý Hữu Nghị",
         code: "UTM",
-        logo: "/images/truong_dai hoc_cong_nghe_va_quan_ly_huu_nghi.jpg"
+        logo: "/images/truong_dai_hoc_cong_nghe_va_quan_ly_huu_nghi.jpg"
     },
     {
         id: 84,
@@ -513,7 +513,7 @@ export const logoUniversity = [
         id: 86,
         name: "Trường Đại học Công nghiệp Việt-Hung (cơ sở Thạch Thất)",
         code: "VIHU2",
-        logo: "/images/dai_hoc_cong_nghiep_viet_hung (thach_that).png"
+        logo: "/images/dai_hoc_cong_nghiep_viet_hung_thach_that.png"
     },
     {
         id: 87,
