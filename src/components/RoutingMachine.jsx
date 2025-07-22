@@ -57,6 +57,15 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
       waypoints: [L.latLng(from[0], from[1]), L.latLng(to[0], to[1])],
       routeWhileDragging: false,
       createMarker: () => null,
+      lineOptions: {
+        styles: [
+          {
+            color: '#08eb5fab', // Màu xanh dương đẹp
+            weight: 6,        // Độ dày nét
+            opacity: 0.9,     // Độ trong suốt
+          },
+        ],
+      },
       router: L.Routing.osrmv1({
         serviceUrl: "http://localhost:5000/route/v1", // Thay "/route/v1" bằng URL đầy đủ
         profile: selectedProfile,
@@ -64,9 +73,27 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
       }),
     }).addTo(map);
 
+    // control.on("routesfound", function (e) {
+    //   const route = e.routes[0];
+    //   const steps = route.instructions || [];
+    //   onRouteInfo({
+    //     distance: route.summary.totalDistance,
+    //     time: route.summary.totalTime,
+    //     steps: steps.map((s) => ({
+    //       text: s.text,
+    //       distance: s.distance,
+    //       time: s.time,
+    //     })),
+    //   });
+    // }).on("error", function (e) {
+    //   console.error("Lỗi định tuyến:", e);
+    //   onRouteInfo({ distance: 0, time: 0, steps: [] }); // Reset nếu lỗi
+    // });
     control.on("routesfound", function (e) {
       const route = e.routes[0];
       const steps = route.instructions || [];
+      const coordinates = route.coordinates;
+
       onRouteInfo({
         distance: route.summary.totalDistance,
         time: route.summary.totalTime,
@@ -74,11 +101,9 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
           text: s.text,
           distance: s.distance,
           time: s.time,
+          latlng: coordinates[s.index], // 💡 tọa độ của bước
         })),
       });
-    }).on("error", function (e) {
-      console.error("Lỗi định tuyến:", e);
-      onRouteInfo({ distance: 0, time: 0, steps: [] }); // Reset nếu lỗi
     });
 
     routingControlRef.current = control;

@@ -444,7 +444,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                     />
                 )} */}
 
-                {showDirection && (
+                {/* {showDirection && (
                     <div style={{
                         position: "absolute",
                         top: 15,
@@ -452,7 +452,9 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                         zIndex: 1001,
                         background: "#fff",
                         borderRadius: "8px",
-                        boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
+                        boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+                        pointerEvents: "auto"
+
                     }}>
                         <DirectionWrapper
                             onClose={handleCloseDirectionBox}
@@ -468,6 +470,31 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                             transportMode={transportMode}
                             from={routeFrom}
                             to={routeTo}
+                        />
+                    </div>
+                )} */}
+                {showDirection && (
+                    <div className="custom-overlay" >
+                        <DirectionWrapper
+                            onClose={handleCloseDirectionBox}
+                            onRouteSelected={(from, to, mode) => {
+                                setRouteFrom(from);
+                                setRouteTo(to);
+                                setTransportMode(mode);
+                                setPopupInfo(null);
+                                setIsPopupFromMapClick(false);
+                            }}
+                            routeInfo={routeInfo}
+                            onRouteInfo={setRouteInfo}
+                            transportMode={transportMode}
+                            from={routeFrom}
+                            to={routeTo}
+                            onStepClick={(step, index) => {
+                                console.log("Step clicked:", index, step);
+                                if (step.lat && step.lon && mapRef.current) {
+                                    mapRef.current.flyTo([step.lat, step.lon], 18);
+                                }
+                            }}
                         />
                     </div>
                 )}

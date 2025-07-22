@@ -1,9 +1,10 @@
 import { useMap } from "react-leaflet";
 import DirectionBox from "./DirectionBox";
+import DirectionOverlay from "./DirectionOverlay";
 
-const DirectionWrapper = (props) => {
+const DirectionWrapper = ({ onStepClick, ...rest }) => {
     const map = useMap();
-    return <DirectionBox {...props} map={map} />;
+    return <DirectionOverlay {...rest} map={map} onStepClick={onStepClick}/>;
 };
 
 export default DirectionWrapper;
