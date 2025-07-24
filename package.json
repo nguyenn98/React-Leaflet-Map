@@ -12,6 +12,7 @@
     "cheerio": "^1.1.0",
     "fs-extra": "^11.3.0",
     "leaflet": "^1.9.4",
+    "leaflet-polylinedecorator": "^1.6.0",
     "leaflet-routing-machine": "^3.2.12",
     "node-geocoder": "^4.4.1",
     "puppeteer": "^24.11.2",

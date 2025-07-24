@@ -97,6 +97,15 @@ const DirectionBox = ({
         }
     };
 
+    // Ấn Enter
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            if (fromText.trim() !== '' && toText.trim() !== '') {
+                handleFindRoute();
+            }
+        }
+    };
+
     const handleSwap = () => {
         setFromText(toText);
         setToText(fromText);
@@ -104,6 +113,7 @@ const DirectionBox = ({
         setToCoords(fromCoords);
     };
 
+    // Chọn phương tiện di chuyển
     const handleTransportModeChange = (mode) => {
         setLocalTransportMode(mode);
         onTransportModeChange?.(mode);
@@ -129,6 +139,7 @@ const DirectionBox = ({
                         placeholder="Vị trí của bạn"
                         value={fromText}
                         onChange={(e) => setFromText(e.target.value)}
+                        onKeyDown={handleKeyDown}
                     />
                     <button className="swap-button" onClick={handleSwap}>
                         <MdSwapVert size={20} color="#666" />
@@ -142,6 +153,7 @@ const DirectionBox = ({
                         placeholder="Chọn điểm đến hoặc nhấp bản đồ"
                         value={toText}
                         onChange={(e) => setToText(e.target.value)}
+                        onKeyDown={handleKeyDown}
                     />
                     <button className="search-button" onClick={handleFindRoute}>
                         <MdSearch color="#666" size={18} />
@@ -160,27 +172,6 @@ const DirectionBox = ({
                         </button>
                     ))}
                 </div>
-
-                {/* {routeInfo && (
-                    <div className="route-info">
-                        <div className="route-summary">
-                            <strong>Khoảng cách:</strong> {(routeInfo.distance / 1000).toFixed(2)} km<br />
-                            <strong>Thời gian ước tính:</strong> {Math.round(routeInfo.time / 60)} phút
-                        </div>
-                        <ol className="route-steps">
-                            {routeInfo.steps.map((step, i) => (
-                                <li
-                                    key={i}
-                                    className="route-step"
-                                    onClick={() => onStepClick?.(step, i)}
-                                    style={{ cursor: 'pointer' }}
-                                >
-                                    {step.text} – {step.distance.toFixed(0)} m
-                                </li>
-                            ))}
-                        </ol>
-                    </div>
-                )} */}
 
                 {fromCoords && toCoords && map && (
                     <RoutingMachine

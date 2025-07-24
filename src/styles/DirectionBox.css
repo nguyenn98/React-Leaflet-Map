@@ -141,23 +141,11 @@
     /* Cho phép click trong box */
 }
 
-/* .leaflet-top.leaflet-right .leaflet-routing-container {
-    position: absolute;
-    right: 910px !important;
-    top: 207px !important;
-    width: 430px !important;
-    border-radius: 14px;
-    padding-left: 25px !important;
-    padding-bottom: 4px !important;
-    border: none;
-    box-shadow: #ccc;
-} */
-
 .leaflet-top.leaflet-right .leaflet-routing-container {
     position: absolute;
-    right: 929.5px !important;
+    right: 929.6px !important;
     top: 207px !important;
-    width: 410.5px !important;
+    width: 410.2px !important;
     height: 400px !important;
     border-radius: 13px;
     padding-left: 20px !important;

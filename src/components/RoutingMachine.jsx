@@ -2,117 +2,139 @@ import { useEffect, useRef } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet-routing-machine";
+import "leaflet-polylinedecorator";
 
 const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
   const map = useMap();
   const routingControlRef = useRef(null);
-  const prevFromRef = useRef(null);
-  const prevToRef = useRef(null);
-  const prevModeRef = useRef(null);
+  const polylineRef = useRef(null);
+  const decoratorRef = useRef(null);
 
   useEffect(() => {
     if (!from || !to || !map) return;
 
-    // Kiểm tra xem tọa độ hoặc mode có thay đổi không
-    const fromChanged = !prevFromRef.current || from[0] !== prevFromRef.current[0] || from[1] !== prevFromRef.current[1];
-    const toChanged = !prevToRef.current || to[0] !== prevToRef.current[0] || to[1] !== prevToRef.current[1];
-    const modeChanged = prevModeRef.current !== mode;
-
-    if (!fromChanged && !toChanged && !modeChanged) {
-      return; // Không làm gì nếu không có thay đổi
-    }
-
-    // Cập nhật giá trị trước đó
-    prevFromRef.current = from;
-    prevToRef.current = to;
-    prevModeRef.current = mode;
-
-    // Xóa tuyến đường cũ nếu có
+    // Xóa các lớp cũ nếu có
     if (routingControlRef.current) {
       map.removeControl(routingControlRef.current);
-      routingControlRef.current = null;
+    }
+    if (polylineRef.current) {
+      map.removeLayer(polylineRef.current);
+    }
+    if (decoratorRef.current) {
+      map.removeLayer(decoratorRef.current);
     }
 
-    // Ánh xạ mode sang profile hợp lệ của OSRM
     const profileMap = {
       car: "driving",
       bus: "driving",
       walk: "walking",
       bike: "cycling",
     };
-
-    // Đảm bảo mode hợp lệ
     const selectedProfile = profileMap[mode] || "driving";
-
-    // Kiểm tra tọa độ hợp lệ
-    if (
-      isNaN(from[0]) || isNaN(from[1]) || from[0] < -90 || from[0] > 90 || from[1] < -180 || from[1] > 180 ||
-      isNaN(to[0]) || isNaN(to[1]) || to[0] < -90 || to[0] > 90 || to[1] < -180 || to[1] > 180
-    ) {
-      console.error("Tọa độ không hợp lệ:", { from, to });
-      return;
-    }
 
     const control = L.Routing.control({
       waypoints: [L.latLng(from[0], from[1]), L.latLng(to[0], to[1])],
-      routeWhileDragging: false,
-      createMarker: () => null,
+      routeWhileDragging: true, // Cho phép kéo điểm
+      draggableWaypoints: true,
+      addWaypoints: false,
+      createMarker: (i, waypoint, n) => {
+        const isStart = i === 0;
+        const iconHtml = isStart
+          ? `<div style="font-size: 24px; color: #1976d2;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5
+                  c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5
+                  14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/>
+              </svg>
+            </div>`
+          : `<div style="display: flex; flex-direction: column; align-items: center; font-size: 22px; color: #ff6600;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 4.25 4 9.44 6.17 11.91.41.48 1.25.48 1.66 0
+                  C15 18.44 19 13.25 19 9c0-3.87-3.13-7-7-7zm0 9.5
+                  c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5
+                  14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/>
+              </svg>
+              <div style="width: 28px; height: 4px; background-color: #ff6600; margin-top: -1px; border-radius: 2px;"></div>
+            </div>`;
+
+        return L.marker(waypoint.latLng, {
+          icon: L.divIcon({
+            className: "",
+            html: iconHtml,
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+          }),
+          draggable: true,
+        });
+      },
       lineOptions: {
-        styles: [
-          {
-            color: '#08eb5fab', // Màu xanh dương đẹp
-            weight: 6,        // Độ dày nét
-            opacity: 0.9,     // Độ trong suốt
-          },
-        ],
+        styles: [{ color: "transparent" }],
       },
       router: L.Routing.osrmv1({
-        serviceUrl: "http://localhost:5000/route/v1", // Thay "/route/v1" bằng URL đầy đủ
+        serviceUrl: "http://localhost:5000/route/v1",
         profile: selectedProfile,
         useHints: false,
       }),
     }).addTo(map);
 
-    // control.on("routesfound", function (e) {
-    //   const route = e.routes[0];
-    //   const steps = route.instructions || [];
-    //   onRouteInfo({
-    //     distance: route.summary.totalDistance,
-    //     time: route.summary.totalTime,
-    //     steps: steps.map((s) => ({
-    //       text: s.text,
-    //       distance: s.distance,
-    //       time: s.time,
-    //     })),
-    //   });
-    // }).on("error", function (e) {
-    //   console.error("Lỗi định tuyến:", e);
-    //   onRouteInfo({ distance: 0, time: 0, steps: [] }); // Reset nếu lỗi
-    // });
-    control.on("routesfound", function (e) {
+    const drawRoute = (e) => {
       const route = e.routes[0];
-      const steps = route.instructions || [];
       const coordinates = route.coordinates;
 
-      onRouteInfo({
-        distance: route.summary.totalDistance,
-        time: route.summary.totalTime,
-        steps: steps.map((s) => ({
-          text: s.text,
-          distance: s.distance,
-          time: s.time,
-          latlng: coordinates[s.index], // 💡 tọa độ của bước
-        })),
-      });
-    });
+      // Xóa cũ nếu có
+      if (polylineRef.current) map.removeLayer(polylineRef.current);
+      if (decoratorRef.current) map.removeLayer(decoratorRef.current);
+
+      // Vẽ polyline mới
+      const polyline = L.polyline(coordinates, {
+        color: "#08eb5fab",
+        weight: 6,
+        opacity: 0.9,
+      }).addTo(map);
+      polylineRef.current = polyline;
+
+      // Thêm mũi tên
+      const decorator = L.polylineDecorator(polyline, {
+        patterns: [
+          {
+            offset: 40,
+            repeat: 80,
+            symbol: L.Symbol.arrowHead({
+              pixelSize: 10,
+              polygon: false,
+              pathOptions: { stroke: true, color: "#ff6600", weight: 2 },
+            }),
+          },
+        ],
+      }).addTo(map);
+      decoratorRef.current = decorator;
+
+      // Gửi thông tin route cho DirectionBox
+      if (onRouteInfo) {
+        onRouteInfo({
+          distance: route.summary.totalDistance,
+          time: route.summary.totalTime,
+          steps: route.instructions.map((s) => ({
+            text: s.text,
+            distance: s.distance,
+            time: s.time,
+            latlng: coordinates[s.index],
+          })),
+        });
+      }
+    };
+
+    control.on("routesfound", drawRoute);
 
     routingControlRef.current = control;
 
     return () => {
-      if (routingControlRef.current) {
-        map.removeControl(routingControlRef.current);
-        routingControlRef.current = null;
-      }
+      if (routingControlRef.current) map.removeControl(routingControlRef.current);
+      if (polylineRef.current) map.removeLayer(polylineRef.current);
+      if (decoratorRef.current) map.removeLayer(decoratorRef.current);
+      routingControlRef.current = null;
+      polylineRef.current = null;
+      decoratorRef.current = null;
     };
   }, [map, from, to, mode, onRouteInfo]);
 
