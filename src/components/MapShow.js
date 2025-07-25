@@ -559,8 +559,10 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                     <LocationList geoData={geoData} onLocationClick={handleLocationClick} />
                 </div>
             }
+            {/* Nút chỉ đường */}
             <button
                 onClick={() => setShowDirection(true)}
+                title="chỉ đường"
                 style={{
                     position: "absolute",
                     bottom: 307,

@@ -175,6 +175,7 @@ const DirectionBox = ({
 
                 {fromCoords && toCoords && map && (
                     <RoutingMachine
+                        key={`${fromCoords}-${toCoords}-${localTransportMode}`} // ép render lại
                         from={fromCoords}
                         to={toCoords}
                         mode={localTransportMode}
