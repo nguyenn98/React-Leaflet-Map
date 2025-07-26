@@ -77,52 +77,101 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
       }),
     }).addTo(map);
 
+    // const drawRoute = (e) => {
+    //   const route = e.routes[0];
+    //   const coordinates = route.coordinates;
+
+    //   // Xóa cũ nếu có
+    //   if (polylineRef.current) map.removeLayer(polylineRef.current);
+    //   if (decoratorRef.current) map.removeLayer(decoratorRef.current);
+
+    //   // Vẽ polyline mới
+    //   const polyline = L.polyline(coordinates, {
+    //     color: "#08eb5fab",
+    //     weight: 6,
+    //     opacity: 0.9,
+    //   }).addTo(map);
+    //   polylineRef.current = polyline;
+
+    //   // Thêm mũi tên
+    //   const decorator = L.polylineDecorator(polyline, {
+    //     patterns: [
+    //       {
+    //         offset: 40,
+    //         repeat: 80,
+    //         symbol: L.Symbol.arrowHead({
+    //           pixelSize: 10,
+    //           polygon: false,
+    //           pathOptions: { stroke: true, color: "#ff6600", weight: 2 },
+    //         }),
+    //       },
+    //     ],
+    //   }).addTo(map);
+    //   decoratorRef.current = decorator;
+
+    //   // Gửi thông tin route cho DirectionBox
+    //   if (onRouteInfo) {
+    //     onRouteInfo({
+    //       distance: route.summary.totalDistance,
+    //       time: route.summary.totalTime,
+    //       steps: route.instructions.map((s) => ({
+    //         text: s.text,
+    //         distance: s.distance,
+    //         time: s.time,
+    //         latlng: coordinates[s.index],
+    //       })),
+    //     });
+    //   }
+    // };
+
     const drawRoute = (e) => {
-      const route = e.routes[0];
-      const coordinates = route.coordinates;
+  const route = e.routes[0];
+  const coordinates = route.coordinates;
 
-      // Xóa cũ nếu có
-      if (polylineRef.current) map.removeLayer(polylineRef.current);
-      if (decoratorRef.current) map.removeLayer(decoratorRef.current);
+  if (polylineRef.current) map.removeLayer(polylineRef.current);
+  if (decoratorRef.current) map.removeLayer(decoratorRef.current);
 
-      // Vẽ polyline mới
-      const polyline = L.polyline(coordinates, {
-        color: "#08eb5fab",
-        weight: 6,
-        opacity: 0.9,
-      }).addTo(map);
-      polylineRef.current = polyline;
+  const polyline = L.polyline(coordinates, {
+    color: "#08eb5fab",
+    weight: 6,
+    opacity: 0.9,
+  }).addTo(map);
+  polylineRef.current = polyline;
 
-      // Thêm mũi tên
-      const decorator = L.polylineDecorator(polyline, {
-        patterns: [
-          {
-            offset: 40,
-            repeat: 80,
-            symbol: L.Symbol.arrowHead({
-              pixelSize: 10,
-              polygon: false,
-              pathOptions: { stroke: true, color: "#ff6600", weight: 2 },
-            }),
-          },
-        ],
-      }).addTo(map);
-      decoratorRef.current = decorator;
+  const decorator = L.polylineDecorator(polyline, {
+    patterns: [
+      {
+        offset: 40,
+        repeat: 80,
+        symbol: L.Symbol.arrowHead({
+          pixelSize: 10,
+          polygon: false,
+          pathOptions: { stroke: true, color: "#ff6600", weight: 2 },
+        }),
+      },
+    ],
+  }).addTo(map);
+  decoratorRef.current = decorator;
 
-      // Gửi thông tin route cho DirectionBox
-      if (onRouteInfo) {
-        onRouteInfo({
-          distance: route.summary.totalDistance,
-          time: route.summary.totalTime,
-          steps: route.instructions.map((s) => ({
-            text: s.text,
-            distance: s.distance,
-            time: s.time,
-            latlng: coordinates[s.index],
-          })),
-        });
-      }
-    };
+  // ⚠️ Fix thời gian nếu không phải ô tô
+  let adjustedTime = route.summary.totalTime;
+  if (mode === "bus") adjustedTime *= 1.5;
+  else if (mode === "walk") adjustedTime *= 4.0;
+  else if (mode === "bike") adjustedTime *= 2.0;
+
+  if (onRouteInfo) {
+    onRouteInfo({
+      distance: route.summary.totalDistance,
+      time: adjustedTime,
+      steps: route.instructions.map((s) => ({
+        text: s.text,
+        distance: s.distance,
+        time: s.time,
+        latlng: coordinates[s.index],
+      })),
+    });
+  }
+};
 
     control.on("routesfound", drawRoute);
 

@@ -117,6 +117,11 @@ const DirectionBox = ({
     const handleTransportModeChange = (mode) => {
         setLocalTransportMode(mode);
         onTransportModeChange?.(mode);
+
+        // Ép gọi lại RoutingMachine nếu đã có tọa độ
+        if (fromCoords && toCoords) {
+            onRouteSelected?.(fromCoords, toCoords, mode);
+        }
     };
 
     return (
@@ -172,6 +177,9 @@ const DirectionBox = ({
                         </button>
                     ))}
                 </div>
+                <div style={{ marginTop: '-10px' }}>Quãng đường: {routeInfo ? `${(routeInfo.distance / 1000).toFixed(1)} km` : "-"}</div>
+                <div style={{ marginTop: '-10px' }}>Thời gian ước tính: {routeInfo ? `${Math.round(routeInfo.time / 60)} phút` : "-"}</div>
+
 
                 {fromCoords && toCoords && map && (
                     <RoutingMachine
