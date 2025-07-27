@@ -151,6 +151,32 @@ const DirectionBox = ({
                     </button>
                 </div>
 
+                <div
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        gap: '4px',
+                        position: 'absolute',
+                        top: 49,
+                        left: 24.45,
+                    }}>
+                    {[...Array(3)].map((_, i) => (
+                        <span
+                            key={i}
+                            style={{
+                                width: '3px',
+                                height: '3px',
+                                backgroundColor: 'rgba(97, 94, 94, 1)',
+                                borderRadius: '50%',
+                                display: 'inline-block',
+                            }}
+                        ></span>
+                    ))}
+                </div>
+
+
+
                 <div className="direction-row">
                     <MdPinDrop color="#555" size={20} />
                     <input
@@ -177,8 +203,12 @@ const DirectionBox = ({
                         </button>
                     ))}
                 </div>
-                <div style={{ marginTop: '-10px' }}>Quãng đường: {routeInfo ? `${(routeInfo.distance / 1000).toFixed(1)} km` : "-"}</div>
-                <div style={{ marginTop: '-10px' }}>Thời gian ước tính: {routeInfo ? `${Math.round(routeInfo.time / 60)} phút` : "-"}</div>
+                <div style={{ marginTop: '-10px', color: '#5f6368' }}>
+                    Quãng đường: {routeInfo ? `${(routeInfo.distance / 1000).toFixed(1)} km` : "-"}
+                </div>
+                <div style={{ marginTop: '-10px', color: '#5f6368' }}>
+                    Thời gian ước tính: {routeInfo ? `${Math.round(routeInfo.time / 60)} phút` : "-"}
+                </div>
 
 
                 {fromCoords && toCoords && map && (

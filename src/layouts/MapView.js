@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import SearchBox from "../components/SearchBox";
 import MapShow from "../components/MapShow";
+import '../App.css'
 
 const MapView = () => {
   const [geoData, setGeoData] = useState(null);
@@ -35,14 +36,16 @@ const MapView = () => {
         !showDirection &&
         <SearchBox onSearch={(pos) => { setPosition(pos); setHighlight(true); }} />
       }
-      <MapShow
-        position={position}
-        geoData={geoData}
-        highlight={highlight}
-        setHighlight={setHighlight}
-        showDirection={showDirection}
-        setShowDirection={setShowDirection}
-      />
+      <div className="map-wrapper">
+        <MapShow
+          position={position}
+          geoData={geoData}
+          highlight={highlight}
+          setHighlight={setHighlight}
+          showDirection={showDirection}
+          setShowDirection={setShowDirection}
+        />
+      </div>
 
     </div>
   );

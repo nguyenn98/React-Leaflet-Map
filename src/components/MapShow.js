@@ -434,45 +434,6 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                     showLayer && markers
                 }
 
-                {/* Thêm điều kiện vẽ route */}
-                {/* {routeFrom && routeTo && (
-                    <RoutingMachine
-                        from={routeFrom}
-                        to={routeTo}
-                        mode={transportMode}
-                        onRouteInfo={onRouteInfo}
-                    />
-                )} */}
-
-                {/* {showDirection && (
-                    <div style={{
-                        position: "absolute",
-                        top: 15,
-                        left: 40,
-                        zIndex: 1001,
-                        background: "#fff",
-                        borderRadius: "8px",
-                        boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
-                        pointerEvents: "auto"
-
-                    }}>
-                        <DirectionWrapper
-                            onClose={handleCloseDirectionBox}
-                            onRouteSelected={(from, to, mode) => {
-                                setRouteFrom(from);
-                                setRouteTo(to);
-                                setTransportMode(mode);
-                                setPopupInfo(null);
-                                setIsPopupFromMapClick(false);
-                            }}
-                            routeInfo={routeInfo}
-                            onRouteInfo={setRouteInfo}
-                            transportMode={transportMode}
-                            from={routeFrom}
-                            to={routeTo}
-                        />
-                    </div>
-                )} */}
                 {showDirection && (
                     <div className="custom-overlay" >
                         <DirectionWrapper
@@ -582,32 +543,6 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
             >
                 <TbRoadSign size={28} color='#666' />
             </button>
-
-            {/* {showDirection && (
-                <div style={{
-                    position: "absolute",
-                    top: 15,
-                    left: 40,
-                    zIndex: 1001,
-                    background: "#fff",
-                    borderRadius: "8px",
-                    boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
-                }}>
-                    <DirectionBox
-                        onClose={handleCloseDirectionBox}
-                        onRouteSelected={(from, to, mode) => {
-                            setRouteFrom(from);
-                            setRouteTo(to);
-                            setTransportMode(mode);
-                            setPopupInfo(null); // Reset popup khi tìm kiếm
-                            setIsPopupFromMapClick(false); // Tắt popup từ map click
-                        }}
-                        routeInfo={routeInfo}
-                        transportMode={transportMode}
-                        onTransportModeChange={(mode) => setTransportMode(mode)}
-                    />
-                </div>
-            )} */}
         </div>
     );
 };

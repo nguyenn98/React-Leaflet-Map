@@ -40,6 +40,19 @@
 
 div .leaflet-control-zoom.leaflet-bar.leaflet-control {
   position: absolute;
-  top: 540px;
+  top: 500px;
   left: 1305px;
+}
+
+.leaflet-container .leaflet-control-attribution {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  display: none;
+}
+
+.map-wrapper {
+  height: calc(100vh - 57px);
+  /* 55px là chiều cao của Header */
+  overflow: hidden;
 }
