@@ -52,7 +52,7 @@ div .leaflet-control-zoom.leaflet-bar.leaflet-control {
 }
 
 .map-wrapper {
-  height: calc(100vh - 57px);
+  height: calc(100vh - 60px);
   /* 55px là chiều cao của Header */
   overflow: hidden;
 }

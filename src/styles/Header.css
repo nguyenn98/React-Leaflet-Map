@@ -1,37 +1,49 @@
 .custom-header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    height: 55px;
-    background-color: white;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    height: 60px;
+    padding: 0 30px;
+    background-color: #1f222c;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color:  #1f222c;
+    font-family: 'Segoe UI', sans-serif;
 }
 
-.header-box {
+.header-left {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100%;
-    /* đường kẻ giống bút xanh */
-}
-
-.header-box:last-child {
-    border-right: none;
-    /* không cần viền cuối */
-}
-
-.logo-box {
-    padding: 0 10px;
+    margin-left: 40px;
 }
 
 .header-logo {
-    height: 40px;
+    height: 60px;
     object-fit: contain;
+    margin-right: 10px;
 }
 
-.empty-box {
-    width: 40px;
+.header-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-item {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffd700;
 }
