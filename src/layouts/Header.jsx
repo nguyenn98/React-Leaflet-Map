@@ -6,32 +6,42 @@ const Header = () => {
         <header className="custom-header">
             <div className="header-left">
                 <img src="/roadtouniversity.png" alt="Logo trang chủ" className="header-logo" />
-                <span className="header-title">Road To University</span>
+
+                <span className="header-title">
+                    <span style={{ color: '#FAFAFA', marginRight: '4px' }}>
+                        Road to
+                    </span>
+                    University
+                </span>
             </div>
             <nav className="header-nav">
                 <div className="nav-item">
-                    <img style={{ width: '32px', marginTop: '-6px' }} src="/gate.png" />
-                    Trang chủ
+                    <img style={{ width: '35px', height: '40px', paddingRight: '3px' }} src="/gate.png" alt='Cổng trang chủ' />
+                    <p>Trang chủ</p>
                 </div>
                 <div className="nav-item">
-                    <img style={{ width: '40px' }} src="/infoUniversity.png" />
-                    Học tập
+                    <img style={{ width: '38px', height: '40px', paddingRight: '3px' }} src="/infoUniversity.png" alt="Học tập" />
+                    <p>Học tập</p>
                 </div>
                 <div className="nav-item">
-                    <img style={{ width: '47px', marginTop: '-6px' }} src="/food2.png" />
-                    Ăn uống
+                    <img style={{ width: '45px', height: '36px', paddingRight: '3px'}} src="/food2.png" alt='Ăn uống' />
+                    <p>Ăn uống</p>
                 </div>
                 <div className="nav-item" >
-                    <img style={{ width: '50px', marginTop: '-6px' }} src="/house.png" />
-                    Nhà trọ
+                    <img style={{ width: '48px', height: '40px', paddingRight: '3px' }} src="/house.png" alt="Nhà trọ" />
+                    <p>Nhà trọ</p>
                 </div>
                 <div className="nav-item">
-                    <img style={{ width: '65px', marginTop: '-6px' }} src="/vehicle.png" />
-                    Di chuyển
+                    <img style={{ width: '62px', height: '40px', paddingRight: '3px' }} src="/vehicle.png" alt='Di chuyển'/>
+                    <p>Di chuyển</p>
                 </div>
                 <div className="nav-item">
-                    <img style={{ width: '55px', marginTop: '-6px' }} src="/service.png" />
-                    Dịch vụ
+                    <img style={{ width: '52px', height: '40px', paddingRight: '3px' }} src="/service.png" alt="Dịch vụ" />
+                    <p>Dịch vụ</p>
+                </div>
+                <div className="nav-item">
+                    <img style={{ width: '37px', height: '37px', paddingRight: '3px' }} src="/info1.png" alt="Thông tin" />
+                    <p>Thông tin</p>
                 </div>
             </nav>
         </header>

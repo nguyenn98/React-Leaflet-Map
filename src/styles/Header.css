@@ -26,20 +26,29 @@
 }
 
 .header-title {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: 600;
+  /* color: #FFC300; */
+  color: #FFB000;
+  /* color: #E6AC00; */
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
 }
+
 
 .header-nav {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .nav-item {
     display: flex;
+    align-items: center;
     cursor: pointer;
-    font-size: 15px;
-    padding: 8px 9px;
+    font-size: 14px;
+    padding: 7px 8px;
     border-radius: 6px;
     transition: background 0.2s, color 0.2s;
 }

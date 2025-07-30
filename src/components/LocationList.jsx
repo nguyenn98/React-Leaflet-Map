@@ -34,13 +34,12 @@ const LocationList = ({ geoData, onLocationClick, showDirection }) => {
 
     return (
         <div
-            className="location-list-container"
             style={{
                 width: "249px",
                 background: "rgb(255,255,255)",
                 padding: "10px",
                 marginLeft: '-45px',
-                marginTop: '14px',
+                marginTop: '10px',
                 borderRadius: "8px",
                 boxShadow: "0 0 6px rgba(0,0,0,0.1)",
                 overflow: "hidden",
