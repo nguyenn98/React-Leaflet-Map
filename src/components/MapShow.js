@@ -4,6 +4,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import ReactDOMServer from "react-dom/server";
 import { useSearchParams } from "react-router-dom";
+import { Polyline } from "react-leaflet";
 
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";
@@ -16,7 +17,8 @@ import LocationPopup from "./LocationPopup";
 import RoutingMachine from "./RoutingMachine";
 import DirectionBox from "./DirectionBox";
 import DirectionWrapper from "./DirectionWrapper"
-import { getLogoFromWikidata } from "../utils/wikidata";
+import BusMap from "./BusMap";
+
 import axios from "axios";
 
 import { logoUniversity } from "../data/logoUniversity";
@@ -103,6 +105,8 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
     const [routeFrom, setRouteFrom] = useState(null);
     const [routeTo, setRouteTo] = useState(null);
     const [transportMode, setTransportMode] = useState("car"); // 👉 khai báo thêm dòng này
+    const [busRoutes, setBusRoutes] = useState([]);  // Update bus
+    const [allRoutes, setAllRoutes] = useState([]);
 
     const handleMapClick = async (latlng) => {
         try {
@@ -445,6 +449,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                                 setPopupInfo(null);
                                 setIsPopupFromMapClick(false);
                             }}
+
                             routeInfo={routeInfo}
                             onRouteInfo={setRouteInfo}
                             transportMode={transportMode}
@@ -456,9 +461,50 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                                     mapRef.current.flyTo([step.lat, step.lon], 18);
                                 }
                             }}
+                            setBusRoutes={setBusRoutes}
+                            setAllRoutes={setAllRoutes}
                         />
                     </div>
                 )}
+                {/* {busRoutes.length > 0 && (
+                    <select onChange={(e) => {
+                        const selectedId = e.target.value;
+                        const selectedRoute = busRoutes.find(r => r.id === selectedId);
+                        setBusRoutes([selectedRoute]); // chỉ hiển thị tuyến đã chọn
+                    }}>
+                        <option value="">Chọn tuyến</option>
+                        {busRoutes.map(r => (
+                            <option key={r.id} value={r.id}>
+                                {r.name || `Tuyến ${r.id}`}
+                            </option>
+                        ))}
+                    </select>
+                )}
+                {busRoutes.map((route) => (
+                    <Polyline
+                        key={route.id}
+                        positions={route.coordinates}
+                        color={route.color || "blue"}
+                        weight={5}
+                        opacity={0.8}
+                    />
+                ))} */}
+                {transportMode === "bus" && busRoutes && (
+                    <div>
+                        <BusMap
+                            busRoutes={busRoutes}
+                            allRoutes={allRoutes}
+                            onSelectRoute={(route) => {
+                                if (route) {
+                                    setBusRoutes([route]); // chỉ hiện 1 tuyến
+                                } else {
+                                    setBusRoutes(allRoutes); // hiện tất cả
+                                }
+                            }}
+                        />
+                    </div>
+                )}
+
             </MapContainer>
 
             {/* Nút bật/tắt layer */}
