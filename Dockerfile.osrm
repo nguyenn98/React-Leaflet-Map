@@ -1,0 +1,15 @@
+FROM osrm/osrm-backend:latest
+
+# Copy file bản đồ OSM đã chuẩn bị
+COPY hanoi-latest.osm.pbf /data/hanoi.osm.pbf
+
+# Chuẩn bị dữ liệu cho OSRM sử dụng thuật toán MLD (nhanh hơn CH)
+RUN osrm-extract -p /opt/car.lua /data/hanoi.osm.pbf && \
+    osrm-partition /data/hanoi.osrm && \
+    osrm-customize /data/hanoi.osrm
+
+# Mở port cho OSRM
+EXPOSE 5000
+
+# Chạy OSRM server
+CMD ["osrm-routed", "--algorithm", "mld", "/data/hanoi.osrm"]
