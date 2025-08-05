@@ -36,9 +36,9 @@ Thumbs.db
 *.pid
 *.seed
 
-# Public data (optional, nếu dùng GTFS hoặc geojson lớn)
-/public/gtfs/
-/public/data/
+# Public data (chỉ ignore nếu chứa file quá lớn hoặc tạm thời)
+# /public/gtfs/
+# /public/data/
 
 # Archives
 *.zip
