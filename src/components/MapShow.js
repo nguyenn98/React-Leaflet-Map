@@ -17,12 +17,13 @@ import LocationPopup from "./LocationPopup";
 import RoutingMachine from "./RoutingMachine";
 import DirectionBox from "./DirectionBox";
 import DirectionWrapper from "./DirectionWrapper"
-import BusMap from "./BusMap";
 
 import axios from "axios";
 
 import { logoUniversity } from "../data/logoUniversity";
 import '../styles/MapOpacity.css'
+import BusRouteSelector from "./BusRouteSelector";
+import BusPolylineLayer from "./BusPolylineLayer";
 
 const { BaseLayer } = LayersControl;
 
@@ -362,6 +363,13 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
 
     return (
         <div style={{ position: "relative" }}>
+            <BusRouteSelector
+                allRoutes={allRoutes}
+                onSelectRoute={(route) => {
+                    if (route) setBusRoutes([route]);
+                    else setBusRoutes(allRoutes);
+                }}
+            />
             <MapContainer
                 center={position}
                 zoom={initialZoom}
@@ -466,44 +474,8 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                         />
                     </div>
                 )}
-                {/* {busRoutes.length > 0 && (
-                    <select onChange={(e) => {
-                        const selectedId = e.target.value;
-                        const selectedRoute = busRoutes.find(r => r.id === selectedId);
-                        setBusRoutes([selectedRoute]); // chỉ hiển thị tuyến đã chọn
-                    }}>
-                        <option value="">Chọn tuyến</option>
-                        {busRoutes.map(r => (
-                            <option key={r.id} value={r.id}>
-                                {r.name || `Tuyến ${r.id}`}
-                            </option>
-                        ))}
-                    </select>
-                )}
-                {busRoutes.map((route) => (
-                    <Polyline
-                        key={route.id}
-                        positions={route.coordinates}
-                        color={route.color || "blue"}
-                        weight={5}
-                        opacity={0.8}
-                    />
-                ))} */}
-                {transportMode === "bus" && busRoutes && (
-                    <div>
-                        <BusMap
-                            busRoutes={busRoutes}
-                            allRoutes={allRoutes}
-                            onSelectRoute={(route) => {
-                                if (route) {
-                                    setBusRoutes([route]); // chỉ hiện 1 tuyến
-                                } else {
-                                    setBusRoutes(allRoutes); // hiện tất cả
-                                }
-                            }}
-                        />
-                    </div>
-                )}
+
+                <BusPolylineLayer busRoutes={busRoutes} />
 
             </MapContainer>
 
