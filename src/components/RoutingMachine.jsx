@@ -71,7 +71,8 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
         styles: [{ color: "transparent" }],
       },
       router: L.Routing.osrmv1({
-        serviceUrl: "http://localhost:5000/route/v1",
+        // serviceUrl: "http://localhost:5000/route/v1",
+        serviceUrl: "https://roadtouniversity.onrender.com/route/v1",
         profile: selectedProfile,
         useHints: false,
       }),
