@@ -3,10 +3,10 @@ services:
     name: osrm-backend
     env: docker
     plan: free
-    dockerfilePath: ./Dockerfile.osrm
+    dockerfilePath: ./osrm-backend/Dockerfile.osrm  # 🔧 Sửa chỗ này cho đúng đường dẫn
     autoDeploy: false
     healthCheckPath: /
-    region: singapore  # hoặc 'oregon', 'frankfurt', 'singapore' (tùy nơi gần bạn)
+    region: singapore
     envVars:
       - key: OSRM_ROUTER_PORT
         value: 5000
