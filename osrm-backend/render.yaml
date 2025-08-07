@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: osrm-backend
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.osrm
+    autoDeploy: false
+    healthCheckPath: /
+    region: singapore  # hoặc 'oregon', 'frankfurt', 'singapore' (tùy nơi gần bạn)
+    envVars:
+      - key: OSRM_ROUTER_PORT
+        value: 5000
+    ports:
+      - port: 5000
+        protocol: http
