@@ -72,7 +72,7 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
       },
       router: L.Routing.osrmv1({
         // serviceUrl: "http://localhost:5000/route/v1",
-        serviceUrl: "https://roadtouniversity.onrender.com/route/v1",
+        serviceUrl: "https://osrm-backend.onrender.com/route/v1", // URL backend Render
         profile: selectedProfile,
         useHints: false,
       }),

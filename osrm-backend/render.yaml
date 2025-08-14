@@ -1,3 +1,15 @@
+# services:
+#   - type: web
+#     name: osrm-backend
+#     env: docker
+#     plan: free
+#     dockerfilePath: ./Dockerfile.osrm
+#     autoDeploy: false
+#     region: singapore
+#     ports:
+#       - port: 5000
+#         protocol: http
+
 services:
   - type: web
     name: osrm-backend
@@ -7,5 +19,5 @@ services:
     autoDeploy: false
     region: singapore
     ports:
-      - port: 5000
+      - port: 10000   # Render public port, OSRM sẽ nghe $PORT bên trong container
         protocol: http
