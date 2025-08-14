@@ -18,14 +18,11 @@
 
 FROM osrm/osrm-backend:latest
 
-# Copy file bản đồ vào /data
 COPY osrm-backend/hanoi-latest.osm.pbf /data/hanoi.osm.pbf
 
-# Chuẩn bị dữ liệu cho thuật toán MLD
 RUN osrm-extract -p /opt/car.lua /data/hanoi.osm.pbf && \
     osrm-partition /data/hanoi.osrm && \
     osrm-customize /data/hanoi.osrm
 
-# Lắng nghe trên $PORT do Render cung cấp
 EXPOSE 10000
-CMD sh -c "osrm-routed --algorithm mld -p $PORT /data/hanoi.osrm"
+CMD sh -c "osrm-routed --algorithm mld -p $PORT --cors /data/hanoi.osrm"
