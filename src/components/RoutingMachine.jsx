@@ -70,78 +70,84 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
       lineOptions: {
         styles: [{ color: "transparent" }],
       },
+      // router: L.Routing.osrmv1({
+      //   // serviceUrl: "http://localhost:5000/route/v1",
+      //   serviceUrl: "https://osrm-back-end.onrender.com/route/v1", // URL backend Render
+      //   profile: selectedProfile,
+      //   useHints: false,
       router: L.Routing.osrmv1({
-        // serviceUrl: "http://localhost:5000/route/v1",
-        serviceUrl: "https://osrm-backend.onrender.com/route/v1", // URL backend Render
+        serviceUrl: "https://osrm-back-end.onrender.com/route/v1",
         profile: selectedProfile,
         useHints: false,
-      }),
+        geometryOnly: false,
+        overview: "full",
+    }),
+  }).addTo(map);
+
+  const drawRoute = (e) => {
+    const route = e.routes[0];
+    const coordinates = route.coordinates;
+
+    if (polylineRef.current) map.removeLayer(polylineRef.current);
+    if (decoratorRef.current) map.removeLayer(decoratorRef.current);
+
+    const polyline = L.polyline(coordinates, {
+      color: "#08eb5fab",
+      weight: 6,
+      opacity: 0.9,
     }).addTo(map);
+    polylineRef.current = polyline;
 
-    const drawRoute = (e) => {
-      const route = e.routes[0];
-      const coordinates = route.coordinates;
+    const decorator = L.polylineDecorator(polyline, {
+      patterns: [
+        {
+          offset: 40,
+          repeat: 80,
+          symbol: L.Symbol.arrowHead({
+            pixelSize: 10,
+            polygon: false,
+            pathOptions: { stroke: true, color: "#ff6600", weight: 2 },
+          }),
+        },
+      ],
+    }).addTo(map);
+    decoratorRef.current = decorator;
 
-      if (polylineRef.current) map.removeLayer(polylineRef.current);
-      if (decoratorRef.current) map.removeLayer(decoratorRef.current);
+    // ⚠️ Fix thời gian nếu không phải ô tô
+    let adjustedTime = route.summary.totalTime;
+    if (mode === "bus") adjustedTime *= 1.5;
+    else if (mode === "walk") adjustedTime *= 4.0;
+    else if (mode === "bike") adjustedTime *= 2.0;
 
-      const polyline = L.polyline(coordinates, {
-        color: "#08eb5fab",
-        weight: 6,
-        opacity: 0.9,
-      }).addTo(map);
-      polylineRef.current = polyline;
+    if (onRouteInfo) {
+      onRouteInfo({
+        distance: route.summary.totalDistance,
+        time: adjustedTime,
+        steps: route.instructions.map((s) => ({
+          text: s.text,
+          distance: s.distance,
+          time: s.time,
+          latlng: coordinates[s.index],
+        })),
+      });
+    }
+  };
 
-      const decorator = L.polylineDecorator(polyline, {
-        patterns: [
-          {
-            offset: 40,
-            repeat: 80,
-            symbol: L.Symbol.arrowHead({
-              pixelSize: 10,
-              polygon: false,
-              pathOptions: { stroke: true, color: "#ff6600", weight: 2 },
-            }),
-          },
-        ],
-      }).addTo(map);
-      decoratorRef.current = decorator;
+  control.on("routesfound", drawRoute);
 
-      // ⚠️ Fix thời gian nếu không phải ô tô
-      let adjustedTime = route.summary.totalTime;
-      if (mode === "bus") adjustedTime *= 1.5;
-      else if (mode === "walk") adjustedTime *= 4.0;
-      else if (mode === "bike") adjustedTime *= 2.0;
+  routingControlRef.current = control;
 
-      if (onRouteInfo) {
-        onRouteInfo({
-          distance: route.summary.totalDistance,
-          time: adjustedTime,
-          steps: route.instructions.map((s) => ({
-            text: s.text,
-            distance: s.distance,
-            time: s.time,
-            latlng: coordinates[s.index],
-          })),
-        });
-      }
-    };
+  return () => {
+    if (routingControlRef.current) map.removeControl(routingControlRef.current);
+    if (polylineRef.current) map.removeLayer(polylineRef.current);
+    if (decoratorRef.current) map.removeLayer(decoratorRef.current);
+    routingControlRef.current = null;
+    polylineRef.current = null;
+    decoratorRef.current = null;
+  };
+}, [map, from, to, mode, onRouteInfo]);
 
-    control.on("routesfound", drawRoute);
-
-    routingControlRef.current = control;
-
-    return () => {
-      if (routingControlRef.current) map.removeControl(routingControlRef.current);
-      if (polylineRef.current) map.removeLayer(polylineRef.current);
-      if (decoratorRef.current) map.removeLayer(decoratorRef.current);
-      routingControlRef.current = null;
-      polylineRef.current = null;
-      decoratorRef.current = null;
-    };
-  }, [map, from, to, mode, onRouteInfo]);
-
-  return null;
+return null;
 };
 
 export default RoutingMachine;
