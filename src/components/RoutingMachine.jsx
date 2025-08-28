@@ -211,17 +211,15 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
         styles: [{ color: "transparent" }], // ẩn polyline mặc định
       },
       router: L.Routing.osrmv1({
-        serviceUrl: "https://osrm-back-end.onrender.com/route/v1",
+        serviceUrl: "https://osrm-back-end.onrender.com",
         profile: selectedProfile,
-        useHints: false,
         timeout: 30 * 1000,
-        // ⚠️ ép luôn dạng geojson
-        options: {
-          geometries: "geojson",
-          overview: "full",
-          steps: true,
-        },
+        useHints: false,
+        geometries: "geojson",
+        overview: "full",
+        steps: true,
       }),
+
     }).addTo(map);
 
     // Vẽ polyline và mũi tên khi tìm thấy route
