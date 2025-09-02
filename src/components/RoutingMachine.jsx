@@ -91,7 +91,7 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
         urlParameters: {
           skip_waypoints: true // Giữ nguyên tọa độ gốc user nhập
         }
-      }),
+      
 
     }),
   }).addTo(map);
