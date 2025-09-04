@@ -1,0 +1,6 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,block_id,shape_id
+01_1,FULLW,01_1_PM_1,,,,shape_1
+01_1,FULLW,01_1_PM_2,,,,shape_2
+01_1,FULLW,01_1_PM_3,,,,shape_3
+01_1,FULLW,01_1_PM_4,,,,shape_4
+01_1,FULLW,01_1_PM_5,,,,shape_5
