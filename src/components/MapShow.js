@@ -19,6 +19,7 @@ import DirectionBox from "./DirectionBox";
 import DirectionWrapper from "./DirectionWrapper"
 
 import axios from "axios";
+import Papa from "papaparse";
 
 import { logoUniversity } from "../data/logoUniversity";
 import '../styles/MapOpacity.css'
@@ -233,6 +234,62 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
         }
         setCurrentPosition(position); // Vẫn cập nhật vị trí
     }, [position]);
+
+    // load dữ liệu GTFS
+    useEffect(() => {
+        const loadGtfsData = async () => {
+            try {
+                const [shapesRes, tripsRes] = await Promise.all([
+                    fetch(`${process.env.PUBLIC_URL}/gtfs/shapes_generated.txt`),
+                    fetch(`${process.env.PUBLIC_URL}/gtfs/trips_with_shape_id.txt`),
+                ]);
+
+                const shapesText = await shapesRes.text();
+                const tripsText = await tripsRes.text();
+
+                const shapes = Papa.parse(shapesText, { header: true, skipEmptyLines: true }).data;
+                const trips = Papa.parse(tripsText, { header: true, skipEmptyLines: true }).data;
+
+                // Gom nhóm shapes theo shape_id
+                const shapeMap = {};
+                shapes.forEach((s) => {
+                    if (!s.shape_id) return;
+                    if (!shapeMap[s.shape_id]) shapeMap[s.shape_id] = [];
+                    shapeMap[s.shape_id].push([
+                        parseFloat(s.shape_pt_lat),
+                        parseFloat(s.shape_pt_lon),
+                        parseInt(s.shape_pt_sequence),
+                    ]);
+                });
+
+                // Sắp xếp theo sequence
+                Object.keys(shapeMap).forEach((id) => {
+                    shapeMap[id].sort((a, b) => a[2] - b[2]);
+                });
+
+                // Gắn trips vào routes
+                const routes = trips
+                    .filter((t) => t.trip_id && t.shape_id) // bỏ dòng rỗng
+                    .map((t) => {
+                        const coords = (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]);
+                        return {
+                            id: t.trip_id,
+                            routeId: t.route_id,
+                            shapeId: t.shape_id,
+                            direction_id: t.direction_id || "", // 👈 thêm dòng này
+                            coordinates: coords,
+                            color: "#3366cc",
+                        };
+                    });
+
+                setAllRoutes(routes);
+            } catch (err) {
+                console.error("❌ Lỗi load GTFS:", err);
+            }
+        };
+
+        loadGtfsData();
+    }, []);
 
 
     // Hàm xử lý click vào danh sách
