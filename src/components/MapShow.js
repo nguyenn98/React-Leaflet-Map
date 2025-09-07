@@ -268,20 +268,22 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                 });
 
                 // Gắn trips vào routes
+                // Gắn trips vào routes
                 const routes = trips
-                    .filter((t) => t.trip_id && t.shape_id) // bỏ dòng rỗng
+                    .filter((t) => t.trip_id && t.shape_id) // bỏ dòng trống
                     .map((t) => {
                         const coords = (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]);
                         return {
-                            id: t.trip_id,
-                            routeId: t.route_id,
+                            id: t.trip_id,                // định danh duy nhất
+                            routeId: t.route_id,          // số tuyến
                             shapeId: t.shape_id,
-                            direction_id: t.direction_id || "", // 👈 thêm dòng này
+                            direction_id: t.direction_id, // 👈 thêm đầy đủ
+                            trip_headsign: t.trip_headsign || "",
                             coordinates: coords,
                             color: "#3366cc",
                         };
                     });
-
+                    
                 setAllRoutes(routes);
             } catch (err) {
                 console.error("❌ Lỗi load GTFS:", err);

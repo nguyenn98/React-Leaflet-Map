@@ -61,9 +61,9 @@
 const getFriendlyRouteName = (route) => {
   if (!route) return "Tuyến không rõ";
 
-  // Lấy số tuyến từ route_id (ví dụ: "01_1" → "01")
-  const routeNumberMatch = route.routeId?.match(/^(\d+)_/);
-  const routeNumber = routeNumberMatch ? routeNumberMatch[1] : route.routeId;
+  // Lấy số tuyến từ routeId
+  const routeNumberMatch = route.routeId?.match(/^(\d+)/);
+  const routeNumber = routeNumberMatch ? routeNumberMatch[1] : route.routeId || "?";
 
   // Xác định chiều đi / về
   let directionText = "";
@@ -72,6 +72,7 @@ const getFriendlyRouteName = (route) => {
 
   return `Tuyến ${routeNumber}${directionText}`;
 };
+
 
 const BusRouteSelector = ({ allRoutes, onSelectRoute }) => {
   return (
