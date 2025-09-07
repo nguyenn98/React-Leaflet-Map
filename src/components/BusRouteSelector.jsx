@@ -59,19 +59,19 @@
 
 
 const getFriendlyRouteName = (route) => {
-  if (!route) return "Tuyến không rõ";
+  if (!route || !route.routeId) return "Tuyến không rõ";
 
-  // Lấy số tuyến từ routeId
-  const routeNumberMatch = route.routeId?.match(/^(\d+)/);
-  const routeNumber = routeNumberMatch ? routeNumberMatch[1] : route.routeId || "?";
+  // Ví dụ: "01_1" => tuyến 01, chiều 1
+  const match = route.routeId.match(/^(\d+)_?(\d+)?$/);
+  if (match) {
+    const routeNumber = match[1];      // "01"
+    const direction = match[2] === "2" ? " (Chiều về)" : " (Chiều đi)";
+    return `Tuyến ${parseInt(routeNumber, 10)}${match[2] ? direction : ""}`;
+  }
 
-  // Xác định chiều đi / về
-  let directionText = "";
-  if (route.direction_id === "0") directionText = " (Chiều đi)";
-  else if (route.direction_id === "1") directionText = " (Chiều về)";
-
-  return `Tuyến ${routeNumber}${directionText}`;
+  return route.routeId;
 };
+
 
 
 const BusRouteSelector = ({ allRoutes, onSelectRoute }) => {
