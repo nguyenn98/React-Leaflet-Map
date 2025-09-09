@@ -61,15 +61,17 @@
 const getFriendlyRouteName = (route) => {
   if (!route || !route.routeId) return "Tuyến không rõ";
 
-  // Match cả dạng "01_1", "BRT01_2", "09CT_1"...
-  const match = route.routeId.match(/^([A-Za-z0-9]+)_(\d)$/);
+  // Ví dụ: "04" + direction_id
+  const match = route.routeId.match(/^(\d+)([A-Z]*)?$/); 
   if (match) {
-    const routeNumber = match[1];   // "01", "BRT01", "09CT"
-    const direction = match[2] === "2" ? " (Chiều về)" : " (Chiều đi)";
-    return `Tuyến ${routeNumber}${direction}`;
+    const routeNumber = match[1];   // "04"
+    const suffix = match[2] || "";  // "B" nếu có
+    const direction =
+      route.directionId === "1" ? " (Chiều về)" : " (Chiều đi)";
+    return `Tuyến ${parseInt(routeNumber, 10)}${suffix}${direction}`;
   }
 
-  return route.routeId; // fallback nếu không match
+  return route.routeId;
 };
 
 const BusRouteSelector = ({ allRoutes, onSelectRoute }) => {
@@ -84,14 +86,15 @@ const BusRouteSelector = ({ allRoutes, onSelectRoute }) => {
       }}
     >
       <select
-        defaultValue=""
         onChange={(e) => {
           const selectedId = e.target.value;
-          if (!selectedId) {
+          if (selectedId === "") {
             onSelectRoute(null);
           } else {
-            const selectedRoute = allRoutes.find((r) => r.routeId === selectedId);
-            if (selectedRoute) onSelectRoute(selectedRoute);
+            const selectedRoute = allRoutes.find((r) => r.id === selectedId);
+            if (selectedRoute) {
+              onSelectRoute(selectedRoute);
+            }
           }
         }}
         style={{
@@ -106,7 +109,7 @@ const BusRouteSelector = ({ allRoutes, onSelectRoute }) => {
       >
         <option value="">🚌 Chọn tuyến xe buýt</option>
         {allRoutes.map((r) => (
-          <option key={r.routeId} value={r.routeId}>
+          <option key={r.id} value={r.id}>
             {getFriendlyRouteName(r)}
           </option>
         ))}
@@ -116,3 +119,4 @@ const BusRouteSelector = ({ allRoutes, onSelectRoute }) => {
 };
 
 export default BusRouteSelector;
+

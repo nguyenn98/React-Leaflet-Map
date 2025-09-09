@@ -236,19 +236,76 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
     }, [position]);
 
     // load dữ liệu GTFS
+    // useEffect(() => {
+    //     const loadGtfsData = async () => {
+    //         try {
+    //             const [shapesRes, tripsRes] = await Promise.all([
+    //                 fetch(`${process.env.PUBLIC_URL}/gtfs/shapes_generated.txt`),
+    //                 fetch(`${process.env.PUBLIC_URL}/gtfs/trips_with_shape_id.txt`),
+    //             ]);
+
+    //             const shapesText = await shapesRes.text();
+    //             const tripsText = await tripsRes.text();
+
+    //             const shapes = Papa.parse(shapesText, { header: true, skipEmptyLines: true }).data;
+    //             const trips = Papa.parse(tripsText, { header: true, skipEmptyLines: true }).data;
+
+    //             // Gom nhóm shapes theo shape_id
+    //             const shapeMap = {};
+    //             shapes.forEach((s) => {
+    //                 if (!s.shape_id) return;
+    //                 if (!shapeMap[s.shape_id]) shapeMap[s.shape_id] = [];
+    //                 shapeMap[s.shape_id].push([
+    //                     parseFloat(s.shape_pt_lat),
+    //                     parseFloat(s.shape_pt_lon),
+    //                     parseInt(s.shape_pt_sequence),
+    //                 ]);
+    //             });
+
+    //             // Sắp xếp theo sequence
+    //             Object.keys(shapeMap).forEach((id) => {
+    //                 shapeMap[id].sort((a, b) => a[2] - b[2]);
+    //             });
+
+    //             // Gắn trips vào routes
+    //             // Gắn trips vào routes
+    //             const routes = trips
+    //                 .filter((t) => t.trip_id && t.shape_id) // bỏ dòng trống
+    //                 .map((t) => {
+    //                     const coords = (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]);
+    //                     return {
+    //                         id: t.trip_id,                // định danh duy nhất
+    //                         routeId: t.route_id,          // số tuyến
+    //                         shapeId: t.shape_id,
+    //                         direction_id: t.direction_id, // 👈 thêm đầy đủ
+    //                         trip_headsign: t.trip_headsign || "",
+    //                         coordinates: coords,
+    //                         color: "#3366cc",
+    //                     };
+    //                 });
+
+    //             setAllRoutes(routes);
+    //         } catch (err) {
+    //             console.error("❌ Lỗi load GTFS:", err);
+    //         }
+    //     };
+
+    //     loadGtfsData();
+    // }, []);
+    // load dữ liệu GTFS
     useEffect(() => {
         const loadGtfsData = async () => {
             try {
                 const [shapesRes, tripsRes] = await Promise.all([
                     fetch(`${process.env.PUBLIC_URL}/gtfs/shapes_generated.txt`),
-                    fetch(`${process.env.PUBLIC_URL}/gtfs/trips_with_shape_id.txt`),
+                    fetch(`${process.env.PUBLIC_URL}/gtfs/trips_with_shape_id.txt`)
                 ]);
 
                 const shapesText = await shapesRes.text();
                 const tripsText = await tripsRes.text();
 
-                const shapes = Papa.parse(shapesText, { header: true, skipEmptyLines: true }).data;
-                const trips = Papa.parse(tripsText, { header: true, skipEmptyLines: true }).data;
+                const shapes = Papa.parse(shapesText, { header: true }).data;
+                const trips = Papa.parse(tripsText, { header: true }).data;
 
                 // Gom nhóm shapes theo shape_id
                 const shapeMap = {};
@@ -258,7 +315,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                     shapeMap[s.shape_id].push([
                         parseFloat(s.shape_pt_lat),
                         parseFloat(s.shape_pt_lon),
-                        parseInt(s.shape_pt_sequence),
+                        parseInt(s.shape_pt_sequence)
                     ]);
                 });
 
@@ -267,24 +324,25 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                     shapeMap[id].sort((a, b) => a[2] - b[2]);
                 });
 
-                // Gắn trips vào routes
-                // Gắn trips vào routes
-                const routes = trips
-                    .filter((t) => t.trip_id && t.shape_id) // bỏ dòng trống
-                    .map((t) => {
-                        const coords = (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]);
-                        return {
-                            id: t.trip_id,                // định danh duy nhất
-                            routeId: t.route_id,          // số tuyến
-                            shapeId: t.shape_id,
-                            direction_id: t.direction_id, // 👈 thêm đầy đủ
-                            trip_headsign: t.trip_headsign || "",
-                            coordinates: coords,
+                // Gom theo route_id + direction_id
+                const grouped = {};
+                trips.forEach((t) => {
+                    if (!t.route_id || !t.shape_id) return;
+                    const key = `${t.route_id}_${t.direction_id || "0"}`;
+                    if (!grouped[key]) {
+                        grouped[key] = {
+                            id: key,
+                            routeId: t.route_id,
+                            directionId: t.direction_id || "0",
+                            coordinates: [],
                             color: "#3366cc",
                         };
-                    });
-                    
-                setAllRoutes(routes);
+                    }
+                    const coords = (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]);
+                    grouped[key].coordinates.push(...coords);
+                });
+
+                setAllRoutes(Object.values(grouped));
             } catch (err) {
                 console.error("❌ Lỗi load GTFS:", err);
             }
