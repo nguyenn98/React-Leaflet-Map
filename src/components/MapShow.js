@@ -236,120 +236,48 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
     }, [position]);
 
     // load dữ liệu GTFS
-    // useEffect(() => {
-    //     const loadGtfsData = async () => {
-    //         try {
-    //             const [shapesRes, tripsRes] = await Promise.all([
-    //                 fetch(`${process.env.PUBLIC_URL}/gtfs/shapes_generated.txt`),
-    //                 fetch(`${process.env.PUBLIC_URL}/gtfs/trips_with_shape_id.txt`),
-    //             ]);
-
-    //             const shapesText = await shapesRes.text();
-    //             const tripsText = await tripsRes.text();
-
-    //             const shapes = Papa.parse(shapesText, { header: true, skipEmptyLines: true }).data;
-    //             const trips = Papa.parse(tripsText, { header: true, skipEmptyLines: true }).data;
-
-    //             // Gom nhóm shapes theo shape_id
-    //             const shapeMap = {};
-    //             shapes.forEach((s) => {
-    //                 if (!s.shape_id) return;
-    //                 if (!shapeMap[s.shape_id]) shapeMap[s.shape_id] = [];
-    //                 shapeMap[s.shape_id].push([
-    //                     parseFloat(s.shape_pt_lat),
-    //                     parseFloat(s.shape_pt_lon),
-    //                     parseInt(s.shape_pt_sequence),
-    //                 ]);
-    //             });
-
-    //             // Sắp xếp theo sequence
-    //             Object.keys(shapeMap).forEach((id) => {
-    //                 shapeMap[id].sort((a, b) => a[2] - b[2]);
-    //             });
-
-    //             // Gắn trips vào routes
-    //             // Gắn trips vào routes
-    //             const routes = trips
-    //                 .filter((t) => t.trip_id && t.shape_id) // bỏ dòng trống
-    //                 .map((t) => {
-    //                     const coords = (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]);
-    //                     return {
-    //                         id: t.trip_id,                // định danh duy nhất
-    //                         routeId: t.route_id,          // số tuyến
-    //                         shapeId: t.shape_id,
-    //                         direction_id: t.direction_id, // 👈 thêm đầy đủ
-    //                         trip_headsign: t.trip_headsign || "",
-    //                         coordinates: coords,
-    //                         color: "#3366cc",
-    //                     };
-    //                 });
-
-    //             setAllRoutes(routes);
-    //         } catch (err) {
-    //             console.error("❌ Lỗi load GTFS:", err);
-    //         }
-    //     };
-
-    //     loadGtfsData();
-    // }, []);
-    // load dữ liệu GTFS
     useEffect(() => {
         const loadGtfsData = async () => {
-            try {
-                const [shapesRes, tripsRes] = await Promise.all([
-                    fetch(`${process.env.PUBLIC_URL}/gtfs/shapes_generated.txt`),
-                    fetch(`${process.env.PUBLIC_URL}/gtfs/trips_with_shape_id.txt`)
+            const [shapesRes, tripsRes] = await Promise.all([
+                fetch(`${process.env.PUBLIC_URL}/gtfs/shapes_generated.txt`),
+                fetch(`${process.env.PUBLIC_URL}/gtfs/trips_with_shape_id.txt`)
+            ]);
+
+            const shapes = Papa.parse(await shapesRes.text(), { header: true }).data;
+            const trips = Papa.parse(await tripsRes.text(), { header: true }).data;
+
+            // Gom nhóm shape theo shape_id
+            const shapeMap = {};
+            shapes.forEach((s) => {
+                if (!s.shape_id) return;
+                if (!shapeMap[s.shape_id]) shapeMap[s.shape_id] = [];
+                shapeMap[s.shape_id].push([
+                    parseFloat(s.shape_pt_lat),
+                    parseFloat(s.shape_pt_lon),
+                    parseInt(s.shape_pt_sequence)
                 ]);
+            });
 
-                const shapesText = await shapesRes.text();
-                const tripsText = await tripsRes.text();
+            // Sắp xếp các điểm theo thứ tự
+            Object.keys(shapeMap).forEach((id) => {
+                shapeMap[id].sort((a, b) => a[2] - b[2]);
+            });
 
-                const shapes = Papa.parse(shapesText, { header: true }).data;
-                const trips = Papa.parse(tripsText, { header: true }).data;
+            // Tạo danh sách tuyến
+            const routes = trips.map((t) => ({
+                id: t.trip_id,
+                routeId: t.route_id,
+                shapeId: t.shape_id,
+                coordinates: (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]),
+                color: "#3366cc",
+            }));
 
-                // Gom nhóm shapes theo shape_id
-                const shapeMap = {};
-                shapes.forEach((s) => {
-                    if (!s.shape_id) return;
-                    if (!shapeMap[s.shape_id]) shapeMap[s.shape_id] = [];
-                    shapeMap[s.shape_id].push([
-                        parseFloat(s.shape_pt_lat),
-                        parseFloat(s.shape_pt_lon),
-                        parseInt(s.shape_pt_sequence)
-                    ]);
-                });
-
-                // Sắp xếp theo sequence
-                Object.keys(shapeMap).forEach((id) => {
-                    shapeMap[id].sort((a, b) => a[2] - b[2]);
-                });
-
-                // Gom theo route_id + direction_id
-                const grouped = {};
-                trips.forEach((t) => {
-                    if (!t.route_id || !t.shape_id) return;
-                    const key = `${t.route_id}_${t.direction_id || "0"}`;
-                    if (!grouped[key]) {
-                        grouped[key] = {
-                            id: key,
-                            routeId: t.route_id,
-                            directionId: t.direction_id || "0",
-                            coordinates: [],
-                            color: "#3366cc",
-                        };
-                    }
-                    const coords = (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]);
-                    grouped[key].coordinates.push(...coords);
-                });
-
-                setAllRoutes(Object.values(grouped));
-            } catch (err) {
-                console.error("❌ Lỗi load GTFS:", err);
-            }
+            setAllRoutes(routes);
         };
 
         loadGtfsData();
     }, []);
+
 
 
     // Hàm xử lý click vào danh sách
