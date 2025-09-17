@@ -271,7 +271,8 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                 coordinates: (shapeMap[t.shape_id] || []).map(([lat, lon]) => [lat, lon]),
                 color: "#3366cc",
             }));
-
+            console.log(routes);
+            
             setAllRoutes(routes);
         };
 
