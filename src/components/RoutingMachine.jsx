@@ -70,18 +70,6 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
       lineOptions: {
         styles: [{ color: "transparent" }],
       },
-      // router: L.Routing.osrmv1({
-      //   // serviceUrl: "http://localhost:5000/route/v1",
-      //   serviceUrl: "https://osrm-back-end.onrender.com/route/v1", // URL backend Render
-      //   profile: selectedProfile,
-      //   useHints: false,
-
-      // router: L.Routing.osrmv1({
-      //   serviceUrl: "https://osrm-back-end.onrender.com/route/v1",
-      //   profile: selectedProfile,
-      //   useHints: false,
-      //   geometryOnly: false,
-      //   overview: "full",
       router: L.Routing.osrmv1({
         serviceUrl: "https://osrm-back-end.onrender.com/route/v1",
         profile: selectedProfile,
@@ -91,8 +79,6 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
         urlParameters: {
           skip_waypoints: true // Giữ nguyên tọa độ gốc user nhập
         }
-      
-
     }),
   }).addTo(map);
 

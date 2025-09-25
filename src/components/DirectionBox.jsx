@@ -20,6 +20,7 @@ import {
     findRoutesBetweenStops,
     getRouteCoordinates,
 } from "../utils/gtfsBusPlanner";
+import RouteResults from "./RouteResults";
 
 const DirectionBox = ({
     onClose,
@@ -40,6 +41,7 @@ const DirectionBox = ({
     const [fromCoords, setFromCoords] = useState(null);
     const [toCoords, setToCoords] = useState(null);
     const [localTransportMode, setLocalTransportMode] = useState(transportMode || 'car');
+    const [busOptions, setBusOptions] = useState([]);
 
     useEffect(() => {
         if (from) setFromCoords(from);
@@ -137,164 +139,6 @@ const DirectionBox = ({
         }
     };
 
-    // const handleBusRoute = async (fromCoords, toCoords) => {
-    //     console.log("📥 Bắt đầu handleBusRoute từ:", fromCoords, "đến", toCoords);
-
-    //     try {
-    //         const gtfs = await loadGtfsData();
-    //         console.log("📦 GTFS data:", gtfs);
-
-    //         const nearestStart = findNearestStop(fromCoords, gtfs.stops);
-    //         const nearestEnd = findNearestStop(toCoords, gtfs.stops);
-    //         console.log("✅ Bến gần nhất:", nearestStart, nearestEnd);
-
-    //         const { stopTimes, trips, routes, stops } = gtfs;
-
-    //         const tripsFrom = stopTimes.filter(s => s.stop_id === nearestStart.stop_id).map(s => s.trip_id);
-    //         const tripsTo = stopTimes.filter(s => s.stop_id === nearestEnd.stop_id).map(s => s.trip_id);
-
-    //         const sharedTrips = tripsFrom.filter(trip => tripsTo.includes(trip));
-
-    //         console.log("✅ Bến gần nhất FROM:", nearestStart);
-    //         console.log("✅ Bến gần nhất TO:", nearestEnd);
-    //         console.log("🚌 Trips from:", tripsFrom);
-    //         console.log("🚌 Trips to:", tripsTo);
-    //         console.log("✅ Shared trips:", sharedTrips);
-
-    //         if (sharedTrips.length > 0) {
-    //             const routeIds = sharedTrips.map(tripId => trips.find(t => t.trip_id === tripId)?.route_id).filter(Boolean);
-    //             const uniqueRoutes = [...new Set(routeIds)];
-
-    //             const allRoutes = uniqueRoutes.map(routeId => {
-    //                 const route = routes.find(r => r.route_id === routeId);
-    //                 return {
-    //                     id: routeId,
-    //                     name: route?.route_long_name || `Tuyến ${routeId}`,
-    //                     color: route?.route_color || "#0066cc",
-    //                     coordinates: getRouteCoordinates(routeId, routes, stops, trips, stopTimes)
-    //                 };
-    //             }).filter(r => r.coordinates.length > 1);
-
-    //             setAllRoutes?.(allRoutes);
-    //             setBusRoutes?.(allRoutes);
-
-    //             onStepClick?.([
-    //                 {
-    //                     type: "bus",
-    //                     description: `Lên tuyến ${allRoutes[0]?.name || "?"} tại ${nearestStart.stop_name}`,
-    //                 },
-    //                 {
-    //                     type: "bus",
-    //                     description: `Xuống tại ${nearestEnd.stop_name}`,
-    //                 },
-    //             ]);
-
-    //             return;
-    //         }
-
-    //         // Nếu không có tuyến trực tiếp, tìm tuyến chuyển tiếp
-    //         const stopsFrom = new Set(tripsFrom.flatMap(tripId => stopTimes.filter(s => s.trip_id === tripId).map(s => s.stop_id)));
-    //         const stopsTo = new Set(tripsTo.flatMap(tripId => stopTimes.filter(s => s.trip_id === tripId).map(s => s.stop_id)));
-    //         const transferStops = Array.from(stopsFrom).filter(stopId => stopsTo.has(stopId));
-
-    //         console.log("🔁 Đang kiểm tra tuyến chuyển tiếp...");
-    //         console.log("📍 Tất cả stops trong tripsFrom:", Array.from(stopsFrom));
-    //         console.log("📍 Tất cả stops trong tripsTo:", Array.from(stopsTo));
-    //         console.log("📍 Transfer stops chung:", transferStops);
-
-    //         if (transferStops.length > 0) {
-    //             const bestTransferStopId = transferStops[0];
-    //             const transferStop = stops.find(s => s.stop_id === bestTransferStopId);
-
-    //             const trip1 = tripsFrom.find(tripId => stopTimes.some(s => s.trip_id === tripId && s.stop_id === bestTransferStopId));
-    //             const trip2 = tripsTo.find(tripId => stopTimes.some(s => s.trip_id === tripId && s.stop_id === bestTransferStopId));
-
-    //             if (trip1 && trip2) {
-    //                 const firstRouteId = trips.find(t => t.trip_id === trip1)?.route_id;
-    //                 const secondRouteId = trips.find(t => t.trip_id === trip2)?.route_id;
-
-    //                 const routesFound = [];
-
-    //                 if (firstRouteId) {
-    //                     const route = routes.find(r => r.route_id === firstRouteId);
-    //                     routesFound.push({
-    //                         id: firstRouteId,
-    //                         name: route?.route_long_name || `Tuyến ${firstRouteId}`,
-    //                         color: route?.route_color || "#ff9900",
-    //                         coordinates: getRouteCoordinates(firstRouteId, routes, stops, trips, stopTimes)
-    //                     });
-    //                 }
-
-    //                 if (secondRouteId && secondRouteId !== firstRouteId) {
-    //                     const route = routes.find(r => r.route_id === secondRouteId);
-    //                     routesFound.push({
-    //                         id: secondRouteId,
-    //                         name: route?.route_long_name || `Tuyến ${secondRouteId}`,
-    //                         color: route?.route_color || "#00cc66",
-    //                         coordinates: getRouteCoordinates(secondRouteId, routes, stops, trips, stopTimes)
-    //                     });
-    //                 }
-
-    //                 setAllRoutes?.(routesFound);
-    //                 setBusRoutes?.(routesFound);
-
-    //                 onStepClick?.([
-    //                     {
-    //                         type: "bus",
-    //                         description: `Lên tuyến ${routesFound[0]?.name || "?"} tại ${nearestStart.stop_name}`,
-    //                     },
-    //                     {
-    //                         type: "transfer",
-    //                         description: `Xuống tại ${transferStop?.stop_name} và chuyển sang tuyến ${routesFound[1]?.name || "?"}`,
-    //                     },
-    //                     {
-    //                         type: "bus",
-    //                         description: `Lên tuyến ${routesFound[1]?.name || "?"} và xuống tại ${nearestEnd.stop_name}`,
-    //                     },
-    //                 ]);
-
-    //                 return;
-    //             }
-    //         }
-
-    //         // 🔴 Không có tuyến đi thẳng, không có điểm chung → fallback: gợi ý tuyến gần đúng
-    //         console.warn("⚠️ Không tìm thấy tuyến phù hợp. Gợi ý tuyến gần nhất đi được từ điểm đầu.");
-
-    //         const firstTrip = tripsFrom[0];
-    //         const routeId = trips.find(t => t.trip_id === firstTrip)?.route_id;
-
-    //         if (routeId) {
-    //             const route = routes.find(r => r.route_id === routeId);
-    //             const fallbackRoute = {
-    //                 id: routeId,
-    //                 name: route?.route_long_name || `Tuyến ${routeId}`,
-    //                 color: "#999999",
-    //                 coordinates: getRouteCoordinates(routeId, routes, stops, trips, stopTimes)
-    //             };
-
-    //             setAllRoutes?.([fallbackRoute]);
-    //             setBusRoutes?.([fallbackRoute]);
-
-    //             onStepClick?.([
-    //                 {
-    //                     type: "bus",
-    //                     description: `Không có tuyến nào đi đến ${nearestEnd.stop_name}. Gợi ý: bắt tuyến ${fallbackRoute.name} tại ${nearestStart.stop_name}`,
-    //                 },
-    //                 {
-    //                     type: "walk",
-    //                     description: `Đi bộ đến điểm đến từ tuyến gần nhất.`,
-    //                 },
-    //             ]);
-    //         } else {
-    //             alert("Không tìm thấy tuyến xe buýt phù hợp.");
-    //         }
-
-    //     } catch (error) {
-    //         console.error("❌ Lỗi khi xử lý handleBusRoute:", error);
-    //         alert("Đã xảy ra lỗi khi tìm đường đi bằng xe buýt.");
-    //     }
-    // };
-
     // Hàm lấy polyline từ trip
     const drawTrip = (trip, gtfs) => {
         if (!trip) {
@@ -390,7 +234,13 @@ const DirectionBox = ({
                 const trip = gtfs.trips.find(t => t.trip_id === sharedTrips[0]);
                 return drawTrip(trip, gtfs); // hàm vẽ trip từ shapes
             }
-
+            // Test
+            if (sharedTrips.length > 0) {
+                const trip = gtfs.trips.find(t => t.trip_id === sharedTrips[0]);
+                const option = drawTrip(trip, gtfs);
+                setBusOptions([{ ...option, route_name: "Tuyến trực tiếp", time: 1200 }]); // ví dụ
+                return option;
+            }
             // --- Step 2: Shared route_id ---
             const routesFrom = tripsFrom.map(tid => gtfs.trips.find(t => t.trip_id === tid)?.route_id);
             const routesTo = tripsTo.map(tid => gtfs.trips.find(t => t.trip_id === tid)?.route_id);
@@ -505,6 +355,18 @@ const DirectionBox = ({
                         </button>
                     ))}
                 </div>
+
+                {/* Test */}
+                {/* Thêm khối hiển thị phương án xe buýt */}
+                {localTransportMode === "bus" && (
+                    <RouteResults
+                        routes={busOptions}
+                        onSelect={(opt) => {
+                            console.log("Chọn phương án:", opt);
+                            // có thể gọi hàm vẽ polyline cho opt
+                        }}
+                    />
+                )}
 
                 <div style={{ marginTop: '-10px', color: '#5f6368' }}>
                     Quãng đường: {routeInfo ? `${(routeInfo.distance / 1000).toFixed(1)} km` : "-"}

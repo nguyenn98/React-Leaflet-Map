@@ -571,7 +571,7 @@ export const logoUniversity = [
     },
     {
         id: 96,
-        name: "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        name: "Trường Đại học Tài chính - Ngân hàng Hà Nội (Cơ sở 2)",
         code: "FBU",
         logo: "/images/truong_dai_hoc_tai_chinh_ngan_hang_hn.png"
     },
@@ -667,7 +667,7 @@ export const logoUniversity = [
     },
     {
         id: 112,
-        name: "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+        name: "Trường Đại học Tài chính - Ngân hàng Hà Nội (Cơ sở 3)",
         code: "FBU",
         logo: "/images/truong_dai_hoc_tai_chinh_ngan_hang_hn.png"
     },

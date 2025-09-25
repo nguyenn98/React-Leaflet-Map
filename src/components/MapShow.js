@@ -409,13 +409,13 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
 
     return (
         <div style={{ position: "relative" }}>
-            <BusRouteSelector
+            {/* <BusRouteSelector
                 allRoutes={allRoutes}
                 onSelectRoute={(route) => {
                     if (route) setBusRoutes([route]);
                     else setBusRoutes(allRoutes);
                 }}
-            />
+            /> */}
             <MapContainer
                 center={position}
                 zoom={initialZoom}
