@@ -1,0 +1,924 @@
+[
+  {
+    "university": "Đại học Bách khoa Hà Nội",
+    "majors": [
+      { "name": "Khoa học máy tính", "score": null },
+      { "name": "Kỹ thuật máy tính", "score": null },
+      { "name": "Khoa học dữ liệu & Trí tuệ nhân tạo", "score": null },
+      { "name": "Công nghệ thông tin Global ICT", "score": null },
+      { "name": "Công nghệ kỹ thuật điện tử - viễn thông", "score": null },
+      { "name": "Kỹ thuật điện - điện tử", "score": null },
+      { "name": "Kỹ thuật điều khiển & tự động hóa", "score": null },
+      { "name": "Cơ điện tử", "score": null },
+      { "name": "Cơ khí", "score": null },
+      { "name": "Kỹ thuật cơ khí (chế tạo máy)", "score": null },
+      { "name": "Kỹ thuật ô tô", "score": null },
+      { "name": "Công nghệ chế tạo máy", "score": null },
+      { "name": "Cơ khí chính xác & quang học", "score": null },
+      { "name": "Kỹ thuật y sinh", "score": null },
+      { "name": "An toàn không gian số", "score": null },
+      { "name": "Logistics & Quản lý chuỗi cung ứng", "score": null },
+      { "name": "Truyền thông số & Kỹ thuật đa phương tiện", "score": null },
+      { "name": "Quản lý công nghiệp", "score": null },
+      { "name": "Kế toán", "score": null },
+      { "name": "Tài chính – Ngân hàng", "score": null },
+      { "name": "Quản trị kinh doanh", "score": null },
+      { "name": "Hệ thống thông tin quản lý", "score": null },
+      { "name": "Hóa học", "score": null }
+    ],
+    "source_url": "https://hust.edu.vn/vi/dao-tao/dai-hoc-chinh-quy/nganh-dao-tao-dai-hoc-52711.html",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Công nghệ – ĐHQGHN",
+    "majors": [
+      { "name": "Công nghệ thông tin", "score": null },
+      { "name": "Khoa học máy tính", "score": null },
+      { "name": "Kỹ thuật cơ điện tử", "score": null },
+      { "name": "Kỹ thuật điện-điện tử", "score": null },
+      { "name": "Kỹ thuật điều khiển & tự động hóa", "score": null },
+      { "name": "Công nghệ kỹ thuật ô tô", "score": null },
+      { "name": "Công nghệ kỹ thuật điện tử & truyền thông", "score": null },
+      { "name": "Công nghệ thông tin – Điện toán đám mây và IoT", "score": null },
+      { "name": "Khoa học dữ liệu", "score": null },
+      { "name": "Viễn thông & mạng máy tính", "score": null }
+    ],
+    "source_url": "https://uet.vnu.edu.vn/tuyen-sinh",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Khoa học Tự nhiên – ĐHQGHN",
+    "majors": [
+      { "name": "Toán học", "score": null },
+      { "name": "Tin học", "score": null },
+      { "name": "Toán – Tin", "score": null },
+      { "name": "Vật lý", "score": null },
+      { "name": "Hóa học", "score": null },
+      { "name": "Sinh học", "score": null },
+      { "name": "Khoa học môi trường", "score": null },
+      { "name": "Quy hoạch vùng & đô thị", "score": null },
+      { "name": "Khoa học trái đất", "score": null }
+    ],
+    "source_url": "https://hus.vnu.edu.vn",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Khoa học Xã hội & Nhân văn – ĐHQGHN",
+    "majors": [
+      { "name": "Ngôn ngữ Anh", "score": null },
+      { "name": "Ngôn ngữ Trung Quốc", "score": null },
+      { "name": "Ngôn ngữ Pháp", "score": null },
+      { "name": "Ngôn ngữ Nhật", "score": null },
+      { "name": "Ngôn ngữ Hàn Quốc", "score": null },
+      { "name": "Việt Nam học", "score": null },
+      { "name": "Hán Nôm", "score": null },
+      { "name": "Quan hệ quốc tế", "score": null },
+      { "name": "Báo chí & Truyền thông", "score": null },
+      { "name": "Triết học", "score": null },
+      { "name": "Lịch sử", "score": null }
+    ],
+    "source_url": "https://www.uss.edu.vn",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Ngoại ngữ – ĐHQGHN",
+    "majors": [
+      { "name": "Sư phạm tiếng Anh", "score": null },
+      { "name": "Sư phạm tiếng Trung Quốc", "score": null },
+      { "name": "Sư phạm tiếng Pháp", "score": null },
+      { "name": "Sư phạm tiếng Nhật", "score": null },
+      { "name": "Sư phạm tiếng Đức", "score": null },
+      { "name": "Ngôn ngữ Anh", "score": null },
+      { "name": "Ngôn ngữ Trung Quốc", "score": null },
+      { "name": "Ngôn ngữ Nhật", "score": null },
+      { "name": "Ngôn ngữ Hàn Quốc", "score": null }
+    ],
+    "source_url": "https://www.ulis.vnu.edu.vn",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Giáo dục – ĐHQGHN",
+    "majors": [
+      { "name": "Sư phạm Toán học", "score": null },
+      { "name": "Sư phạm Ngữ văn", "score": null },
+      { "name": "Sư phạm Vật lý", "score": null },
+      { "name": "Sư phạm Hóa học", "score": null },
+      { "name": "Sư phạm Sinh học", "score": null },
+      { "name": "Sư phạm Tiếng Anh", "score": null },
+      { "name": "Giáo dục Tiểu học", "score": null },
+      { "name": "Giáo dục Mầm non", "score": null }
+    ],
+    "source_url": "https://ued.vnu.edu.vn",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Kinh tế Quốc dân",
+    "majors": [
+      { "name": "Kinh tế quốc tế", "score": null },
+      { "name": "Quản trị kinh doanh", "score": null },
+      { "name": "Tài chính – Ngân hàng", "score": null },
+      { "name": "Kế toán", "score": null },
+      { "name": "Kinh tế", "score": null },
+      { "name": "Thương mại điện tử", "score": null },
+      { "name": "Logistics & Quản lý chuỗi cung ứng", "score": null },
+      { "name": "Quản lý nhà nước", "score": null }
+    ],
+    "source_url": "https://www.neu.edu.vn",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Ngoại thương",
+    "majors": [
+      { "name": "Kinh tế đối ngoại", "score": null },
+      { "name": "Kinh doanh quốc tế", "score": null },
+      { "name": "Tài chính – Ngân hàng", "score": null },
+      { "name": "Kinh tế quốc tế", "score": null },
+      { "name": "Luật quốc tế", "score": null },
+      { "name": "Kinh tế", "score": null }
+    ],
+    "source_url": "https://www.ftu.edu.vn",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Hà Nội",
+    "majors": [
+      { "name": "Ngôn ngữ Anh", "score": null },
+      { "name": "Ngôn ngữ Anh – Chương trình tiên tiến", "score": null },
+      { "name": "Ngôn ngữ Nga", "score": null },
+      { "name": "Ngôn ngữ Pháp", "score": null },
+      { "name": "Ngôn ngữ Trung Quốc", "score": null },
+      { "name": "Ngôn ngữ Trung Quốc – CLC", "score": null },
+      { "name": "Ngôn ngữ Đức", "score": null },
+      { "name": "Ngôn ngữ Tây Ban Nha", "score": null },
+      { "name": "Ngôn ngữ Bồ Đào Nha", "score": null },
+      { "name": "Ngôn ngữ Italia", "score": null },
+      { "name": "Ngôn ngữ Italia – CLC", "score": null },
+      { "name": "Ngôn ngữ Nhật", "score": null },
+      { "name": "Ngôn ngữ Hàn Quốc", "score": null },
+      { "name": "Ngôn ngữ Hàn Quốc – CLC", "score": null },
+      { "name": "Nghiên cứu phát triển (tiếng Anh)", "score": null },
+      { "name": "Quốc tế học (tiếng Anh)", "score": null },
+      { "name": "Truyền thông đa phương tiện (tiếng Anh)", "score": null },
+      { "name": "Truyền thông doanh nghiệp (tiếng Pháp)", "score": null },
+      { "name": "Quản trị kinh doanh (tiếng Anh)", "score": null },
+      { "name": "Marketing (tiếng Anh)", "score": null },
+      { "name": "Tài chính – Ngân hàng (tiếng Anh)", "score": null },
+      { "name": "Công nghệ tài chính (tiếng Anh)", "score": null },
+      { "name": "Kế toán (tiếng Anh)", "score": null },
+      { "name": "Công nghệ thông tin (tiếng Anh)", "score": null },
+      { "name": "Công nghệ thông tin – CLC", "score": null },
+      { "name": "Quản trị dịch vụ du lịch & lữ hành (tiếng Anh)", "score": null },
+      { "name": "Quản trị dịch vụ du lịch & lữ hành – CLC", "score": null }
+    ],
+    "source_url": "https://tuyensinhso.vn/school/dai-hoc-ha-noi.html",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Y Hà Nội",
+    "majors": [
+      { "name": "Y khoa", "score": null },
+      { "name": "Răng – Hàm – Mặt", "score": null },
+      { "name": "Y học cơ sở", "score": null },
+      { "name": "Y học dự phòng", "score": null },
+      { "name": "Y học cổ truyền", "score": null },
+      { "name": "Dược học", "score": null },
+      { "name": "Răng – Hàm – Mặt (chất lượng cao nếu có)", "score": null }
+    ],
+    "source_url": "https://hmu.edu.vn",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Dược Hà Nội",
+    "majors": [
+      { "name": "Dược học", "score": null },
+      { "name": "Hóa dược", "score": null },
+      { "name": "Hóa học", "score": null },
+      { "name": "Công nghệ sinh học", "score": null }
+    ],
+    "source_url": "https://thongtintuyensinh.vn/Truong-Dai-hoc-Duoc-Ha-Noi_C50_D635.htm",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Mở Hà Nội",
+    "majors": [
+      { "name": "Thiết kế đồ họa", "score": null },
+      { "name": "Thiết kế thời trang", "score": null },
+      { "name": "Ngôn ngữ Anh", "score": null },
+      { "name": "Ngôn ngữ Trung Quốc", "score": null },
+      { "name": "Quản trị kinh doanh", "score": null },
+      { "name": "Thương mại điện tử", "score": null },
+      { "name": "Tài chính – Ngân hàng", "score": null },
+      { "name": "Bảo hiểm", "score": null },
+      { "name": "Kế toán", "score": null },
+      { "name": "Luật", "score": null },
+      { "name": "Luật kinh tế", "score": null },
+      { "name": "Luật quốc tế", "score": null },
+      { "name": "Công nghệ sinh học", "score": null },
+      { "name": "Công nghệ thông tin", "score": null },
+      { "name": "Công nghệ kỹ thuật điện tử – viễn thông", "score": null },
+      { "name": "Công nghệ kỹ thuật điều khiển & tự động hóa", "score": null },
+      { "name": "Công nghệ thực phẩm", "score": null },
+      { "name": "Kiến trúc", "score": null },
+      { "name": "Thiết kế nội thất", "score": null },
+      { "name": "Quản trị dịch vụ du lịch & lữ hành", "score": null },
+      { "name": "Quản trị khách sạn", "score": null }
+    ],
+    "source_url": "https://tuyensinh.hou.edu.vn/listtieude/CM007/",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Xây dựng Hà Nội",
+    "majors": [
+      { "name": "Kỹ thuật xây dựng (dân dụng & công nghiệp)", "score": null },
+      { "name": "Kỹ thuật xây dựng – hệ thống kỹ thuật trong công trình", "score": null },
+      { "name": "Kỹ thuật xây dựng – xây dựng công trình thủy", "score": null },
+      { "name": "Kiến trúc", "score": null },
+      { "name": "Kiến trúc nội thất", "score": null },
+      { "name": "Kiến trúc cảnh quan", "score": null },
+      { "name": "Quy hoạch vùng & đô thị", "score": null },
+      { "name": "Kỹ thuật môi trường", "score": null },
+      { "name": "Công nghệ kỹ thuật môi trường", "score": null },
+      { "name": "Kỹ thuật cấp thoát nước", "score": null },
+      { "name": "Kinh tế xây dựng", "score": null },
+      { "name": "Logistics & quản lý chuỗi cung ứng", "score": null },
+      { "name": "Công nghệ thông tin trong xây dựng", "score": null }
+    ],
+    "source_url": "https://huce.edu.vn/cac-nganh-dao-tao-chinh-quy", 
+    "year": 2024
+  },
+  {
+    "university": "Học viện Ngân hàng",
+    "majors": [
+      { "name": "Ngân hàng", "score": null },
+      { "name": "Tài chính – ngân hàng", "score": null },
+      { "name": "Kế toán", "score": null },
+      { "name": "Kiểm toán", "score": null },
+      { "name": "Luật kinh tế", "score": null },
+      { "name": "Quản trị kinh doanh", "score": null },
+      { "name": "Marketing số (Digital Marketing)", "score": null },
+      { "name": "Quản trị du lịch", "score": null },
+      { "name": "Hệ thống thông tin quản lý", "score": null }
+    ],
+    "source_url": "https://hvnh.edu.vn/chuong-trinh-dao-tao-dai-hoc-chinh-quy-hvnh-354.html",
+    "year": 2024
+  },
+  {
+    "university": "Học viện Kỹ thuật Quân sự",
+    "majors": [
+        { "name": "Công nghệ thông tin", "score": null },
+        { "name": "Khoa học máy tính", "score": null },
+        { "name": "An toàn thông tin", "score": null },
+        { "name": "Kỹ thuật điện tử - viễn thông", "score": null },
+        { "name": "Kỹ thuật điều khiển và tự động hoá", "score": null },
+        { "name": "Kỹ thuật cơ điện tử", "score": null },
+        { "name": "Kỹ thuật cơ khí", "score": null },
+        { "name": "Kỹ thuật xây dựng", "score": null },
+        { "name": "Thiết kế vi mạch & hệ thống nhúng", "score": null },
+        { "name": "Công nghệ bán dẫn & Nano", "score": null }
+    ],
+    "source_url": "https://giaoducthoidai.vn/tu-nam-2025-hoc-vien-ky-thuat-quan-su-tuyen-sinh-dao-tao-he-dan-su-post719480.html",
+    "year": 2024
+  },
+  {
+  "university": "Đại học Mỏ – Địa chất Hà Nội",
+  "majors": [
+    { "name": "Kỹ thuật địa chất", "score": null },
+    { "name": "Kỹ thuật trắc địa – bản đồ", "score": null },
+    { "name": "Kỹ thuật mỏ", "score": null },
+    { "name": "Kỹ thuật dầu khí", "score": null },
+    { "name": "Kỹ thuật tuyển khoáng", "score": null },
+    { "name": "Kỹ thuật môi trường", "score": null },
+    { "name": "Quản lý đất đai", "score": null },
+    { "name": "Kỹ thuật xây dựng", "score": null },
+    { "name": "Kỹ thuật xây dựng công trình ngầm", "score": null },
+    { "name": "Kỹ thuật cơ khí", "score": null },
+    { "name": "Kỹ thuật điện", "score": null },
+    { "name": "Kỹ thuật điều khiển và tự động hóa", "score": null },
+    { "name": "Kỹ thuật hóa học", "score": null },
+    { "name": "Công nghệ kỹ thuật vật liệu", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Kỹ thuật phần mềm", "score": null },
+    { "name": "Khoa học dữ liệu", "score": null },
+    { "name": "Kinh tế", "score": null },
+    { "name": "Quản trị kinh doanh", "score": null },
+    { "name": "Kế toán", "score": null },
+    { "name": "Quản lý tài nguyên và môi trường", "score": null },
+    { "name": "Khoa học đất", "score": null },
+    { "name": "Kỹ thuật địa tin học", "score": null }
+    ],
+    "source_url": "https://humg.edu.vn",
+    "year": 2024
+    },
+  {
+  "university": "Học viện Tài chính",
+  "majors": [
+    { "name": "Tài chính – Ngân hàng", "score": 26.85 },
+    { "name": "Kế toán", "score": 29.5 },
+    { "name": "Kiểm toán", "score": 26.7 },
+    { "name": "Luật kinh tế", "score": null },
+    { "name": "Kinh tế", "score": 26.0 },
+    { "name": "Kinh tế và quản lý nguồn lực tài chính", "score": null },
+    { "name": "Tiếng Anh tài chính – kế toán", "score": null },
+    { "name": "Quản lý tài chính công (mới)", "score": null },
+    { "name": "Tài chính bảo hiểm (mới)", "score": null },
+    { "name": "Bất động sản / Thẩm định giá & KD BĐS (mới)", "score": null },
+    { "name": "Marketing (mới)", "score": null },
+    { "name": "Kinh doanh quốc tế (mới)", "score": null },
+    { "name": "Thuế & Quản trị thuế (mới)", "score": null },
+    { "name": "Hải quan & Logistics (mới)", "score": null },
+    { "name": "Phân tích tài chính (mới)", "score": null },
+    { "name": "Đầu tư tài chính (mới)", "score": null },
+    { "name": "Kế toán doanh nghiệp (mới)", "score": null },
+    { "name": "Tin học tài chính kế toán (mới)", "score": null },
+    { "name": "Khoa học dữ liệu trong tài chính (mới)", "score": null },
+    { "name": "Trí tuệ nhân tạo trong tài chính – kế toán (mới)", "score": null }
+  ],
+  "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-tra-cuu-danh-sach-trung-tuyen-hoc-vien-tai-chinh-nam-2024-119240817220504495.htm",
+  "year": 2024
+},
+  {
+  "university": "Trường Đại học Sư phạm Hà Nội",
+  "majors": [
+    { "name": "Sư phạm Toán học", "score": null },
+    { "name": "Sư phạm Tin học", "score": null },
+    { "name": "Sư phạm Vật lý", "score": null },
+    { "name": "Sư phạm Hóa học", "score": null },
+    { "name": "Sư phạm Sinh học", "score": null },
+    { "name": "Sư phạm Ngữ văn", "score": null },
+    { "name": "Sư phạm Lịch sử", "score": null },
+    { "name": "Sư phạm Địa lý", "score": null },
+    { "name": "Sư phạm Tiếng Anh", "score": null },
+    { "name": "Sư phạm Tiếng Pháp", "score": null },
+    { "name": "Sư phạm Tiếng Trung", "score": null },
+    { "name": "Sư phạm Giáo dục chính trị", "score": null },
+    { "name": "Sư phạm Công nghệ", "score": null },
+    { "name": "Sư phạm Âm nhạc", "score": null },
+    { "name": "Sư phạm Mỹ thuật", "score": null },
+    { "name": "Giáo dục học", "score": null },
+    { "name": "Giáo dục tiểu học", "score": null },
+    { "name": "Giáo dục đặc biệt", "score": null },
+    { "name": "Tâm lý học giáo dục", "score": null },
+    { "name": "Quản lý giáo dục", "score": null }
+  ],
+  "source_url": "https://diemthi.tuyensinh247.com/thong-tin-dai-hoc-su-pham-ha-noi-SPH.html",
+  "year": 2024
+},
+  {
+  "university": "Học viện Cảnh sát Nhân dân",
+  "majors": [
+    { "name": "Nghiệp vụ Cảnh sát", "score": null },
+    { "name": "Luật", "score": null },
+    { "name": "Luật kinh tế", "score": null },
+    { "name": "An toàn thông tin", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Ngôn ngữ Trung Quốc", "score": null },
+    { "name": "Ngôn ngữ Nga", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Kỹ thuật hình sự", "score": null },
+    { "name": "Quản lý nhà nước về an ninh trật tự", "score": null }
+  ],
+  "source_url": "https://hvcsnd.edu.vn/thong-tin-tuyen-sinh-trinh-do-dai-hoc-hoc-vien-csnd-nam-hoc-2025-2026-13008",
+  "year": 2024
+},
+  {
+  "university": "Học viện An ninh Nhân dân",
+  "majors": [
+    { "name": "Nghiệp vụ An ninh", "score": null },
+    { "name": "An ninh mạng", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Luật", "score": null },
+    { "name": "Luật kinh tế", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Ngôn ngữ Trung Quốc", "score": null },
+    { "name": "Ngôn ngữ Nga", "score": null },
+    { "name": "Ngôn ngữ Pháp", "score": null },
+    { "name": "Kỹ thuật hình sự", "score": null }
+  ],
+  "source_url": "https://hvannd.edu.vn/bv/ct/16248/thong-bao-tuyen-sinh-dao-tao-trinh-do-dai-hoc-chinh-quy-tuyen-moi-cong-dan-tot-nghiep-trung-hoc-pho-thong-tot-nghiep-trinh-do-dai-hoc-tro-len-cua-hoc-vien-an-ninh-nhan-dan-nam-2025",
+  "year": 2024
+},
+  {
+  "university": "Trường Đại học Thương mại",
+  "majors": [
+    { "name": "Quản trị kinh doanh", "score": null },
+    { "name": "Kinh doanh thương mại", "score": null },
+    { "name": "Marketing", "score": null },
+    { "name": "Kế toán", "score": null },
+    { "name": "Tài chính – Ngân hàng", "score": null },
+    { "name": "Kinh tế", "score": null },
+    { "name": "Kinh tế quốc tế", "score": null },
+    { "name": "Luật kinh tế", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Ngôn ngữ Trung Quốc", "score": null },
+    { "name": "Quản trị nhân lực", "score": null },
+    { "name": "Quản trị khách sạn", "score": null },
+    { "name": "Quản trị dịch vụ du lịch và lữ hành", "score": null },
+    { "name": "Hệ thống thông tin quản lý", "score": null },
+    { "name": "Thương mại điện tử", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Logistics và Quản lý chuỗi cung ứng", "score": null }
+  ],
+  "source_url": "https://tuyensinh.tmu.edu.vn/dao-tao-dai-hoc/chuong-trinh-dao-tao-chuan-3808",
+  "year": 2024
+},
+{
+  "university": "Đại học Giao thông Vận tải",
+  "majors": [
+    { "name": "Logistics & Quản lý chuỗi cung ứng", "score": null },
+    { "name": "Kinh tế", "score": null },
+    { "name": "Quản trị kinh doanh", "score": null },
+    { "name": "Tài chính – Ngân hàng", "score": null },
+    { "name": "Kế toán", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Kỹ thuật xây dựng công trình giao thông", "score": null },
+    { "name": "Kỹ thuật xây dựng dân dụng & công nghiệp", "score": null },
+    { "name": "Công nghệ kỹ thuật xây dựng", "score": null },
+    { "name": "Kỹ thuật tài nguyên nước", "score": null },
+    { "name": "Kỹ thuật cấp thoát nước", "score": null },
+    { "name": "Kỹ thuật môi trường", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Kỹ thuật điều khiển & tự động hóa", "score": null },
+    { "name": "Luật", "score": null }
+  ],
+  "source_url": "https://diemthi.tuyensinh247.com/thong-tin-dai-hoc-giao-thong-van-tai-co-so-phia-bac-GHA.html",
+  "year": 2024
+},
+{
+  "university": "Đại học Thủy lợi",
+  "majors": [
+    { "name": "Kỹ thuật xây dựng công trình thủy", "score": null },
+    { "name": "Kỹ thuật xây dựng dân dụng & công nghiệp", "score": null },
+    { "name": "Công nghệ kỹ thuật xây dựng", "score": null },
+    { "name": "Kỹ thuật xây dựng công trình giao thông", "score": null },
+    { "name": "Kỹ thuật tài nguyên nước", "score": null },
+    { "name": "Kỹ thuật cấp thoát nước", "score": null },
+    { "name": "Công nghệ sinh học", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Hệ thống thông tin", "score": null },
+    { "name": "Kỹ thuật điều khiển & tự động hóa", "score": null },
+    { "name": "Kỹ thuật môi trường", "score": null },
+    { "name": "Ngôn ngữ Trung Quốc", "score": null }
+  ],
+  "source_url": "https://tuyensinhso.vn/school/dai-hoc-thuy-loi.html",
+  "year": 2024
+},
+{
+  "university": "Đại học Công nghệ Giao thông vận tải",
+  "majors": [
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Luật", "score": null },
+    { "name": "Công nghệ kỹ thuật xây dựng cầu đường", "score": null },
+    { "name": "Công nghệ kỹ thuật xây dựng đường bộ", "score": null },
+    { "name": "Công nghệ và quản lý môi trường", "score": null },
+    { "name": "Công nghệ kỹ thuật xây dựng", "score": null }
+  ],
+  "source_url": "https://utt.edu.vn/tuyensinh/nganh-dao-tao-n747.html",
+  "year": 2024
+},
+{
+  "university": "Đại học Lâm nghiệp Hà Nội",
+  "majors": [
+    { "name": "Lâm nghiệp", "score": null },
+    { "name": "Lâm sinh", "score": null },
+    { "name": "Quản lý tài nguyên rừng", "score": null },
+    { "name": "Quản lý tài nguyên thiên nhiên", "score": null },
+    { "name": "Công nghệ sinh học", "score": null },
+    { "name": "Thú y", "score": null },
+    { "name": "Chăn nuôi", "score": null },
+    { "name": "Kinh tế", "score": null },
+    { "name": "Quản trị kinh doanh", "score": null },
+    { "name": "Marketing", "score": null },
+    { "name": "Bất động sản", "score": null },
+    { "name": "Tài chính – Ngân hàng", "score": null },
+    { "name": "Kế toán", "score": null },
+    { "name": "Công nghệ kỹ thuật ô tô", "score": null },
+    { "name": "Công nghệ kỹ thuật cơ điện tử", "score": null },
+    { "name": "Kỹ thuật xây dựng", "score": null },
+    { "name": "Quản lý đất đai", "score": null },
+    { "name": "Thiết kế nội thất", "score": null },
+    { "name": "Logistics & Quản lý chuỗi cung ứng", "score": null },
+    { "name": "Công tác xã hội", "score": null }
+  ],
+  "source_url": "https://vnuf.edu.vn/cac-nganh-dao-tao-va-chi-tieu-tuyen-sinh-he-dai-hoc-chinh-quy.html",
+  "year": 2024
+},
+{
+  "university": "Học viện Báo chí và Tuyên truyền",
+  "majors": [
+    { "name": "Báo chí, chuyên ngành Báo in", "score": null },
+    { "name": "Báo chí, chuyên ngành Báo phát thanh", "score": null },
+    { "name": "Báo chí, chuyên ngành Báo truyền hình", "score": null },
+    { "name": "Báo chí, chuyên ngành Báo mạng điện tử", "score": null },
+    { "name": "Báo chí, chuyên ngành Ảnh báo chí", "score": null },
+    { "name": "Báo chí, chuyên ngành Quay phim truyền hình", "score": null },
+    { "name": "Truyền thông đại chúng", "score": null },
+    { "name": "Triết học, chuyên ngành Triết học Mác – Lênin", "score": null },
+    { "name": "Triết học, chuyên ngành Chủ nghĩa xã hội khoa học", "score": null },
+    { "name": "Kinh tế chính trị", "score": null },
+    { "name": "Quản lý kinh tế", "score": null },
+    { "name": "Lịch sử, chuyên ngành Lịch sử Đảng Cộng sản Việt Nam", "score": null },
+    { "name": "Quan hệ quốc tế, chuyên ngành Thông tin đối ngoại", "score": null },
+    { "name": "Quan hệ quốc tế, chuyên ngành Quan hệ chính trị và truyền thông quốc tế", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Quảng cáo", "score": null },
+    { "name": "Quan hệ công chúng chuyên nghiệp", "score": null },
+    { "name": "Truyền thông quốc tế", "score": null },
+    { "name": "Xã hội học", "score": null },
+    { "name": "Công tác xã hội", "score": null },
+    { "name": "Xuất bản, chuyên ngành Biên tập xuất bản", "score": null },
+    { "name": "Xuất bản điện tử", "score": null },
+    { "name": "Luật truyền thông", "score": null }
+  ],
+  "source_url": "https://ajc.hcma.vn/thong-tin-ve-cac-nganh-dao-tao-nam-2024",  
+  "year": 2024
+},
+{
+  "university": "Đại học Kiến trúc Hà Nội",
+  "majors": [
+    { "name": "Kiến trúc", "score": null },
+    { "name": "Quy hoạch vùng & đô thị", "score": null },
+    { "name": "Kiến trúc cảnh quan", "score": null },
+    { "name": "Thiết kế đô thị (chuyên ngành)", "score": null },
+    { "name": "Thiết kế đồ họa", "score": null },
+    { "name": "Thiết kế thời trang", "score": null },
+    { "name": "Điêu khắc", "score": null },
+    { "name": "Thiết kế nội thất", "score": null },
+    { "name": "Kỹ thuật cấp thoát nước", "score": null },
+    { "name": "Kỹ thuật xây dựng công trình giao thông", "score": null },
+    { "name": "Kỹ thuật môi trường đô thị", "score": null },
+    { "name": "Công nghệ kỹ thuật vật liệu xây dựng", "score": null },
+    { "name": "Công nghệ đa phương tiện", "score": null },
+    { "name": "Công nghệ cơ điện công trình", "score": null },
+    { "name": "Xây dựng dân dụng & công nghiệp", "score": null },
+    { "name": "Quản lý xây dựng", "score": null },
+    { "name": "Quản lý bất động sản", "score": null },
+    { "name": "Công nghệ game (chuyên ngành thuộc CNTT)", "score": null },
+    { "name": "Nghệ thuật số (Digital Art)", "score": null }
+  ],
+  "source_url": "https://hau.edu.vn/Chuong-trinh-dao-tao-cac-nganh-trinh-do-dai-hoc-cua-Truong-Dai-hoc-Kien-truc-Ha-Noi_n3388.html",
+  "year": 2024
+},
+{
+  "university": "Đại học Luật Hà Nội",
+  "majors": [
+    { "name": "Luật", "score": null },
+    { "name": "Luật Kinh tế", "score": null },
+    { "name": "Luật Thương mại quốc tế", "score": null },
+    { "name": "Ngôn ngữ Anh (Luật / Anh văn pháp lý)", "score": null },
+    { "name": "Luật Chất lượng cao", "score": null },
+    { "name": "Luật Kinh tế Chất lượng cao", "score": null }
+  ],
+  "source_url": "https://tuyensinh.hlu.edu.vn/",  
+  "year": 2024
+},
+{
+  "university": "Đại học Mỹ thuật Công nghiệp Hà Nội",
+  "majors": [
+    { "name": "Thiết kế đồ họa", "score": null },
+    { "name": "Thiết kế nội thất", "score": null },
+    { "name": "Thiết kế thời trang", "score": null },
+    { "name": "Hội họa", "score": null },
+    { "name": "Điêu khắc", "score": null },
+    { "name": "Thiết kế công nghiệp", "score": null },
+    { "name": "Nghệ thuật số", "score": null },
+    { "name": "Gốm",  "score": null }
+  ],
+  "source_url": "https://muarthucnghiep.edu.vn",  
+  "year": 2024
+},
+{
+  "university": "Đại học Sân khấu Điện ảnh Hà Nội",
+  "majors": [
+    { "name": "Diễn viên sân khấu & điện ảnh", "score": null },
+    { "name": "Thiết kế mỹ thuật sân khấu & phim ảnh", "score": null },
+    { "name": "Quay phim & Điện ảnh", "score": null },
+    { "name": "Đạo diễn sân khấu & điện ảnh", "score": null },
+    { "name": "Tổ chức sản xuất phim & truyền hình", "score": null },
+    { "name": "Kỹ thuật sân khấu", "score": null }
+  ],
+  "source_url": "https://skda.edu.vn",  
+  "year": 2024
+},
+{
+  "university": "Đại học Văn hóa Hà Nội",
+  "majors": [
+    { "name": "Quản lý văn hóa", "score": null },
+    { "name": "Việt Nam học (Văn hóa du lịch)", "score": null },
+    { "name": "Kinh doanh xuất bản phẩm", "score": null },
+    { "name": "Bảo tàng học", "score": null },
+    { "name": "Khoa học thư viện (Thông tin – Thư viện)", "score": null },
+    { "name": "Sáng tác văn học", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Báo chí", "score": null },
+    { "name": "Luật", "score": null },
+    { "name": "Nghiên cứu văn hóa", "score": null },
+    { "name": "Văn hóa truyền thông", "score": null },
+    { "name": "Văn hóa đối ngoại", "score": null },
+    { "name": "Phát triển công nghiệp văn hóa", "score": null },
+    { "name": "Quản lý di sản văn hóa", "score": null },
+    { "name": "Tổ chức hoạt động nghệ thuật", "score": null },
+    { "name": "Tổ chức sự kiện văn hóa", "score": null },
+    { "name": "Quản trị thư viện", "score": null },
+    { "name": "Quản lý thông tin", "score": null }
+  ],
+  "source_url": "https://portal.huc.edu.vn/index.aspx?ID=31&page=detailnews",
+  "year": 2024
+},
+{
+  "university": "Đại học Thủy lợi",
+  "majors": [
+    { "name": "Kỹ thuật xây dựng công trình thủy", "score": null },
+    { "name": "Kỹ thuật xây dựng dân dụng & công nghiệp", "score": null },
+    { "name": "Công nghệ kỹ thuật xây dựng", "score": null },
+    { "name": "Kỹ thuật xây dựng công trình giao thông", "score": null },
+    { "name": "Quản lý xây dựng", "score": null },
+    { "name": "Kỹ thuật tài nguyên nước", "score": null },
+    { "name": "Kỹ thuật cấp thoát nước", "score": null },
+    { "name": "Xây dựng và quản lý hạ tầng đô thị", "score": null },
+    { "name": "Tài nguyên nước và môi trường (Thủy văn học)", "score": null },
+    { "name": "Kỹ thuật điện", "score": null },
+    { "name": "Kỹ thuật môi trường", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Công nghệ sinh học", "score": null },
+    { "name": "Kỹ thuật hóa học", "score": null },
+    { "name": "Ngành Kinh tế", "score": null },
+    { "name": "Kế toán", "score": null },
+    { "name": "Quản trị kinh doanh", "score": null },
+    { "name": "Logistics & Quản lý chuỗi cung ứng", "score": null },
+    { "name": "Trí tuệ nhân tạo & khoa học dữ liệu", "score": null }
+  ],
+  "source_url": "https://tlu.edu.vn/gioi-thieu-cac-nganh-tuyen-sinh-trinh-do-dai-hoc-he-chinh-quy-nam-2023-36980/",
+  "year": 2024
+},
+{
+  "university": "Đại học Kiến trúc Hà Nội",
+  "majors": [
+    { "name": "Kiến trúc", "score": null },
+    { "name": "Quy hoạch vùng & đô thị", "score": null },
+    { "name": "Kiến trúc cảnh quan", "score": null },
+    { "name": "Thiết kế đồ họa", "score": null },
+    { "name": "Thiết kế thời trang", "score": null },
+    { "name": "Thiết kế nội thất", "score": null },
+    { "name": "Điêu khắc", "score": null },
+    { "name": "Kỹ thuật xây dựng công trình giao thông", "score": null },
+    { "name": "Kỹ thuật môi trường đô thị", "score": null },
+    { "name": "Kỹ thuật cấp thoát nước", "score": null },
+    { "name": "Công nghệ kỹ thuật vật liệu xây dựng", "score": null },
+    { "name": "Công nghệ đa phương tiện", "score": null },
+    { "name": "Quản lý xây dựng", "score": null },
+    { "name": "Quản lý bất động sản", "score": null },
+    { "name": "Công nghệ cơ điện công trình", "score": null },
+    { "name": "Kỹ thuật hạ tầng đô thị", "score": null }
+  ],
+  "source_url": "https://hau.edu.vn/Chuong-trinh-dao-tao-cac-nganh-trinh-do-dai-hoc-cua-Truong-Dai-hoc-Kien-truc-Ha-Noi_n3388.html",
+  "year": 2024
+},
+{
+  "university": "Đại học Sân khấu Điện ảnh Hà Nội",
+  "majors": [
+    { "name": "Diễn viên sân khấu & điện ảnh", "score": null },
+    { "name": "Thiết kế mỹ thuật sân khấu & phim ảnh", "score": null },
+    { "name": "Quay phim – Điện ảnh", "score": null },
+    { "name": "Đạo diễn sân khấu & điện ảnh", "score": null },
+    { "name": "Tổ chức sản xuất phim & truyền hình", "score": null },
+    { "name": "Kỹ thuật sân khấu", "score": null },
+    { "name": "Sân khấu kịch nói", "score": null }
+  ],
+  "source_url": "https://skda.edu.vn",
+  "year": 2024
+},
+  {
+    "university": "Đại học Điện lực",
+    "majors": [
+      { "name": "Công nghệ kỹ thuật điện, điện tử", "score": null },
+      { "name": "Kỹ thuật nhiệt", "score": null },
+      { "name": "Công nghệ kỹ thuật năng lượng", "score": null },
+      { "name": "Quản lý công nghiệp", "score": null },
+      { "name": "Quản lý năng lượng", "score": null },
+      { "name": "Công nghệ kỹ thuật điều khiển và tự động hóa", "score": null },
+      { "name": "Công nghệ kỹ thuật điện tử – viễn thông", "score": null },
+      { "name": "Công nghệ thông tin", "score": null },
+      { "name": "Công nghệ môi trường", "score": null },
+      { "name": "Quản trị kinh doanh", "score": null },
+      { "name": "Kế toán", "score": null },
+      { "name": "Tài chính – Ngân hàng", "score": null },
+      { "name": "Marketing", "score": null },
+      { "name": "Thương mại điện tử", "score": null },
+      { "name": "Logistics & Quản lý chuỗi cung ứng", "score": null },
+      { "name": "Kỹ thuật cơ điện tử", "score": null },
+      { "name": "Kỹ thuật máy tính", "score": null },
+      { "name": "Kỹ thuật hạt nhân", "score": null },
+      { "name": "Kỹ thuật robot", "score": null },
+      { "name": "Vật liệu bán dẫn & vi mạch", "score": null }
+    ],
+    "source_url": "https://tuyensinh.epu.edu.vn/nganh-dao-tao/dai-hoc-2310.html",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Lao động & Xã hội",
+    "majors": [
+      { "name": "Ngôn ngữ Anh", "score": null },
+      { "name": "Kinh tế", "score": null },
+      { "name": "Tâm lý học", "score": null },
+      { "name": "Quản trị kinh doanh", "score": null },
+      { "name": "Tài chính – Ngân hàng", "score": null },
+      { "name": "Bảo hiểm", "score": null },
+      { "name": "Luật kinh tế", "score": null },
+      { "name": "Kế toán", "score": null },
+      { "name": "Kiểm toán", "score": null },
+      { "name": "Quản trị nhân lực", "score": null },
+      { "name": "Hệ thống thông tin quản lý", "score": null },
+      { "name": "Công tác xã hội", "score": null },
+      { "name": "Xã hội học", "score": null }
+    ],
+    "source_url": "https://e-ulsa.edu.vn/truong-dai-hoc-lao-dong-va-xa-hoi-cac-nganh/",
+    "year": 2024
+  },
+  {
+  "university": "Đại học Công nghiệp Hà Nội",
+  "majors": [
+    { "name": "Thiết kế thời trang", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Ngôn ngữ Trung Quốc", "score": null },
+    { "name": "Ngôn ngữ Nhật", "score": null },
+    { "name": "Ngôn ngữ Hàn Quốc", "score": null },
+    { "name": "Ngôn ngữ học", "score": null },
+    { "name": "Du lịch", "score": null },
+    { "name": "Quản trị dịch vụ du lịch & lữ hành", "score": null },
+    { "name": "Quản trị khách sạn", "score": null },
+    { "name": "Kỹ thuật cơ khí động lực", "score": null },
+    { "name": "Kỹ thuật hệ thống công nghiệp", "score": null },
+    { "name": "Công nghệ kỹ thuật điều khiển & tự động hóa", "score": null },
+    { "name": "Logistics & Quản lý chuỗi cung ứng", "score": null },
+    { "name": "Công nghệ đa phương tiện", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Kinh tế đầu tư", "score": null }
+  ],
+  "source_url": "https://www.haui.edu.vn/vn/page/ts/html/gioi-thieu",
+  "year": 2024
+},
+{
+  "university": "Trường Đại học Công nghệ Giao thông Vận tải",
+  "majors": [
+    { "name": "Công nghệ kỹ thuật giao thông", "score": null },
+    { "name": "Công nghệ kỹ thuật xây dựng", "score": null },
+    { "name": "Công nghệ kỹ thuật ô tô", "score": null },
+    { "name": "Công nghệ kỹ thuật điện tử – viễn thông", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Luật", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Hệ thống thông tin", "score": null },
+    { "name": "Công nghệ tài chính", "score": null }
+  ],
+  "source_url": "https://utt.edu.vn/tuyensinh/nganh-dao-tao-n747.html",
+  "year": 2024
+},
+{
+  "university": "Đại học Khoa học Tự nhiên – ĐHQGHN",
+  "majors": [
+    { "name": "Toán học", "score": null },
+    { "name": "Vật lý", "score": null },
+    { "name": "Hóa học", "score": null },
+    { "name": "Sinh học", "score": null },
+    { "name": "Khoa học môi trường", "score": null },
+    { "name": "Khoa học trái đất", "score": null },
+    { "name": "Tin học", "score": null },
+    { "name": "Toán – Tin", "score": null }
+  ],
+  "source_url": "https://vnu.edu.vn/dao-tao/chuong-trinh-dao-tao-bac-dai-hoc",
+  "year": 2024
+},
+{
+  "university": "Trường Đại học Giáo dục – ĐHQGHN",
+  "majors": [
+    { "name": "Sư phạm Toán", "score": null },
+    { "name": "Sư phạm Vật lý", "score": null },
+    { "name": "Sư phạm Hóa học", "score": null },
+    { "name": "Sư phạm Sinh học", "score": null },
+    { "name": "Sư phạm Ngữ văn", "score": null },
+    { "name": "Sư phạm tiếng Anh", "score": null },
+    { "name": "Giáo dục tiểu học", "score": null },
+    { "name": "Giáo dục mầm non", "score": null },
+    { "name": "Giáo dục học", "score": null },
+    { "name": "Quản lý giáo dục", "score": null }
+  ],
+  "source_url": "https://tuyensinhso.vn/school/dai-hoc-giao-duc-dhqg-ha-noi-u-198.html",
+  "year": 2024
+},
+{
+  "university": "Trường Đại học Công đoàn",
+  "majors": [
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Kinh tế", "score": null },
+    { "name": "Xã hội học", "score": null },
+    { "name": "Việt Nam học", "score": null },
+    { "name": "Truyền thông đại chúng", "score": null },
+    { "name": "Quản trị kinh doanh", "score": null },
+    { "name": "Tài chính – Ngân hàng", "score": null },
+    { "name": "Kế toán", "score": null },
+    { "name": "Quản trị nhân lực", "score": null },
+    { "name": "Quan hệ lao động", "score": null },
+    { "name": "Luật", "score": null },
+    { "name": "Công tác xã hội", "score": null },
+    { "name": "Du lịch", "score": null }
+  ],
+  "source_url": "https://diemthi.tuyensinh247.com/thong-tin-dai-hoc-cong-doan-LDA.html",
+  "year": 2024
+},
+{
+  "university": "Trường Đại học Kiểm sát Hà Nội",
+  "majors": [
+    { "name": "Luật (chuyên ngành Kiểm sát)", "score": null },
+    { "name": "Luật kinh tế", "score": null }
+  ],
+  "source_url": "https://tuyensinh.kiemsat.edu.vn/tuyen-sinh-dai-hoc.html",
+  "year": 2024
+},
+{
+  "university": "Đại học Thủ đô Hà Nội",
+  "majors": [
+    { "name": "Sư phạm lịch sử", "score": null },
+    { "name": "Sư phạm ngữ văn", "score": null },
+    { "name": "Sư phạm toán học", "score": null },
+    { "name": "Sư phạm vật lý", "score": null },
+    { "name": "Giáo dục công dân", "score": null },
+    { "name": "Giáo dục tiểu học", "score": null },
+    { "name": "Giáo dục mầm non", "score": null },
+    { "name": "Ngôn ngữ Anh", "score": null },
+    { "name": "Ngôn ngữ Trung Quốc", "score": null },
+    { "name": "Việt Nam học", "score": null },
+    { "name": "Kinh tế", "score": null },
+    { "name": "Quản trị kinh doanh", "score": null },
+    { "name": "Tài chính – Ngân hàng", "score": null },
+    { "name": "Công nghệ thông tin", "score": null },
+    { "name": "Logistics & Quản lý chuỗi cung ứng", "score": null },
+    { "name": "Công tác xã hội", "score": null }
+  ],
+  "source_url": "https://tuyensinhso.vn/school/dai-hoc-thu-do-ha-noi.html",
+  "year": 2024
+},
+{
+  "university": "Trường Đại học Sư phạm Nghệ thuật Trung Ương",
+  "majors": [
+    { "name": "Sư phạm Âm nhạc", "score": null },
+    { "name": "Thanh nhạc", "score": null },
+    { "name": "Piano", "score": null },
+    { "name": "Sư phạm Mỹ thuật", "score": null },
+    { "name": "Hội họa", "score": null },
+    { "name": "Thiết kế đồ họa", "score": null },
+    { "name": "Thiết kế Thời trang", "score": null },
+    { "name": "Diễn viên kịch – điện ảnh", "score": null },
+    { "name": "Công nghệ May", "score": null },
+    { "name": "Quản lý Văn hóa", "score": null },
+    { "name": "Công tác Xã hội", "score": null },
+    { "name": "Du lịch", "score": null }
+  ],
+  "source_url": "https://spnttw.edu.vn/gioi-thieu/",
+  "year": 2024
+},
+{
+  "university": "Học viện Ngoại giao",
+  "majors": [
+    { "name": "Quan hệ quốc tế", "score": 25.95 },
+    { "name": "Ngôn ngữ Anh", "score": 25.28 },
+    { "name": "Kinh tế quốc tế", "score": 24.45 },
+    { "name": "Luật quốc tế", "score": 24.95 },
+    { "name": "Truyền thông quốc tế", "score": 25.90 },
+    { "name": "Kinh doanh quốc tế", "score": 24.75 },
+    { "name": "Luật thương mại quốc tế", "score": 24.70 },
+    { "name": "Trung Quốc học", "score": 26.09 },
+    { "name": "Hàn Quốc học", "score": 25.10 },
+    { "name": "Hoa Kỳ học", "score": 24.17 },
+    { "name": "Nhật Bản học", "score": 24.43 }
+  ],
+  "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/hoc-vien-ngoai-giao-HQT.html",
+  "year": 2024
+},
+{
+  "university": "Đại học Y Hà Nội",
+  "majors": [
+    { "name": "Y khoa", "score": null },
+    { "name": "Y khoa Phân hiệu Thanh Hóa", "score": null },
+    { "name": "Y học cổ truyền", "score": null },
+    { "name": "Răng - Hàm - Mặt", "score": null },
+    { "name": "Y học dự phòng", "score": null },
+    { "name": "Điều dưỡng", "score": null },
+    { "name": "Điều dưỡng Phân hiệu Thanh Hóa", "score": null },
+    { "name": "Hộ sinh", "score": null },
+    { "name": "Dinh dưỡng", "score": null },
+    { "name": "Kỹ thuật phục hình răng", "score": null },
+    { "name": "Kỹ thuật Xét nghiệm y học", "score": null },
+    { "name": "Kỹ thuật Xét nghiệm y học Phân hiệu Thanh Hóa", "score": null },
+    { "name": "Kỹ thuật hình ảnh y học", "score": null },
+    { "name": "Kỹ thuật Phục hồi chức năng", "score": null },
+    { "name": "Kỹ thuật Phục hồi chức năng Phân hiệu Thanh Hóa", "score": null },
+    { "name": "Y tế công cộng", "score": null },
+    { "name": "Tâm lý học", "score": null }
+  ],
+  "source_url": "https://hmu.edu.vn",
+  "year": 2024
+}
+
+
+
+]
