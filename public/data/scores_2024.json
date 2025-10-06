@@ -11,7 +11,7 @@
         "score": null
       },
       {
-        "name": "Khoa học dữ liệu & Trí tuệ nhân tạo",
+        "name": "Khoa học dữ liệu và Trí tuệ nhân tạo",
         "score": null
       },
       {
@@ -27,7 +27,7 @@
         "score": null
       },
       {
-        "name": "Kỹ thuật điều khiển & tự động hóa",
+        "name": "Kỹ thuật điều khiển và tự động hóa",
         "score": null
       },
       {
@@ -51,7 +51,7 @@
         "score": null
       },
       {
-        "name": "Cơ khí chính xác & quang học",
+        "name": "Cơ khí chính xác và quang học",
         "score": null
       },
       {
@@ -63,11 +63,11 @@
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
-        "name": "Truyền thông số & Kỹ thuật đa phương tiện",
+        "name": "Truyền thông số và Kỹ thuật đa phương tiện",
         "score": null
       },
       {
@@ -79,7 +79,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -99,7 +99,7 @@
     "year": 2024
   },
   {
-    "university": "Đại học Công nghệ – ĐHQGHN",
+    "university": "Đại học Công nghệ - ĐHQGHN",
     "majors": [
       {
         "name": "Công nghệ thông tin",
@@ -118,7 +118,7 @@
         "score": null
       },
       {
-        "name": "Kỹ thuật điều khiển & tự động hóa",
+        "name": "Kỹ thuật điều khiển và tự động hóa",
         "score": null
       },
       {
@@ -126,11 +126,11 @@
         "score": null
       },
       {
-        "name": "Công nghệ kỹ thuật điện tử & truyền thông",
+        "name": "Công nghệ kỹ thuật điện tử và truyền thông",
         "score": null
       },
       {
-        "name": "Công nghệ thông tin – Điện toán đám mây và IoT",
+        "name": "Công nghệ thông tin - Điện toán đám mây và IoT",
         "score": null
       },
       {
@@ -138,7 +138,7 @@
         "score": null
       },
       {
-        "name": "Viễn thông & mạng máy tính",
+        "name": "Viễn thông và mạng máy tính",
         "score": null
       }
     ],
@@ -146,7 +146,7 @@
     "year": 2024
   },
   {
-    "university": "Đại học Khoa học Tự nhiên – ĐHQGHN",
+    "university": "Đại học Khoa học Tự nhiên - ĐHQGHN",
     "majors": [
       {
         "name": "Toán học",
@@ -157,7 +157,7 @@
         "score": null
       },
       {
-        "name": "Toán – Tin",
+        "name": "Toán - Tin",
         "score": null
       },
       {
@@ -181,7 +181,7 @@
         "score": null
       },
       {
-        "name": "Quy hoạch vùng & đô thị",
+        "name": "Quy hoạch vùng và đô thị",
         "score": null
       }
     ],
@@ -189,7 +189,7 @@
     "year": 2024
   },
   {
-    "university": "Đại học Khoa học Xã hội & Nhân văn – ĐHQGHN",
+    "university": "Đại học Khoa học Xã hội và Nhân văn - ĐHQGHN",
     "majors": [
       {
         "name": "Ngôn ngữ Anh",
@@ -224,7 +224,7 @@
         "score": null
       },
       {
-        "name": "Báo chí & Truyền thông",
+        "name": "Báo chí và Truyền thông",
         "score": null
       },
       {
@@ -240,7 +240,7 @@
     "year": 2024
   },
   {
-    "university": "Đại học Ngoại ngữ – ĐHQGHN",
+    "university": "Đại học Ngoại ngữ - ĐHQGHN",
     "majors": [
       {
         "name": "Sư phạm tiếng Anh",
@@ -283,7 +283,7 @@
     "year": 2024
   },
   {
-    "university": "Đại học Giáo dục – ĐHQGHN",
+    "university": "Đại học Giáo dục - ĐHQGHN",
     "majors": [
       {
         "name": "Sư phạm Toán học",
@@ -333,7 +333,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -349,7 +349,7 @@
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -372,7 +372,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -399,7 +399,7 @@
         "score": null
       },
       {
-        "name": "Ngôn ngữ Anh – Chương trình tiên tiến",
+        "name": "Ngôn ngữ Anh - Chương trình tiên tiến",
         "score": null
       },
       {
@@ -415,7 +415,7 @@
         "score": null
       },
       {
-        "name": "Ngôn ngữ Trung Quốc – CLC",
+        "name": "Ngôn ngữ Trung Quốc - CLC",
         "score": null
       },
       {
@@ -435,7 +435,7 @@
         "score": null
       },
       {
-        "name": "Ngôn ngữ Italia – CLC",
+        "name": "Ngôn ngữ Italia - CLC",
         "score": null
       },
       {
@@ -447,7 +447,7 @@
         "score": null
       },
       {
-        "name": "Ngôn ngữ Hàn Quốc – CLC",
+        "name": "Ngôn ngữ Hàn Quốc - CLC",
         "score": null
       },
       {
@@ -475,7 +475,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (tiếng Anh)",
+        "name": "Tài chính - Ngân hàng (tiếng Anh)",
         "score": null
       },
       {
@@ -491,15 +491,15 @@
         "score": null
       },
       {
-        "name": "Công nghệ thông tin – CLC",
+        "name": "Công nghệ thông tin - CLC",
         "score": null
       },
       {
-        "name": "Quản trị dịch vụ du lịch & lữ hành (tiếng Anh)",
+        "name": "Quản trị dịch vụ du lịch và lữ hành (tiếng Anh)",
         "score": null
       },
       {
-        "name": "Quản trị dịch vụ du lịch & lữ hành – CLC",
+        "name": "Quản trị dịch vụ du lịch và lữ hành - CLC",
         "score": null
       }
     ],
@@ -557,7 +557,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -589,11 +589,11 @@
         "score": null
       },
       {
-        "name": "Công nghệ kỹ thuật điện tử – viễn thông",
+        "name": "Công nghệ kỹ thuật điện tử - viễn thông",
         "score": null
       },
       {
-        "name": "Công nghệ kỹ thuật điều khiển & tự động hóa",
+        "name": "Công nghệ kỹ thuật điều khiển và tự động hóa",
         "score": null
       },
       {
@@ -609,7 +609,7 @@
         "score": null
       },
       {
-        "name": "Quản trị dịch vụ du lịch & lữ hành",
+        "name": "Quản trị dịch vụ du lịch và lữ hành",
         "score": null
       },
       {
@@ -624,15 +624,15 @@
     "university": "Đại học Xây dựng Hà Nội",
     "majors": [
       {
-        "name": "Kỹ thuật xây dựng (dân dụng & công nghiệp)",
+        "name": "Kỹ thuật xây dựng (dân dụng và công nghiệp)",
         "score": null
       },
       {
-        "name": "Kỹ thuật xây dựng – hệ thống kỹ thuật trong công trình",
+        "name": "Kỹ thuật xây dựng - hệ thống kỹ thuật trong công trình",
         "score": null
       },
       {
-        "name": "Kỹ thuật xây dựng – xây dựng công trình thủy",
+        "name": "Kỹ thuật xây dựng - xây dựng công trình thủy",
         "score": null
       },
       {
@@ -648,7 +648,7 @@
         "score": null
       },
       {
-        "name": "Quy hoạch vùng & đô thị",
+        "name": "Quy hoạch vùng và đô thị",
         "score": null
       },
       {
@@ -668,7 +668,7 @@
         "score": null
       },
       {
-        "name": "Logistics & quản lý chuỗi cung ứng",
+        "name": "Logistics và quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -687,7 +687,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – ngân hàng",
+        "name": "Tài chính - ngân hàng",
         "score": null
       },
       {
@@ -758,11 +758,11 @@
         "score": null
       },
       {
-        "name": "Thiết kế vi mạch & hệ thống nhúng",
+        "name": "Thiết kế vi mạch và hệ thống nhúng",
         "score": null
       },
       {
-        "name": "Công nghệ bán dẫn & Nano",
+        "name": "Công nghệ bán dẫn và Nano",
         "score": null
       }
     ],
@@ -770,14 +770,14 @@
     "year": 2024
   },
   {
-    "university": "Đại học Mỏ – Địa chất Hà Nội",
+    "university": "Đại học Mỏ - Địa chất Hà Nội",
     "majors": [
       {
         "name": "Kỹ thuật địa chất",
         "score": null
       },
       {
-        "name": "Kỹ thuật trắc địa – bản đồ",
+        "name": "Kỹ thuật trắc địa - bản đồ",
         "score": null
       },
       {
@@ -872,7 +872,7 @@
     "university": "Học viện Tài chính",
     "majors": [
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": 26.85
       },
       {
@@ -896,7 +896,7 @@
         "score": null
       },
       {
-        "name": "Tiếng Anh tài chính – kế toán",
+        "name": "Tiếng Anh tài chính - kế toán",
         "score": null
       },
       {
@@ -908,7 +908,7 @@
         "score": null
       },
       {
-        "name": "Bất động sản / Thẩm định giá & KD BĐS (mới)",
+        "name": "Bất động sản / Thẩm định giá và KD BĐS (mới)",
         "score": null
       },
       {
@@ -920,11 +920,11 @@
         "score": null
       },
       {
-        "name": "Thuế & Quản trị thuế (mới)",
+        "name": "Thuế và Quản trị thuế (mới)",
         "score": null
       },
       {
-        "name": "Hải quan & Logistics (mới)",
+        "name": "Hải quan và Logistics (mới)",
         "score": null
       },
       {
@@ -948,7 +948,7 @@
         "score": null
       },
       {
-        "name": "Trí tuệ nhân tạo trong tài chính – kế toán (mới)",
+        "name": "Trí tuệ nhân tạo trong tài chính - kế toán (mới)",
         "score": null
       }
     ],
@@ -1156,7 +1156,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -1215,7 +1215,7 @@
     "university": "Đại học Giao thông Vận tải",
     "majors": [
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -1227,7 +1227,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -1243,7 +1243,7 @@
         "score": null
       },
       {
-        "name": "Kỹ thuật xây dựng dân dụng & công nghiệp",
+        "name": "Kỹ thuật xây dựng dân dụng và công nghiệp",
         "score": null
       },
       {
@@ -1267,7 +1267,7 @@
         "score": null
       },
       {
-        "name": "Kỹ thuật điều khiển & tự động hóa",
+        "name": "Kỹ thuật điều khiển và tự động hóa",
         "score": null
       },
       {
@@ -1314,7 +1314,7 @@
         "score": null
       },
       {
-        "name": "Công nghệ kỹ thuật điện tử – viễn thông",
+        "name": "Công nghệ kỹ thuật điện tử - viễn thông",
         "score": null
       },
       {
@@ -1381,7 +1381,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -1409,7 +1409,7 @@
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -1452,7 +1452,7 @@
         "score": null
       },
       {
-        "name": "Triết học, chuyên ngành Triết học Mác – Lênin",
+        "name": "Triết học, chuyên ngành Triết học Mác - Lênin",
         "score": null
       },
       {
@@ -1609,7 +1609,7 @@
         "score": null
       },
       {
-        "name": "Khoa học thư viện (Thông tin – Thư viện)",
+        "name": "Khoa học thư viện (Thông tin - Thư viện)",
         "score": null
       },
       {
@@ -1665,7 +1665,7 @@
         "score": null
       }
     ],
-    "source_url": "https://portal.huc.edu.vn/index.aspx?ID=31&page=detailnews",
+    "source_url": "https://portal.huc.edu.vn/index.aspx?ID=31vàpage=detailnews",
     "year": 2024
   },
   {
@@ -1676,7 +1676,7 @@
         "score": null
       },
       {
-        "name": "Kỹ thuật xây dựng dân dụng & công nghiệp",
+        "name": "Kỹ thuật xây dựng dân dụng và công nghiệp",
         "score": null
       },
       {
@@ -1740,11 +1740,11 @@
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
-        "name": "Trí tuệ nhân tạo & khoa học dữ liệu",
+        "name": "Trí tuệ nhân tạo và khoa học dữ liệu",
         "score": null
       }
     ],
@@ -1759,7 +1759,7 @@
         "score": null
       },
       {
-        "name": "Quy hoạch vùng & đô thị",
+        "name": "Quy hoạch vùng và đô thị",
         "score": null
       },
       {
@@ -1826,23 +1826,23 @@
     "university": "Đại học Sân khấu Điện ảnh Hà Nội",
     "majors": [
       {
-        "name": "Diễn viên sân khấu & điện ảnh",
+        "name": "Diễn viên sân khấu và điện ảnh",
         "score": null
       },
       {
-        "name": "Thiết kế mỹ thuật sân khấu & phim ảnh",
+        "name": "Thiết kế mỹ thuật sân khấu và phim ảnh",
         "score": null
       },
       {
-        "name": "Quay phim – Điện ảnh",
+        "name": "Quay phim - Điện ảnh",
         "score": null
       },
       {
-        "name": "Đạo diễn sân khấu & điện ảnh",
+        "name": "Đạo diễn sân khấu và điện ảnh",
         "score": null
       },
       {
-        "name": "Tổ chức sản xuất phim & truyền hình",
+        "name": "Tổ chức sản xuất phim và truyền hình",
         "score": null
       },
       {
@@ -1885,7 +1885,7 @@
         "score": null
       },
       {
-        "name": "Công nghệ kỹ thuật điện tử – viễn thông",
+        "name": "Công nghệ kỹ thuật điện tử - viễn thông",
         "score": null
       },
       {
@@ -1905,7 +1905,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -1917,7 +1917,7 @@
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -1937,7 +1937,7 @@
         "score": null
       },
       {
-        "name": "Vật liệu bán dẫn & vi mạch",
+        "name": "Vật liệu bán dẫn và vi mạch",
         "score": null
       }
     ],
@@ -1945,7 +1945,7 @@
     "year": 2024
   },
   {
-    "university": "Đại học Lao động & Xã hội",
+    "university": "Đại học Lao động và Xã hội",
     "majors": [
       {
         "name": "Ngôn ngữ Anh",
@@ -1964,7 +1964,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -2035,7 +2035,7 @@
         "score": null
       },
       {
-        "name": "Quản trị dịch vụ du lịch & lữ hành",
+        "name": "Quản trị dịch vụ du lịch và lữ hành",
         "score": null
       },
       {
@@ -2051,11 +2051,11 @@
         "score": null
       },
       {
-        "name": "Công nghệ kỹ thuật điều khiển & tự động hóa",
+        "name": "Công nghệ kỹ thuật điều khiển và tự động hóa",
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -2075,7 +2075,7 @@
     "year": 2024
   },
   {
-    "university": "Trường Đại học Giáo dục – ĐHQGHN",
+    "university": "Trường Đại học Giáo dục - ĐHQGHN",
     "majors": [
       {
         "name": "Sư phạm Toán",
@@ -2149,7 +2149,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -2247,7 +2247,7 @@
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": null
       },
       {
@@ -2255,7 +2255,7 @@
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -2298,7 +2298,7 @@
         "score": null
       },
       {
-        "name": "Diễn viên kịch – điện ảnh",
+        "name": "Diễn viên kịch - điện ảnh",
         "score": null
       },
       {
@@ -2578,7 +2578,7 @@
         "score": null
       },
       {
-        "name": "Khí tượng & khí hậu học",
+        "name": "Khí tượng và khí hậu học",
         "score": null
       },
       {
@@ -2586,7 +2586,7 @@
         "score": null
       },
       {
-        "name": "Biến đổi khí hậu & Phát triển bền vững",
+        "name": "Biến đổi khí hậu và Phát triển bền vững",
         "score": null
       },
       {
@@ -2598,7 +2598,7 @@
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -2606,7 +2606,7 @@
         "score": null
       },
       {
-        "name": "Quản trị dịch vụ du lịch & lữ hành",
+        "name": "Quản trị dịch vụ du lịch và lữ hành",
         "score": null
       },
       {
@@ -2622,7 +2622,7 @@
         "score": null
       },
       {
-        "name": "Quản lý tài nguyên & môi trường",
+        "name": "Quản lý tài nguyên và môi trường",
         "score": null
       }
     ],
@@ -2641,7 +2641,7 @@
         "score": 25.46
       },
       {
-        "name": "Kỹ thuật Điều khiển & Tự động hóa",
+        "name": "Kỹ thuật Điều khiển và Tự động hóa",
         "score": 26.08
       },
       {
@@ -2657,7 +2657,7 @@
         "score": 26.31
       },
       {
-        "name": "Kỹ thuật dữ liệu (ngành Mạng máy tính & Truyền thông dữ liệu)",
+        "name": "Kỹ thuật dữ liệu (ngành Mạng máy tính và Truyền thông dữ liệu)",
         "score": 25.59
       },
       {
@@ -2921,19 +2921,19 @@
         "score": null
       },
       {
-        "name": "Huấn luyện múa – cổ điển châu Âu",
+        "name": "Huấn luyện múa - cổ điển châu Âu",
         "score": null
       },
       {
-        "name": "Huấn luyện múa – dân gian, dân tộc",
+        "name": "Huấn luyện múa - dân gian, dân tộc",
         "score": null
       },
       {
-        "name": "Huấn luyện múa – truyền thống Việt Nam",
+        "name": "Huấn luyện múa - truyền thống Việt Nam",
         "score": null
       },
       {
-        "name": "Huấn luyện múa – đương đại",
+        "name": "Huấn luyện múa - đương đại",
         "score": null
       },
       {
@@ -2980,7 +2980,7 @@
         "score": null
       },
       {
-        "name": "Ngôn ngữ Anh (bao gồm Tiếng Anh du lịch, Ngôn ngữ Anh – Trung)",
+        "name": "Ngôn ngữ Anh (bao gồm Tiếng Anh du lịch, Ngôn ngữ Anh - Trung)",
         "score": null
       },
       {
@@ -2992,7 +2992,7 @@
         "score": null
       },
       {
-        "name": "Giáo dục học (bao gồm Tâm lý – Giáo dục)",
+        "name": "Giáo dục học (bao gồm Tâm lý - Giáo dục)",
         "score": null
       },
       {
@@ -3034,43 +3034,43 @@
     "university": "Học viện Tài chính",
     "majors": [
       {
-        "name": "Tài chính – Ngân hàng (Quản lý tài chính công)",
+        "name": "Tài chính - Ngân hàng (Quản lý tài chính công)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Thuế)",
+        "name": "Tài chính - Ngân hàng (Thuế)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Tài chính quốc tế)",
+        "name": "Tài chính - Ngân hàng (Tài chính quốc tế)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Tài chính doanh nghiệp)",
+        "name": "Tài chính - Ngân hàng (Tài chính doanh nghiệp)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Tài chính Bảo hiểm)",
+        "name": "Tài chính - Ngân hàng (Tài chính Bảo hiểm)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Hải quan)",
+        "name": "Tài chính - Ngân hàng (Hải quan)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Ngân hàng)",
+        "name": "Tài chính - Ngân hàng (Ngân hàng)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Định giá tài sản)",
+        "name": "Tài chính - Ngân hàng (Định giá tài sản)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Phân tích chính sách tài chính)",
+        "name": "Tài chính - Ngân hàng (Phân tích chính sách tài chính)",
         "score": null
       },
       {
-        "name": "Tài chính – Ngân hàng (Đầu tư tài chính)",
+        "name": "Tài chính - Ngân hàng (Đầu tư tài chính)",
         "score": null
       },
       {
@@ -3094,11 +3094,11 @@
         "score": null
       },
       {
-        "name": "Hệ thống thông tin quản lý (Tin học Tài chính – Kế toán)",
+        "name": "Hệ thống thông tin quản lý (Tin học Tài chính - Kế toán)",
         "score": null
       },
       {
-        "name": "Ngôn ngữ Anh (Tiếng Anh Tài chính – Kế toán)",
+        "name": "Ngôn ngữ Anh (Tiếng Anh Tài chính - Kế toán)",
         "score": null
       },
       {
@@ -3110,7 +3110,7 @@
         "score": null
       },
       {
-        "name": "Kinh tế (Kinh tế – Luật)",
+        "name": "Kinh tế (Kinh tế - Luật)",
         "score": null
       }
     ],
@@ -3149,7 +3149,7 @@
         "score": null
       },
       {
-        "name": "Công nghệ kỹ thuật điện – điện tử",
+        "name": "Công nghệ kỹ thuật điện - điện tử",
         "score": null
       },
       {
@@ -3169,7 +3169,7 @@
         "score": null
       },
       {
-        "name": "Kỹ thuật trắc địa – bản đồ",
+        "name": "Kỹ thuật trắc địa - bản đồ",
         "score": 15.0
       },
       {
@@ -3189,7 +3189,7 @@
     "year": 2024
   },
   {
-    "university": "Đại học Khoa học Tự nhiên – Khoa Hóa (ĐHQG Hà Nội)",
+    "university": "Đại học Khoa học Tự nhiên - Khoa Hóa (ĐHQG Hà Nội)",
     "majors": [
       {
         "name": "Hóa học (chuẩn)",
@@ -3219,7 +3219,7 @@
     "university": "VinUniversity",
     "majors": [
       {
-        "name": "Quản trị Kinh doanh (Bachelor of Business Administration) — chuyên ngành: Finance, Marketing, Business Analytics, Operations & Supply Chain Management, Entrepreneurship, Hospitality Leadership",
+        "name": "Quản trị Kinh doanh (Bachelor of Business Administration) — chuyên ngành: Finance, Marketing, Business Analytics, Operations và Supply Chain Management, Entrepreneurship, Hospitality Leadership",
         "score": null
       },
       {
@@ -3259,7 +3259,7 @@
         "score": null
       }
     ],
-    "source_url": "https://vinuni.edu.vn/academics/ & https://admissions.vinuni.edu.vn/",
+    "source_url": "https://vinuni.edu.vn/academics/ và https://admissions.vinuni.edu.vn/",
     "year": null
   },
   {
@@ -3304,11 +3304,11 @@
           "Digital Marketing",
           "Kinh doanh quốc tế",
           "Quản trị khách sạn",
-          "Quản trị dịch vụ du lịch & lữ hành",
+          "Quản trị dịch vụ du lịch và lữ hành",
           "Tài chính doanh nghiệp",
-          "Ngân hàng số – Tài chính (Digital Banking and Finance)",
+          "Ngân hàng số - Tài chính (Digital Banking and Finance)",
           "Tài chính đầu tư",
-          "Logistics & Quản lý chuỗi cung ứng toàn cầu",
+          "Logistics và Quản lý chuỗi cung ứng toàn cầu",
           "Công nghệ tài chính (Fintech)"
         ],
         "score": null
@@ -3358,7 +3358,7 @@
         "score": null
       }
     ],
-    "source_url": "https://daihoc.fpt.edu.vn/chuong-trinh-dao-tao/ & https://daihoc.fpt.edu.vn/tuyen-sinh/",
+    "source_url": "https://daihoc.fpt.edu.vn/chuong-trinh-dao-tao/ và https://daihoc.fpt.edu.vn/tuyen-sinh/",
     "year": 2025
   },
   {
@@ -3377,7 +3377,7 @@
         "score": 24.35
       }
     ],
-    "source_url": "https://khoahoc.vietjack.com/tuyen-sinh/2154/diem-chuan-diem-trung-hoc-vien-quan-y-nam-2024-moi-nhat & https://tracuuquyhoach.com/tin-tuc/diem-chuan-chinh-thuc-hoc-vien-quan-y-125296.htm & https://daibieunhandan.vn/diem-chuan-nam-2024-cua-cac-truong-dai-hoc-y-duoc-tren-ca-nuoc-10344232.html",
+    "source_url": "https://khoahoc.vietjack.com/tuyen-sinh/2154/diem-chuan-diem-trung-hoc-vien-quan-y-nam-2024-moi-nhat và https://tracuuquyhoach.com/tin-tuc/diem-chuan-chinh-thuc-hoc-vien-quan-y-125296.htm và https://daibieunhandan.vn/diem-chuan-nam-2024-cua-cac-truong-dai-hoc-y-duoc-tren-ca-nuoc-10344232.html",
     "year": 2024
   },
   {
@@ -3447,7 +3447,7 @@
         "score": 23.18
       }
     ],
-    "source_url": "https://onthidgnl.com/diem-chuan-hoc-vien-am-nhac-quoc-gia-viet-nam-vnam-2024/ & navigates.vn & tuyensinhso.vn",
+    "source_url": "https://onthidgnl.com/diem-chuan-hoc-vien-am-nhac-quoc-gia-viet-nam-vnam-2024/ và navigates.vn và tuyensinhso.vn",
     "year": 2024
   },
   {
@@ -3464,7 +3464,7 @@
         "score": null
       }
     ],
-    "source_url": "https://1900.com.vn/tuyen-sinh/928/cac-nganh-dao-tao-truong-dai-hoc-tran-quoc-tuan-si-quan-luc-quan-1-nam-2024-moi-nhat & https://truongtotnhat.vn/tim-hieu-chi-tiet-truong-dai-hoc-tran-quoc-tuan/",
+    "source_url": "https://1900.com.vn/tuyen-sinh/928/cac-nganh-dao-tao-truong-dai-hoc-tran-quoc-tuan-si-quan-luc-quan-1-nam-2024-moi-nhat và https://truongtotnhat.vn/tim-hieu-chi-tiet-truong-dai-hoc-tran-quoc-tuan/",
     "year": 2024
   },
   {
@@ -3495,7 +3495,7 @@
         "score": 17.00
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": 17.00
       },
       {
@@ -3503,7 +3503,7 @@
         "score": 17.00
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": 17.00
       },
       {
@@ -3547,7 +3547,7 @@
         "score": null
       }
     ],
-    "source_url": "https://khoahoc.vietjack.com/tuyen-sinh/2045/diem-chuan-dai-hoc-hoa-binh-nam-2024-moi-nhat & thongtintuyensinh.vn & baodaknong.vn",
+    "source_url": "https://khoahoc.vietjack.com/tuyen-sinh/2045/diem-chuan-dai-hoc-hoa-binh-nam-2024-moi-nhat và thongtintuyensinh.vn và baodaknong.vn",
     "year": 2024
   },
   {
@@ -3562,7 +3562,7 @@
         "score": 27.80
       },
       {
-        "name": "Luật – chuyên ngành Thanh tra",
+        "name": "Luật - chuyên ngành Thanh tra",
         "score": 27.80
       },
       {
@@ -3673,7 +3673,7 @@
         "score": 16.50
       }
     ],
-    "source_url": "https://vnua.edu.vn/tin-tuc-su-kien/dao-tao/diem-chuan-hoc-vien-nong-nghiep-viet-nam-cao-nhat-25-25-diem & https://nongnghiep.vn/hoc-vien-nong-nghiep-viet-nam-cong-bo-diem-chuan-trung-tuyen-nam-2024-d396665.html",
+    "source_url": "https://vnua.edu.vn/tin-tuc-su-kien/dao-tao/diem-chuan-hoc-vien-nong-nghiep-viet-nam-cao-nhat-25-25-diem và https://nongnghiep.vn/hoc-vien-nong-nghiep-viet-nam-cong-bo-diem-chuan-trung-tuyen-nam-2024-d396665.html",
     "year": 2024
   },
   {
@@ -3724,7 +3724,7 @@
         "score": null
       }
     ],
-    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-znh-dai-hoc-van-hoa-nghe-thuat-quan-doi & khoahoc.vietjack.com",
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-znh-dai-hoc-van-hoa-nghe-thuat-quan-doi và khoahoc.vietjack.com",
     "year": 2024
   },
   {
@@ -3775,7 +3775,7 @@
         "score": 15.50
       }
     ],
-    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-hoc-vien-phu-nu-viet-nam-vwa-nam-2024-11924081807373212.htm & https://vietnamnet.vn/diem-chuan-hoc-vien-phu-nu-viet-nam-nam-2024-2312902.html & https://danhsachdaihoc.com/university/hoc-vien-phu-nu-viet-nam-vwa/",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-hoc-vien-phu-nu-viet-nam-vwa-nam-2024-11924081807373212.htm và https://vietnamnet.vn/diem-chuan-hoc-vien-phu-nu-viet-nam-nam-2024-2312902.html và https://danhsachdaihoc.com/university/hoc-vien-phu-nu-viet-nam-vwa/",
     "year": 2024
   },
   {
@@ -3826,7 +3826,7 @@
         "score": 19.6
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": 17.1
       },
       {
@@ -3854,7 +3854,7 @@
         "score": null
       },
       {
-        "name": "Logistics & Quản lý chuỗi cung ứng",
+        "name": "Logistics và Quản lý chuỗi cung ứng",
         "score": null
       },
       {
@@ -3909,7 +3909,7 @@
         "score": 28.55
       }
     ],
-    "source_url": "https://www.huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-lch-dai-hoc-chinh-tri-truong-si-quan-chinh-tri & https://tapchicongthuong.vn/diem-chuan-chinh-thuc-truong-si-quan-chinh-tri-125359.htm",
+    "source_url": "https://www.huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-lch-dai-hoc-chinh-tri-truong-si-quan-chinh-tri và https://tapchicongthuong.vn/diem-chuan-chinh-thuc-truong-si-quan-chinh-tri-125359.htm",
     "year": 2024
   },
   {
@@ -3951,11 +3951,11 @@
         }
       }
     ],
-    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-pbh-truong-si-quan-phao-binh & https://congthuong.vn/diem-trung-tuyen-truong-si-quan-phao-binh-nam-2024-tu-15625-diem-333481.html",
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-pbh-truong-si-quan-phao-binh và https://congthuong.vn/diem-trung-tuyen-truong-si-quan-phao-binh-nam-2024-tu-15625-diem-333481.html",
     "year": 2024
   },
   {
-    "university": "Đại học Lao động – Xã hội",
+    "university": "Đại học Lao động - Xã hội",
     "majors": [
       {
         "name": "Ngôn ngữ Anh",
@@ -3974,7 +3974,7 @@
         "score": 22.50
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": 23.14
       },
       {
@@ -3982,7 +3982,7 @@
         "score": 17.00
       },
       {
-        "name": "Bảo hiểm – Tài chính",
+        "name": "Bảo hiểm - Tài chính",
         "score": 21.75
       },
       {
@@ -4010,11 +4010,11 @@
         "score": 22.40
       }
     ],
-    "source_url": "https://khoahoc.vietjack.com/tuyen-sinh/2205/diem-chuan-dai-hoc-lao-dong-xa-hoi-nam-2024-moi-nhat & https://tapchicongthuong.vn/diem-chuan-chinh-thuc-truong-dai-hoc-lao-dong-xa-hoi-125431.htm",
+    "source_url": "https://khoahoc.vietjack.com/tuyen-sinh/2205/diem-chuan-dai-hoc-lao-dong-xa-hoi-nam-2024-moi-nhat và https://tapchicongthuong.vn/diem-chuan-chinh-thuc-truong-dai-hoc-lao-dong-xa-hoi-125431.htm",
     "year": 2024
   },
   {
-    "university": "Đại học Kinh tế – Kỹ thuật Công nghiệp",
+    "university": "Đại học Kinh tế - Kỹ thuật Công nghiệp",
     "majors": [
       {
         "name": "Ngôn ngữ Anh",
@@ -4045,7 +4045,7 @@
         }
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": {
           "Cơ sở Hà Nội": 24.0,
           "Cơ sở Nam Định": null
@@ -4087,7 +4087,7 @@
         }
       },
       {
-        "name": "Công nghệ kỹ thuật điện tử – viễn thông",
+        "name": "Công nghệ kỹ thuật điện tử - viễn thông",
         "score": {
           "Cơ sở Hà Nội": 23.0,
           "Cơ sở Nam Định": null
@@ -4179,7 +4179,7 @@
         "score": 17.0
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": 17.0
       },
       {
@@ -4199,7 +4199,7 @@
         "score": 17.0
       },
       {
-        "name": "Logistics và Quản lý chuỗi cung ứng (liên kết với Đài Loan – Trung Quốc)",
+        "name": "Logistics và Quản lý chuỗi cung ứng (liên kết với Đài Loan - Trung Quốc)",
         "score": 17.0
       },
       {
@@ -4223,7 +4223,7 @@
         "score": 17.0
       }
     ],
-    "source_url": "https://vietnamnet.vn/dai-hoc-dai-nam-cong-bo-diem-chuan-nam-2024-2313411.html & https://dainam.edu.vn/vi/tin-tuc/truong-dai-hoc-dai-nam-cong-bo-diem-chuan-trung-tuyen-nam-2024 & https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-ddn-truong-dai-hoc-dai-nam",
+    "source_url": "https://vietnamnet.vn/dai-hoc-dai-nam-cong-bo-diem-chuan-nam-2024-2313411.html và https://dainam.edu.vn/vi/tin-tuc/truong-dai-hoc-dai-nam-cong-bo-diem-chuan-trung-tuyen-nam-2024 và https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-ddn-truong-dai-hoc-dai-nam",
     "year": 2024
   },
   {
@@ -4238,15 +4238,15 @@
         "score": 17.00
       },
       {
-        "name": "Răng – Hàm – Mặt",
+        "name": "Răng - Hàm - Mặt",
         "score": 22.50
       },
       {
-        "name": "Kỹ thuật robot & Trí tuệ nhân tạo",
+        "name": "Kỹ thuật robot và Trí tuệ nhân tạo",
         "score": 22.00
       },
       {
-        "name": "Kỹ thuật điều khiển & Tự động hóa",
+        "name": "Kỹ thuật điều khiển và Tự động hóa",
         "score": 22.00
       },
       {
@@ -4306,7 +4306,7 @@
         "score": 21.00
       }
     ],
-    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-phenikaa-2024-119240818004136869.htm & https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-pka-dta-truong-dai-hoc-phenikaa",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-phenikaa-2024-119240818004136869.htm và https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-pka-dta-truong-dai-hoc-phenikaa",
     "year": 2024
   },
   {
@@ -4317,7 +4317,7 @@
         "score": null
       }
     ],
-    "source_url": "https://www.vbu.edu.vn/thong-bao/thong-bao-ket-qua-ky-thi-tuyen-sinh-cu-nhan-phat-hoc-chinh-quy-khoa-xix-2024.html & https://phatsuonline.vn/hoc-vien-pgvn-tai-ha-noi-thong-bao-tuyen-sinh-he-cu-nhan-phat-hoc-lien-thong-khoa-vi-2024-2030.html",
+    "source_url": "https://www.vbu.edu.vn/thong-bao/thong-bao-ket-qua-ky-thi-tuyen-sinh-cu-nhan-phat-hoc-chinh-quy-khoa-xix-2024.html và https://phatsuonline.vn/hoc-vien-pgvn-tai-ha-noi-thong-bao-tuyen-sinh-he-cu-nhan-phat-hoc-lien-thong-khoa-vi-2024-2030.html",
     "year": 2024
   },
   {
@@ -4332,7 +4332,7 @@
         "score": 15
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "score": 15
       },
       {
@@ -4360,7 +4360,7 @@
         "score": null
       }
     ],
-    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-vhd-dai-hoc-cong-nghiep-viet-hung & https://baolamdong.vn/diem-chuan-truong-dai-hoc-cong-nghiep-viet-hung-2024-moi-cap-nhat-226696.html",
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-vhd-dai-hoc-cong-nghiep-viet-hung và https://baolamdong.vn/diem-chuan-truong-dai-hoc-cong-nghiep-viet-hung-2024-moi-cap-nhat-226696.html",
     "year": 2024
   },
   {
@@ -4377,12 +4377,12 @@
         "score": 24.83
       },
       {
-        "name": "Tài chính – Ngân hàng",
+        "name": "Tài chính - Ngân hàng",
         "code": "7340201",
         "score": 25.26
       },
       {
-        "name": "Tài chính – Ngân hàng (Chất lượng cao)",
+        "name": "Tài chính - Ngân hàng (Chất lượng cao)",
         "code": "7340201-1",
         "score": 33.30
       },
@@ -4432,7 +4432,7 @@
         "score": 33.05
       }
     ],
-    "source_url": "https://daotaolientuc.edu.vn/diem-chuan-hoc-vien-chinh-sach-va-phat-trien-nam-2024 & https://khoahoc.vietjack.com/tuyen-sinh/143/diem-chuan-truong-hoc-vien-chinh-sach-va-phat-trien-nam-2024-moi-nhat",
+    "source_url": "https://daotaolientuc.edu.vn/diem-chuan-hoc-vien-chinh-sach-va-phat-trien-nam-2024 và https://khoahoc.vietjack.com/tuyen-sinh/143/diem-chuan-truong-hoc-vien-chinh-sach-va-phat-trien-nam-2024-moi-nhat",
     "year": 2024
   },
   {
@@ -4446,7 +4446,7 @@
             "score": 28.19
           },
           {
-            "name": "Kỹ thuật điều khiển & tự động hóa",
+            "name": "Kỹ thuật điều khiển và tự động hóa",
             "score": 27.9
           },
           {
@@ -4481,7 +4481,7 @@
         ]
       },
       {
-        "unit": "Trường Đại học Khoa học Xã hội & Nhân văn (VNU-USSH)",
+        "unit": "Trường Đại học Khoa học Xã hội và Nhân văn (VNU-USSH)",
         "majors": [
           {
             "name": "Báo chí",
@@ -4571,7 +4571,7 @@
         ]
       },
       {
-        "unit": "Trường Quốc tế – VNU (VNU-IS)",
+        "unit": "Trường Quốc tế - VNU (VNU-IS)",
         "majors": [
           {
             "name": "Chương trình quốc tế",
@@ -4580,7 +4580,7 @@
         ]
       },
       {
-        "unit": "Trường Khoa học liên ngành & Nghệ thuật (VNU-SIS)",
+        "unit": "Trường Khoa học liên ngành và Nghệ thuật (VNU-SIS)",
         "majors": [
           {
             "name": "Thiết kế sáng tạo",
@@ -4680,7 +4680,7 @@
         "score": 15.00
       }
     ],
-    "source_url": "https://tuyensinhquocgia.com/diem-chuan-dai-hoc-cong-nghiep-det-may-ha-noi-nam-2024/ & https://congthuong.vn/truong-dai-hoc-cong-nghiep-det-may-ha-noi-cong-bo-diem-chuan-nam-2024-339770.html",
+    "source_url": "https://tuyensinhquocgia.com/diem-chuan-dai-hoc-cong-nghiep-det-may-ha-noi-nam-2024/ và https://congthuong.vn/truong-dai-hoc-cong-nghiep-det-may-ha-noi-cong-bo-diem-chuan-nam-2024-339770.html",
     "year": 2024
   },
   {
@@ -4707,7 +4707,7 @@
         "score": 26.86
       }
     ],
-    "source_url": "https://daibieunhandan.vn/tuyen-sinh/diem-chuan-truong-dai-hoc-kiem-sat-ha-noi-nam-2024-nganh-luat-cao-nhat-voi-28-42-diem-post384613.html & https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/69466/diem-chuan-truong-dai-hoc-kiem-sat-ha-noi-nam-2024",
+    "source_url": "https://daibieunhandan.vn/tuyen-sinh/diem-chuan-truong-dai-hoc-kiem-sat-ha-noi-nam-2024-nganh-luat-cao-nhat-voi-28-42-diem-post384613.html và https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/69466/diem-chuan-truong-dai-hoc-kiem-sat-ha-noi-nam-2024",
     "year": 2024
   },
   {
@@ -4744,7 +4744,7 @@
         }
       }
     ],
-    "source_url": "https://daibieunhandan.vn/tuyen-sinh/diem-chuan-hoc-vien-toa-an-nam-2024-nganh-cao-nhat-la-28-2-diem & https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-hta-hoc-vien-toa-an & VietJack",
+    "source_url": "https://daibieunhandan.vn/tuyen-sinh/diem-chuan-hoc-vien-toa-an-nam-2024-nganh-cao-nhat-la-28-2-diem và https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-hta-hoc-vien-toa-an và VietJack",
     "year": 2024
   },
   {
@@ -4799,7 +4799,7 @@
         }
       }
     ],
-    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-hvq-hoc-vien-quan-ly-giao-duc & https://phapluat.suckhoedoisong.vn/diem-chuan-hoc-vien-quan-ly-giao-duc-naem-nam-2024-80066.html",
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-hvq-hoc-vien-quan-ly-giao-duc và https://phapluat.suckhoedoisong.vn/diem-chuan-hoc-vien-quan-ly-giao-duc-naem-nam-2024-80066.html",
     "year": 2024
   },
   {
@@ -4830,7 +4830,7 @@
         }
       }
     ],
-    "source_url": "https://tapchicongthuong.vn/diem-chuan-chinh-thuc-hoc-vien-y-duoc-hoc-co-truyen-viet-nam-125421.htm & https://vnexpress.net/diem-chuan-hoc-vien-y-duoc-hoc-co-truyen-viet-nam-nam-2024-4782592.html & https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-hyd-hoc-vien-y-duoc-hoc-co-truyen-viet-nam",
+    "source_url": "https://tapchicongthuong.vn/diem-chuan-chinh-thuc-hoc-vien-y-duoc-hoc-co-truyen-viet-nam-125421.htm và https://vnexpress.net/diem-chuan-hoc-vien-y-duoc-hoc-co-truyen-viet-nam-nam-2024-4782592.html và https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-hyd-hoc-vien-y-duoc-hoc-co-truyen-viet-nam",
     "year": 2024
   }
 ]
