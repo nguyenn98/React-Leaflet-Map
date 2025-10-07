@@ -283,45 +283,6 @@
     "year": 2024
   },
   {
-    "university": "Đại học Giáo dục - ĐHQGHN",
-    "majors": [
-      {
-        "name": "Sư phạm Toán học",
-        "score": 0
-      },
-      {
-        "name": "Sư phạm Ngữ văn",
-        "score": 0
-      },
-      {
-        "name": "Sư phạm Vật lý",
-        "score": 0
-      },
-      {
-        "name": "Sư phạm Hóa học",
-        "score": 0
-      },
-      {
-        "name": "Sư phạm Sinh học",
-        "score": 0
-      },
-      {
-        "name": "Sư phạm Tiếng Anh",
-        "score": 0
-      },
-      {
-        "name": "Giáo dục Tiểu học",
-        "score": 0
-      },
-      {
-        "name": "Giáo dục Mầm non",
-        "score": 0
-      }
-    ],
-    "source_url": "https://ued.vnu.edu.vn",
-    "year": 2024
-  },
-  {
     "university": "Đại học Kinh tế Quốc dân",
     "majors": [
       {
@@ -774,185 +735,273 @@
     "majors": [
       {
         "name": "Kỹ thuật địa chất",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật trắc địa - bản đồ",
-        "score": 0
+        "score": 15.0
       },
       {
         "name": "Kỹ thuật mỏ",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật dầu khí",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật tuyển khoáng",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật môi trường",
-        "score": 0
+        "score": null
       },
       {
         "name": "Quản lý đất đai",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật xây dựng",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật xây dựng công trình ngầm",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật cơ khí",
-        "score": 0
+        "score": 24.0
       },
       {
         "name": "Kỹ thuật điện",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật điều khiển và tự động hóa",
-        "score": 0
+        "score": 24.5
       },
       {
         "name": "Kỹ thuật hóa học",
-        "score": 0
+        "score": null
       },
       {
         "name": "Công nghệ kỹ thuật vật liệu",
-        "score": 0
+        "score": null
       },
       {
         "name": "Công nghệ thông tin",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật phần mềm",
-        "score": 0
+        "score": null
       },
       {
         "name": "Khoa học dữ liệu",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kinh tế",
-        "score": 0
+        "score": null
       },
       {
         "name": "Quản trị kinh doanh",
-        "score": 0
+        "score": 23.75
       },
       {
         "name": "Kế toán",
-        "score": 0
+        "score": 23.75
       },
       {
         "name": "Quản lý tài nguyên và môi trường",
-        "score": 0
+        "score": null
       },
       {
         "name": "Khoa học đất",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kỹ thuật địa tin học",
-        "score": 0
+        "score": null
+      },
+      {
+        "name": "Kỹ thuật ô tô",
+        "score": 24.0
+      },
+      {
+        "name": "Kỹ thuật cơ điện tử",
+        "score": 24.0
+      },
+      {
+        "name": "Kỹ thuật cơ khí động lực",
+        "score": 24.0
+      },
+      {
+        "name": "Quản lý phát triển đô thị và bất động sản",
+        "score": 24.10
+      },
+      {
+        "name": "Ngôn ngữ Trung Quốc",
+        "score": null
+      },
+      {
+        "name": "Công nghệ kỹ thuật điện - điện tử",
+        "score": null
+      },
+      {
+        "name": "Địa chất học",
+        "score": 18.0
       }
     ],
-    "source_url": "https://humg.edu.vn",
+    "source_url": "https://vnexpress.net/diem-chuan-dai-hoc-mo-dia-chat-nam-2024-4782578.html, https://xaydungchinhsach.chinhphu.vn/diem-chuan-tra-cuu-trung-tuyen-truong-dai-hoc-mo-dia-chat-nam-2024-119240817224625972.htm",
     "year": 2024
   },
   {
     "university": "Học viện Tài chính",
     "majors": [
       {
-        "name": "Tài chính - Ngân hàng",
+        "name": "Tài chính - Ngân hàng (Quản lý tài chính công)",
         "score": 26.85
       },
       {
-        "name": "Kế toán",
+        "name": "Tài chính - Ngân hàng (Thuế)",
+        "score": 26.85
+      },
+      {
+        "name": "Tài chính - Ngân hàng (Tài chính quốc tế)",
+        "score": 26.85
+      },
+      {
+        "name": "Tài chính - Ngân hàng (Tài chính doanh nghiệp)",
+        "score": 26.85
+      },
+      {
+        "name": "Tài chính - Ngân hàng (Tài chính bảo hiểm)",
+        "score": 26.85
+      },
+      {
+        "name": "Tài chính - Ngân hàng (Hải quan)",
+        "score": 26.85
+      },
+      {
+        "name": "Tài chính - Ngân hàng (Ngân hàng)",
+        "score": 26.85
+      },
+      {
+        "name": "Tài chính - Ngân hàng (Định giá tài sản)",
+        "score": 26.85
+      },
+      {
+        "name": "Tài chính - Ngân hàng (Phân tích chính sách tài chính)",
+        "score": 26.85
+      },
+      {
+        "name": "Tài chính - Ngân hàng (Đầu tư tài chính)",
+        "score": 26.85
+      },
+      {
+        "name": "Kế toán (Kế toán doanh nghiệp)",
         "score": 29.5
       },
       {
-        "name": "Kiểm toán",
+        "name": "Kế toán (Kiểm toán)",
         "score": 26.7
       },
       {
-        "name": "Luật kinh tế",
-        "score": 0
+        "name": "Kế toán (Kế toán công)",
+        "score": 26.7
       },
       {
-        "name": "Kinh tế",
+        "name": "Quản trị kinh doanh (Quản trị doanh nghiệp)",
+        "score": null
+      },
+      {
+        "name": "Quản trị kinh doanh (Marketing)",
+        "score": null
+      },
+      {
+        "name": "Hệ thống thông tin quản lý (Tin học tài chính - kế toán)",
+        "score": null
+      },
+      {
+        "name": "Ngôn ngữ Anh (Tiếng Anh tài chính - kế toán)",
+        "score": null
+      },
+      {
+        "name": "Kinh tế (Kinh tế nguồn lực tài chính)",
         "score": 26.0
       },
       {
-        "name": "Kinh tế và quản lý nguồn lực tài chính",
-        "score": 0
+        "name": "Kinh tế (Kinh tế đầu tư tài chính)",
+        "score": 26.0
       },
       {
-        "name": "Tiếng Anh tài chính - kế toán",
-        "score": 0
+        "name": "Kinh tế (Kinh tế - Luật)",
+        "score": 26.0
+      },
+      {
+        "name": "Luật kinh tế",
+        "score": null
+      },
+      {
+        "name": "Kinh tế và quản lý nguồn lực tài chính",
+        "score": null
       },
       {
         "name": "Quản lý tài chính công (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Tài chính bảo hiểm (mới)",
-        "score": 0
+        "score": null
       },
       {
-        "name": "Bất động sản / Thẩm định giá và KD BĐS (mới)",
-        "score": 0
+        "name": "Bất động sản / Thẩm định giá và kinh doanh bất động sản (mới)",
+        "score": null
       },
       {
         "name": "Marketing (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kinh doanh quốc tế (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Thuế và Quản trị thuế (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Hải quan và Logistics (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Phân tích tài chính (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Đầu tư tài chính (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Kế toán doanh nghiệp (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Tin học tài chính kế toán (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Khoa học dữ liệu trong tài chính (mới)",
-        "score": 0
+        "score": null
       },
       {
         "name": "Trí tuệ nhân tạo trong tài chính - kế toán (mới)",
-        "score": 0
+        "score": null
       }
     ],
-    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-tra-cuu-danh-sach-trung-tuyen-hoc-vien-tai-chinh-nam-2024-119240817220504495.htm",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-tra-cuu-danh-sach-trung-tuyen-hoc-vien-tai-chinh-nam-2024-119240817220504495.htm, https://hvtc.edu.vn/",
     "year": 2024
   },
   {
@@ -3031,164 +3080,6 @@
     "year": 2024
   },
   {
-    "university": "Học viện Tài chính",
-    "majors": [
-      {
-        "name": "Tài chính - Ngân hàng (Quản lý tài chính công)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Thuế)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Tài chính quốc tế)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Tài chính doanh nghiệp)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Tài chính Bảo hiểm)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Hải quan)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Ngân hàng)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Định giá tài sản)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Phân tích chính sách tài chính)",
-        "score": 0
-      },
-      {
-        "name": "Tài chính - Ngân hàng (Đầu tư tài chính)",
-        "score": 0
-      },
-      {
-        "name": "Kế toán (Kế toán doanh nghiệp)",
-        "score": 0
-      },
-      {
-        "name": "Kế toán (Kiểm toán)",
-        "score": 0
-      },
-      {
-        "name": "Kế toán (Kế toán công)",
-        "score": 0
-      },
-      {
-        "name": "Quản trị kinh doanh (Quản trị doanh nghiệp)",
-        "score": 0
-      },
-      {
-        "name": "Quản trị kinh doanh (Marketing)",
-        "score": 0
-      },
-      {
-        "name": "Hệ thống thông tin quản lý (Tin học Tài chính - Kế toán)",
-        "score": 0
-      },
-      {
-        "name": "Ngôn ngữ Anh (Tiếng Anh Tài chính - Kế toán)",
-        "score": 0
-      },
-      {
-        "name": "Kinh tế (Kinh tế nguồn lực tài chính)",
-        "score": 0
-      },
-      {
-        "name": "Kinh tế (Kinh tế đầu tư tài chính)",
-        "score": 0
-      },
-      {
-        "name": "Kinh tế (Kinh tế - Luật)",
-        "score": 0
-      }
-    ],
-    "source_url": "https://hvtc.edu.vn/",
-    "year": 2024
-  },
-  {
-    "university": "Đại học Mỏ - Địa chất",
-    "majors": [
-      {
-        "name": "Kỹ thuật điều khiển và tự động hóa",
-        "score": 24.5
-      },
-      {
-        "name": "Kỹ thuật cơ khí",
-        "score": 24.0
-      },
-      {
-        "name": "Kỹ thuật ô tô",
-        "score": 24.0
-      },
-      {
-        "name": "Kỹ thuật cơ điện tử",
-        "score": 24.0
-      },
-      {
-        "name": "Kỹ thuật cơ khí động lực",
-        "score": 24.0
-      },
-      {
-        "name": "Quản lý phát triển đô thị và bất động sản",
-        "score": 24.1
-      },
-      {
-        "name": "Ngôn ngữ Trung Quốc",
-        "score": 0
-      },
-      {
-        "name": "Công nghệ kỹ thuật điện - điện tử",
-        "score": 0
-      },
-      {
-        "name": "Địa chất học",
-        "score": 15.0
-      },
-      {
-        "name": "Kỹ thuật địa chất",
-        "score": 15.0
-      },
-      {
-        "name": "Kỹ thuật địa vật lý",
-        "score": 0
-      },
-      {
-        "name": "Đá quý Đá mỹ nghệ",
-        "score": 0
-      },
-      {
-        "name": "Kỹ thuật trắc địa - bản đồ",
-        "score": 15.0
-      },
-      {
-        "name": "Quản trị kinh doanh",
-        "score": 23.75
-      },
-      {
-        "name": "Kế toán",
-        "score": 23.75
-      },
-      {
-        "name": "Tài chính - Ngân hàng",
-        "score": 23.75
-      }
-    ],
-    "source_url": "https://vnexpress.net/diem-chuan-dai-hoc-mo-dia-chat-nam-2024-4782578.html",
-    "year": 2024
-  },
-  {
     "university": "Đại học Khoa học Tự nhiên - Khoa Hóa (ĐHQG Hà Nội)",
     "majors": [
       {
@@ -4831,6 +4722,972 @@
       }
     ],
     "source_url": "https://tapchicongthuong.vn/diem-chuan-chinh-thuc-hoc-vien-y-duoc-hoc-co-truyen-viet-nam-125421.htm và https://vnexpress.net/diem-chuan-hoc-vien-y-duoc-hoc-co-truyen-viet-nam-nam-2024-4782592.html và https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-hyd-hoc-vien-y-duoc-hoc-co-truyen-viet-nam",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Công nghệ và Quản lý Hữu Nghị",
+    "majors": [
+      {
+        "name": "Ngôn ngữ Anh",
+        "code": "7220201",
+        "score": 16
+      },
+      {
+        "name": "Ngôn ngữ Trung Quốc",
+        "code": "7220204",
+        "score": 16
+      },
+      {
+        "name": "Kinh tế quốc tế",
+        "code": "7310106",
+        "score": 16
+      },
+      {
+        "name": "Quản lý nhà nước",
+        "code": "7310205",
+        "score": 16
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "code": "7340101",
+        "score": 16
+      },
+      {
+        "name": "Bất động sản",
+        "code": "7340116",
+        "score": 16
+      },
+      {
+        "name": "Tài chính - Ngân hàng",
+        "code": "7340201",
+        "score": 16
+      },
+      {
+        "name": "Công nghệ tài chính",
+        "code": "7340205",
+        "score": 16
+      },
+      {
+        "name": "Kế toán",
+        "code": "7340301",
+        "score": 16
+      },
+      {
+        "name": "Luật kinh tế",
+        "code": "7380107",
+        "score": 16
+      },
+      {
+        "name": "Kỹ thuật phần mềm",
+        "code": "7480103",
+        "score": 16
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "code": "7480201",
+        "score": 16
+      },
+      {
+        "name": "Công nghệ kỹ thuật ô tô",
+        "code": "7510205",
+        "score": 16
+      },
+      {
+        "name": "Logistics và quản lý chuỗi cung ứng",
+        "code": "7510605",
+        "score": 16
+      },
+      {
+        "name": "Quản trị dịch vụ du lịch và lữ hành",
+        "code": "7810103",
+        "score": 16
+      }
+    ],
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-dcq-truong-dai-hoc-cong-nghe-va-quan-ly-huu-nghi & https://khoahoc.vietjack.com/tuyen-sinh/2099/diem-chuan-truong-dai-hoc-cong-nghe-va-quan-ly-huu-nghi-nam-2024",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Công nghiệp Việt-Hung",
+    "majors": [
+      {
+        "name": "Công nghệ kỹ thuật điện, điện tử",
+        "code": "7510301",
+        "score": 15
+      },
+      {
+        "name": "Công nghệ kỹ thuật cơ khí",
+        "code": "7510201",
+        "score": 15
+      },
+      {
+        "name": "Công nghệ kỹ thuật ô tô",
+        "code": "7510205",
+        "score": 15
+      },
+      {
+        "name": "Công nghệ kỹ thuật xây dựng",
+        "code": "7510103",
+        "score": 15
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "code": "7480201",
+        "score": 15
+      },
+      {
+        "name": "Tài chính – Ngân hàng",
+        "code": "7340201",
+        "score": 15
+      },
+      {
+        "name": "Kinh tế",
+        "code": "7310101",
+        "score": 15
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "code": "7340101",
+        "score": 15
+      }
+    ],
+    "source_url": "https://baolamdong.vn/diem-chuan-truong-dai-hoc-cong-nghiep-viet-hung-2024-moi-cap-nhat-226696.html & https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-vhd-dai-hoc-cong-nghiep-viet-hung",
+    "year": 2024
+  },
+  {
+    "university": "Trường Cao đẳng Truyền hình",
+    "majors": [
+      {
+        "name": "Báo chí (Bao gồm các chuyên ngành Báo chí đa phương tiện và Báo chí truyền hình)",
+        "code": "6320103",
+        "score": null
+      },
+      {
+        "name": "Truyền thông đa phương tiện (bao gồm Truyền thông đa phương tiện và Sản xuất nội dung số)",
+        "code": "6320106",
+        "score": null
+      },
+      {
+        "name": "Quay phim",
+        "code": "6210232",
+        "score": null
+      },
+      {
+        "name": "Công nghệ Điện ảnh - Truyền hình",
+        "code": "6210309",
+        "score": null
+      },
+      {
+        "name": "Đồ họa đa phương tiện (bao gồm Đồ họa đa phương tiện và Sản xuất hoạt hình số)",
+        "code": "6480108",
+        "score": null
+      },
+      {
+        "name": "Tin học ứng dụng",
+        "code": "6480205",
+        "score": null
+      }
+    ],
+    "source_url": "https://onair.vtv.vn/Data/tap-chi-truyen-hinh/22-08-2020/Processed/files/assets/common/downloads/VTV%20so%20430.pdf & https://diemthi.tuyensinh247.com/thong-tin-cao-dang-truyen-hinh-CDT0131.html",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Phòng cháy Chữa cháy",
+    "majors": [
+      {
+        "name": "Phòng cháy chữa cháy và cứu nạn, cứu hộ",
+        "code": "7860113",
+        "score": {
+          "Phía Bắc – Nam": 19.05,
+          "Phía Bắc – Nữ": 21.70,
+          "Phía Nam – Nam": 18.17,
+          "Phía Nam – Nữ": 19.89
+        }
+      }
+    ],
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-phong-chay-chua-chay-nam-2024-119240820212118991.htm & https://tapchicongthuong.vn/diem-chuan-chinh-thuc-truong-dai-hoc-phong-chay-chua-chay-125546.htm",
+    "year": 2024
+  },
+  {
+    "university": "Học viện Kỹ thuật Mật mã",
+    "majors": [
+      {
+        "name": "Công nghệ thông tin (Hà Nội)",
+        "code": "7480201KMA",
+        "score": 26.10
+      },
+      {
+        "name": "An toàn thông tin (Hà Nội)",
+        "code": "7480202KMA",
+        "score": 25.95
+      },
+      {
+        "name": "An toàn thông tin (Phân hiệu TP. HCM)",
+        "code": "7480202KMP",
+        "score": 24.85
+      },
+      {
+        "name": "Kỹ thuật điện tử - viễn thông (Hà Nội)",
+        "code": "7520207",
+        "score": 25.35
+      }
+    ],
+    "source_url": "https://vnexpress.net/diem-chuan-hoc-vien-ky-thuat-mat-ma-2024-4782662.html & https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-kma-hoc-vien-ky-thuat-mat-ma",
+    "year": 2024
+  },
+  {
+    "university": "Học viện Hậu cần",
+    "majors": [
+      {
+        "name": "Hậu cần Quân sự",
+        "code": "7860218",
+        "score": {
+          "Nam miền Bắc": 26.22,
+          "Nữ miền Bắc": 27.28,
+          "Nam miền Nam": 25.29,
+          "Nữ miền Nam": 26.62
+        },
+        "score_hocba": {
+          "Nam miền Bắc": 28.382,
+          "Nữ miền Bắc": null,
+          "Nam miền Nam": 27.804,
+          "Nữ miền Nam": null
+        },
+        "score_DGNL_HN": {
+          "Nam miền Bắc": 18.90,
+          "Nữ miền Bắc": 22.15,
+          "Nam miền Nam": 20.125,
+          "Nữ miền Nam": 19.75
+        },
+        "score_DGNL_HCM": {
+          "Nam miền Bắc": null,
+          "Nữ miền Bắc": null,
+          "Nam miền Nam": null,
+          "Nữ miền Nam": null
+        }
+      }
+    ],
+    "source_url": "https://tapchicongthuong.vn/diem-chuan-chinh-thuc-hoc-vien-hau-can-125297.htm & https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-heh-hoc-vien-hau-can & https://tuyensinhquocgia.com/diem-chuan-hoc-vien-hau-can-he-quan-su-2024/",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Kinh doanh và Công nghệ Hà Nội",
+    "majors": [
+      {
+        "name": "Thiết kế đồ họa",
+        "code": "7210403",
+        "score": 19
+      },
+      {
+        "name": "Ngôn ngữ Anh",
+        "code": "7220201",
+        "score": 19
+      },
+      {
+        "name": "Ngôn ngữ Nga",
+        "code": "7220202",
+        "score": 19
+      },
+      {
+        "name": "Ngôn ngữ Trung Quốc",
+        "code": "7220204",
+        "score": 24
+      },
+      {
+        "name": "Kinh tế",
+        "code": "7310101",
+        "score": 21
+      },
+      {
+        "name": "Quản lý nhà nước",
+        "code": "7310205",
+        "score": 19
+      },
+      {
+        "name": "Công nghệ kỹ thuật điện, điện tử",
+        "code": "7510301",
+        "score": 23
+      },
+      {
+        "name": "Công nghệ kỹ thuật ô tô",
+        "code": "7510205",
+        "score": 21
+      },
+      {
+        "name": "Công nghệ kỹ thuật môi trường",
+        "code": "7510406",
+        "score": 19
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "code": "7340101",
+        "score": 24
+      },
+      {
+        "name": "Kinh doanh quốc tế",
+        "code": "7340120",
+        "score": 24
+      },
+      {
+        "name": "Tài chính – Ngân hàng",
+        "code": "7340201",
+        "score": 21.5
+      },
+      {
+        "name": "Kế toán",
+        "code": "7340301",
+        "score": 24.5
+      },
+      {
+        "name": "Luật kinh tế",
+        "code": "7380107",
+        "score": 24.5
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "code": "7480201",
+        "score": 23.5
+      }
+    ],
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-dqk-truong-dai-hoc-kinh-doanh-va-cong-nghe-ha-noi & https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-kinh-doanh-va-cong-nghe-ha-noi-DQK.html & https://thuvienphapluat.vn/hoi-dap-phap-luat/83A33D3-hd-diem-chuan-dai-hoc-kinh-doanh-va-cong-nghe-ha-noi-nam-2024.html",
+    "year": 2024
+  },
+  {
+    "university": "Trường Quản trị và Kinh doanh - ĐHQGHN",
+    "majors": [
+      {
+        "name": "Quản trị Doanh nghiệp và Công nghệ",
+        "code": "7900101",
+        "score": 22
+      },
+      {
+        "name": "Marketing và Truyền thông",
+        "code": "7900102",
+        "score": 21.2
+      },
+      {
+        "name": "Quản trị Nhân lực và Nhân tài",
+        "code": "7900103",
+        "score": 21
+      },
+      {
+        "name": "Quản trị và An ninh",
+        "code": "7900189",
+        "score": 22
+      }
+    ],
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-qhd-truong-quan-tri-va-kinh-doanh-dhqg-ha-noi & https://khoahoc.vietjack.com/tuyen-sinh/2106/diem-chuan-diem-trung-tuyen-truong-quan-tri-va-kinh-doanh-dhqghn-nam",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Quốc tế RMIT Hà Nội",
+    "majors": [
+      {
+        "name": "Ngôn ngữ Anh",
+        "code": "7220201",
+        "score": 15
+      },
+      {
+        "name": "Ngôn ngữ Trung Quốc",
+        "code": "7220204",
+        "score": 15
+      },
+      {
+        "name": "Đông phương học (Chuyên ngành Hàn Quốc học)",
+        "code": "7310608",
+        "score": 15
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "code": "7340101",
+        "score": 15
+      },
+      {
+        "name": "Digital Marketing",
+        "code": "7340114",
+        "score": 15
+      },
+      {
+        "name": "Kinh doanh quốc tế",
+        "code": "7340120",
+        "score": 15
+      },
+      {
+        "name": "Công nghệ tài chính",
+        "code": "7340205",
+        "score": 15
+      },
+      {
+        "name": "Kế toán",
+        "code": "7340301",
+        "score": 15
+      },
+      {
+        "name": "Luật kinh tế",
+        "code": "7380107",
+        "score": 15
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "code": "7480201",
+        "score": 15
+      },
+      {
+        "name": "Công nghệ kỹ thuật ô tô",
+        "code": "7510205",
+        "score": 15
+      },
+      {
+        "name": "Quản lý công nghiệp",
+        "code": "7510601",
+        "score": 15
+      },
+      {
+        "name": "Logistics và quản lý chuỗi cung ứng",
+        "code": "7510605",
+        "score": 15
+      }
+    ],
+    "source_url": "https://www.huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-rmu-truong-dh-quoc-te-rmit-viet-nam & RMIT official site",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Nguyễn Trãi",
+    "majors": [
+      {
+        "name": "Quản trị kinh doanh",
+        "score": 18
+      },
+      {
+        "name": "Tài chính ‒ Ngân hàng",
+        "score": 18
+      },
+      {
+        "name": "Kế toán",
+        "score": 18
+      },
+      {
+        "name": "Quan hệ công chúng",
+        "score": 18
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "score": 18
+      },
+      {
+        "name": "Thiết kế đồ họa",
+        "score": 18
+      },
+      {
+        "name": "Thiết kế nội thất",
+        "score": 18
+      },
+      {
+        "name": "Kiến trúc",
+        "score": 18
+      },
+      {
+        "name": "Ngôn ngữ Nhật",
+        "score": 18
+      },
+      {
+        "name": "Ngôn ngữ Hàn Quốc",
+        "score": 18
+      },
+      {
+        "name": "Quốc tế học",
+        "score": 18
+      }
+    ],
+    "source_url": "https://congthuong.vn/diem-chuan-nam-2024-cua-truong-dai-hoc-nguyen-trai-339706.html & https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-ntu-truong-dai-hoc-nguyen-trai & https://tuyensinhquocgia.com/diem-chuan-dai-hoc-nguyen-trai-nam-2024/",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Khoa học và Công nghệ Hà Nội",
+    "majors": [
+      {
+        "name": "Công nghệ sinh học - Phát triển thuốc",
+        "code": "7420201",
+        "score": 21.60
+      },
+      {
+        "name": "Hóa học",
+        "code": "7440112",
+        "score": 21.75
+      },
+      {
+        "name": "Khoa học vật liệu tiên tiến & Công nghệ Nano",
+        "code": "7440122",
+        "score": 22.00
+      },
+      {
+        "name": "Khoa học Môi trường Ứng dụng",
+        "code": "7440301",
+        "score": 18.65
+      },
+      {
+        "name": "Khoa học dữ liệu",
+        "code": "7460108",
+        "score": 22.05
+      },
+      {
+        "name": "Toán ứng dụng",
+        "code": "7460112",
+        "score": 21.15
+      },
+      {
+        "name": "Công nghệ thông tin - Truyền thông",
+        "code": "7480201",
+        "score": 22.50
+      },
+      {
+        "name": "An toàn thông tin",
+        "code": "7480202",
+        "score": 23.00
+      },
+      {
+        "name": "Công nghệ kỹ thuật Cơ điện tử",
+        "code": "7510203",
+        "score": 23.51
+      },
+      {
+        "name": "Kỹ thuật ô tô",
+        "code": "7520130",
+        "score": 22.00
+      },
+      {
+        "name": "Công nghệ vi mạch bán dẫn",
+        "code": "7520401",
+        "score": 25.01
+      },
+      {
+        "name": "Dược học",
+        "code": "7720201",
+        "score": 23.57
+      },
+      {
+        "name": "Công nghệ & Khoa học Y khoa",
+        "code": "7720601",
+        "score": 21.10
+      },
+      {
+        "name": "Kỹ thuật điện & Năng lượng tái tạo",
+        "code": "7520201",
+        "score": 20.80
+      }
+    ],
+    "source_url": "https://www.qdnd.vn/giao-duc/khoa-hoc/tin-tuc/diem-chuan-trung-tuyen-truong-dai-hoc-khoa-hoc-va-cong-nghe-ha-noi-790141 & https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-va-cong-nghe-ha-noi-KCN.html",
+    "year": 2024
+  },
+  {
+    "university": "Học viện Khoa học và Công nghệ (GUST)",
+    "majors": [
+      {
+        "name": "Toán học",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Vật lý",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Hoá học",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Sinh thái & Tài nguyên sinh vật",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Địa lý",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Các khoa học trái đất",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Công nghệ và Công nghệ biển",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Vật liệu & Năng lượng",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "CNTT & Viễn thông",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Công nghệ sinh học",
+        "degree": "Thạc sĩ",
+        "score": null
+      },
+      {
+        "name": "Công nghệ môi trường",
+        "degree": "Thạc sĩ",
+        "score": null
+      }
+    ],
+    "source_url": "https://gust.edu.vn/vn/html/nganh-chuyen-nganh-dao-tao-ths",
+    "year": 2024
+  },
+  {
+    "university": "Học viện Dân tộc",
+    "majors": [
+      {
+        "name": "Kinh tế giáo dục vùng dân tộc thiểu số",
+        "code": "7310101",
+        "score": 18
+      }
+    ],
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-hvd-hoc-vien-dan-toc",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Công nghệ Đông Á",
+    "majors": [
+      {
+        "name": "Ngôn ngữ Anh",
+        "score": 17
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "score": 17
+      },
+      {
+        "name": "Marketing",
+        "score": 17
+      },
+      {
+        "name": "Tài chính - Ngân hàng",
+        "score": 17
+      },
+      {
+        "name": "Kế toán",
+        "score": 17
+      },
+      {
+        "name": "Kế toán định hướng ACCA",
+        "score": 17
+      },
+      {
+        "name": "Luật",
+        "score": 17
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "score": 17
+      },
+      {
+        "name": "Thiết kế đồ họa số",
+        "score": 17
+      },
+      {
+        "name": "Công nghệ Chế tạo máy",
+        "score": 17
+      },
+      {
+        "name": "Cơ điện tử",
+        "score": 17
+      },
+      {
+        "name": "Công nghệ kỹ thuật ô tô",
+        "score": 17
+      },
+      {
+        "name": "Công nghệ Kỹ thuật Nhiệt (Nhiệt – Điện lạnh)",
+        "score": 17
+      },
+      {
+        "name": "Công nghệ Kỹ thuật Điện – Điện tử",
+        "score": 17
+      },
+      {
+        "name": "Công nghệ Kỹ thuật Điều khiển – Tự động hóa",
+        "score": 17
+      },
+      {
+        "name": "Công nghệ Thực phẩm",
+        "score": 17
+      },
+      {
+        "name": "Công nghệ và kinh doanh thực phẩm",
+        "score": 17
+      },
+      {
+        "name": "Khoa học thực phẩm và dinh dưỡng",
+        "score": 17
+      },
+      {
+        "name": "Kỹ thuật Xây dựng",
+        "score": 17
+      },
+      {
+        "name": "Dược học",
+        "score": 21
+      },
+      {
+        "name": "Điều dưỡng",
+        "score": 19
+      },
+      {
+        "name": "Quản trị dịch vụ du lịch và lữ hành",
+        "score": 17
+      },
+      {
+        "name": "Quản trị khách sạn",
+        "score": 17
+      }
+    ],
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-dda-truong-dai-hoc-cong-nghe-dong-a & https://khoahoc.vietjack.com/tuyen-sinh/2139/diem-chuan-truong-dai-hoc-cong-nghe-dong-a-nam-2024-moi-nhat",
+    "year": 2024
+  },
+  {
+    "university": "Đại học CMC",
+    "majors": [
+      {
+        "name": "Công nghệ Thông tin",
+        "score": 23.0
+      },
+      {
+        "name": "Công nghệ Thông tin Việt - Hàn",
+        "score": 23.0
+      },
+      {
+        "name": "Công nghệ Thông tin Việt - Nhật",
+        "score": 23.0
+      },
+      {
+        "name": "Khoa học Máy tính",
+        "score": 23.0
+      },
+      {
+        "name": "Công nghệ kỹ thuật Điện tử - Viễn thông",
+        "score": 23.0
+      },
+      {
+        "name": "Quản trị Kinh doanh",
+        "score": 22.5
+      },
+      {
+        "name": "Thiết kế Đồ họa",
+        "score": 22.0
+      },
+      {
+        "name": "Ngôn ngữ Nhật",
+        "score": 21.0
+      },
+      {
+        "name": "Ngôn ngữ Hàn Quốc",
+        "score": 21.0
+      },
+      {
+        "name": "Marketing",
+        "score": 22.5
+      }
+    ],
+    "source_url": "https://vnexpress.net/truong-dai-hoc-cmc-lay-diem-chuan-tu-21-4782495.html, https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-cmc-truong-dai-hoc-cmc, https://cmc-u.edu.vn/he-dao-tao/",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Tài chính ‒ Ngân hàng Hà Nội",
+    "majors": [
+      {
+        "name": "Tài chính – Ngân hàng",
+        "code": "7340201",
+        "score": 23.75
+      },
+      {
+        "name": "Kế toán",
+        "code": "7340301",
+        "score": 23.75
+      },
+      {
+        "name": "Kiểm toán",
+        "code": "7340302",
+        "score": 23.75
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "code": "7340101",
+        "score": 23.25
+      },
+      {
+        "name": "Kinh doanh thương mại",
+        "code": "7340121",
+        "score": 24.50
+      },
+      {
+        "name": "Luật kinh tế",
+        "code": "7380107",
+        "score": 24.00
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "code": "7480201",
+        "score": 22.75
+      },
+      {
+        "name": "Ngôn ngữ Anh",
+        "code": "7220201",
+        "score": 23.00
+      },
+      {
+        "name": "Ngôn ngữ Trung Quốc",
+        "code": "7220204",
+        "score": 24.75
+      }
+    ],
+    "source_url": "https://fbu.edu.vn/wp-content/uploads/2024/08/2.-TB-288-diem-trung-tuyen-Khoa-13-nam-2024.pdf & https://khoahoc.vietjack.com/tuyen-sinh/2198/diem-chuan-diem-trung-tuyen-dai-hoc-tai-chinh-ngan-hang-nam-2024",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Kinh tế - ĐHQGHN",
+    "majors": [
+      {
+        "name": "Tài chính - Ngân hàng",
+        "code": "7340201",
+        "score": 33.62
+      },
+      {
+        "name": "Kế toán",
+        "code": "7340301",
+        "score": 33.10
+      },
+      {
+        "name": "Quản trị Kinh doanh",
+        "code": "7340101",
+        "score": 33.33
+      },
+      {
+        "name": "Kinh tế quốc tế",
+        "code": "7310106",
+        "score": 33.43
+      },
+      {
+        "name": "Kinh tế phát triển",
+        "code": "7310105",
+        "score": 33.35
+      },
+      {
+        "name": "Kinh tế",
+        "code": "7310101",
+        "score": 33.23
+      }
+    ],
+    "source_url": "https://vietjack.me/diem-chuan-dai-hoc-kinh-te-dhqghn-chinh-thuc-2024-chinh-xac-nhat-228227.html & https://daibieunhandan.vn/diem-chuan-truong-dai-hoc-kinh-te-dhqghn-khong-nganh-nao-duoi-33-diem-post384548.html",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Luật – ĐHQGHN",
+    "majors": [
+      {
+        "name": "Luật",
+        "code": "7380101",
+        "score": {
+          "C00": 28.36,
+          "A01": 24.5,
+          "D01": 25.4,
+          "D78": 26.52,
+          "D03": 25.0,
+          "D82": 25.0
+        }
+      },
+      {
+        "name": "Luật Chất lượng cao",
+        "code": "7380101CLC",
+        "score": null
+      },
+      {
+        "name": "Luật Kinh doanh / Luật Thương mại quốc tế",
+        "code": "7380110 / 7380109",
+        "score": null
+      }
+    ],
+    "source_url": "https://tapchicongthuong.vn/diem-chuan-chinh-thuc-truong-dai-hoc-luat-dai-hoc-quoc-gia-ha-noi-125255.htm, https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tu-van-phap-luat/69477/diem-chuan-nganh-luat-nam-2024-cua-cac-truong-dai-hoc-hoc-vien",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Y Dược - ĐHQGHN",
+    "majors": [
+      {
+        "name": "Y khoa",
+        "code": "7720101",
+        "score": 27.15
+      },
+      {
+        "name": "Dược học",
+        "code": "7720201",
+        "score": 25.10
+      },
+      {
+        "name": "Răng Hàm Mặt",
+        "code": "7720501",
+        "score": 27.00
+      },
+      {
+        "name": "Kỹ thuật Xét nghiệm y học",
+        "code": "7720601",
+        "score": 24.83
+      },
+      {
+        "name": "Kỹ thuật Hình ảnh y học",
+        "code": "7720602",
+        "score": 24.49
+      },
+      {
+        "name": "Điều dưỡng",
+        "code": "7720301",
+        "score": 24.49
+      }
+    ],
+    "source_url": "https://daibieunhandan.vn/diem-chuan-nam-2024-cua-truong-dai-hoc-y-duoc-dhqghn-10344232.html & https://mthi.tuyensinh247.com/truong-dai-hoc-y-duoc-dhqghn-cong-bo-diem-chuan-2024-c24a82760.html & https://news.laodong.vn/giao-duc/tham-khao-diem-chuan-hoc-phi-cac-truong-y-duoc-1503701.ldo",
+    "year": 2024
+  },
+  {
+    "university": "Đại học Việt Nhật – ĐHQGHN",
+    "majors": [
+      {
+        "name": "Nhật Bản học",
+        "code": "7310613",
+        "score": 21
+      },
+      {
+        "name": "Khoa học và Kỹ thuật máy tính",
+        "code": "7480204",
+        "score": 20.75
+      },
+      {
+        "name": "Cơ điện tử thông minh & sản xuất theo phương thức Nhật Bản",
+        "code": "7520114",
+        "score": 20
+      },
+      {
+        "name": "Công nghệ thực phẩm và sức khỏe",
+        "code": "7540118QTD",
+        "score": 20
+      },
+      {
+        "name": "Kỹ thuật xây dựng",
+        "code": "7580201",
+        "score": 20
+      },
+      {
+        "name": "Nông nghiệp thông minh và bền vững",
+        "code": "7620122",
+        "score": 20
+      }
+    ],
+    "source_url": "https://huongnghiepviet.com/tuyen-sinh/diem-chuan/diem-chuan-nam-2024-vju-truong-dai-hoc-viet-nhat-dhqg-ha-noi & https://daibieunhandan.vn/diem-chuan-truong-dai-hoc-viet-nhat-dai-hoc-quoc-gia-ha-noi-nganh-cao-nhat-la-21-diem-post384490.html",
     "year": 2024
   }
 ]
