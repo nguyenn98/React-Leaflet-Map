@@ -1,0 +1,139 @@
+select {
+    appearance: none;
+    background: linear-gradient(145deg, #ffffff, #e2e8f0);
+    color: #1e293b;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 12px 42px 12px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.25s ease;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%231e293b' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+select:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.3);
+}
+
+/* style cho option (chỉ áp dụng được trên Firefox và 1 phần Chrome) */
+select option {
+    background-color: #ffffff;
+    color: #1e293b;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+select option:hover,
+select option:checked {
+    background-color: #e0f2fe !important;
+    color: #1e3a8a;
+}
+
+/* 🌟 Bảng điểm ngành học */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    color: #1e293b;
+    transition: all 0.2s ease;
+}
+
+thead {
+    background: linear-gradient(90deg, #e0f2fe 0%, #f1f5f9 100%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+th {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+td {
+    padding: 10px 14px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    transition: background 0.2s ease;
+}
+
+/* Màu nền xen kẽ mờ */
+tbody tr:nth-child(even) {
+    background-color: rgba(240, 249, 255, 0.5);
+}
+
+/* Hover nhẹ */
+tbody tr:hover {
+    background-color: rgba(219, 234, 254, 0.6);
+}
+
+/* Đường viền ngoài bảng mờ và bo góc */
+table {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Hiệu ứng sáng nhẹ khi hover toàn bảng */
+table:hover {
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Cột điểm căn phải và nổi bật */
+td:last-child {
+    text-align: right;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+/* Hiệu ứng mượt khi thay đổi dữ liệu */
+tbody tr {
+    transition: background-color 0.25s ease, transform 0.1s ease;
+}
+
+tbody tr:hover {
+    transform: translateY(-1px);
+}
+
+/* Giữ nguyên màu đặc biệt của các dòng theo điểm */
+tbody tr.bg-green-50 td {
+    background-color: rgba(220, 252, 231, 0.6) !important;
+}
+
+tbody tr.bg-red-50 td {
+    background-color: rgba(254, 226, 226, 0.6) !important;
+}
+
+tr {
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* 🌟 Tùy chỉnh thanh cuộn trong menu chọn trường (react-select) */
+.react-select__menu-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.react-select__menu-list::-webkit-scrollbar-thumb {
+    background-color: #93c5fd;
+    /* xanh nhạt */
+    border-radius: 8px;
+}
+
+.react-select__menu-list::-webkit-scrollbar-thumb:hover {
+    background-color: #60a5fa;
+    /* xanh đậm hơn khi hover */
+}
+
+.react-select__menu-list::-webkit-scrollbar-track {
+    background-color: #f1f5f9;
+    /* nền sáng */
+    border-radius: 8px;
+}

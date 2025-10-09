@@ -1,59 +1,65 @@
 .custom-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 0 30px;
-    background-color: #1f222c;
+    background-color: #0f172a;
     color: white;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5px 20px;
+    /* giảm padding để header gọn hơn */
+    height: 60px;
+    /* chiều cao bằng logo */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .header-left {
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 20px;
+    /* giảm khoảng cách để header cân */
 }
 
 .header-logo {
     height: 60px;
     object-fit: contain;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .header-title {
-  font-size: 18px;
-  font-weight: 600;
-  /* color: #FFC300; */
-  color: #FFB000;
-  /* color: #E6AC00; */
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  font-family: 'Poppins', 'Segoe UI', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffb000;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
 }
-
 
 .header-nav {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 14px;
 }
 
 .nav-item {
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 14px;
-    padding: 7px 8px;
+    font-size: 13.5px;
+    padding: 4px 6px;
     border-radius: 6px;
-    transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s, transform 0.15s;
 }
 
 .nav-item:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.12);
     color: #ffd700;
+    transform: translateY(-1px);
+}
+
+/* làm cho ảnh trong nav-item căn giữa và đồng đều hơn */
+.nav-item img {
+    width: 34px;
+    height: 34px;
+    margin-right: 4px;
+    object-fit: contain;
 }

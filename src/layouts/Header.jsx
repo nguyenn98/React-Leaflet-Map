@@ -30,7 +30,7 @@ const Header = () => {
                     </div>
                 </Link>
 
-                <Link to="/study" style={{ textDecoration: "none", color: "inherit" }}>
+                <Link to="/universityinfo" style={{ textDecoration: "none", color: "inherit" }}>
                     <div className="nav-item">
                         <img
                             style={{ width: "38px", height: "40px", paddingRight: "3px" }}

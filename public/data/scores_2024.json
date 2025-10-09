@@ -735,7 +735,7 @@
     "majors": [
       {
         "name": "Kỹ thuật địa chất",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật trắc địa - bản đồ",
@@ -743,31 +743,31 @@
       },
       {
         "name": "Kỹ thuật mỏ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật dầu khí",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật tuyển khoáng",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật môi trường",
-        "score": null
+        "score": 0
       },
       {
         "name": "Quản lý đất đai",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật xây dựng",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật xây dựng công trình ngầm",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật cơ khí",
@@ -775,7 +775,7 @@
       },
       {
         "name": "Kỹ thuật điện",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật điều khiển và tự động hóa",
@@ -783,27 +783,27 @@
       },
       {
         "name": "Kỹ thuật hóa học",
-        "score": null
+        "score": 0
       },
       {
         "name": "Công nghệ kỹ thuật vật liệu",
-        "score": null
+        "score": 0
       },
       {
         "name": "Công nghệ thông tin",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật phần mềm",
-        "score": null
+        "score": 0
       },
       {
         "name": "Khoa học dữ liệu",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kinh tế",
-        "score": null
+        "score": 0
       },
       {
         "name": "Quản trị kinh doanh",
@@ -815,15 +815,15 @@
       },
       {
         "name": "Quản lý tài nguyên và môi trường",
-        "score": null
+        "score": 0
       },
       {
         "name": "Khoa học đất",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật địa tin học",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kỹ thuật ô tô",
@@ -843,11 +843,11 @@
       },
       {
         "name": "Ngôn ngữ Trung Quốc",
-        "score": null
+        "score": 0
       },
       {
         "name": "Công nghệ kỹ thuật điện - điện tử",
-        "score": null
+        "score": 0
       },
       {
         "name": "Địa chất học",
@@ -914,19 +914,19 @@
       },
       {
         "name": "Quản trị kinh doanh (Quản trị doanh nghiệp)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Quản trị kinh doanh (Marketing)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Hệ thống thông tin quản lý (Tin học tài chính - kế toán)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Ngôn ngữ Anh (Tiếng Anh tài chính - kế toán)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kinh tế (Kinh tế nguồn lực tài chính)",
@@ -942,63 +942,63 @@
       },
       {
         "name": "Luật kinh tế",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kinh tế và quản lý nguồn lực tài chính",
-        "score": null
+        "score": 0
       },
       {
         "name": "Quản lý tài chính công (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Tài chính bảo hiểm (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Bất động sản / Thẩm định giá và kinh doanh bất động sản (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Marketing (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kinh doanh quốc tế (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Thuế và Quản trị thuế (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Hải quan và Logistics (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Phân tích tài chính (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Đầu tư tài chính (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Kế toán doanh nghiệp (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Tin học tài chính kế toán (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Khoa học dữ liệu trong tài chính (mới)",
-        "score": null
+        "score": 0
       },
       {
         "name": "Trí tuệ nhân tạo trong tài chính - kế toán (mới)",
-        "score": null
+        "score": 0
       }
     ],
     "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-tra-cuu-danh-sach-trung-tuyen-hoc-vien-tai-chinh-nam-2024-119240817220504495.htm, https://hvtc.edu.vn/",
@@ -4859,32 +4859,32 @@
       {
         "name": "Báo chí (Bao gồm các chuyên ngành Báo chí đa phương tiện và Báo chí truyền hình)",
         "code": "6320103",
-        "score": null
+        "score": 0
       },
       {
         "name": "Truyền thông đa phương tiện (bao gồm Truyền thông đa phương tiện và Sản xuất nội dung số)",
         "code": "6320106",
-        "score": null
+        "score": 0
       },
       {
         "name": "Quay phim",
         "code": "6210232",
-        "score": null
+        "score": 0
       },
       {
         "name": "Công nghệ Điện ảnh - Truyền hình",
         "code": "6210309",
-        "score": null
+        "score": 0
       },
       {
         "name": "Đồ họa đa phương tiện (bao gồm Đồ họa đa phương tiện và Sản xuất hoạt hình số)",
         "code": "6480108",
-        "score": null
+        "score": 0
       },
       {
         "name": "Tin học ứng dụng",
         "code": "6480205",
-        "score": null
+        "score": 0
       }
     ],
     "source_url": "https://onair.vtv.vn/Data/tap-chi-truyen-hinh/22-08-2020/Processed/files/assets/common/downloads/VTV%20so%20430.pdf và https://diemthi.tuyensinh247.com/thong-tin-cao-dang-truyen-hinh-CDT0131.html",
@@ -4948,9 +4948,9 @@
         },
         "score_hocba": {
           "Nam miền Bắc": 28.382,
-          "Nữ miền Bắc": null,
+          "Nữ miền Bắc": 0,
           "Nam miền Nam": 27.804,
-          "Nữ miền Nam": null
+          "Nữ miền Nam": 0
         },
         "score_DGNL_HN": {
           "Nam miền Bắc": 18.90,
@@ -4959,10 +4959,10 @@
           "Nữ miền Nam": 19.75
         },
         "score_DGNL_HCM": {
-          "Nam miền Bắc": null,
-          "Nữ miền Bắc": null,
-          "Nam miền Nam": null,
-          "Nữ miền Nam": null
+          "Nam miền Bắc": 0,
+          "Nữ miền Bắc": 0,
+          "Nam miền Nam": 0,
+          "Nữ miền Nam": 0
         }
       }
     ],
@@ -5284,57 +5284,57 @@
       {
         "name": "Toán học",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Vật lý",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Hoá học",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Sinh thái và Tài nguyên sinh vật",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Địa lý",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Các khoa học trái đất",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Công nghệ và Công nghệ biển",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Vật liệu và Năng lượng",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "CNTT và Viễn thông",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Công nghệ sinh học",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       },
       {
         "name": "Công nghệ môi trường",
         "degree": "Thạc sĩ",
-        "score": null
+        "score": 0
       }
     ],
     "source_url": "https://gust.edu.vn/vn/html/nganh-chuyen-nganh-dao-tao-ths",
@@ -5605,12 +5605,12 @@
       {
         "name": "Luật Chất lượng cao",
         "code": "7380101CLC",
-        "score": null
+        "score": 0
       },
       {
         "name": "Luật Kinh doanh, Luật Thương mại quốc tế",
         "code": "7380110, 7380109",
-        "score": null
+        "score": 0
       }
     ],
     "source_url": "https://tapchicongthuong.vn/diem-chuan-chinh-thuc-truong-dai-hoc-luat-dai-hoc-quoc-gia-ha-noi-125255.htm, https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tu-van-phap-luat/69477/diem-chuan-nganh-luat-nam-2024-cua-cac-truong-dai-hoc-hoc-vien",
