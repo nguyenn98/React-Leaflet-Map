@@ -5,8 +5,6 @@ body {
   color: #1f2937;
   min-height: 100vh;
   scroll-behavior: smooth; /* hiệu ứng cuộn mượt */
-  overflow: hidden; /* Không cho cuộn */
-
 }
 
 select,
@@ -35,44 +33,4 @@ code {
     monospace;
 }
 
-/* 🌐 Scrollbar toàn cục cho toàn dự án */
-* {
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #ffb000 #f1f5f9; /* thumb | track */
-  transition: scrollbar-color 0.3s ease;
-}
-
-/* Dành cho Chrome, Edge, Safari */
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-  transition: all 0.3s ease-in-out;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f5f9;
-  border-radius: 10px;
-  transition: background 0.3s ease;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #ffb000, #ff9100);
-  border-radius: 10px;
-  transition: background 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Khi hover vào thanh cuộn */
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #ffd000, #ffa500);
-  box-shadow: 0 0 8px rgba(255, 176, 0, 0.6);
-}
-
-/* 🌫️ Tuỳ chọn: thanh cuộn ẩn nhẹ, chỉ hiện rõ khi rê chuột */
-body::-webkit-scrollbar-thumb {
-  opacity: 0.2;
-}
-
-body:hover::-webkit-scrollbar-thumb {
-  opacity: 1;
-  transition: opacity 0.4s ease;
-}
+::-webkit-scrollbar { display: none; }

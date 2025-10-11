@@ -66,3 +66,20 @@ div .leaflet-control-zoom.leaflet-bar.leaflet-control {
   position: relative;
 }
 
+/* Giữ nguyên cuộn, nhưng ẩn thanh scrollbar */
+.main-scroll-area {
+  overflow-y: none;
+  /* vẫn cho phép cuộn */
+  background: none;
+
+  /* Ẩn scrollbar trên Chrome, Edge, Safari */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE, Edge cũ */
+}
+
+/* Ẩn scrollbar cho Webkit browsers (Chrome, Safari, Edge mới) */
+.main-scroll-area::-webkit-scrollbar {
+  display: none;
+}
