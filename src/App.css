@@ -44,6 +44,12 @@ div .leaflet-control-zoom.leaflet-bar.leaflet-control {
   left: 1305px;
 }
 
+/* Đảm bảo map full khung và không bị tràn */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
 .leaflet-container .leaflet-control-attribution {
   background: #fff;
   background: rgba(255, 255, 255, 0.8);
@@ -55,65 +61,8 @@ div .leaflet-control-zoom.leaflet-bar.leaflet-control {
   height: calc(100vh - 60px);
   /* 55px là chiều cao của Header */
   overflow: hidden;
-}
-
-
-/* test */
-/* Toàn bộ app */
-.app-wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden; /* Không để body tự scroll */
-}
-
-/* Header cố định ở trên cùng */
-.custom-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 64px;
-  z-index: 9999; /* cao hơn cả scrollbar */
-  background: #0f172a;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 24px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-/* Phần nội dung bên dưới header */
-.main-scroll-area {
+  width: 100%;
+  height: 100%;
   position: relative;
-  margin-top: 64px; /* đẩy nội dung xuống dưới header */
-  height: calc(100vh - 64px); /* chỉ chiếm phần còn lại của màn hình */
-  overflow-y: auto; /* cho phép cuộn riêng */
-  background: #f8fafc;
 }
 
-/* Thanh cuộn đẹp */
-.main-scroll-area {
-  scrollbar-width: thin;
-  scrollbar-color: #94a3b8 #f1f5f9;
-}
-
-.main-scroll-area::-webkit-scrollbar {
-  width: 8px;
-}
-
-.main-scroll-area::-webkit-scrollbar-track {
-  background: #f1f5f9;
-  border-radius: 10px;
-}
-
-.main-scroll-area::-webkit-scrollbar-thumb {
-  background-color: #94a3b8;
-  border-radius: 10px;
-  transition: background-color 0.2s ease;
-}
-
-.main-scroll-area::-webkit-scrollbar-thumb:hover {
-  background-color: #475569;
-}
