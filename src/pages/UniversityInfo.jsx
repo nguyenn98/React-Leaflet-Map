@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import Select from "react-select";
 import L from "leaflet";
+import { logoUniversity } from "../data/logoUniversity"; // ✅ import logo data
 import "../styles/UniversityInfo.css";
 
 export default function UniversityInfo() {
   const [universities, setUniversities] = useState([]);
   const [geoData, setGeoData] = useState(null);
   const [selected, setSelected] = useState(null);
-  const [selectedRow, setSelectedRow] = useState(null); // ✅ Thêm state lưu dòng được click
+  const [selectedRow, setSelectedRow] = useState(null);
 
   useEffect(() => {
     fetch(process.env.PUBLIC_URL + "/data/scores_2024.json")
@@ -21,13 +22,53 @@ export default function UniversityInfo() {
       .then((data) => setGeoData(data.features));
   }, []);
 
+  // const normalizeName = (str) =>
+  //   str
+  //     ?.normalize("NFD")
+  //     .replace(/[\u0300-\u036f]/g, "")
+  //     .replace(/[^a-z0-9\s]/gi, "")
+  //     .trim()
+  //     .toLowerCase();
+
+  // // ✅ Hàm lấy logo từ logoUniversity.js
+  // const getUniversityLogo = (name) => {
+  //   const match = logoUniversity.find(
+  //     (item) => normalizeName(item.name) === normalizeName(name)
+  //   );
+  //   return match ? match.logo : "/images/default_university.png";
+  // };
+
+  // Chuẩn hóa tên trường để so sánh chính xác hơn
   const normalizeName = (str) =>
     str
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[^a-z0-9\s]/gi, "")
+      ?.normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "") // bỏ dấu
+      .replace(/[^a-z0-9\s]/gi, "") // bỏ ký tự đặc biệt
+      .replace(/\b(truong|dai hoc|hoc vien|dh|hv)\b/g, "") // bỏ các từ thường gây trùng lặp
       .trim()
       .toLowerCase();
+
+  // ✅ Hàm lấy logo trường, cho phép khớp tương đối
+  const getUniversityLogo = (name) => {
+    const normalizedInput = normalizeName(name);
+
+    // Ưu tiên tìm chính xác trước
+    let match = logoUniversity.find(
+      (item) => normalizeName(item.name) === normalizedInput
+    );
+
+    // Nếu chưa thấy, thử tìm khớp tương đối (chứa chuỗi)
+    if (!match) {
+      match = logoUniversity.find(
+        (item) =>
+          normalizeName(item.name).includes(normalizedInput) ||
+          normalizedInput.includes(normalizeName(item.name))
+      );
+    }
+
+    return match ? match.logo : "/images/default_university.png";
+  };
+
 
   const handleViewOnMap = () => {
     if (!selected || !geoData) return;
@@ -68,7 +109,7 @@ export default function UniversityInfo() {
   }));
 
   return (
-    <div className="max-w-5xl mx-auto p-6 animate-fadeIn">
+    <div className="max-w-6xl mx-auto p-6 animate-fadeIn">
       <h1 className="text-3xl font-extrabold mb-6 text-center text-blue-700 drop-shadow-sm">
         🎓 Thông tin các trường đại học Hà Nội (2024)
       </h1>
@@ -86,7 +127,7 @@ export default function UniversityInfo() {
                 (u) => u.university === opt?.value
               );
               setSelected(found || null);
-              setSelectedRow(null); // reset chọn dòng khi đổi trường
+              setSelectedRow(null);
             }}
             styles={{
               control: (base, state) => ({
@@ -101,7 +142,7 @@ export default function UniversityInfo() {
               }),
               menuPortal: (base) => ({
                 ...base,
-                zIndex: 9999, // ⚡ Giúp menu nổi lên trên
+                zIndex: 9999,
               }),
               menu: (base) => ({
                 ...base,
@@ -114,39 +155,6 @@ export default function UniversityInfo() {
                 ...base,
                 maxHeight: "250px",
                 overflowY: "auto",
-                scrollbarWidth: "thin", // Firefox
-                scrollbarColor: "#93c5fd #f1f5f9",
-                "&::-webkit-scrollbar": {
-                  width: "10px",
-                },
-                "&::-webkit-scrollbar-thumb": {
-                  backgroundColor: "#93c5fd",
-                  borderRadius: "8px",
-                },
-                "&::-webkit-scrollbar-thumb:hover": {
-                  backgroundColor: "#60a5fa",
-                },
-                "&::-webkit-scrollbar-track": {
-                  backgroundColor: "#f1f5f9",
-                },
-              }),
-              option: (base, state) => ({
-                ...base,
-                backgroundColor: state.isFocused
-                  ? "#e0f2fe"
-                  : state.isSelected
-                    ? "#bfdbfe"
-                    : "#fff",
-                color: "#1e293b",
-                padding: "10px 14px",
-                cursor: "pointer",
-                fontWeight: 500,
-                transition: "0.15s",
-              }),
-              singleValue: (base) => ({
-                ...base,
-                color: "#1e293b",
-                fontWeight: 500,
               }),
             }}
           />
@@ -156,27 +164,36 @@ export default function UniversityInfo() {
       {/* Thông tin chi tiết */}
       {selected && (
         <div className="border rounded-2xl p-6 shadow-md bg-white hover:shadow-lg transition-all duration-300">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4 gap-2">
-            <h2 className="text-2xl font-semibold text-gray-800">
-              {selected.university}
-            </h2>
-            {selected.source_url && (
-              <a
-                href={selected.source_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 text-sm hover:underline"
-              >
-                Xem nguồn →
-              </a>
-            )}
-          </div>
+          {/* ✅ Hiển thị logo ở đầu */}
+          <div className="flex justify-between items-start mb-4">
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-800">
+                {selected.university}
+              </h2>
+              {selected.source_url && (
+                <a
+                  href={selected.source_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 text-sm hover:underline"
+                >
+                  Xem nguồn →
+                </a>
+              )}
+              <p className="text-gray-600 mb-6">
+                📅 Năm tuyển sinh:{" "}
+                <span className="font-medium">{selected.year}</span> | 📚 Số ngành:{" "}
+                <span className="font-medium">{selected.majors.length}</span>
+              </p>
+            </div>
 
-          <p className="text-gray-600 mb-6">
-            📅 Năm tuyển sinh:{" "}
-            <span className="font-medium">{selected.year}</span> | 📚 Số ngành:{" "}
-            <span className="font-medium">{selected.majors.length}</span>
-          </p>
+            <img
+              src={getUniversityLogo(selected.university)}
+              alt={selected.university}
+              className="object-contain rounded-xl shadow-sm border w-16 h-16"
+              onError={(e) => (e.target.src = "/images/default_university.png")}
+            />
+          </div>
 
           {/* Bảng điểm */}
           <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
@@ -202,14 +219,10 @@ export default function UniversityInfo() {
                     <tr
                       key={i}
                       onClick={() => setSelectedRow(i)}
-                      className={`
-          border-t cursor-pointer transition-all duration-300
-          ${isSelected ? "bg-blue-300 scale-[1.01] ring-2 ring-blue-400" : baseColor}
-          hover:bg-blue-50
-        `}
-                      style={{
-                        transition: "background-color 0.3s ease, transform 0.15s ease",
-                      }}
+                      className={`border-t cursor-pointer transition-all duration-300 ${isSelected
+                        ? "bg-blue-100 scale-[1.01] ring-1 ring-blue-400"
+                        : baseColor
+                        } hover:bg-blue-50`}
                     >
                       <td className="px-4 py-2 font-medium">{m.name}</td>
                       <td className="px-4 py-2 text-right font-semibold text-gray-800">
@@ -219,7 +232,6 @@ export default function UniversityInfo() {
                   );
                 })}
               </tbody>
-
             </table>
           </div>
 
