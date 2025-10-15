@@ -272,7 +272,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                 color: "#3366cc",
             }));
             console.log(routes);
-            
+
             setAllRoutes(routes);
         };
 
@@ -407,8 +407,38 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
         });
     };
 
+    // chống scroll khi rê chuột lên các hộp UI
+    // useEffect(() => {
+    //     const map = mapRef.current;
+    //     if (!map) return;
+
+    //     // Chặn scroll và click khi chuột trên các phần tử UI
+    //     const uiSelectors = [
+    //         ".leaflet-control",
+    //         ".custom-header",
+    //         ".university-info-panel",
+    //         ".direction-box",
+    //         ".location-list",
+    //         ".leaflet-top",
+    //         ".leaflet-bottom"
+    //     ];
+
+    //     uiSelectors.forEach(selector => {
+    //         const el = document.querySelector(selector);
+    //         if (el) {
+    //             L.DomEvent.disableClickPropagation(el);
+    //             L.DomEvent.disableScrollPropagation(el);
+    //         }
+    //     });
+    // }, []);
+
     return (
-        <div style={{ position: "relative" }}>
+        <div id="map-root"
+            style={{
+                position: "relative",
+                height: "100vh",
+                width: "100%",
+            }}>
             {/* <BusRouteSelector
                 allRoutes={allRoutes}
                 onSelectRoute={(route) => {
@@ -537,6 +567,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                     height: "45px",
                     background: "#FFFFFF",
                     padding: "10px",
+                    paddingLeft: '15px',
                     borderRadius: "7px",
                     border: "1px solid rgb(204, 197, 197)",
                     cursor: "pointer"
@@ -554,13 +585,13 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
                 background: "#fff",
                 padding: "8px 10px",
                 borderRadius: "7px",
-                width: "26px",
-                height: "140px",
+                width: '45px',
+                height: "150px",
                 boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                justifyContent: "space-between"
+                justifyContent: "space-between",
             }}>
                 <input
                     type="range"

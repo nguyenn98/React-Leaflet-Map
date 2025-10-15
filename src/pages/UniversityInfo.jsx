@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Select from "react-select";
 import L from "leaflet";
-import { logoUniversity } from "../data/logoUniversity"; // ✅ import logo data
+import { logoUniversity } from "../data/logoUniversity"; // import logo data
 import "../styles/UniversityInfo.css";
 
 export default function UniversityInfo() {
@@ -21,22 +21,6 @@ export default function UniversityInfo() {
       .then((res) => res.json())
       .then((data) => setGeoData(data.features));
   }, []);
-
-  // const normalizeName = (str) =>
-  //   str
-  //     ?.normalize("NFD")
-  //     .replace(/[\u0300-\u036f]/g, "")
-  //     .replace(/[^a-z0-9\s]/gi, "")
-  //     .trim()
-  //     .toLowerCase();
-
-  // // ✅ Hàm lấy logo từ logoUniversity.js
-  // const getUniversityLogo = (name) => {
-  //   const match = logoUniversity.find(
-  //     (item) => normalizeName(item.name) === normalizeName(name)
-  //   );
-  //   return match ? match.logo : "/images/default_university.png";
-  // };
 
   // Chuẩn hóa tên trường để so sánh chính xác hơn
   const normalizeName = (str) =>

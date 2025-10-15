@@ -38,10 +38,10 @@ const SearchBox = ({ onSearch }) => {
 
     return (
         <div style={{
-            position: "absolute", top: 80, left: 13.5,
-            zIndex: 1000, background: "white", padding: 10, height: "35px",
-            borderRadius: 5, width: "250px", alignItems: "center",
-            boxShadow: "0 2px 10px rgba(0,0,0,0.1)"
+            position: "absolute", top: 80, left: 15,
+            zIndex: 1000, background: "white", padding: 10, height: "52px",
+            borderRadius: 5, width: "255px", height: '50px', alignItems: "center",
+            boxShadow: "0 2px 10px rgba(0,0,0,0.1)", display: 'flex', alignItems: "center"
         }}>
             <input
                 type='text'
@@ -56,20 +56,22 @@ const SearchBox = ({ onSearch }) => {
                 style={{
                     padding: 5,
                     marginRight: 5,
-                    width: "195px",
+                    width: "200px",
                     border: "none",
                     outline: "none",
                     fontSize: "14px",
                     background: "rgb(248, 247, 247)",
-                    height: "28px",
+                    height: "35px",
                     borderRadius: "5px",
+                    outline: "none",
+                     transition: "all 0.2s ease"
                 }}
             />
 
             <button onClick={handleSearch}
                 style={{
                     border: "none",
-                    padding: "12px",
+                    padding: "2px",
                     borderRadius: "50%",
                     cursor: "pointer",
                     alignItems: "center",
