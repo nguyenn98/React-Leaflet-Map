@@ -8,7 +8,7 @@ body {
   font-family: 'Inter', sans-serif;
   color: #1f2937;
   min-height: 100vh;
-  scroll-behavior: smooth; /* hiệu ứng cuộn mượt */
+  scroll-behavior: smooth;  /* hiệu ứng cuộn mượt */
 }
 
 select,
@@ -26,6 +26,7 @@ button {
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -37,4 +38,6 @@ code {
     monospace;
 }
 
-::-webkit-scrollbar { display: none; }
+::-webkit-scrollbar {
+  display: none;
+}

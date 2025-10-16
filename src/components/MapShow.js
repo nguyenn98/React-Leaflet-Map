@@ -164,6 +164,17 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
         setTransportMode("car"); // Reset phương thức di chuyển
     };
 
+    // Chống scoll tại màn hình bản đồ
+    useEffect(() => {
+        // Khi component này mount → ẩn scroll
+        document.body.style.overflow = "hidden";
+
+        // Khi rời khỏi MapShow → khôi phục lại
+        return () => {
+            document.body.style.overflow = "auto";
+        };
+    }, []);
+
     useEffect(() => {
         if (highlight) {
             setIsHighlighting(true);
@@ -407,37 +418,13 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
         });
     };
 
-    // chống scroll khi rê chuột lên các hộp UI
-    // useEffect(() => {
-    //     const map = mapRef.current;
-    //     if (!map) return;
-
-    //     // Chặn scroll và click khi chuột trên các phần tử UI
-    //     const uiSelectors = [
-    //         ".leaflet-control",
-    //         ".custom-header",
-    //         ".university-info-panel",
-    //         ".direction-box",
-    //         ".location-list",
-    //         ".leaflet-top",
-    //         ".leaflet-bottom"
-    //     ];
-
-    //     uiSelectors.forEach(selector => {
-    //         const el = document.querySelector(selector);
-    //         if (el) {
-    //             L.DomEvent.disableClickPropagation(el);
-    //             L.DomEvent.disableScrollPropagation(el);
-    //         }
-    //     });
-    // }, []);
-
     return (
         <div id="map-root"
             style={{
                 position: "relative",
-                height: "100vh",
                 width: "100%",
+                height: "100vh",
+                overflow: "hidden",
             }}>
             {/* <BusRouteSelector
                 allRoutes={allRoutes}
@@ -449,7 +436,7 @@ const MapShow = ({ position, geoData, highlight, setHighlight, showDirection, se
             <MapContainer
                 center={position}
                 zoom={initialZoom}
-                style={{ height: "100vh", width: "100%" }}
+                style={{ height: "100vh", width: "100%", overflow: 'hidden' }}
                 whenCreated={(mapInstance) => (mapRef.current = mapInstance)}
             >
                 <MapClickHandler onClick={handleMapClick} />
