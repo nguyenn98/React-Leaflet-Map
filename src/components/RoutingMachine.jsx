@@ -111,7 +111,7 @@ const RoutingMachine = ({ from, to, mode, onRouteInfo }) => {
     }).addTo(map);
     decoratorRef.current = decorator;
 
-    // ⚠️ Fix thời gian nếu không phải ô tô
+    // Fix thời gian nếu không phải ô tô
     let adjustedTime = route.summary.totalTime;
     if (mode === "bus") adjustedTime *= 1.5;
     else if (mode === "walk") adjustedTime *= 4.0;

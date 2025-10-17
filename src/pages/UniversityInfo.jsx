@@ -28,20 +28,26 @@ export default function UniversityInfo() {
       ?.normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "") // bỏ dấu
       .replace(/[^a-z0-9\s]/gi, "") // bỏ ký tự đặc biệt
-      .replace(/\b(truong|dai hoc|hoc vien|dh|hv)\b/g, "") // bỏ các từ thường gây trùng lặp
+      // .replace(/\b(truong|dai hoc|hoc vien|dh|hv)\b/g, "") // bỏ các từ thường gây trùng lặp
+      .replace(
+        /\b(truong|dai hoc|hoc vien|dh|hv|co so|campus|university|academy|vien|khoa|truong dh|truong hv)\b/g,
+        ""
+      ) // bỏ từ gây trùng
       .trim()
       .toLowerCase();
 
-  // ✅ Hàm lấy logo trường, cho phép khớp tương đối
+  // Hàm lấy logo trường — khớp thông minh hơn
   const getUniversityLogo = (name) => {
+    if (!name) return "/images/default_university.png";
+
     const normalizedInput = normalizeName(name);
 
-    // Ưu tiên tìm chính xác trước
+    // 1 Ưu tiên tìm khớp chính xác (so sánh name)
     let match = logoUniversity.find(
       (item) => normalizeName(item.name) === normalizedInput
     );
 
-    // Nếu chưa thấy, thử tìm khớp tương đối (chứa chuỗi)
+    // 2 Nếu chưa thấy, thử tìm khớp gần (chứa trong chuỗi)
     if (!match) {
       match = logoUniversity.find(
         (item) =>
@@ -50,9 +56,39 @@ export default function UniversityInfo() {
       );
     }
 
+    // 3 Nếu vẫn chưa có, thử tìm bằng code hoặc từ khóa đặc biệt
+    if (!match) {
+      const keywordMap = {
+        "bach khoa": "HUST",
+        "kinh te quoc dan": "NEU",
+        "ngoai thuong": "FTU",
+        "giao thong van tai": "UTC",
+        "kien truc": "HAU",
+        "luat ha noi": "HLU",
+        "my thuat cong nghiep": "MTCN",
+        "lam nghiep": "VNUF",
+        "mo dia chat": "HUMG",
+        "khoa hoc tu nhien": "VNU-HUS",
+        "xa hoi va nhan van": "VNU-USSH",
+        "viet nhat": "VJU",
+        "rmit": "RMIT",
+        "vinuni": "VINUNI",
+        "tran quoc tuan": "SQLQ1",
+        "lao dong va xa hoi": "ULSA",
+        "quan tri va kinh doanh": "HSB",
+      };
+
+      for (const key in keywordMap) {
+        if (normalizedInput.includes(key)) {
+          match = logoUniversity.find((item) => item.code === keywordMap[key]);
+          if (match) break;
+        }
+      }
+    }
+
+    // 4 Nếu không có vẫn trả về ảnh mặc định
     return match ? match.logo : "/images/default_university.png";
   };
-
 
   const handleViewOnMap = () => {
     if (!selected || !geoData) return;
@@ -148,7 +184,7 @@ export default function UniversityInfo() {
       {/* Thông tin chi tiết */}
       {selected && (
         <div className="border rounded-2xl p-6 shadow-md bg-white hover:shadow-lg transition-all duration-300">
-          {/* ✅ Hiển thị logo ở đầu */}
+          {/* Hiển thị logo ở đầu */}
           <div className="flex justify-between items-start mb-4">
             <div>
               <h2 className="text-2xl font-semibold text-gray-800">
@@ -210,8 +246,15 @@ export default function UniversityInfo() {
                     >
                       <td className="px-4 py-2 font-medium">{m.name}</td>
                       <td className="px-4 py-2 text-right font-semibold text-gray-800">
-                        {m.score ? m.score : "—"}
+                        {m.score
+                          ? typeof m.score === "object"
+                            ? Object.entries(m.score)
+                              .map(([key, val]) => `${key}: ${val}`)
+                              .join(", ")
+                            : m.score
+                          : "—"}
                       </td>
+
                     </tr>
                   );
                 })}
