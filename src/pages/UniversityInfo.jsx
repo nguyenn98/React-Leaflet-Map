@@ -23,18 +23,25 @@ export default function UniversityInfo() {
   }, []);
 
   // Chuẩn hóa tên trường để so sánh chính xác hơn
-  const normalizeName = (str) =>
-    str
-      ?.normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "") // bỏ dấu
-      .replace(/[^a-z0-9\s]/gi, "") // bỏ ký tự đặc biệt
-      // .replace(/\b(truong|dai hoc|hoc vien|dh|hv)\b/g, "") // bỏ các từ thường gây trùng lặp
-      .replace(
-        /\b(truong|dai hoc|hoc vien|dh|hv|co so|campus|university|academy|vien|khoa|truong dh|truong hv)\b/g,
-        ""
-      ) // bỏ từ gây trùng
-      .trim()
-      .toLowerCase();
+  // const normalizeName = (str) =>
+  //   str
+  //     ?.normalize("NFD")
+  //     .replace(/[\u0300-\u036f]/g, "") // bỏ dấu
+  //     .replace(/[^a-z0-9\s]/gi, "") // bỏ ký tự đặc biệt
+  //     // .replace(/\b(truong|dai hoc|hoc vien|dh|hv)\b/g, "") // bỏ các từ thường gây trùng lặp
+  //     .replace(
+  //       /\b(truong|dai hoc|hoc vien|dh|hv|co so|campus|university|academy|vien|khoa|truong dh|truong hv)\b/g,
+  //       ""
+  //     ) // bỏ từ gây trùng
+  //     .trim()
+  //     .toLowerCase();
+  function normalizeName(name) {
+    return name.toLowerCase()
+      .replace("trường", "")
+      .replace("đại học", "")
+      .replace(/\s+/g, "")
+      .trim();
+  }
 
   // Hàm lấy logo trường — khớp thông minh hơn
   const getUniversityLogo = (name) => {
@@ -76,6 +83,7 @@ export default function UniversityInfo() {
         "tran quoc tuan": "SQLQ1",
         "lao dong va xa hoi": "ULSA",
         "quan tri va kinh doanh": "HSB",
+        "khoa hoc tu nhien": "VNU-HUS",
       };
 
       for (const key in keywordMap) {
