@@ -23,18 +23,6 @@ export default function UniversityInfo() {
   }, []);
 
   // Chuẩn hóa tên trường để so sánh chính xác hơn
-  // const normalizeName = (str) =>
-  //   str
-  //     ?.normalize("NFD")
-  //     .replace(/[\u0300-\u036f]/g, "") // bỏ dấu
-  //     .replace(/[^a-z0-9\s]/gi, "") // bỏ ký tự đặc biệt
-  //     // .replace(/\b(truong|dai hoc|hoc vien|dh|hv)\b/g, "") // bỏ các từ thường gây trùng lặp
-  //     .replace(
-  //       /\b(truong|dai hoc|hoc vien|dh|hv|co so|campus|university|academy|vien|khoa|truong dh|truong hv)\b/g,
-  //       ""
-  //     ) // bỏ từ gây trùng
-  //     .trim()
-  //     .toLowerCase();
   function normalizeName(name) {
     return name.toLowerCase()
       .replace("trường", "")
@@ -228,6 +216,7 @@ export default function UniversityInfo() {
             <table className="w-full border-collapse">
               <thead className="bg-blue-50 text-gray-700 uppercase text-sm">
                 <tr>
+                  <th className="px-4 py-2 text-left w-16">STT</th> {/* 🆕 Cột STT */}
                   <th className="px-4 py-2 text-left">Ngành học</th>
                   <th className="px-4 py-2 text-right">Điểm chuẩn</th>
                 </tr>
@@ -252,6 +241,9 @@ export default function UniversityInfo() {
                         : baseColor
                         } hover:bg-blue-50`}
                     >
+                      <td className="px-4 py-2 text-center font-medium text-gray-700">
+                        {i + 1}
+                      </td> {/* 🆕 Hiển thị số thứ tự */}
                       <td className="px-4 py-2 font-medium">{m.name}</td>
                       <td className="px-4 py-2 text-right font-semibold text-gray-800">
                         {m.score
@@ -262,14 +254,12 @@ export default function UniversityInfo() {
                             : m.score
                           : "—"}
                       </td>
-
                     </tr>
                   );
                 })}
               </tbody>
             </table>
           </div>
-
           {/* Nút xem bản đồ */}
           <div className="mt-6 text-right">
             <button

@@ -3,99 +3,259 @@
     "university": "Đại học Bách khoa Hà Nội",
     "majors": [
       {
-        "name": "Khoa học máy tính",
-        "score": 0
+        "name": "CNTT:Khoa học máy tính",
+        "score": 28.53
       },
       {
-        "name": "Kỹ thuật máy tính",
-        "score": 0
+        "name": "Khoa học máy tính - hợp tác với ĐH Troy (Hoa Kỳ)",
+        "score": 21
       },
       {
-        "name": "Khoa học dữ liệu và Trí tuệ nhân tạo",
-        "score": 0
+        "name": "An toàn không gian số - Cyber Security (CT tiên tiến)",
+        "score": 27.9
       },
       {
-        "name": "Công nghệ thông tin Global ICT",
-        "score": 0
+        "name": "Công nghệ thông tin (Việt-Nhật)",
+        "score": 27.35
       },
       {
-        "name": "Công nghệ kỹ thuật điện tử - viễn thông",
-        "score": 0
+        "name": "Công nghệ thông tin (Global ICT)",
+        "score": 28.01
       },
       {
-        "name": "Kỹ thuật điện - điện tử",
-        "score": 0
+        "name": "Công nghệ thông tin (Việt-Pháp)",
+        "score": 28.01
       },
       {
-        "name": "Kỹ thuật điều khiển và tự động hóa",
-        "score": 0
+        "name": "Kỹ thuật Sinh học",
+        "score": 24
       },
       {
-        "name": "Cơ điện tử",
-        "score": 0
+        "name": "Kỹ thuật Thực Phẩm",
+        "score": 24.54
       },
       {
-        "name": "Cơ khí",
-        "score": 0
+        "name": "Kỹ thuật Thực Phẩm (CT tiên tiến)",
+        "score": 22
       },
       {
-        "name": "Kỹ thuật cơ khí (chế tạo máy)",
-        "score": 0
+        "name": "Kỹ thuật Hóa học",
+        "score": 24.38
       },
       {
-        "name": "Kỹ thuật ô tô",
-        "score": 0
+        "name": "Kỹ thuật Hóa dược (CT tiên tiến)",
+        "score": 24.34
       },
       {
-        "name": "Công nghệ chế tạo máy",
-        "score": 0
+        "name": "Công nghệ giáo dục",
+        "score": 25.3
       },
       {
-        "name": "Cơ khí chính xác và quang học",
-        "score": 0
+        "name": "Quản lý giáo dục",
+        "score": 24.78
       },
       {
-        "name": "Kỹ thuật y sinh",
-        "score": 0
+        "name": "Kỹ thuật Điện",
+        "score": 26.81
+      },
+      {
+        "name": "Kỹ thuật Nhiệt",
+        "score": 25.2
+      },
+      {
+        "name": "Kỹ thuật Cơ khí động lực",
+        "score": 26.12
+      },
+      {
+        "name": "Hệ thống điện và năng lượng tái tạo (CT tiên tiến)",
+        "score": 25.8
+      },
+      {
+        "name": "Tin học công nghiệp và Tự động hóa (CT Việt-Pháp PFIEV)",
+        "score": 26.22
+      },
+      {
+        "name": "Quản lý năng lượng",
+        "score": 25.4
+      },
+      {
+        "name": "Phân tích kinh doanh (Ct tiên tiến)",
+        "score": 28.16
+      },
+      {
+        "name": "CNTT:Kỹ thuật máy tính",
+        "score": 28.48
+      },
+      {
+        "name": "Khoa học dữ liệu và Trí tuệ nhân tạo (CT Tiên Tiến)",
+        "score": 28.22
+      },
+      {
+        "name": "Hệ thống nhúng thông minh và IoT (CT tiên tiến)",
+        "score": 27.21
+      },
+      {
+        "name": "Kỹ thuật điện tử - viễn thông",
+        "score": 27.41
+      },
+      {
+        "name": "Kỹ thuật điện tử - viễn thông (CT tiên tiến)",
+        "score": 27.03
+      },
+      {
+        "name": "Điện tử - Viễn thông - hợp tác với ĐH Leibniz Hannover (Đức)",
+        "score": 25.65
+      },
+      {
+        "name": "Kỹ thuật Môi trường",
+        "score": 22.1
+      },
+      {
+        "name": "Kỹ thuật điều khiển - tự động hóa",
+        "score": 28.16
+      },
+      {
+        "name": "Kỹ thuật điều khiển - tự động hóa (Ct tiên tiến)",
+        "score": 27.54
+      },
+      {
+        "name": "Kỹ Thuật Cơ điện tử",
+        "score": 27.49
+      },
+      {
+        "name": "Kỹ Thuật Cơ điện tử (CT tiên tiến)",
+        "score": 26.38
+      },
+      {
+        "name": "Kỹ Thuật Vi điện tử và Công nghệ nano",
+        "score": 27.64
+      },
+      {
+        "name": "Công nghệ vật liệu Polume và Compozit",
+        "score": 25
+      },
+      {
+        "name": "Khoa học và kỹ thuật vật liệu (CT tiên tiến)",
+        "score": 24
+      },
+      {
+        "name": "Cơ khí - Chế tạo máy - hợp tác với đại học Griffith (Úc)",
+        "score": 24.89
+      },
+      {
+        "name": "Cơ điện tử - hợp tác với ĐH Leibniz Hannover (Đức)",
+        "score": 25.24
+      },
+      {
+        "name": "Cơ điện tử - hợp tác với ĐH Công nghệ Nagaoka (Nhật Bản)",
+        "score": 25.24
+      },
+      {
+        "name": "Kỹ thuật Cơ khí",
+        "score": 25.8
+      },
+      {
+        "name": "Kỹ thuật Ô tô",
+        "score": 26.99
+      },
+      {
+        "name": "Kỹ thuật Ô tô (CT tiên tiến)",
+        "score": 25.9
+      },
+      {
+        "name": "Kỹ thuật in",
+        "score": 24
+      },
+      {
+        "name": "Kỹ thuật Hàng Không",
+        "score": 26.22
+      },
+      {
+        "name": "Cơ khí Hàng Không (CT Việt-Pháp PFIEV)",
+        "score": 24.86
+      },
+      {
+        "name": "Kỹ thuật hạt nhân",
+        "score": 24.64
+      },
+      {
+        "name": "Kỹ thuật Y sinh",
+        "score": 25.8
+      },
+      {
+        "name": "Kỹ thuật Y sinh (CT tiên tiến)",
+        "score": 25.08
       },
       {
         "name": "An toàn không gian số",
-        "score": 0
+        "score": 27.9
       },
       {
         "name": "Logistics và Quản lý chuỗi cung ứng",
-        "score": 0
+        "score": 26.06
       },
       {
-        "name": "Truyền thông số và Kỹ thuật đa phương tiện",
-        "score": 0
+        "name": "Truyền thông số và Kỹ thuật đa phương tiện (CT tiên tiến)",
+        "score": 26.61
       },
       {
         "name": "Quản lý công nghiệp",
-        "score": 0
+        "score": 25.6
+      },
+      {
+        "name": "Quản lý Tài nguyên và Môi trường",
+        "score": 21.78
+      },
+      {
+        "name": "Toán - Tin",
+        "score": 27.35
+      },
+      {
+        "name": "Kỹ Thuật Vật liệu",
+        "score": 24.9
       },
       {
         "name": "Kế toán",
-        "score": 0
+        "score": 25.8
+      },
+      {
+        "name": "Tiếng Anh KHKT và Công nghệ",
+        "score": 25
+      },
+      {
+        "name": "Tiếng Anh chuyên nghiệp quốc tế",
+        "score": 23.81
       },
       {
         "name": "Tài chính - Ngân hàng",
-        "score": 0
+        "score": 25.91
       },
       {
         "name": "Quản trị kinh doanh",
-        "score": 0
+        "score": 25.77
+      },
+      {
+        "name": "Quản trị kinh doanh - hợp tác với ĐH Troy (Hoa Kỳ)",
+        "score": 21
       },
       {
         "name": "Hệ thống thông tin quản lý",
-        "score": 0
+        "score": 27.34
       },
       {
         "name": "Hóa học",
-        "score": 0
+        "score": 23.81
+      },
+      {
+        "name": "Vật lý Y khoa",
+        "score": 25.31
+      },
+      {
+        "name": "Công nghệ Dệt May",
+        "score": 22.5
       }
     ],
-    "source_url": "https://www.hust.edu.vn/vi/dao-tao/dai-hoc-chinh-quy/mo-hinh-va-chuong-trinh-dao-tao-he-dai-hoc-chinh-quy-1.html",
+    "source_url": "https://ts.hust.edu.vn/tin-tuc/diem-chuan-dai-hoc-bach-khoa-ha-noi-2024-diem-thi-dgtd-cao-nhat-83-82-diem-thi-tot-nghiep-thpt-cao-nhat-28-53",
     "year": 2024
   },
   {
@@ -103,43 +263,67 @@
     "majors": [
       {
         "name": "Công nghệ thông tin",
-        "score": 0
+        "score": 27.80
       },
       {
         "name": "Khoa học máy tính",
-        "score": 0
+        "score": 27.58
       },
       {
-        "name": "Kỹ thuật cơ điện tử",
-        "score": 0
+        "name": "Công nghệ kỹ thuật cơ-điện tử",
+        "score": 26.27
       },
       {
-        "name": "Kỹ thuật điện-điện tử",
-        "score": 0
+        "name": "Kỹ thuật điều khiển và tự động hoá",
+        "score": 27.05
       },
       {
-        "name": "Kỹ thuật điều khiển và tự động hóa",
-        "score": 0
+        "name": "Trí tuệ nhân tạo",
+        "score": 27.12
       },
       {
-        "name": "Công nghệ kỹ thuật ô tô",
-        "score": 0
+        "name": "Công nghệ kỹ thuật điện tử-viễn thông",
+        "score": 26.3
       },
       {
-        "name": "Công nghệ kỹ thuật điện tử và truyền thông",
-        "score": 0
+        "name": "Kỹ thuật năng lượng",
+        "score": 24.59
       },
       {
-        "name": "Công nghệ thông tin - Điện toán đám mây và IoT",
-        "score": 0
+        "name": "Hệ thống thông tin",
+        "score": 26.87
       },
       {
-        "name": "Khoa học dữ liệu",
-        "score": 0
+        "name": "Mạng máy tính và truyền thông dữ liệu",
+        "score": 26.92
       },
       {
-        "name": "Viễn thông và mạng máy tính",
-        "score": 0
+        "name": "Kỹ thuật Robot",
+        "score": 25.99
+      },
+      {
+        "name": "Thiết kế công nghiệp và đồ họa",
+        "score": 24.64
+      },
+      {
+        "name": "Kỹ thuật máy tính",
+        "score": 26.97
+      },
+      {
+        "name": "Vật lý kỹ thuật",
+        "score": 25.24
+      },
+      {
+        "name": "Cơ kỹ thuật",
+        "score": 26.03
+      },
+      {
+        "name": "Công nghệ kỹ thuật xây dựng",
+        "score": 23.91
+      },
+      {
+        "name": "Công nghệ hàng không vũ trụ",
+        "score": 24.61
       }
     ],
     "source_url": "https://uet.vnu.edu.vn/tuyen-sinh",
@@ -150,39 +334,115 @@
     "majors": [
       {
         "name": "Toán học",
-        "score": 0
+        "score": 34.45
       },
       {
-        "name": "Tin học",
-        "score": 0
+        "name": "Khoa học dữ liệu",
+        "score": 35
       },
       {
         "name": "Toán - Tin",
-        "score": 0
+        "score": 34.45
       },
       {
-        "name": "Vật lý",
-        "score": 0
+        "name": "Vật lý học",
+        "score": 25.3
       },
       {
         "name": "Hóa học",
-        "score": 0
+        "score": 25.15
       },
       {
         "name": "Sinh học",
-        "score": 0
+        "score": 23.35
       },
       {
         "name": "Khoa học môi trường",
-        "score": 0
+        "score": 20
       },
       {
-        "name": "Khoa học trái đất",
-        "score": 0
+        "name": "Khoa học vật liệu",
+        "score": 24.6
       },
       {
-        "name": "Quy hoạch vùng và đô thị",
-        "score": 0
+        "name": "Công nghệ kỹ thuật hạt nhân",
+        "score": 24.3
+      },
+      {
+        "name": "Khoa học máy tính và thông tin",
+        "score": 34.7
+      },
+      {
+        "name": "Kỹ thuật điện tử và tin học",
+        "score": 26.25
+      },
+      {
+        "name": "Công nghệ kỹ thuật hoá học",
+        "score": 24.8
+      },
+      {
+        "name": "Hóa dược",
+        "score": 25.65
+      },
+      {
+        "name": "Công nghệ sinh học",
+        "score": 24.45
+      },
+      {
+        "name": "Sinh dược học",
+        "score": 24.25
+      },
+      {
+        "name": "Địa lý tự nhiên",
+        "score": 22.4
+      },
+      {
+        "name": "Khoa học thông tin địa không gian",
+        "score": 22.5
+      },
+      {
+        "name": "Quản lý đất đai",
+        "score": 23
+      },
+      {
+        "name": "Quản lý phát triển đô thị và bất động sản",
+        "score": 24
+      },
+      {
+        "name": "Khoa học môi trường",
+        "score": 20
+      },
+      {
+        "name": "Công nghệ kỹ thuật môi trường",
+        "score": 21
+      },
+      {
+        "name": "Khoa học và công nghệ thực phẩm",
+        "score": 24.6
+      },
+      {
+        "name": "Môi trường, sức khỏe và an toàn",
+        "score": 20
+      },
+      {
+        "name": "Khí tượng và khí hậu học",
+        "score": 20.8
+      },
+      {
+        "name": "Hải dương học",
+        "score": 20
+      },
+      {
+        "name": "Tài nguyên và môi trường nước",
+        "score": 20
+      },
+      {
+        "name": "Địa chất học",
+        "score": 20
+      },
+      {
+        "name": "Quản lý tài nguyên và môi trường",
+        "score": 21.5
       }
     ],
     "source_url": "https://hus.vnu.edu.vn",
@@ -192,48 +452,480 @@
     "university": "Đại học Khoa học Xã hội và Nhân văn - ĐHQGHN",
     "majors": [
       {
-        "name": "Ngôn ngữ Anh",
-        "score": 0
+        "name": "Báo chí (D01)",
+        "score": 26.07
       },
       {
-        "name": "Ngôn ngữ Trung Quốc",
-        "score": 0
+        "name": "Báo chí (D78)",
+        "score": 26.97
       },
       {
-        "name": "Ngôn ngữ Pháp",
-        "score": 0
+        "name": "Báo chí (C00)",
+        "score": 29.03
       },
       {
-        "name": "Ngôn ngữ Nhật",
-        "score": 0
+        "name": "Báo chí (A01)",
+        "score": 25.51
       },
       {
-        "name": "Ngôn ngữ Hàn Quốc",
-        "score": 0
+        "name": "Chính trị học (C00)",
+        "score": 27.98
       },
       {
-        "name": "Việt Nam học",
-        "score": 0
+        "name": "Chính trị học (A01)",
+        "score": 24.6
       },
       {
-        "name": "Hán Nôm",
-        "score": 0
+        "name": "Chính trị học (D78)",
+        "score": 26.28
       },
       {
-        "name": "Quan hệ quốc tế",
-        "score": 0
+        "name": "Chính trị học (D01)",
+        "score": 25.35
       },
       {
-        "name": "Báo chí và Truyền thông",
-        "score": 0
+        "name": "Chính trị học (D04)",
+        "score": 24.95
       },
       {
-        "name": "Triết học",
-        "score": 0
+        "name": "Công tác xã hội (C00)",
+        "score": 27.94
       },
       {
-        "name": "Lịch sử",
-        "score": 0
+        "name": "Công tác xã hội (D78)",
+        "score": 26.01
+      },
+      {
+        "name": "Công tác xã hội (A01)",
+        "score": 24.39
+      },
+      {
+        "name": "Công tác xã hội (D01)",
+        "score": 25.3
+      },
+      {
+        "name": "Nhật Bản học (D06)",
+        "score": 25
+      },
+      {
+        "name": "Nhật Bản học (D78)",
+        "score": 26.43
+      },
+      {
+        "name": "Nhật Bản học (D01)",
+        "score": 25.75
+      },
+      {
+        "name": "Hàn Quốc (C00)",
+        "score": 29.05
+      },
+      {
+        "name": "Hàn Quốc (D01)",
+        "score": 26.3
+      },
+      {
+        "name": "Hàn Quốc (A01)",
+        "score": 26.2
+      },
+      {
+        "name": "Hàn Quốc (D78)",
+        "score": 27.13
+      },
+      {
+        "name": "Hàn Quốc (DD2)",
+        "score": 26.25
+      },
+      {
+        "name": "Hán Nôm (D01)",
+        "score": 25.05
+      },
+      {
+        "name": "Hán Nôm (D04)",
+        "score": 25.8
+      },
+      {
+        "name": "Hán Nôm (C00)",
+        "score": 28.26
+      },
+      {
+        "name": "Hán Nôm (D78)",
+        "score": 25.96
+      },
+      {
+        "name": "Quan hệ công chúng (D01)",
+        "score": 26.45
+      },
+      {
+        "name": "Quan hệ công chúng (D04)",
+        "score": 26.4
+      },
+      {
+        "name": "Quan hệ công chúng (C00)",
+        "score": 29.1
+      },
+      {
+        "name": "Quan hệ công chúng (D78)",
+        "score": 27.36
+      },
+      {
+        "name": "Quản trị khách sạn (C00)",
+        "score": 28.26
+      },
+      {
+        "name": "Quản trị khách sạn (D01)",
+        "score": 25.71
+      },
+      {
+        "name": "Quản trị khách sạn (A01)",
+        "score": 25.46
+      },
+      {
+        "name": "Quản trị khách sạn (D78)",
+        "score": 26.38
+      },
+      {
+        "name": "Triết học (D78)",
+        "score": 26.82
+      },
+      {
+        "name": "Triết học (D01)",
+        "score": 25.02
+      },
+      {
+        "name": "Triết học (C00)",
+        "score": 27.58
+      },
+      {
+        "name": "Triết học (D04)",
+        "score": 24.3
+      },
+      {
+        "name": "Lịch sử (D01)",
+        "score": 25.01
+      },
+      {
+        "name": "Lịch sử (C00)",
+        "score": 28.37
+      },
+      {
+        "name": "Lịch sử (D78)",
+        "score": 26.38
+      },
+      {
+        "name": "Lịch sử (D14)",
+        "score": 26.8
+      },
+      {
+        "name": "Lịch sử (D04)",
+        "score": 25.02
+      },
+      {
+        "name": "Đông Nam Á học (D14)",
+        "score": 25.29
+      },
+      {
+        "name": "Đông Nam Á học (D78)",
+        "score": 24.75
+      },
+      {
+        "name": "Đông Nam Á học (D01)",
+        "score": 24.64
+      },
+      {
+        "name": "Đông Nam Á học (A01)",
+        "score": 23.48
+      },
+      {
+        "name": "Đông phương học (D78)",
+        "score": 26.71
+      },
+      {
+        "name": "Đông phương học (C00)",
+        "score": 28.83
+      },
+      {
+        "name": "Đông phương học (D04)",
+        "score": 25.8
+      },
+      {
+        "name": "Đông phương học (D01)",
+        "score": 25.99
+      },
+      {
+        "name": "Khoa học quản lý (D78)",
+        "score": 26.26
+      },
+      {
+        "name": "Khoa học quản lý (C00)",
+        "score": 28.58
+      },
+      {
+        "name": "Khoa học quản lý (D01)",
+        "score": 28.58
+      },
+      {
+        "name": "Khoa học quản lý (A01)",
+        "score": 25.07
+      },
+      {
+        "name": "Lưu trữ học (D78)",
+        "score": 25.73
+      },
+      {
+        "name": "Lưu trữ học (A01)",
+        "score": 24.49
+      },
+      {
+        "name": "Lưu trữ học (C00)",
+        "score": 27.58
+      },
+      {
+        "name": "Lưu trữ học (D01)",
+        "score": 25.22
+      },
+      {
+        "name": "Lưu trữ học (D04)",
+        "score": 25.02
+      },
+      {
+        "name": "Ngôn ngữ học (D04)",
+        "score": 25.69
+      },
+      {
+        "name": "Ngôn ngữ học (C00)",
+        "score": 27.94
+      },
+      {
+        "name": "Ngôn ngữ học (D01)",
+        "score": 25.45
+      },
+      {
+        "name": "Ngôn ngữ học (D78)",
+        "score": 26.3
+      },
+      {
+        "name": "Nhân học (C00)",
+        "score": 27.43
+      },
+      {
+        "name": "Nhân học (A01)",
+        "score": 23.67
+      },
+      {
+        "name": "Nhân học (D01)",
+        "score": 24.93
+      },
+      {
+        "name": "Nhân học (D78)",
+        "score": 27.43
+      },
+      {
+        "name": "Nhân học (D04)",
+        "score": 24.75
+      },
+      {
+        "name": "Quản lý thông tin (C00)",
+        "score": 28.37
+      },
+      {
+        "name": "Quản lý thông tin (D78)",
+        "score": 26.36
+      },
+      {
+        "name": "Quản lý thông tin (A01)",
+        "score": 25.36
+      },
+      {
+        "name": "Quản lý thông tin (D01)",
+        "score": 25.83
+      },
+      {
+        "name": "Quản trị dịch vụ du lịch và lữ hành (A01)",
+        "score": 25.61
+      },
+      {
+        "name": "Quản trị dịch vụ du lịch và lữ hành (C00)",
+        "score": 28.58
+      },
+      {
+        "name": "Quản trị dịch vụ du lịch và lữ hành (D01)",
+        "score": 25.99
+      },
+      {
+        "name": "Quản trị dịch vụ du lịch và lữ hành (D78)",
+        "score": 26.74
+      },
+      {
+        "name": "Quản trị văn phòng (A01)",
+        "score": 25.5
+      },
+      {
+        "name": "Quản trị văn phòng (D78)",
+        "score": 26.52
+      },
+      {
+        "name": "Quản trị văn phòng (D01)",
+        "score": 25.73
+      },
+      {
+        "name": "Quản trị văn phòng (D04)",
+        "score": 25.57
+      },
+      {
+        "name": "Quản trị văn phòng (C00)",
+        "score": 28.6
+      },
+      {
+        "name": "Quốc tế học (D78)",
+        "score": 26.18
+      },
+      {
+        "name": "Quốc tế học (C00)",
+        "score": 28.55
+      },
+      {
+        "name": "Quốc tế học (D01)",
+        "score": 25.33
+      },
+      {
+        "name": "Quốc tế học (A01)",
+        "score": 24.68
+      },
+      {
+        "name": "Tâm lý học (A01)",
+        "score": 26.47
+      },
+      {
+        "name": "Tâm lý học (C00)",
+        "score": 26.47
+      },
+      {
+        "name": "Tâm lý học (D01)",
+        "score": 26.18
+      },
+      {
+        "name": "Tâm lý học (D78)",
+        "score": 24.68
+      },
+      {
+        "name": "Thông tin - thư viện (D14)",
+        "score": 26.23
+      },
+      {
+        "name": "Thông tin - thư viện (D78)",
+        "score": 25.55
+      },
+      {
+        "name": "Thông tin - thư viện (D01)",
+        "score": 24.82
+      },
+      {
+        "name": "Thông tin - thư viện (D14)",
+        "score": 27.38
+      },
+      {
+        "name": "Tôn giáo học (D78)",
+        "score": 24.78
+      },
+      {
+        "name": "Tôn giáo học (D01)",
+        "score": 24.49
+      },
+      {
+        "name": "Tôn giáo học (A01)",
+        "score": 22.95
+      },
+      {
+        "name": "Tôn giáo học (D04)",
+        "score": 24.75
+      },
+      {
+        "name": "Tôn giáo học (C00)",
+        "score": 26.73
+      },
+      {
+        "name": "Văn học (C00)",
+        "score": 28.31
+      },
+      {
+        "name": "Văn học (D78)",
+        "score": 26.82
+      },
+      {
+        "name": "Văn học (D01)",
+        "score": 25.99
+      },
+      {
+        "name": "Văn học (D04)",
+        "score": 25.3
+      },
+      {
+        "name": "Việt Nam học (C00)",
+        "score": 27.75
+      },
+      {
+        "name": "Việt Nam học (D01)",
+        "score": 24.97
+      },
+      {
+        "name": "Việt Nam học (D04)",
+        "score": 25.29
+      },
+      {
+        "name": "Việt Nam học (D78)",
+        "score": 25.68
+      },
+      {
+        "name": "Xã hội học (C00)",
+        "score": 28.25
+      },
+      {
+        "name": "Xã hội học (D78)",
+        "score": 26.34
+      },
+      {
+        "name": "Xã hội học (D01)",
+        "score": 25.65
+      },
+      {
+        "name": "Xã hội học (A01)",
+        "score": 25.2
+      },
+      {
+        "name": "Văn hoá học (C00)",
+        "score": 27.9
+      },
+      {
+        "name": "Văn hoá học (D78)",
+        "score": 26.13
+      },
+      {
+        "name": "Văn hoá học (D04)",
+        "score": 25.31
+      },
+      {
+        "name": "Văn hoá học (D01)",
+        "score": 25.26
+      },
+      {
+        "name": "Văn hoá học (D14)",
+        "score": 26.05
+      },
+      {
+        "name": "Điện ảnh và Nghệ thuật đại chúng (D01)",
+        "score": 25.77
+      },
+      {
+        "name": "Điện ảnh và Nghệ thuật đại chúng (D04)",
+        "score": 25.17
+      },
+      {
+        "name": "Điện ảnh và Nghệ thuật đại chúng (D78)",
+        "score": 26.45
+      },
+      {
+        "name": "Điện ảnh và Nghệ thuật đại chúng (C00)",
+        "score": 27.98
       }
     ],
     "source_url": "https://www.uss.edu.vn",
@@ -244,41 +936,58 @@
     "majors": [
       {
         "name": "Sư phạm tiếng Anh",
-        "score": 0
+        "score": 38.45
       },
       {
         "name": "Sư phạm tiếng Trung Quốc",
-        "score": 0
+        "score": 37.85
       },
       {
-        "name": "Sư phạm tiếng Pháp",
-        "score": 0
+        "name": "Sư phạm tiếng Hàn Quốc",
+        "score": 37.31
       },
       {
         "name": "Sư phạm tiếng Nhật",
-        "score": 0
+        "score": 37.21
       },
       {
         "name": "Sư phạm tiếng Đức",
-        "score": 0
+        "score": 36.94
       },
       {
         "name": "Ngôn ngữ Anh",
-        "score": 0
+        "score": 36.99
+      },
+      {
+        "name": "Ngôn ngữ Nga",
+        "score": 34.24
+      },
+      {
+        "name": "Ngôn ngữ Ả Rập",
+        "score": 33.42
       },
       {
         "name": "Ngôn ngữ Trung Quốc",
-        "score": 0
+        "score": 37
       },
       {
         "name": "Ngôn ngữ Nhật",
-        "score": 0
+        "score": 35.4
       },
       {
         "name": "Ngôn ngữ Hàn Quốc",
-        "score": 0
+        "score": 36.38
+      },
+      {
+        "name": "Văn hóa và truyền thông xuyên quốc gia",
+        "score": 36.5
+      },
+      {
+        "name": "Kinh tế - Tài chính",
+        "score": 26.75
       }
     ],
+    "__admission": "Điểm trúng tuyển là tổng điểm của 3 bài thi trong tổ hợp thí sinh dùng để xét tuyển (điểm môn Ngoại ngữ tính hệ số 2) và điểm ưu tiên khu vực, đối tượng (nếu có). Mỗi ngành học chỉ có một điểm trúng tuyển, không phân biệt điểm trúng tuyển giữa các tổ hợp. Điểm ưu tiên đối với thí sinh đạt tổng điểm từ 30,0 (thang 40) trở lên được xác định theo công thức: Điểm ưu tiên (thang 40) = [(40 - Tổng điểm đạt được)/10] x Mức điểm ưu tiên khu vực, đối tượng. Điểm xét tuyển = Điểm môn 1 + Điểm môn 2 + Điểm môn Ngoại ngữ x 2 + (Điểm ưu tiên (thang 40) / 3 x 4)",
     "source_url": "https://www.ulis.vnu.edu.vn",
     "year": 2024
   },
@@ -356,112 +1065,108 @@
     "university": "Đại học Hà Nội",
     "majors": [
       {
-        "name": "Ngôn ngữ Anh",
-        "score": 0
+        "name": "Ngôn ngữ Anh (D01)",
+        "score": 35.43
       },
       {
-        "name": "Ngôn ngữ Anh - Chương trình tiên tiến",
-        "score": 0
+        "name": "Ngôn ngữ Anh - Chương trình tiên tiến (D01)",
+        "score": 33
       },
       {
-        "name": "Ngôn ngữ Nga",
-        "score": 0
+        "name": "Ngôn ngữ Nga (D01, D02)",
+        "score": 32
       },
       {
-        "name": "Ngôn ngữ Pháp",
-        "score": 0
+        "name": "Ngôn ngữ Pháp ((D01, D03)",
+        "score": 32.99
       },
       {
-        "name": "Ngôn ngữ Trung Quốc",
-        "score": 0
+        "name": "Ngôn ngữ Trung Quốc (D01,D04)",
+        "score": 35.8
       },
       {
-        "name": "Ngôn ngữ Trung Quốc - CLC",
-        "score": 0
+        "name": "Ngôn ngữ Trung Quốc - TT (D01, D04)",
+        "score": 34.95
       },
       {
-        "name": "Ngôn ngữ Đức",
-        "score": 0
+        "name": "Ngôn ngữ Đức (D01, D05)",
+        "score": 34.2
       },
       {
-        "name": "Ngôn ngữ Tây Ban Nha",
-        "score": 0
+        "name": "Ngôn ngữ Tây Ban Nha (D01)",
+        "score": 33.14
       },
       {
-        "name": "Ngôn ngữ Bồ Đào Nha",
-        "score": 0
+        "name": "Ngôn ngữ Bồ Đào Nha (D01)",
+        "score": 31.4
       },
       {
-        "name": "Ngôn ngữ Italia",
-        "score": 0
+        "name": "Ngôn ngữ Italia (D01)",
+        "score": 32.41
       },
       {
-        "name": "Ngôn ngữ Italia - CLC",
-        "score": 0
+        "name": "Ngôn ngữ Italia - TT (D01)",
+        "score": 30.48
       },
       {
-        "name": "Ngôn ngữ Nhật",
-        "score": 0
+        "name": "Ngôn ngữ Nhật (D01, D06)",
+        "score": 34.45
       },
       {
-        "name": "Ngôn ngữ Hàn Quốc",
-        "score": 0
+        "name": "Ngôn ngữ Hàn Quốc (D01, DD2)",
+        "score": 34.59
       },
       {
-        "name": "Ngôn ngữ Hàn Quốc - CLC",
-        "score": 0
+        "name": "Nghiên cứu phát triển (dạy bằng tiếng Anh - D01)",
+        "score": 25.78
       },
       {
-        "name": "Nghiên cứu phát triển (tiếng Anh)",
-        "score": 0
+        "name": "Quốc tế học (dạy bằng tiếng Anh - D01)",
+        "score": 25.27
       },
       {
-        "name": "Quốc tế học (tiếng Anh)",
-        "score": 0
+        "name": "Truyền thông đa phương tiện (tiếng Anh - D01*)",
+        "score": 25.65
       },
       {
-        "name": "Truyền thông đa phương tiện (tiếng Anh)",
-        "score": 0
+        "name": "Truyền thông doanh nghiệp (tiếng Pháp - D01, D03)",
+        "score": 31.05
       },
       {
-        "name": "Truyền thông doanh nghiệp (tiếng Pháp)",
-        "score": 0
+        "name": "Quản trị kinh doanh (tiếng Anh - D01)",
+        "score": 30.72
       },
       {
-        "name": "Quản trị kinh doanh (tiếng Anh)",
-        "score": 0
+        "name": "Marketing (tiếng Anh - D01)",
+        "score": 33.93
       },
       {
-        "name": "Marketing (tiếng Anh)",
-        "score": 0
+        "name": "Tài chính - Ngân hàng (tiếng Anh - D01)",
+        "score": 32.53
       },
       {
-        "name": "Tài chính - Ngân hàng (tiếng Anh)",
-        "score": 0
+        "name": "Công nghệ tài chính (tiếng Anh - A01*, D01*)",
+        "score": 18.85
       },
       {
-        "name": "Công nghệ tài chính (tiếng Anh)",
-        "score": 0
+        "name": "Kế toán (tiếng Anh - D01)",
+        "score": 25.08
       },
       {
-        "name": "Kế toán (tiếng Anh)",
-        "score": 0
+        "name": "Công nghệ thông tin (tiếng Anh - A01, D01)",
+        "score": 24.17
       },
       {
-        "name": "Công nghệ thông tin (tiếng Anh)",
-        "score": 0
+        "name": "Công nghệ thông tin - TT (A01*, D01*)",
+        "score": 16.7
       },
       {
-        "name": "Công nghệ thông tin - CLC",
-        "score": 0
+        "name": "Quản trị dịch vụ du lịch và lữ hành (tiếng Anh - D01)",
+        "score": 33.04
       },
       {
-        "name": "Quản trị dịch vụ du lịch và lữ hành (tiếng Anh)",
-        "score": 0
-      },
-      {
-        "name": "Quản trị dịch vụ du lịch và lữ hành - CLC",
-        "score": 0
+        "name": "Quản trị dịch vụ du lịch và lữ hành - TT (D01)",
+        "score": 32.11
       }
     ],
     "source_url": "https://tuyensinhso.vn/school/dai-hoc-ha-noi.html",
@@ -471,20 +1176,20 @@
     "university": "Đại học Dược Hà Nội",
     "majors": [
       {
-        "name": "Dược học",
-        "score": 0
+        "name": "Dược học (A00)",
+        "score": 25.51
       },
       {
-        "name": "Hóa dược",
-        "score": 0
+        "name": "Hóa dược (A00)",
+        "score": 25.31
       },
       {
-        "name": "Hóa học",
-        "score": 0
+        "name": "Hóa học (A00)",
+        "score": 24.55
       },
       {
-        "name": "Công nghệ sinh học",
-        "score": 0
+        "name": "Công nghệ sinh học (B00)",
+        "score": 24.26
       }
     ],
     "source_url": "https://thongtintuyensinh.vn/Truong-Dai-hoc-Duoc-Ha-Noi_C50_D635.htm",
@@ -494,147 +1199,247 @@
     "university": "Đại học Mở Hà Nội",
     "majors": [
       {
-        "name": "Thiết kế đồ họa",
-        "score": 0
+        "name": "Thiết kế đồ họa (Hình họa H00, H01, H06: 6.50)",
+        "score": 22.38
       },
       {
-        "name": "Thiết kế thời trang",
-        "score": 0
+        "name": "Thiết kế thời trang (Hình họa H00, H01, H06: 6.50)",
+        "score": 19.75
       },
       {
-        "name": "Ngôn ngữ Anh",
-        "score": 0
+        "name": "Ngôn ngữ Anh (Tiếng Anh D01: 7.60)",
+        "score": 32.03
       },
       {
-        "name": "Ngôn ngữ Trung Quốc",
-        "score": 0
+        "name": "Ngôn ngữ Trung Quốc (Tiếng Anh D01, Tiếng Trung D04: 8.20)",
+        "score": 33.19
       },
       {
-        "name": "Quản trị kinh doanh",
-        "score": 0
+        "name": "Quản trị kinh doanh (Toán A00, Tiếng Anh A01, D01: 8.00)",
+        "score": 23.52
       },
       {
-        "name": "Thương mại điện tử",
-        "score": 0
+        "name": "Thương mại điện tử (Toán A00, Tiếng Anh A01, D01: 8.80)",
+        "score": 24.91
       },
       {
-        "name": "Tài chính - Ngân hàng",
-        "score": 0
+        "name": "Tài chính - Ngân hàng (Toán A00, Tiếng Anh A01, D01: 6.80)",
+        "score": 23.48
       },
       {
         "name": "Bảo hiểm",
-        "score": 0
+        "score": 20.50
       },
       {
-        "name": "Kế toán",
-        "score": 0
+        "name": "Kế toán (Toán A00, A01, D01: 7.4)",
+        "score": 23.75
       },
       {
-        "name": "Luật",
-        "score": 0
+        "name": "Luật (Toán A00, D01: 8.00)",
+        "score": 23.77
       },
       {
-        "name": "Luật kinh tế",
-        "score": 0
+        "name": "Luật kinh tế (Toán A00, D01: 8.20)",
+        "score": 24.12
       },
       {
-        "name": "Luật quốc tế",
-        "score": 0
+        "name": "Luật quốc tế (Toán A00, D01: 7.60)",
+        "score": 22.99
+      },
+      {
+        "name": "Luật (THXT C00)",
+        "score": 25.52
+      },
+      {
+        "name": "Luật kinh tế (THXT C00 Ngữ văn: 8.20)",
+        "score": 25.52
+      },
+      {
+        "name": "Luật quốc tế (THXT C00 Ngữ văn: 7.60)",
+        "score": 22.99
       },
       {
         "name": "Công nghệ sinh học",
-        "score": 0
+        "score": 17.00
       },
       {
-        "name": "Công nghệ thông tin",
-        "score": 0
+        "name": "Công nghệ thông tin (Toán A00, A01, D01: 7.60)",
+        "score": 22.95
       },
       {
-        "name": "Công nghệ kỹ thuật điện tử - viễn thông",
-        "score": 0
+        "name": "Công nghệ kỹ thuật điện tử-viễn thông (Toán A00, A01, D01: 7.20)",
+        "score": 22.05
       },
       {
-        "name": "Công nghệ kỹ thuật điều khiển và tự động hóa",
-        "score": 0
+        "name": "Công nghệ kỹ thuật điều khiển và tự động hóa (Toán A00, A01, D01: 7.80)",
+        "score": 22.55
       },
       {
         "name": "Công nghệ thực phẩm",
-        "score": 0
+        "score": 17.00
       },
       {
         "name": "Kiến trúc",
-        "score": 0
+        "score": 22.50
       },
       {
-        "name": "Thiết kế nội thất",
-        "score": 0
+        "name": "Thiết kế nội thất (Hình họa H00, H01, H06: 7.00)",
+        "score": 20.45
       },
       {
-        "name": "Quản trị dịch vụ du lịch và lữ hành",
-        "score": 0
+        "name": "Quản trị dịch vụ du lịch và lữ hành (Tiếng Anh D01: 6.40)",
+        "score": 28.53
       },
       {
-        "name": "Quản trị khách sạn",
-        "score": 0
+        "name": "Quản trị khách sạn (Tiếng Anh D01: 6.40)",
+        "score": 28.13
       }
     ],
-    "source_url": "https://tuyensinh.hou.edu.vn/listtieude/CM007/",
+    "source_url": "https://vnexpress.net/diem-chuan-dai-hoc-mo-ha-noi-nam-2024-4782553.html",
     "year": 2024
   },
   {
     "university": "Đại học Xây dựng Hà Nội",
     "majors": [
       {
-        "name": "Kỹ thuật xây dựng (dân dụng và công nghiệp)",
-        "score": 0
+        "name": "Kỹ thuật xây dựng (A00, A01, D01, D07)",
+        "score": 21.9
       },
       {
-        "name": "Kỹ thuật xây dựng - hệ thống kỹ thuật trong công trình",
-        "score": 0
+        "name": "Kỹ thuật xây dựng/ Xây dựng Dân dụng và Công nghiệp (A00, A01, D07, D24, D29)",
+        "score": 22.5
       },
       {
-        "name": "Kỹ thuật xây dựng - xây dựng công trình thủy",
-        "score": 0
+        "name": "Kỹ thuật xây dựng/ Hệ thống kỹ thuật trong công trình (A00, A01, D07)",
+        "score": 22.3
       },
       {
-        "name": "Kiến trúc",
-        "score": 0
+        "name": "Kỹ thuật xây dựng / Kỹ thuật công trình thủy (A00, A01, D01, D07)",
+        "score": 17
       },
       {
-        "name": "Kiến trúc nội thất",
-        "score": 0
+        "name": "Kỹ thuật xây dựng / Kỹ thuật công trình biển (A00, A01, D01, D07)",
+        "score": 17
       },
       {
-        "name": "Kiến trúc cảnh quan",
-        "score": 0
+        "name": "Kỹ thuật xây dựng công trình Giao thông/ Xây dựng Cầu đường (A00, A01, D01, D07)",
+        "score": 17
       },
       {
-        "name": "Quy hoạch vùng và đô thị",
-        "score": 0
+        "name": "Kỹ thuật xây dựng / Tin học xây dựng (A00, A01, D01, D07)",
+        "score": 23.2
       },
       {
-        "name": "Kỹ thuật môi trường",
-        "score": 0
+        "name": "Kiến trúc (V00, V02, V10)",
+        "score": 21.9
       },
       {
-        "name": "Công nghệ kỹ thuật môi trường",
-        "score": 0
+        "name": "Kiến trúc/ Kiến trúc công nghệ (V00, V02)",
+        "score": 21.3
       },
       {
-        "name": "Kỹ thuật cấp thoát nước",
-        "score": 0
+        "name": "Kiến trúc Nội thất (V00, V02)",
+        "score": 21.5
       },
       {
-        "name": "Kinh tế xây dựng",
-        "score": 0
+        "name": "Kiến trúc cảnh quan (V00, V02, V06)",
+        "score": 21.2
       },
       {
-        "name": "Logistics và quản lý chuỗi cung ứng",
-        "score": 0
+        "name": "Quy hoạch vùng và đô thị (V00, V01, V02)",
+        "score": 21.1
       },
       {
-        "name": "Công nghệ thông tin trong xây dựng",
-        "score": 0
+        "name": "Mỹ thuật đô thị (H01, H06, V00, V02)",
+        "score": 18.01
+      },
+      {
+        "name": "Kỹ thuật môi trường (A00, A01, B00, D07)",
+        "score": 17
+      },
+      {
+        "name": "Kỹ Thuật Vật liệu (A00, A01, B00, D07)",
+        "score": 21.2
+      },
+      {
+        "name": "Công nghệ kỹ thuật vật liệu xây dựng (A00, A01, B00, D07)",
+        "score": 19.75
+      },
+      {
+        "name": "Kỹ thuật Cấp thoát nước/ Kỹ thuật nước - Môi trường nước (A00, A01, B00, D07)",
+        "score": 17
+      },
+      {
+        "name": "Kinh tế xây dựng (A00, A01, D01, D07)",
+        "score": 23.9
+      },
+      {
+        "name": "Logistics và quản lý chuỗi cung ứng (A00, A01, D01, D07)",
+        "score": 24.8
+      },
+      {
+        "name": "Logistics và quản lý chuỗi cung ứng/ Logistics đô thị (A00, A01, D01, D07)",
+        "score": 24.8
+      },
+      {
+        "name": "Công nghệ thông tin (A00, A01, D01, D07)",
+        "score": 24.75
+      },
+      {
+        "name": "Công nghệ thông tin/ Công nghệ đa phương tiện (A00, A01, D01, D07)",
+        "score": 24
+      },
+      {
+        "name": "Khoa học Máy tính (A00, A01, D01, D07)",
+        "score": 24.6
+      },
+      {
+        "name": "Kỹ thuật cơ khí (A00, A01, D07)",
+        "score": 24
+      },
+      {
+        "name": "Kỹ thuật cơ khí/ Máy xây dựng (A00, A01, D07)",
+        "score": 20.75
+      },
+      {
+        "name": "Kỹ thuật cơ khí/ Kỹ thuật cơ điện (A00, A01, D07)",
+        "score": 23.95
+      },
+      {
+        "name": "Kỹ thuật cơ khí/ Kỹ thuật Ô tô (A00, A01, D07)",
+        "score": 24.35
+      },
+      {
+        "name": "Kỹ thuật điện (A00, A01, D07)",
+        "score": 23.8
+      },
+      {
+        "name": "Quản lý xây dựng/ Kinh tế và quản lý đô thị (A00, A01, D01, D07)",
+        "score": 23.45
+      },
+      {
+        "name": "Quản lý xây dựng/ Kinh tế và quản lý bất động sản (A00, A01, D01, D07)",
+        "score": 23.25
+      },
+      {
+        "name": "Quản lý xây dựng/ Quản lý hạ tầng, đất đai đô thị (A00, A01, D01, D07)",
+        "score": 22.5
+      },
+      {
+        "name": "Quản lý xây dựng/ Kiểm toán đầu tư xây dựng (A00, A01, D01, D07)",
+        "score": 22.9
+      },
+      {
+        "name": "Quản lý dự án (A00, A01, D01, D07)",
+        "score": 21
+      },
+      {
+        "name": "Kỹ thuật xây dựng - Chương trình đào tạo liên kết với ĐH Mississippi Hoa Kỳ (A00, A01, D01, D07)",
+        "score": 20
+      },
+      {
+        "name": "Khoa học Máy tính - Chương trình đào tạo liên kết với ĐH Misissippi Hoa Kỳ (A00, A01, D01, D07)",
+        "score": 22
       }
     ],
     "source_url": "https://huce.edu.vn/cac-nganh-dao-tao-chinh-quy",
@@ -644,40 +1449,116 @@
     "university": "Học viện Ngân hàng",
     "majors": [
       {
-        "name": "Ngân hàng",
-        "score": 0
+        "name": "Ngân hàng (A00, A01, D01, D07)",
+        "score": 26.25
       },
       {
-        "name": "Tài chính - ngân hàng",
-        "score": 0
+        "name": "Ngân hàng số (A00, A01, D01, D07)",
+        "score": 26.13
       },
       {
-        "name": "Kế toán",
-        "score": 0
+        "name": "Tài chính (A00, A01, D01, D07)",
+        "score": 26.45
       },
       {
-        "name": "Kiểm toán",
-        "score": 0
+        "name": "Kế toán (A00, A01, D01, D07)",
+        "score": 26.25
       },
       {
-        "name": "Luật kinh tế",
-        "score": 0
+        "name": "Kiểm toán (A00, A01, D01, D07)",
+        "score": 26.5
       },
       {
-        "name": "Quản trị kinh doanh",
-        "score": 0
+        "name": "Luật kinh tế (A00, A01, D01, D07)",
+        "score": 25.9
       },
       {
-        "name": "Marketing số (Digital Marketing)",
-        "score": 0
+        "name": "Luật kinh tế (C00, C03, D14, D15)",
+        "score": 25.9
       },
       {
-        "name": "Quản trị du lịch",
-        "score": 0
+        "name": "Quản trị kinh doanh (A00, A01, D01, D07)",
+        "score": 26.33
       },
       {
-        "name": "Hệ thống thông tin quản lý",
-        "score": 0
+        "name": "Quản trị du lịch (A00, D01, D07, D09)",
+        "score": 25.6
+      },
+      {
+        "name": "Logistics và quản lý chuỗi cung ứng (A00, D01, D07, D09)",
+        "score": 26.5
+      },
+      {
+        "name": "Kinh doanh quốc tế (A01, D01, D07, D09)",
+        "score": 27
+      },
+      {
+        "name": "Hệ thống thông tin quản lý (A00, A01, D01, D07)",
+        "score": 26
+      }, 
+      {
+        "name": "Kinh tế đầu tư (A01, D01, D07, D09)",
+        "score": 26.95
+      },
+      {
+        "name": "Ngôn ngữ Anh (A01, D01, D07, D09)",
+        "score": 25.8
+      },
+      {
+        "name": "Quản trị kinh doanh - Liên kết ĐH CityU, Hoa Kỳ cấp song bằng (A00, A01, D01, D07)",
+        "score": 23
+      },
+      {
+        "name": "Kế toán - Liên kết ĐH Sunderland, Anh cấp song bằng (A00, A01, D01, D07)",
+        "score": 24
+      },
+      {
+        "name": "Tài chính-Ngân hàng - Liên kết ĐH Sunderland, Anh cấp song bằng (A00, A01, D01, D07)",
+        "score": 24.5
+      },
+      {
+        "name": "Marketing số - Liên kết ĐH Conventry, Anh cấp một bằng đối tác (A00, A01, D01, D07)",
+        "score": 24.8
+      },
+      {
+        "name": "Ngân hàng và tài chính quốc tế - Liên kết ĐH Conventry, Anh cấp song bằng (A00, A01, D01, D07)",
+        "score": 24
+      },
+      {
+        "name": "Kinh doanh quốc tế - Liên kết ĐH Conventry, Anh cấp song bằng (A00, A01, D01, D07)",
+        "score": 24.2
+      },
+      {
+        "name": "Kế toán - Chương trình Chất lượng cao (Toán*2 A00, A01, D01, D07)",
+        "score": 34
+      },
+      {
+        "name": "Ngân hàng - Chương trình Chất lượng cao (Toán*2 A00, A01, D01, D07)",
+        "score": 34
+      },
+      {
+        "name": "Ngân hàng và Tài chính quốc tế - Chương trình Chất lượng cao (Toán*2 A00, A01, D01, D07)",
+        "score": 33.8
+      },
+      {
+        "name": "Quản trị kinh doanh - Chương trình Chất lượng cao (Toán*2 A00, A01, D01, D07)",
+        "score": 33.9
+      },
+      {
+        "name": "Marketing số - Chương trình Chất lượng cao (Toán*2 A00, A01, D01, D07)",
+        "score": 34
+      },
+      {
+        "name": "Kinh tế đầu tư - Chương trình Chất lượng cao (Toán*2 A01, D01, D07, D09)",
+        "score": 34
+      },
+      {
+        "name": "Tài chính - Chương trình Chất lượng cao (Toán*2 A00, A01, D01, D07)",
+        "score": 34.2
+      },
+      {
+        "name": "Kinh doanh quốc tế - Chương trình Chất lượng cao (Toán*2 A01, D01, D07, D09)",
+        "score": 34
       }
     ],
     "source_url": "https://hvnh.edu.vn/chuong-trinh-dao-tao-dai-hoc-chinh-quy-hvnh-354.html",
